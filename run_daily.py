@@ -50,6 +50,15 @@ def main():
     # --- PHASE 5: Upload ---
     # (Coming soon)
 
+    # --- EMAIL NOTIFICATION ---
+    logger.info("\nSending email notification...")
+    try:
+        import send_notification
+        send_notification.run()
+        logger.info("Email sent.")
+    except Exception as e:
+        logger.warning(f"Email notification failed (non-fatal): {e}")
+
     logger.info("\n" + "=" * 60)
     logger.info("Pipeline complete.")
     logger.info("=" * 60)
