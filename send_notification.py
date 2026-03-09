@@ -26,9 +26,13 @@ SCRIPT_INPUT_FILE = os.getenv("SCRIPT_OUTPUT_FILE", "daily_script.json")
 EPISODE_FILE = os.getenv("EPISODE_OUTPUT_FILE", "episode.mp3")
 
 
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_REPO = "markparesky/thefriction"
+
+
 def upload_audio_file() -> str:
     """
-    Upload the episode MP3 to a temporary file hosting service.
+    Upload the episode MP3 to the GitHub repository.
     Returns the download URL, or empty string on failure.
     """
     path = Path(EPISODE_FILE)
@@ -36,71 +40,59 @@ def upload_audio_file() -> str:
         logger.warning(f"Episode file not found: {EPISODE_FILE}")
         return ""
 
+    if not GITHUB_TOKEN:
+        logger.warning("GITHUB_TOKEN not set. Cannot upload to GitHub.")
+        return ""
+
     file_size_mb = path.stat().st_size / 1024 / 1024
-    filename = f"friction_episode_{datetime.now().strftime('%Y%m%d')}.mp3"
-    logger.info(f"Uploading episode ({file_size_mb:.1f} MB)...")
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    filename = f"episodes/friction_{date_str}.mp3"
+    logger.info(f"Uploading episode ({file_size_mb:.1f} MB) to GitHub: {filename}")
 
-    # Try transfer.sh first (supports up to 10GB, files last 14 days)
     try:
-        logger.info("  Trying transfer.sh...")
-        with open(path, "rb") as f:
-            response = requests.put(
-                f"https://transfer.sh/{filename}",
-                data=f,
-                headers={"Max-Days": "14"},
-                timeout=180,
-            )
+        import base64
 
-        if response.status_code == 200:
-            link = response.text.strip()
-            logger.info(f"  Upload successful: {link}")
-            return link
+        with open(path, "rb") as f:
+            content_b64 = base64.b64encode(f.read()).decode("utf-8")
+
+        # Check if file already exists (to get its SHA for updating)
+        check_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filename}"
+        headers = {
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+        }
+
+        sha = None
+        check_resp = requests.get(check_url, headers=headers, timeout=30)
+        if check_resp.status_code == 200:
+            sha = check_resp.json().get("sha")
+
+        # Upload file
+        payload = {
+            "message": f"Episode: {date_str}",
+            "content": content_b64,
+        }
+        if sha:
+            payload["sha"] = sha  # Required for updating existing file
+
+        response = requests.put(
+            check_url,
+            headers=headers,
+            json=payload,
+            timeout=180,
+        )
+
+        if response.status_code in (200, 201):
+            download_url = response.json().get("content", {}).get("download_url", "")
+            logger.info(f"  Upload successful: {download_url}")
+            return download_url
         else:
-            logger.warning(f"  transfer.sh failed: {response.status_code} — {response.text[:200]}")
+            logger.error(f"  GitHub upload failed: {response.status_code} — {response.text[:300]}")
+            return ""
+
     except Exception as e:
-        logger.warning(f"  transfer.sh error: {e}")
-
-    # Fallback: try 0x0.st (supports up to 512MB, files last 30 days)
-    try:
-        logger.info("  Trying 0x0.st as fallback...")
-        with open(path, "rb") as f:
-            response = requests.post(
-                "https://0x0.st",
-                files={"file": (filename, f, "audio/mpeg")},
-                timeout=180,
-            )
-
-        if response.status_code == 200:
-            link = response.text.strip()
-            logger.info(f"  Upload successful: {link}")
-            return link
-        else:
-            logger.warning(f"  0x0.st failed: {response.status_code} — {response.text[:200]}")
-    except Exception as e:
-        logger.warning(f"  0x0.st error: {e}")
-
-    # Fallback: try file.io (smaller files only)
-    try:
-        logger.info("  Trying file.io as last resort...")
-        with open(path, "rb") as f:
-            response = requests.post(
-                "https://file.io",
-                files={"file": (filename, f, "audio/mpeg")},
-                data={"expires": "14d", "maxDownloads": 5},
-                timeout=180,
-            )
-
-        if response.status_code == 200:
-            result = response.json()
-            if result.get("success"):
-                link = result.get("link", "")
-                logger.info(f"  Upload successful: {link}")
-                return link
-    except Exception as e:
-        logger.warning(f"  file.io error: {e}")
-
-    logger.error("All upload methods failed. No audio link in email.")
-    return ""
+        logger.error(f"  GitHub upload error: {e}")
+        return ""
 
 
 def format_script_as_html(script: dict) -> str:
