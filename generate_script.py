@@ -174,13 +174,17 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
         logger.error("ANTHROPIC_API_KEY not set. Add it to your environment variables.")
         sys.exit(1)
 
-    client = Anthropic(api_key=ANTHROPIC_API_KEY)
+    client = Anthropic(
+        api_key=ANTHROPIC_API_KEY,
+        timeout=300.0,  # 5 minute timeout for long script generation
+    )
 
     for attempt in range(1, MAX_RETRIES + 1):
         logger.info(f"Generating script (attempt {attempt}/{MAX_RETRIES})...")
         logger.info(f"  Model: {PRIMARY_MODEL}")
         logger.info(f"  Temperature: {TEMPERATURE}")
         logger.info(f"  Max tokens: {MAX_TOKENS}")
+        logger.info(f"  Timeout: 300 seconds")
 
         try:
             response = client.messages.create(
@@ -200,6 +204,7 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
             logger.info(f"  Response received: {len(raw_text)} characters")
             logger.info(f"  Input tokens: {response.usage.input_tokens}")
             logger.info(f"  Output tokens: {response.usage.output_tokens}")
+            logger.info(f"  Stop reason: {response.stop_reason}")
 
             # Parse JSON from response
             script = parse_script_json(raw_text)
@@ -208,13 +213,16 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
                 return script
             else:
                 logger.warning(f"  Attempt {attempt}: Failed to parse JSON from response.")
+                logger.warning(f"  First 500 chars: {raw_text[:500]}")
                 if attempt < MAX_RETRIES:
                     logger.info("  Retrying...")
 
         except Exception as e:
-            logger.error(f"  API call failed: {e}")
+            logger.error(f"  API call failed: {type(e).__name__}: {e}")
             if attempt < MAX_RETRIES:
-                logger.info("  Retrying...")
+                logger.info("  Retrying in 10 seconds...")
+                import time
+                time.sleep(10)
 
     logger.error("All attempts to generate script failed.")
     sys.exit(1)
