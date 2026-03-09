@@ -357,6 +357,55 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Katie Britt blasts Democrats for playing 'political games' with shutdown amid airport chaos",
+          "source": "Fox News",
+          "keywords": [
+            "katie",
+            "britt",
+            "blasts",
+            "democrats",
+            "playing",
+            "political",
+            "games",
+            "shutdown",
+            "amid",
+            "airport"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "F.D.A. Opens Door to More Flavored E-Cigarettes",
+          "source": "New York Times",
+          "keywords": [
+            "fda",
+            "opens",
+            "door",
+            "flavored",
+            "ecigarettes"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "3 Prosecutors Are Running U.S. Attorney’s Office Unlawfully, Judge Rules",
+          "source": "New York Times",
+          "keywords": [
+            "prosecutors",
+            "running",
+            "attorneys",
+            "office",
+            "unlawfully",
+            "judge",
+            "rules"
+          ]
+        }
+      ]
     }
   ]
 }
