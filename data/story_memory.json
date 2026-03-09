@@ -1,0 +1,55 @@
+{
+  "episodes": [
+    {
+      "date": "2026-03-09",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "‘The Old Game Is Back’: Oil Is a Potent Geopolitical Tool Again",
+          "source": "New York Times",
+          "keywords": [
+            "old",
+            "game",
+            "back",
+            "oil",
+            "potent",
+            "geopolitical",
+            "tool"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Countries in Asia Try to Contain the Economic Fallout of the Mideast Conflict",
+          "source": "New York Times",
+          "keywords": [
+            "countries",
+            "asia",
+            "try",
+            "contain",
+            "economic",
+            "fallout",
+            "mideast",
+            "conflict"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Live Nation, Ticketmaster’s Owner, Settles Antitrust Case With Justice Dept.",
+          "source": "New York Times",
+          "keywords": [
+            "live",
+            "nation",
+            "ticketmasters",
+            "owner",
+            "settles",
+            "antitrust",
+            "case",
+            "justice",
+            "dept"
+          ]
+        }
+      ]
+    }
+  ]
+}
