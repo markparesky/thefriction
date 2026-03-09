@@ -64,6 +64,11 @@ USER_AGENT = "TheFriction-NewsBot/1.0 (podcast news aggregator)"
 # Anthropic API key (for the optional AI pre-processing step)
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
+# Dropbox for story memory persistence
+DROPBOX_TOKEN = os.getenv("DROPBOX_TOKEN", "")
+STORY_MEMORY_FILE = "/story_memory.json"  # Path in Dropbox app folder
+MEMORY_DAYS = 7  # How many days of history to keep
+
 # Output file
 OUTPUT_FILE = os.getenv("NEWS_OUTPUT_FILE", "daily_news.json")
 
@@ -464,13 +469,27 @@ def categorize_story(story: Story) -> str:
     return "domestic"  # fallback
 
 
-def score_stories(stories: list[Story]) -> list[Story]:
+def score_stories(stories: list[Story], memory: dict = None) -> list[Story]:
     """
     Score and categorize all stories.
-    Score = authority * 2 + mention_count * 3 + recency_bonus
+    Score = authority * 2 + mention_count * 3 + recency_bonus + repetition_penalty
     Higher score = more important story.
     """
     now = datetime.now(timezone.utc)
+
+    # Load repetition penalties from memory
+    repetition_penalties = {}
+    if memory:
+        try:
+            from story_memory import get_penalty_for_headline
+            for story in stories:
+                penalty = get_penalty_for_headline(story.title, memory)
+                if penalty != 0:
+                    repetition_penalties[story.title] = penalty
+            if repetition_penalties:
+                logger.info(f"Repetition penalties applied to {len(repetition_penalties)} stories")
+        except Exception as e:
+            logger.warning(f"Could not calculate repetition penalties: {e}")
 
     for story in stories:
         # Categorize
@@ -497,7 +516,13 @@ def score_stories(stories: list[Story]) -> list[Story]:
             elif hours_ago < 12:
                 recency_bonus = 1
 
-        story.score = authority_score + mention_score + recency_bonus
+        # Repetition penalty (negative score for recently covered topics)
+        rep_penalty = repetition_penalties.get(story.title, 0)
+
+        story.score = authority_score + mention_score + recency_bonus + rep_penalty
+
+        if rep_penalty < -3:
+            logger.info(f"  Penalized: \"{story.title[:60]}\" (penalty: {rep_penalty:.1f})")
 
     # Sort by score descending
     stories.sort(key=lambda s: s.score, reverse=True)
@@ -757,6 +782,15 @@ def run():
     logger.info(f"Run time: {datetime.now(timezone.utc).isoformat()}")
     logger.info("=" * 60)
 
+    # Load story memory (to avoid repeating topics)
+    memory = None
+    try:
+        from story_memory import load_memory
+        logger.info("\n--- Loading story memory ---")
+        memory = load_memory()
+    except Exception as e:
+        logger.warning(f"Could not load story memory (will proceed without it): {e}")
+
     # Step 1: Fetch all feeds
     logger.info("\n--- PHASE 1A: Fetching RSS feeds ---")
     all_stories = fetch_all_feeds()
@@ -769,9 +803,9 @@ def run():
     logger.info("\n--- PHASE 1B: Deduplicating ---")
     unique_stories = deduplicate(all_stories)
 
-    # Step 3: Categorize & Score
+    # Step 3: Categorize & Score (with memory-based repetition penalties)
     logger.info("\n--- PHASE 1C: Categorizing & Scoring ---")
-    scored_stories = score_stories(unique_stories)
+    scored_stories = score_stories(unique_stories, memory=memory)
 
     # Step 4: Select top stories
     logger.info("\n--- PHASE 1D: Selecting top stories ---")

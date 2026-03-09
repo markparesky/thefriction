@@ -41,6 +41,15 @@ def main():
         logger.error(f"Phase 2 FAILED: {e}")
         sys.exit(1)
 
+    # --- STORY MEMORY UPDATE ---
+    logger.info("\nUpdating story memory...")
+    try:
+        import story_memory
+        story_memory.run()
+        logger.info("Story memory updated.")
+    except Exception as e:
+        logger.warning(f"Story memory update failed (non-fatal): {e}")
+
     # --- PHASE 3: Voice Synthesis ---
     logger.info("\nStarting Phase 3: Voice Synthesis...")
     try:
