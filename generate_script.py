@@ -32,8 +32,8 @@ SCRIPT_OUTPUT_FILE = os.getenv("SCRIPT_OUTPUT_FILE", "daily_script.json")
 SYSTEM_PROMPT_FILE = "system_prompt.txt"
 
 # Model settings
-PRIMARY_MODEL = "claude-sonnet-4-20250514"
-FALLBACK_MODEL = "claude-sonnet-4-20250514"  # Same model as retry; swap to OpenAI if desired
+PRIMARY_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
+FALLBACK_MODEL = "claude-3-5-sonnet-20241022"  # Known-good fallback
 MAX_TOKENS = 12000
 TEMPERATURE = 0.85
 MAX_RETRIES = 2
@@ -164,67 +164,87 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
     Call the Anthropic API to generate the episode script.
     Returns the parsed JSON script.
     """
+    logger.info("Importing Anthropic SDK...")
     try:
         from anthropic import Anthropic
-    except ImportError:
-        logger.error("anthropic package not installed. Run: pip install anthropic")
+        logger.info("  SDK imported successfully.")
+    except ImportError as e:
+        logger.error(f"anthropic package not installed: {e}")
+        sys.exit(1)
+    except Exception as e:
+        logger.error(f"Unexpected error importing anthropic: {type(e).__name__}: {e}")
         sys.exit(1)
 
     if not ANTHROPIC_API_KEY:
         logger.error("ANTHROPIC_API_KEY not set. Add it to your environment variables.")
         sys.exit(1)
 
-    client = Anthropic(
-        api_key=ANTHROPIC_API_KEY,
-        timeout=300.0,  # 5 minute timeout for long script generation
-    )
+    logger.info(f"API key starts with: {ANTHROPIC_API_KEY[:12]}...")
+    logger.info("Creating Anthropic client...")
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        logger.info(f"Generating script (attempt {attempt}/{MAX_RETRIES})...")
-        logger.info(f"  Model: {PRIMARY_MODEL}")
-        logger.info(f"  Temperature: {TEMPERATURE}")
-        logger.info(f"  Max tokens: {MAX_TOKENS}")
-        logger.info(f"  Timeout: 300 seconds")
+    try:
+        client = Anthropic(
+            api_key=ANTHROPIC_API_KEY,
+            timeout=300.0,
+        )
+        logger.info("  Client created successfully.")
+    except Exception as e:
+        logger.error(f"Failed to create client: {type(e).__name__}: {e}")
+        sys.exit(1)
 
-        try:
-            response = client.messages.create(
-                model=PRIMARY_MODEL,
-                max_tokens=MAX_TOKENS,
-                temperature=TEMPERATURE,
-                system=system_prompt,
-                messages=[{"role": "user", "content": user_message}],
-            )
+    models_to_try = [PRIMARY_MODEL, FALLBACK_MODEL]
 
-            # Extract text from response
-            raw_text = ""
-            for block in response.content:
-                if hasattr(block, "text"):
-                    raw_text += block.text
+    for model in models_to_try:
+        for attempt in range(1, MAX_RETRIES + 1):
+            logger.info(f"Generating script (model: {model}, attempt {attempt}/{MAX_RETRIES})...")
+            logger.info(f"  Temperature: {TEMPERATURE}")
+            logger.info(f"  Max tokens: {MAX_TOKENS}")
 
-            logger.info(f"  Response received: {len(raw_text)} characters")
-            logger.info(f"  Input tokens: {response.usage.input_tokens}")
-            logger.info(f"  Output tokens: {response.usage.output_tokens}")
-            logger.info(f"  Stop reason: {response.stop_reason}")
+            try:
+                logger.info("  Sending API request...")
+                response = client.messages.create(
+                    model=model,
+                    max_tokens=MAX_TOKENS,
+                    temperature=TEMPERATURE,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_message}],
+                )
+                logger.info("  API response received.")
 
-            # Parse JSON from response
-            script = parse_script_json(raw_text)
+                # Extract text from response
+                raw_text = ""
+                for block in response.content:
+                    if hasattr(block, "text"):
+                        raw_text += block.text
 
-            if script:
-                return script
-            else:
-                logger.warning(f"  Attempt {attempt}: Failed to parse JSON from response.")
-                logger.warning(f"  First 500 chars: {raw_text[:500]}")
-                if attempt < MAX_RETRIES:
-                    logger.info("  Retrying...")
+                logger.info(f"  Response length: {len(raw_text)} characters")
+                logger.info(f"  Input tokens: {response.usage.input_tokens}")
+                logger.info(f"  Output tokens: {response.usage.output_tokens}")
+                logger.info(f"  Stop reason: {response.stop_reason}")
 
-        except Exception as e:
-            logger.error(f"  API call failed: {type(e).__name__}: {e}")
+                # Parse JSON from response
+                script = parse_script_json(raw_text)
+
+                if script:
+                    logger.info("  Script parsed successfully!")
+                    return script
+                else:
+                    logger.warning(f"  Failed to parse JSON from response.")
+                    logger.warning(f"  First 500 chars: {raw_text[:500]}")
+
+            except Exception as e:
+                logger.error(f"  API call failed: {type(e).__name__}: {e}")
+                import traceback
+                logger.error(f"  Traceback: {traceback.format_exc()}")
+
             if attempt < MAX_RETRIES:
                 logger.info("  Retrying in 10 seconds...")
                 import time
                 time.sleep(10)
 
-    logger.error("All attempts to generate script failed.")
+        logger.warning(f"All attempts with model {model} failed. Trying next model...")
+
+    logger.error("All attempts with all models failed.")
     sys.exit(1)
 
 
