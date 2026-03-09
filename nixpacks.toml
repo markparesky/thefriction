@@ -1,0 +1,5 @@
+# Nixpacks configuration for Railway
+# Ensures FFmpeg is available for audio processing
+
+[phases.setup]
+aptPkgs = ["ffmpeg"]

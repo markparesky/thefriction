@@ -42,13 +42,27 @@ def main():
         sys.exit(1)
 
     # --- PHASE 3: Voice Synthesis ---
-    # (Coming soon)
+    logger.info("\nStarting Phase 3: Voice Synthesis...")
+    try:
+        import synthesize_voices
+        synthesize_voices.run()
+        logger.info("Phase 3 complete.")
+    except Exception as e:
+        logger.error(f"Phase 3 FAILED: {e}")
+        sys.exit(1)
 
-    # --- PHASE 4: Mixing ---
-    # (Coming soon)
+    # --- PHASE 4: Audio Mixing ---
+    logger.info("\nStarting Phase 4: Audio Mixing...")
+    try:
+        import mix_episode
+        mix_episode.run()
+        logger.info("Phase 4 complete.")
+    except Exception as e:
+        logger.error(f"Phase 4 FAILED: {e}")
+        sys.exit(1)
 
     # --- PHASE 5: Upload ---
-    # (Coming soon)
+    # (Coming next)
 
     # --- EMAIL NOTIFICATION ---
     logger.info("\nSending email notification...")
