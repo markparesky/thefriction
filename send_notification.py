@@ -28,9 +28,8 @@ EPISODE_FILE = os.getenv("EPISODE_OUTPUT_FILE", "episode.mp3")
 
 def upload_audio_file() -> str:
     """
-    Upload the episode MP3 to file.io (free, temporary file hosting).
+    Upload the episode MP3 to a temporary file hosting service.
     Returns the download URL, or empty string on failure.
-    File expires after 1 download or 14 days.
     """
     path = Path(EPISODE_FILE)
     if not path.exists():
@@ -38,15 +37,57 @@ def upload_audio_file() -> str:
         return ""
 
     file_size_mb = path.stat().st_size / 1024 / 1024
-    logger.info(f"Uploading episode ({file_size_mb:.1f} MB) to file.io...")
+    filename = f"friction_episode_{datetime.now().strftime('%Y%m%d')}.mp3"
+    logger.info(f"Uploading episode ({file_size_mb:.1f} MB)...")
 
+    # Try transfer.sh first (supports up to 10GB, files last 14 days)
     try:
+        logger.info("  Trying transfer.sh...")
+        with open(path, "rb") as f:
+            response = requests.put(
+                f"https://transfer.sh/{filename}",
+                data=f,
+                headers={"Max-Days": "14"},
+                timeout=180,
+            )
+
+        if response.status_code == 200:
+            link = response.text.strip()
+            logger.info(f"  Upload successful: {link}")
+            return link
+        else:
+            logger.warning(f"  transfer.sh failed: {response.status_code} — {response.text[:200]}")
+    except Exception as e:
+        logger.warning(f"  transfer.sh error: {e}")
+
+    # Fallback: try 0x0.st (supports up to 512MB, files last 30 days)
+    try:
+        logger.info("  Trying 0x0.st as fallback...")
+        with open(path, "rb") as f:
+            response = requests.post(
+                "https://0x0.st",
+                files={"file": (filename, f, "audio/mpeg")},
+                timeout=180,
+            )
+
+        if response.status_code == 200:
+            link = response.text.strip()
+            logger.info(f"  Upload successful: {link}")
+            return link
+        else:
+            logger.warning(f"  0x0.st failed: {response.status_code} — {response.text[:200]}")
+    except Exception as e:
+        logger.warning(f"  0x0.st error: {e}")
+
+    # Fallback: try file.io (smaller files only)
+    try:
+        logger.info("  Trying file.io as last resort...")
         with open(path, "rb") as f:
             response = requests.post(
                 "https://file.io",
-                files={"file": (f"friction_episode_{datetime.now().strftime('%Y%m%d')}.mp3", f, "audio/mpeg")},
+                files={"file": (filename, f, "audio/mpeg")},
                 data={"expires": "14d", "maxDownloads": 5},
-                timeout=120,
+                timeout=180,
             )
 
         if response.status_code == 200:
@@ -55,16 +96,11 @@ def upload_audio_file() -> str:
                 link = result.get("link", "")
                 logger.info(f"  Upload successful: {link}")
                 return link
-            else:
-                logger.error(f"  Upload failed: {result}")
-                return ""
-        else:
-            logger.error(f"  Upload failed: {response.status_code} — {response.text[:200]}")
-            return ""
-
     except Exception as e:
-        logger.error(f"  Upload error: {e}")
-        return ""
+        logger.warning(f"  file.io error: {e}")
+
+    logger.error("All upload methods failed. No audio link in email.")
+    return ""
 
 
 def format_script_as_html(script: dict) -> str:
