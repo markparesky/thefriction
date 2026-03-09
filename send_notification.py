@@ -23,6 +23,48 @@ logger = logging.getLogger("friction.notify")
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL", "")
 SCRIPT_INPUT_FILE = os.getenv("SCRIPT_OUTPUT_FILE", "daily_script.json")
+EPISODE_FILE = os.getenv("EPISODE_OUTPUT_FILE", "episode.mp3")
+
+
+def upload_audio_file() -> str:
+    """
+    Upload the episode MP3 to file.io (free, temporary file hosting).
+    Returns the download URL, or empty string on failure.
+    File expires after 1 download or 14 days.
+    """
+    path = Path(EPISODE_FILE)
+    if not path.exists():
+        logger.warning(f"Episode file not found: {EPISODE_FILE}")
+        return ""
+
+    file_size_mb = path.stat().st_size / 1024 / 1024
+    logger.info(f"Uploading episode ({file_size_mb:.1f} MB) to file.io...")
+
+    try:
+        with open(path, "rb") as f:
+            response = requests.post(
+                "https://file.io",
+                files={"file": (f"friction_episode_{datetime.now().strftime('%Y%m%d')}.mp3", f, "audio/mpeg")},
+                data={"expires": "14d", "maxDownloads": 5},
+                timeout=120,
+            )
+
+        if response.status_code == 200:
+            result = response.json()
+            if result.get("success"):
+                link = result.get("link", "")
+                logger.info(f"  Upload successful: {link}")
+                return link
+            else:
+                logger.error(f"  Upload failed: {result}")
+                return ""
+        else:
+            logger.error(f"  Upload failed: {response.status_code} — {response.text[:200]}")
+            return ""
+
+    except Exception as e:
+        logger.error(f"  Upload error: {e}")
+        return ""
 
 
 def format_script_as_html(script: dict) -> str:
@@ -169,10 +211,13 @@ def send_email(subject: str, html_body: str):
 
 
 def run():
-    """Load the script and email it."""
+    """Load the script, upload audio, and email everything."""
     logger.info("=" * 60)
     logger.info("THE FRICTION — Email Notification")
     logger.info("=" * 60)
+
+    # Upload audio file first
+    audio_link = upload_audio_file()
 
     # Load script
     path = Path(SCRIPT_INPUT_FILE)
@@ -195,7 +240,28 @@ def run():
 
     logger.info(f"Building email for {date}...")
     html_body = format_script_as_html(script)
+
+    # Add audio download link at the top of the email
+    if audio_link:
+        audio_banner = f"""
+        <div style="background: #C0392B; color: white; padding: 15px 20px; margin-bottom: 20px; text-align: center; font-family: Georgia, serif;">
+            <p style="margin: 0 0 10px 0; font-size: 18px; font-weight: bold;">LISTEN TO TODAY'S EPISODE</p>
+            <a href="{audio_link}" style="background: white; color: #C0392B; padding: 10px 30px; text-decoration: none; font-weight: bold; font-size: 16px; display: inline-block;">
+                DOWNLOAD MP3
+            </a>
+            <p style="margin: 10px 0 0 0; font-size: 12px; color: #ffaaaa;">Link expires after 5 downloads or 14 days</p>
+        </div>
+        """
+        # Insert after the opening white div
+        html_body = html_body.replace(
+            '<div style="background: white; padding: 30px; border: 1px solid #ddd;">',
+            f'<div style="background: white; padding: 30px; border: 1px solid #ddd;">\n{audio_banner}',
+            1
+        )
+
     logger.info(f"Email body: {len(html_body)} characters")
+    if audio_link:
+        logger.info(f"Audio download link included: {audio_link}")
 
     # Send
     send_email(subject, html_body)
