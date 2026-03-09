@@ -237,12 +237,18 @@ You MUST output the script as valid JSON in this exact structure:
 ```
 
 RULES FOR THE SCRIPT ARRAY:
-- Target 120–180 lines total (roughly 2,500–3,500 words of dialogue)
-- Leo should have approximately 50% of lines
-- Pringle approximately 20%
-- Bree, Duke, Jax approximately 10% each
+- CRITICAL LENGTH REQUIREMENT: The script MUST be 150–200 lines of dialogue with 2,800–3,500 words of spoken text. This produces a 15-minute episode at podcast speaking pace (~170 wpm). A script under 120 lines or 2,000 words is TOO SHORT and fails the requirement. Err on the side of longer, not shorter.
+- Each line of dialogue should be 1–3 sentences. Characters should speak in full thoughts, not fragments.
+- Leo should have approximately 50% of lines (75–100 lines)
+- Pringle approximately 20% (30–40 lines)
+- Bree, Duke, Jax approximately 10% each (15–20 lines each)
 - Every segment must be present in order
+- THE BRIEF segment should have 15–20 lines of Leo delivering substantive detail on all three headlines — not just one sentence per headline. Give context, numbers, and specifics.
+- THE DEEP DIVE should be the longest segment with 40–55 lines. This is a real debate. Bree and Duke should go back and forth multiple times with Leo moderating. Do not summarize the debate — write it out turn by turn.
+- THE PRINGLE PERSPECTIVE should have 20–30 lines. Pringle tells a FULL story with detail, not a two-sentence summary.
+- THE RAPID FIRE should have 20–30 lines covering 3–4 offbeat stories with reactions from multiple characters.
+- THE DAILY DO should have 8–12 lines for a proper wind-down.
 - Flag 3–4 best clippable moments in metadata.clips
 - Include delivery directions for any line where the default read would miss the intent
 
-Write the complete episode script now based on the news stories provided.
+DO NOT write a short script. 15 minutes of audio requires substantial dialogue. Write the COMPLETE, FULL-LENGTH episode script now based on the news stories provided.
