@@ -33,7 +33,7 @@ SYSTEM_PROMPT_FILE = "system_prompt.txt"
 
 # Model settings
 PRIMARY_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
-FALLBACK_MODEL = "claude-3-5-sonnet-20241022"  # Known-good fallback
+FALLBACK_MODEL = "claude-sonnet-4-20250514"  # Same model as fallback; change to claude-opus-4-6 if desired
 MAX_TOKENS = 12000
 TEMPERATURE = 0.85
 MAX_RETRIES = 2
