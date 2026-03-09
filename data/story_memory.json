@@ -255,6 +255,58 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Obama appointee’s Chicago immigration order backfires after court says she went too far",
+          "source": "Fox News",
+          "keywords": [
+            "obama",
+            "appointees",
+            "chicago",
+            "immigration",
+            "order",
+            "backfires",
+            "court",
+            "went",
+            "far"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Talent Agent Ari Emanuel Launches His Own Podcast, ‘Rushmore’",
+          "source": "New York Times",
+          "keywords": [
+            "talent",
+            "agent",
+            "ari",
+            "emanuel",
+            "launches",
+            "own",
+            "podcast",
+            "rushmore"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "F.B.I. Subpoenas Records in Arizona in Expansion of 2020 Voting Inquiry",
+          "source": "New York Times",
+          "keywords": [
+            "fbi",
+            "subpoenas",
+            "records",
+            "arizona",
+            "expansion",
+            "2020",
+            "voting",
+            "inquiry"
+          ]
+        }
+      ]
     }
   ]
 }
