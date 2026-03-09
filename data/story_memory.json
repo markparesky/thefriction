@@ -451,6 +451,55 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "quiet",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Fear and Hope for Iranians Trapped Between Bombs and Defiant Rulers",
+          "source": "New York Times",
+          "keywords": [
+            "fear",
+            "hope",
+            "iranians",
+            "trapped",
+            "bombs",
+            "defiant",
+            "rulers"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Karen Petrou, Influential Fiscal Policy Analyst and Critic, Dies at 72",
+          "source": "New York Times",
+          "keywords": [
+            "karen",
+            "petrou",
+            "influential",
+            "fiscal",
+            "policy",
+            "analyst",
+            "critic",
+            "dies"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "O.S.U. President Walter Carter Jr. Resigns Over ‘Inappropriate Relationship’",
+          "source": "New York Times",
+          "keywords": [
+            "osu",
+            "president",
+            "walter",
+            "carter",
+            "resigns",
+            "inappropriate",
+            "relationship"
+          ]
+        }
+      ]
     }
   ]
 }
