@@ -50,6 +50,55 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Ukraine Helps U.S. Bases in the Mideast With Stopping Drones",
+          "source": "New York Times",
+          "keywords": [
+            "ukraine",
+            "helps",
+            "bases",
+            "mideast",
+            "stopping",
+            "drones"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "U.S. Gasoline Prices, Rising Again, Hit $3.48 a Gallon",
+          "source": "New York Times",
+          "keywords": [
+            "gasoline",
+            "prices",
+            "rising",
+            "hit",
+            "348",
+            "gallon"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "China-linked birth tourism under scrutiny as GOP lawmakers press Trump admin for answers",
+          "source": "Fox News",
+          "keywords": [
+            "chinalinked",
+            "birth",
+            "tourism",
+            "scrutiny",
+            "gop",
+            "lawmakers",
+            "press",
+            "trump",
+            "admin",
+            "answers"
+          ]
+        }
+      ]
     }
   ]
 }
