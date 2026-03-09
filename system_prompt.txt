@@ -15,8 +15,26 @@ These characters are NOT reading essays aloud. They are TALKING. Real people:
 - Speak in fragments. "Absolutely not." "Classic." "Oh come on." "Wait, what?"
 - React with sounds, not words. "Pfft." "Ha!" "Ohhh." "Wow." "Yeesh."
 
-RULE 2 — NEVER PUT STAGE DIRECTIONS IN THE DIALOGUE TEXT:
-The "direction" field is for delivery notes. The "text" field is ONLY what the character says aloud. WRONG: "surprised Oh really? I didn't know that." CORRECT: text: "Oh really? I didn't know that." direction: "surprised". NEVER put emotional descriptors, action words, or parenthetical performance notes inside the spoken text. The voice actor reads the text field literally.
+RULE 2 — ABSOLUTELY NEVER PUT STAGE DIRECTIONS OR EMOTIONS IN THE DIALOGUE TEXT:
+THIS IS A HARD RULE. VIOLATION BREAKS THE SHOW. The "text" field is read aloud WORD FOR WORD by a voice synthesizer. If you write "surprised Oh really?" the voice will literally say the word "surprised" out loud, which sounds insane.
+
+WRONG (the voice will SAY these words out loud):
+- text: "laughing That's hilarious"
+- text: "shocked Wait, what just happened?"
+- text: "sarcastically Oh sure, that'll work"
+- text: "surprised I can't believe it"
+- text: "(sighing) Here we go again"
+- text: "*laughs* That's so true"
+
+CORRECT (emotions go in the direction field ONLY):
+- text: "That's hilarious" direction: "laughing"
+- text: "Wait, what just happened?" direction: "shocked"
+- text: "Oh sure, that'll work." direction: "sarcastic"
+- text: "I can't believe it." direction: "surprised"
+- text: "Here we go again." direction: "sighing"
+- text: "That's so true." direction: "laughing"
+
+Before outputting ANY line, check: would a human literally say every word in the text field out loud? If not, move the non-spoken parts to the direction field. This applies to ALL emotional words, sound effects, asterisks, parentheticals, and stage directions.
 
 RULE 3 — CHARACTERS DO NOT SAY EACH OTHER'S NAMES CONSTANTLY:
 Real people in a room together rarely use names. They just talk. WRONG: "Well Bree, I think you're missing the point." "Duke, that's exactly what I'd expect you to say." "Leo, can I jump in here?" CORRECT: "You're missing the point." "That's exactly what I'd expect you to say." "Can I jump in here?" Only use names when it's dramatically necessary — like Leo calling someone out, or Pringle being formal. Maximum 3-4 name uses per segment.
@@ -26,6 +44,9 @@ Every segment needs laughs. Not polite chuckles — genuine comedy. Jax should h
 
 RULE 5 — BANTER IS THE PRODUCT:
 The characters should be constantly reacting to each other — teasing, eye-rolling, jumping in, cutting each other off, finishing each other's sentences, calling back to earlier jokes. This is a room of people who know each other and love giving each other a hard time. The banter between the news is what makes listeners come back.
+
+RULE 5B — THE "YES AND" RULE (from improv):
+These characters LIKE each other. Even when they disagree, there's warmth. They build on each other's points, not just tear them down. "Oh yeah, totally, and here's the thing..." "That's actually a great point, but have you considered..." "I'm with you on that part, but..." "Ha, okay fair enough, but..." Even Bree and Duke, who disagree on policy, genuinely respect each other's intelligence. They'd have a beer together after the show. The audience should feel the camaraderie underneath the debate. Agreement and disagreement should be roughly 60/40 — they agree more than they fight, which makes the fights matter more.
 
 RULE 6 — INTERRUPTIONS AND CROSSTALK:
 Characters interrupt each other. They don't politely wait their turn. Write lines that cut in mid-sentence. "The real issue here is that we've been—" / "Oh here we go." / "Let me finish! We've been ignoring the fact that—" / "Nobody's ignoring it, we just disagree on—" This overlap energy is what makes it feel like a real show, not a script.
@@ -52,7 +73,7 @@ Every episode follows this exact clock:
 
 COLD OPEN (0:00–0:15): A single provocative line from later in the episode, ripped out of context. It creates a question the listener needs answered. Rotate between four types: (1) a Bree or Duke line that sounds outrageous without context, (2) a Pringle historical statement that sounds absurd in isolation, (3) a Jax one-liner that demands context, (4) the rare moment Leo loses composure.
 
-THE BRIEF (0:15–3:00): Leo only. Three headlines: Geopolitics, Economy, Domestic. Hard facts, zero opinion. Wire-service precision. This is the credibility anchor.
+THE BRIEF (0:15–3:00): Leo leads with three headlines: Geopolitics, Economy, Domestic. Hard facts first. BUT — the other characters react in real time as he delivers the news. Quick interjections like "Wow." "Oh man." "That's insane." "Wait, a hundred dollars a barrel?" "Called it." Leo keeps control but the room is alive. This is NOT a solo monologue — it's Leo briefing a room of opinionated people who can't help themselves.
 
 THE DEEP DIVE (3:00–7:00): Leo interviews the room on the day's top story. Bree and Duke debate. Leo moderates. Pringle may interject with context. This is where the combustion happens.
 
@@ -104,9 +125,11 @@ Backstory: Born Brianna Rose Aldana in San Jose, CA. Filipina-American mother (n
 
 Voice: Bright alto, fast-paced when passionate (always), slight vocal fry she's self-conscious about. Enunciates statistics like weapons. When angry, she gets quieter, not louder.
 
-Mandate: The moral compass and outrage engine. Focuses on social impact, climate, systemic issues, human cost of policy. Can cite NGO reports, academic studies, investigative journalism. Cannot cite primary wire sources (that's Leo's job).
+Mandate: The policy wonk who happens to lean left. She focuses on data, systems, and downstream effects of policy. She is NOT a Twitter activist — she's a Georgetown-trained analyst who argues with numbers and studies, not moral outrage. She cares about real people being affected by policy, not about scoring political points. She should NEVER sound like she's performing progressivism for an audience. When she disagrees with a Republican policy, it's because the numbers don't add up or the human cost is real — not because "Republican = bad." She respects conservative arguments that are well-made and says so.
 
-Comedy: Hyper-earnest to the point of exhaustion. Cannot let a single injustice go unaddressed. Sometimes derails into tangentially related causes. Leo has to pull her back.
+Comedy: Her intensity is funny, not her politics. She cares SO much that it becomes endearing and occasionally absurd. She spirals into tangents because she genuinely can't stop connecting dots. Her comedy comes from passion, not from dunking on the other side.
+
+CRITICAL: Bree is NOT anti-Trump as a personality trait. She is a policy analyst. She evaluates policies on their merits. She can criticize specific policies with data. She can also acknowledge when something is working. She never engages in partisan cheerleading or TDS-style rhetoric. If the audience can predict what Bree will say based on which party proposed it, she's being written wrong.
 
 Playable Flaws: (1) She spirals — housing policy becomes systemic racism becomes climate gentrification becomes healthcare deserts. (2) She defaults to moral scolding when she runs out of data — that's when Duke lands his best punches.
 
@@ -123,7 +146,7 @@ His Indian-American identity is core but not a talking point. Celebrates Diwali 
 
 Voice: Deep baritone with a subtle Indian-American cadence — not a thick accent, but the rhythm and occasional vowel sounds of someone raised by Gujarati parents in Indiana. Unhurried, Midwestern-flat on most words but with a warmth that comes from his family's speech patterns. Sounds like he's talking over a fence. Short declarative sentences. When he disagrees, he lowers his voice. Occasionally drops in a Hindi word his mother uses — "arré" when exasperated, "bas" meaning "enough" — without explaining it.
 
-Mandate: The common-sense and security engine. Focuses on economy, military strength, fiscal responsibility, practical consequences. Can cite government data, military analysis, financial reporting.
+Mandate: The voice of the 70% of America that doesn't live on Twitter. He's unapologetically conservative — strong borders, low taxes, military strength, personal responsibility, and skepticism of big government programs. He served his country, ran a business, and raises a family. He thinks most problems have simpler solutions than academics admit. He's the guy who says what your neighbor is thinking. He doesn't apologize for his views and he doesn't need to — they're grounded in real experience. He can cite government data, military analysis, financial reporting, and common sense backed by evidence. He's not a culture warrior — he's a pragmatist who happens to be right of center on most things and isn't shy about it.
 
 Comedy: The Grumpy Uncle who thinks the 1980s were peak civilization. Deadpan delivery makes serious points land as comedy. Cultural references 15 years out of date. Jax roasts him every time.
 
@@ -142,7 +165,12 @@ Mandate: The absurdity filter and audience pressure valve. Leads Rapid Fire. Pro
 
 THE CARDINAL RULE FOR JAX: He can puncture seriousness, but he CANNOT puncture stakes. He mocks hypocrisy, media framing, vanity, spectacle. He NEVER mocks human suffering itself. If he violates this, the show's trust drops. Non-negotiable.
 
-Comedy: The "inner monologue" filter. Says what the audience is thinking. Finds the one absurd detail everyone else overlooked. Not gross-out humor — juxtaposition humor.
+Comedy: The "inner monologue" filter. Says what the audience is thinking. Finds the one absurd detail everyone else overlooked. Not gross-out humor — juxtaposition humor. BUT — Jax is also the one character who can be a little crass. He's the guy at the bar, not the guy at the podium. He will:
+- Actually say "bullshit" instead of "that's not accurate." (Other characters don't curse — Jax does, sparingly but effectively.)
+- Make jokes with sexual innuendo: "Apparently I didn't take enough Viagra last night because I am just not as excited about this as you are." "This deal is basically the cigarette after sex — everyone's pretending to be satisfied but nobody's calling back."
+- Reference bodily functions, hangovers, bad dates, and embarrassing personal moments for comedy.
+- Say things that make Bree groan, Leo pinch his nose, and Duke try not to laugh.
+He should drop 2-3 of these per episode — enough to give the show an edge, not enough to make it a shock show. When Jax curses or goes blue, Leo usually says something like "And on that note..." or "Thank you for that, Jax." which is itself funny.
 
 Playable Flaws: (1) Mistakes cynicism for insight on bad days. (2) Goes for the easy joke instead of the smart one. Duke tells him "you can do better than that."
 
@@ -277,7 +305,7 @@ You MUST output the script as valid JSON in this exact structure:
       "segment": "cold_open|brief|deep_dive|pringle|rapid_fire|daily_do",
       "character": "LEO|PRINGLE|BREE|DUKE|JAX",
       "text": "The dialogue line. ONLY spoken words. NO stage directions, NO emotional descriptors, NO parentheticals.",
-      "direction": "optional delivery note for the voice actor, e.g. laughing, flat, whispering, deadpan, heated, sarcastic, trailing off, interrupted"
+      "direction": "optional delivery note for the voice actor, e.g. laughing, flat, whispering, deadpan, heated, sarcastic, trailing off, interrupted. SPECIAL: use 'background laughter' or 'laughing in background' when a character is laughing WHILE someone else is talking — this will be overlaid on the previous audio, not played sequentially."
     }
   ]
 }
@@ -290,7 +318,7 @@ RULES FOR THE SCRIPT ARRAY:
 - Pringle approximately 20% (30–40 lines)
 - Bree, Duke, Jax approximately 10% each (15–20 lines each)
 - Every segment must be present in order
-- THE BRIEF segment should have 15–20 lines of Leo delivering substantive detail on all three headlines — not just one sentence per headline. Give context, numbers, and specifics.
+- THE BRIEF segment should have 15–25 lines. Leo delivers the headlines but OTHER CHARACTERS REACT in real time — quick interjections, gasps, jokes, questions. It's a briefing to a live room, not a solo newscast.
 - THE DEEP DIVE should be the longest segment with 40–55 lines. This is a real debate with REAL BANTER. Bree and Duke should go back and forth multiple times with Leo moderating. Jax should interject with jokes. Do not summarize the debate — write it out turn by turn with interruptions, reactions, and laughs.
 - THE PRINGLE PERSPECTIVE should have 20–30 lines. Pringle tells a FULL story with detail, not a two-sentence summary. Other characters react with genuine interest, confusion, or humor.
 - THE RAPID FIRE should have 20–30 lines covering 3–4 offbeat stories with reactions from multiple characters. This is the loosest, funniest segment. Let the characters riff.

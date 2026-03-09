@@ -89,19 +89,50 @@ def run():
     episode = AudioSegment.empty()
 
     # Pause durations (milliseconds)
-    PAUSE_SAME_SPEAKER = (100, 200)    # Short pause, same person continues
-    PAUSE_NEW_SPEAKER = (250, 450)     # Pause when switching speakers
-    PAUSE_SEGMENT_TRANSITION = (800, 1200)  # Pause between segments
+    PAUSE_SAME_SPEAKER = (80, 180)       # Short pause, same person continues
+    PAUSE_NORMAL_SWITCH = (200, 400)     # Normal speaker change
+    PAUSE_SEGMENT_TRANSITION = (700, 1100)  # Pause between segments
+
+    # Interruption/reaction detection keywords
+    INTERRUPTION_STARTERS = [
+        "hold on", "wait", "no no", "but—", "that's—", "oh come on",
+        "can I", "let me", "hang on", "stop", "whoa", "excuse me",
+    ]
+    QUICK_REACTIONS = [
+        "ha!", "wow", "oh man", "pfft", "yeesh", "ohhh", "classic",
+        "oh no", "yep", "nope", "right", "exactly", "wait what",
+        "seriously", "oh god", "geez", "damn", "true", "fair",
+        "called it", "there it is", "oh boy", "oof",
+    ]
+
+    # Overlay detection — these get layered on top of the previous clip
+    OVERLAY_DIRECTIONS = ["laughing in background", "background laughter", "chuckling over"]
+    OVERLAY_REACTIONS = ["ha!", "oh man", "pfft", "ohhh", "wow"]
+
+    def is_overlay_candidate(text_lower, direction_lower, word_count):
+        """Determine if this line should be overlaid on the previous clip."""
+        if any(d in direction_lower for d in OVERLAY_DIRECTIONS):
+            return True
+        if "background" in direction_lower:
+            return True
+        # Very short reactions from a different character while someone is talking
+        if word_count <= 2 and any(text_lower.startswith(r) for r in OVERLAY_REACTIONS):
+            return True
+        return False
 
     current_segment = ""
     previous_character = ""
+    previous_clip_duration = 0  # Track how long the last clip was
     clips_added = 0
     clips_missing = 0
 
-    for line in lines:
+    for i, line in enumerate(lines):
         line_num = line.get("line", 0)
         character = line.get("character", "")
         segment = line.get("segment", "")
+        text = line.get("text", "").lower().strip()
+        direction = line.get("direction", "").lower()
+        word_count = len(text.split())
 
         # Add segment transition pause
         if segment != current_segment and current_segment != "":
@@ -109,6 +140,7 @@ def run():
             episode += AudioSegment.silent(duration=pause_ms)
             logger.info(f"  --- {segment.upper()} --- (transition pause: {pause_ms}ms)")
             current_segment = segment
+            previous_clip_duration = 0
         elif current_segment == "":
             current_segment = segment
             logger.info(f"  --- {segment.upper()} ---")
@@ -118,16 +150,46 @@ def run():
             try:
                 clip = AudioSegment.from_mp3(str(audio_map[line_num]))
 
-                # Add appropriate pause before the clip
-                if previous_character == character:
-                    pause_ms = random.randint(*PAUSE_SAME_SPEAKER)
-                else:
-                    pause_ms = random.randint(*PAUSE_NEW_SPEAKER)
+                # Check if this should be overlaid on the previous clip
+                if (previous_character != character and
+                    previous_clip_duration > 1000 and
+                    is_overlay_candidate(text, direction, word_count) and
+                    len(episode) > 500):
 
-                episode += AudioSegment.silent(duration=pause_ms)
-                episode += clip
-                clips_added += 1
-                previous_character = character
+                    # Overlay this reaction on top of the end of the previous clip
+                    # Place it starting 60-80% into the previous clip
+                    overlay_clip = clip - 6  # Reduce volume slightly so it sits behind
+                    overlap_start = max(0, len(episode) - int(previous_clip_duration * random.uniform(0.2, 0.4)))
+
+                    episode = episode.overlay(overlay_clip, position=overlap_start)
+                    clips_added += 1
+                    # Don't update previous_character — the main speaker is still talking
+
+                else:
+                    # Normal sequential placement with smart pauses
+
+                    if previous_character == character:
+                        pause_ms = random.randint(*PAUSE_SAME_SPEAKER)
+
+                    elif "interrupt" in direction or any(text.startswith(s) for s in INTERRUPTION_STARTERS):
+                        # Interruption — almost no gap
+                        pause_ms = random.randint(0, 50)
+
+                    elif any(text.startswith(r) for r in QUICK_REACTIONS) or word_count <= 3:
+                        # Quick reaction — very short gap
+                        pause_ms = random.randint(30, 120)
+
+                    elif "laughing" in direction or "chuckling" in direction:
+                        pause_ms = random.randint(50, 150)
+
+                    else:
+                        pause_ms = random.randint(*PAUSE_NORMAL_SWITCH)
+
+                    episode += AudioSegment.silent(duration=pause_ms)
+                    episode += clip
+                    clips_added += 1
+                    previous_character = character
+                    previous_clip_duration = len(clip)
 
             except Exception as e:
                 logger.warning(f"  Line {line_num}: Error loading clip: {e}")
