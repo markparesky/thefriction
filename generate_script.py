@@ -162,35 +162,16 @@ def build_user_message(news: dict) -> str:
 def generate_script(system_prompt: str, user_message: str) -> dict:
     """
     Call the Anthropic API to generate the episode script.
+    Uses raw HTTP requests instead of the SDK to avoid compatibility issues.
     Returns the parsed JSON script.
     """
-    logger.info("Importing Anthropic SDK...")
-    try:
-        from anthropic import Anthropic
-        logger.info("  SDK imported successfully.")
-    except ImportError as e:
-        logger.error(f"anthropic package not installed: {e}")
-        sys.exit(1)
-    except Exception as e:
-        logger.error(f"Unexpected error importing anthropic: {type(e).__name__}: {e}")
-        sys.exit(1)
+    import requests as req
 
     if not ANTHROPIC_API_KEY:
         logger.error("ANTHROPIC_API_KEY not set. Add it to your environment variables.")
         sys.exit(1)
 
     logger.info(f"API key starts with: {ANTHROPIC_API_KEY[:12]}...")
-    logger.info("Creating Anthropic client...")
-
-    try:
-        client = Anthropic(
-            api_key=ANTHROPIC_API_KEY,
-            timeout=300.0,
-        )
-        logger.info("  Client created successfully.")
-    except Exception as e:
-        logger.error(f"Failed to create client: {type(e).__name__}: {e}")
-        sys.exit(1)
 
     models_to_try = [PRIMARY_MODEL, FALLBACK_MODEL]
 
@@ -199,28 +180,51 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
             logger.info(f"Generating script (model: {model}, attempt {attempt}/{MAX_RETRIES})...")
             logger.info(f"  Temperature: {TEMPERATURE}")
             logger.info(f"  Max tokens: {MAX_TOKENS}")
+            logger.info(f"  Using raw HTTP request (no SDK)...")
 
             try:
                 logger.info("  Sending API request...")
-                response = client.messages.create(
-                    model=model,
-                    max_tokens=MAX_TOKENS,
-                    temperature=TEMPERATURE,
-                    system=system_prompt,
-                    messages=[{"role": "user", "content": user_message}],
+                response = req.post(
+                    "https://api.anthropic.com/v1/messages",
+                    headers={
+                        "x-api-key": ANTHROPIC_API_KEY,
+                        "anthropic-version": "2023-06-01",
+                        "content-type": "application/json",
+                    },
+                    json={
+                        "model": model,
+                        "max_tokens": MAX_TOKENS,
+                        "temperature": TEMPERATURE,
+                        "system": system_prompt,
+                        "messages": [{"role": "user", "content": user_message}],
+                    },
+                    timeout=300,
                 )
-                logger.info("  API response received.")
+
+                logger.info(f"  Response status: {response.status_code}")
+
+                if response.status_code != 200:
+                    error_text = response.text[:500]
+                    logger.error(f"  API error: {error_text}")
+                    if attempt < MAX_RETRIES:
+                        logger.info("  Retrying in 10 seconds...")
+                        import time
+                        time.sleep(10)
+                    continue
+
+                data = response.json()
 
                 # Extract text from response
                 raw_text = ""
-                for block in response.content:
-                    if hasattr(block, "text"):
-                        raw_text += block.text
+                for block in data.get("content", []):
+                    if block.get("type") == "text":
+                        raw_text += block.get("text", "")
 
+                usage = data.get("usage", {})
                 logger.info(f"  Response length: {len(raw_text)} characters")
-                logger.info(f"  Input tokens: {response.usage.input_tokens}")
-                logger.info(f"  Output tokens: {response.usage.output_tokens}")
-                logger.info(f"  Stop reason: {response.stop_reason}")
+                logger.info(f"  Input tokens: {usage.get('input_tokens', '?')}")
+                logger.info(f"  Output tokens: {usage.get('output_tokens', '?')}")
+                logger.info(f"  Stop reason: {data.get('stop_reason', '?')}")
 
                 # Parse JSON from response
                 script = parse_script_json(raw_text)
@@ -232,6 +236,8 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
                     logger.warning(f"  Failed to parse JSON from response.")
                     logger.warning(f"  First 500 chars: {raw_text[:500]}")
 
+            except req.exceptions.Timeout:
+                logger.error(f"  Request timed out after 300 seconds.")
             except Exception as e:
                 logger.error(f"  API call failed: {type(e).__name__}: {e}")
                 import traceback
