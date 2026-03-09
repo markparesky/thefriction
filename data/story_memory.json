@@ -406,6 +406,51 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "quiet",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "France Is Sending a Large Naval Force to the Middle East",
+          "source": "New York Times",
+          "keywords": [
+            "france",
+            "sending",
+            "large",
+            "naval",
+            "force",
+            "middle",
+            "east"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "An Amish Avatar and an A.I. Monk Are Pitching Supplements on Social Media",
+          "source": "New York Times",
+          "keywords": [
+            "amish",
+            "avatar",
+            "monk",
+            "pitching",
+            "supplements",
+            "social",
+            "media"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "His Mother Vanished When He Was 14. 33 Years Later, He Found Her.",
+          "source": "New York Times",
+          "keywords": [
+            "mother",
+            "vanished",
+            "later",
+            "found"
+          ]
+        }
+      ]
     }
   ]
 }
