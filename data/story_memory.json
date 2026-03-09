@@ -99,6 +99,62 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Texas Gov Abbott issues warning of Chinese spying in medical tech",
+          "source": "Fox News",
+          "keywords": [
+            "texas",
+            "gov",
+            "abbott",
+            "issues",
+            "warning",
+            "chinese",
+            "spying",
+            "medical",
+            "tech"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Schumer once blocked Trump's move to fill the nation's oil reserves, now he wants them opened",
+          "source": "Fox News",
+          "keywords": [
+            "schumer",
+            "once",
+            "blocked",
+            "trumps",
+            "move",
+            "fill",
+            "nations",
+            "oil",
+            "reserves",
+            "wants"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "GOP-led counties push back against Democrats' redistricting charge, testing Virginia’s constitutional limits",
+          "source": "Fox News",
+          "keywords": [
+            "gopled",
+            "counties",
+            "push",
+            "back",
+            "against",
+            "democrats",
+            "redistricting",
+            "charge",
+            "testing",
+            "virginias"
+          ]
+        }
+      ]
     }
   ]
 }
