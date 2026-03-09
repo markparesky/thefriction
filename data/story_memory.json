@@ -155,6 +155,58 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Locals in Other States Prepare for ICE With Lots of Rumors and Little Information",
+          "source": "New York Times",
+          "keywords": [
+            "locals",
+            "states",
+            "prepare",
+            "ice",
+            "lots",
+            "rumors",
+            "little",
+            "information"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "As Kari Lake Sought to Shutter Voice of America, Parent Agency Rebuffed Auditors",
+          "source": "New York Times",
+          "keywords": [
+            "kari",
+            "lake",
+            "sought",
+            "shutter",
+            "voice",
+            "america",
+            "parent",
+            "agency",
+            "rebuffed",
+            "auditors"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Chaos on Mamdani’s Doorstep: ‘We’ve Never Had Anything Like This Here’",
+          "source": "New York Times",
+          "keywords": [
+            "chaos",
+            "mamdanis",
+            "doorstep",
+            "weve",
+            "never",
+            "anything",
+            "like"
+          ]
+        }
+      ]
     }
   ]
 }
