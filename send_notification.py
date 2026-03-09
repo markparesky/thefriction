@@ -40,58 +40,103 @@ def upload_audio_file() -> str:
         logger.warning(f"Episode file not found: {EPISODE_FILE}")
         return ""
 
+    file_size_mb = path.stat().st_size / 1024 / 1024
+    logger.info(f"Episode file found: {file_size_mb:.1f} MB")
+
     if not GITHUB_TOKEN:
         logger.warning("GITHUB_TOKEN not set. Cannot upload to GitHub.")
+        logger.warning("Add GITHUB_TOKEN to your Railway variables.")
         return ""
 
-    file_size_mb = path.stat().st_size / 1024 / 1024
-    date_str = datetime.now().strftime('%Y-%m-%d')
+    logger.info(f"GITHUB_TOKEN starts with: {GITHUB_TOKEN[:8]}...")
+
+    date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     filename = f"episodes/friction_{date_str}.mp3"
-    logger.info(f"Uploading episode ({file_size_mb:.1f} MB) to GitHub: {filename}")
+    logger.info(f"Uploading to GitHub: {filename}")
+
+    # GitHub API has practical limits on base64 uploads (~25MB encoded)
+    # For files over 20MB raw, this may fail
+    if file_size_mb > 50:
+        logger.warning(f"File is very large ({file_size_mb:.1f} MB). GitHub upload may fail.")
 
     try:
         import base64
 
+        logger.info("  Reading and encoding file...")
         with open(path, "rb") as f:
             content_b64 = base64.b64encode(f.read()).decode("utf-8")
+        encoded_size_mb = len(content_b64) / 1024 / 1024
+        logger.info(f"  Base64 encoded size: {encoded_size_mb:.1f} MB")
 
-        # Check if file already exists (to get its SHA for updating)
         check_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filename}"
         headers = {
             "Authorization": f"token {GITHUB_TOKEN}",
             "Accept": "application/vnd.github.v3+json",
         }
 
+        # Check if file already exists
+        logger.info("  Checking if file already exists...")
         sha = None
-        check_resp = requests.get(check_url, headers=headers, timeout=30)
-        if check_resp.status_code == 200:
-            sha = check_resp.json().get("sha")
+        try:
+            check_resp = requests.get(check_url, headers=headers, timeout=30)
+            logger.info(f"  Check response: {check_resp.status_code}")
+            if check_resp.status_code == 200:
+                sha = check_resp.json().get("sha")
+                logger.info(f"  File exists, SHA: {sha[:12]}...")
+            elif check_resp.status_code == 404:
+                logger.info("  File does not exist yet (will create).")
+            else:
+                logger.warning(f"  Unexpected check response: {check_resp.status_code} — {check_resp.text[:200]}")
+        except Exception as e:
+            logger.warning(f"  Check request failed: {e}")
 
         # Upload file
+        logger.info("  Uploading to GitHub (this may take 1-2 minutes)...")
         payload = {
             "message": f"Episode: {date_str}",
             "content": content_b64,
         }
         if sha:
-            payload["sha"] = sha  # Required for updating existing file
+            payload["sha"] = sha
 
         response = requests.put(
             check_url,
             headers=headers,
             json=payload,
-            timeout=180,
+            timeout=300,  # 5 minute timeout for large files
         )
+
+        logger.info(f"  Upload response: {response.status_code}")
 
         if response.status_code in (200, 201):
             download_url = response.json().get("content", {}).get("download_url", "")
             logger.info(f"  Upload successful: {download_url}")
             return download_url
         else:
-            logger.error(f"  GitHub upload failed: {response.status_code} — {response.text[:300]}")
+            error_msg = response.text[:500]
+            logger.error(f"  GitHub upload failed: {response.status_code}")
+            logger.error(f"  Error: {error_msg}")
+
+            # Common errors
+            if response.status_code == 401:
+                logger.error("  CAUSE: GITHUB_TOKEN is invalid or expired. Regenerate it.")
+            elif response.status_code == 403:
+                logger.error("  CAUSE: Token lacks 'Contents: write' permission, or rate limited.")
+            elif response.status_code == 422:
+                logger.error("  CAUSE: File may be too large for GitHub API, or SHA mismatch.")
+
             return ""
 
+    except requests.exceptions.Timeout:
+        logger.error("  Upload timed out after 300 seconds. File may be too large.")
+        return ""
+    except MemoryError:
+        logger.error("  Out of memory while encoding file. File too large for available RAM.")
+        return ""
     except Exception as e:
-        logger.error(f"  GitHub upload error: {e}")
+        logger.error(f"  Upload error: {type(e).__name__}: {e}")
+        import traceback
+        logger.error(f"  Traceback: {traceback.format_exc()}")
         return ""
 
 
