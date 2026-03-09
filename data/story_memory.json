@@ -500,6 +500,57 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "How the Iran War Could Hit Americans’ Wallets",
+          "source": "New York Times",
+          "keywords": [
+            "iran",
+            "war",
+            "hit",
+            "americans",
+            "wallets"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Fashionable Wall Street Bros Set Off a Social Media Storm",
+          "source": "New York Times",
+          "keywords": [
+            "fashionable",
+            "wall",
+            "street",
+            "bros",
+            "set",
+            "off",
+            "social",
+            "media",
+            "storm"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "40+ House Republicans rally behind Markwayne Mullin for DHS, call it a ‘critical moment’ for border security",
+          "source": "Fox News",
+          "keywords": [
+            "house",
+            "republicans",
+            "rally",
+            "behind",
+            "markwayne",
+            "mullin",
+            "dhs",
+            "call",
+            "critical",
+            "moment"
+          ]
+        }
+      ]
     }
   ]
 }
