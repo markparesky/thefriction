@@ -207,6 +207,54 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "U.S. Reaches Tentative Deal Ending Prosecution of Turkish Bank",
+          "source": "New York Times",
+          "keywords": [
+            "reaches",
+            "tentative",
+            "deal",
+            "ending",
+            "prosecution",
+            "turkish",
+            "bank"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Tell Us About Your Plans for a Longer Life",
+          "source": "New York Times",
+          "keywords": [
+            "tell",
+            "plans",
+            "longer",
+            "life"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Senate campaign chief 'optimistic' for GOP majority despite darkening midterm climate",
+          "source": "Fox News",
+          "keywords": [
+            "senate",
+            "campaign",
+            "chief",
+            "optimistic",
+            "gop",
+            "majority",
+            "despite",
+            "darkening",
+            "midterm",
+            "climate"
+          ]
+        }
+      ]
     }
   ]
 }
