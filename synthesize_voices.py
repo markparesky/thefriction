@@ -56,7 +56,7 @@ VOICE_SETTINGS = {
 }
 
 # Rate limiting
-DELAY_BETWEEN_CALLS = 0.5  # seconds between API calls
+DELAY_BETWEEN_CALLS = 0.2  # seconds between API calls (reduced for speed)
 MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds to wait on rate limit
 
