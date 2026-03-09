@@ -307,6 +307,56 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "archetype": "quiet",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Virginia Dems send Spanberger bill that could let some repeat offenders out without secured bond, expert warns",
+          "source": "Fox News",
+          "keywords": [
+            "virginia",
+            "dems",
+            "send",
+            "spanberger",
+            "bill",
+            "let",
+            "repeat",
+            "offenders",
+            "without",
+            "secured"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Colman McCarthy, 87, Journalist Who Waged Peace in the Classroom, Dies",
+          "source": "New York Times",
+          "keywords": [
+            "colman",
+            "mccarthy",
+            "journalist",
+            "waged",
+            "peace",
+            "classroom",
+            "dies"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Is the Trial of Erdogan’s Top Rival More About Corruption or Politics?",
+          "source": "New York Times",
+          "keywords": [
+            "trial",
+            "erdogans",
+            "top",
+            "rival",
+            "corruption",
+            "politics"
+          ]
+        }
+      ]
     }
   ]
 }
