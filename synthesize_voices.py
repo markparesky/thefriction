@@ -104,20 +104,39 @@ def synthesize_line(text: str, character: str, line_num: int, direction: str = "
         "xi-api-key": ELEVENLABS_API_KEY,
     }
 
-    # Add delivery direction to the text if provided
-    # ElevenLabs responds to emotional cues in the text
+    # IMPORTANT: Do NOT include the direction in the text.
+    # ElevenLabs reads text literally — if you include "(laughing)" it will
+    # say the word "laughing" out loud.
+    # Instead, we adjust voice settings based on direction.
+    synth_text = text
+
+    # Adjust voice settings based on direction for better delivery
+    adjusted_settings = dict(settings)
     if direction:
-        synth_text = f"({direction}) {text}"
-    else:
-        synth_text = text
+        direction_lower = direction.lower()
+        if any(d in direction_lower for d in ["laughing", "chuckling", "amused"]):
+            adjusted_settings["style"] = min(1.0, settings["style"] + 0.3)
+            adjusted_settings["stability"] = max(0.2, settings["stability"] - 0.15)
+        elif any(d in direction_lower for d in ["angry", "heated", "frustrated"]):
+            adjusted_settings["style"] = min(1.0, settings["style"] + 0.2)
+            adjusted_settings["stability"] = max(0.3, settings["stability"] - 0.1)
+        elif any(d in direction_lower for d in ["whisper", "quiet", "soft"]):
+            adjusted_settings["stability"] = min(1.0, settings["stability"] + 0.2)
+            adjusted_settings["style"] = max(0.0, settings["style"] - 0.2)
+        elif any(d in direction_lower for d in ["sarcastic", "deadpan", "flat"]):
+            adjusted_settings["stability"] = min(1.0, settings["stability"] + 0.15)
+            adjusted_settings["style"] = max(0.1, settings["style"] - 0.1)
+        elif any(d in direction_lower for d in ["excited", "energetic"]):
+            adjusted_settings["style"] = min(1.0, settings["style"] + 0.25)
+            adjusted_settings["stability"] = max(0.2, settings["stability"] - 0.15)
 
     payload = {
         "text": synth_text,
         "model_id": MODEL_ID,
         "voice_settings": {
-            "stability": settings["stability"],
-            "similarity_boost": settings["similarity_boost"],
-            "style": settings["style"],
+            "stability": adjusted_settings["stability"],
+            "similarity_boost": adjusted_settings["similarity_boost"],
+            "style": adjusted_settings["style"],
             "use_speaker_boost": True,
         },
     }
