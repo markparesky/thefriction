@@ -3,29 +3,29 @@
     "episode_date": "2026-03-10",
     "episode_archetype": "quiet",
     "headlines": {
-      "geopolitics": "Navy veteran with no family gets full military honors as community refuses to let him be buried alone",
-      "economy": "DOJ launches new fraud division targeting 'insane' Medicaid and federal program theft",
-      "domestic": "Americans expect AI to transform everything but find it mostly useless in daily life"
+      "geopolitics": "Community honors 'unclaimed' Navy veteran with full military funeral",
+      "economy": "DOJ launches new fraud division targeting billion-dollar program abuse",
+      "domestic": "Senate advances sweeping housing bill ahead of midterm elections"
     },
-    "daily_do": "Check if your local VA cemetery has upcoming services for unclaimed veterans — showing up matters more than you think",
+    "daily_do": "Check in on an elderly neighbor or veteran you know — a simple conversation can make all the difference",
     "pringle_mode": "direct_parallel",
     "clips": [
       {
-        "start_line": 67,
-        "end_line": 74,
-        "caption": "When Duke gets unexpectedly emotional about veterans",
+        "start_line": 78,
+        "end_line": 85,
+        "caption": "When Pringle explains why we honor unknown soldiers",
         "platform": "tiktok"
       },
       {
-        "start_line": 112,
-        "end_line": 119,
-        "caption": "Pringle explains why we honor unknown soldiers",
+        "start_line": 125,
+        "end_line": 132,
+        "caption": "Duke's take on government fraud is... intense",
         "platform": "youtube"
       },
       {
-        "start_line": 156,
-        "end_line": 163,
-        "caption": "Jax discovers government AI is being used for office chairs",
+        "start_line": 165,
+        "end_line": 172,
+        "caption": "The potato harassment case that broke Jax",
         "platform": "x"
       }
     ]
@@ -34,653 +34,884 @@
     {
       "line": 1,
       "segment": "cold_open",
-      "character": "DUKE",
-      "text": "Look, I've been to a lot of military funerals. But when three hundred strangers show up for a guy they never met? That's not performative anything. That's just America.",
-      "direction": "quiet, sincere"
+      "character": "PRINGLE",
+      "text": "The Romans had a saying — dulce et decorum est pro patria mori — it is sweet and proper to die for one's country. But what they never said was what happens when you die for your country and no one comes to claim you.",
+      "direction": "contemplative"
     },
     {
       "line": 2,
       "segment": "brief",
       "character": "LEO",
-      "text": "It's Monday, March tenth. I'm Leo, and this is The Friction. Three stories driving the conversation today.",
-      "direction": "steady, welcoming"
+      "text": "Good morning, I'm Leo Barros and this is The Friction. It's Monday, March 10th, 2026. Let's start with what happened over the weekend. In geopolitics — a Navy veteran named Lonnie Wayman was buried with full military honors at Middle Tennessee State Veterans Cemetery after being classified as 'unclaimed' with no known family.",
+      "direction": "measured pace"
     },
     {
       "line": 3,
-      "segment": "brief",
-      "character": "LEO",
-      "text": "First up — a Navy veteran in Tennessee died with no known family to claim his remains. The community wasn't having it. Hundreds showed up to give Lonnie Wayman full military honors at Middle Tennessee State Veterans Cemetery.",
-      "direction": "measured"
-    },
-    {
-      "line": 4,
       "segment": "brief",
       "character": "BREE",
       "text": "Oh wow.",
       "direction": "soft"
     },
     {
+      "line": 4,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Community members and veterans filled the service to make sure he wasn't buried alone. The VA representative said quote, 'unclaimed' was incorrect — that community support proved every veteran can be claimed.",
+      "direction": "steady"
+    },
+    {
       "line": 5,
       "segment": "brief",
       "character": "DUKE",
-      "text": "Good.",
-      "direction": "firm approval"
+      "text": "Good for them.",
+      "direction": "quiet approval"
     },
     {
       "line": 6,
       "segment": "brief",
       "character": "LEO",
-      "text": "The VA rep said quote, 'unclaimed does not mean forgotten.' They released doves at the end.",
-      "direction": null
+      "text": "In economy — Deputy Attorney General Todd Blanche announced a new DOJ fraud division to combat what he called an 'insane' problem of Medicaid and federal program fraud.",
+      "direction": "neutral"
     },
     {
       "line": 7,
       "segment": "brief",
       "character": "JAX",
-      "text": "I'm not crying, you're crying.",
-      "direction": "trying to joke through emotion"
+      "text": "How insane are we talking?",
+      "direction": "curious"
     },
     {
       "line": 8,
       "segment": "brief",
       "character": "LEO",
-      "text": "Economy — Deputy AG Todd Blanche announced a new DOJ fraud division to tackle what he calls an 'insane' problem. Two guys from Pennsylvania drove to Minneapolis, pretended to run homeless shelters that didn't exist, and walked away with four million in federal funds.",
-      "direction": null
+      "text": "Two Pennsylvania men allegedly received four million dollars in federal funds for homeless shelters in Minneapolis that didn't exist. The new division promises prosecution for any fraud over one thousand dollars.",
+      "direction": "factual"
     },
     {
       "line": 9,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "Four million? Just like that?",
-      "direction": "incredulous"
+      "character": "BREE",
+      "text": "A thousand dollars? That's... aggressive.",
+      "direction": "surprised"
     },
     {
       "line": 10,
       "segment": "brief",
-      "character": "BREE",
-      "text": "That's horrifying.",
-      "direction": null
+      "character": "DUKE",
+      "text": "About time.",
+      "direction": "flat"
     },
     {
       "line": 11,
       "segment": "brief",
       "character": "LEO",
-      "text": "Blanche says they're going after any fraud over a thousand dollars now. Quote, 'if you steal one thousand and one dollars, you are going to prison.'",
-      "direction": null
+      "text": "And domestically — the Senate is moving toward passing comprehensive housing legislation addressing affordability issues that are expected to dominate the midterm elections. Progress is notable given how contentious housing policy typically is.",
+      "direction": "neutral"
     },
     {
       "line": 12,
       "segment": "brief",
-      "character": "JAX",
-      "text": "Very specific number there, Todd.",
-      "direction": "amused"
+      "character": "BREE",
+      "text": "Finally.",
+      "direction": "relieved"
     },
     {
       "line": 13,
       "segment": "brief",
-      "character": "LEO",
-      "text": "And domestic — a new Fox poll shows eighty-seven percent of Americans think AI will transform our lives, but only forty-seven percent find it useful right now. Meanwhile, eighty percent are extremely or very worried about telling real content from AI-generated stuff.",
-      "direction": null
+      "character": "JAX",
+      "text": "Wait, Congress is actually doing something about housing? What timeline are we in?",
+      "direction": "mock surprise"
     },
     {
       "line": 14,
       "segment": "brief",
-      "character": "BREE",
-      "text": "I mean, fair.",
-      "direction": null
+      "character": "LEO",
+      "text": "We'll get to all of that. But first — let's talk about Lonnie Wayman.",
+      "direction": "transitional"
     },
     {
       "line": 15,
-      "segment": "brief",
-      "character": "PRINGLE",
-      "text": "The promise versus the reality. Tale as old as time.",
-      "direction": "thoughtful"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "So here's what happened. Lonnie Wayman was a Navy veteran. When he died, no family came forward to claim his remains. The paperwork marked him as 'unclaimed.' But when the community heard about it, veterans groups and regular people showed up to his funeral. Packed the place.",
+      "direction": "storytelling pace"
     },
     {
       "line": 16,
-      "segment": "brief",
-      "character": "LEO",
-      "text": "Also, seventy-four percent of voters think life exists on other planets. So there's that.",
-      "direction": "slightly bemused"
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "How does someone just... have no family? I mean, that's heartbreaking.",
+      "direction": "gentle concern"
     },
     {
       "line": 17,
-      "segment": "brief",
-      "character": "JAX",
-      "text": "Honestly shocked it's not higher. Have you seen Congress lately?",
-      "direction": "deadpan"
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Happens more than you think. Military life can be isolating. Deployments, moves, relationships that don't survive the distance.",
+      "direction": "matter-of-fact"
     },
     {
       "line": 18,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Let's dig into that Tennessee story because it's hitting me harder than I expected. A Navy vet dies alone, no family comes forward, and instead of a quiet burial, three hundred strangers show up. Duke, you served — what's your read on this?",
-      "direction": null
+      "character": "JAX",
+      "text": "But like, the community just... showed up? That's actually beautiful.",
+      "direction": "genuinely moved"
     },
     {
       "line": 19,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Look, I've been to a lot of military funerals. But when three hundred strangers show up for a guy they never met? That's not performative anything. That's just America.",
-      "direction": "quiet, sincere"
+      "character": "LEO",
+      "text": "The VA representative made a point at the service. He said the word 'unclaimed' was wrong because the community claimed him. Quote — 'We are able to claim our honorable veterans and provide them the dignity and honor that they have earned.'",
+      "direction": "reading quote precisely"
     },
     {
       "line": 20,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "I want to believe that. But I also saw this story go viral on social media first. Like, how many of those people would've shown up without the Facebook event?",
-      "direction": "cautious"
+      "text": "That's— okay, that actually made me tear up a little. But it also raises questions about the system, right? Like, how many other veterans are sitting in morgues right now marked as 'unclaimed'?",
+      "direction": "emotional then analytical"
     },
     {
       "line": 21,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Does it matter? The man got honors. He got dignity. He didn't get buried alone.",
+      "text": "The system works when people make it work. You can't bureaucratize caring. These folks in Tennessee did what neighbors used to do automatically.",
       "direction": "firm"
     },
     {
       "line": 22,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "It matters if we're patting ourselves on the back for fixing a problem we created. How does a veteran die completely alone in the first place?",
-      "direction": "building intensity"
+      "text": "But Duke, that's exactly my point. We shouldn't have to rely on random acts of kindness for basic dignity. The VA should have better systems for—",
+      "direction": "building momentum"
     },
     {
       "line": 23,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "That's the question, isn't it? What happened in this man's life that he had no connections when he died?",
-      "direction": null
+      "character": "DUKE",
+      "text": "Better systems for what? Forcing people to care? You can't mandate community, Bree.",
+      "direction": "cutting her off"
     },
     {
       "line": 24,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Some people just— life happens, you know? Not everyone has kids. Not everyone stays in touch with their unit. Jenny's dad served in Vietnam, came home, never talked about it. Barely talked to anyone for decades.",
-      "direction": "personal, quieter"
+      "character": "BREE",
+      "text": "I'm not talking about mandating community. I'm talking about better family tracing, better record-keeping, proactive outreach before someone dies alone and—",
+      "direction": "frustrated"
     },
     {
       "line": 25,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Right, and that's exactly what I'm talking about. We send people to war, they come back changed, we don't support them properly, and then when they die alone we show up with flags and call it honor.",
-      "direction": "frustrated"
+      "character": "JAX",
+      "text": "Can I just say something? This story hit me because like, my dad drives the bus in Revere, right? And he knows every regular passenger. Mrs. Chen who rides to dialysis on Tuesdays, the guy who works the night shift at the hospital. When Mrs. Chen didn't show up for three weeks, my dad called the route supervisor to check on her.",
+      "direction": "personal"
     },
     {
       "line": 26,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Bree, come on. You think those people at the cemetery were thinking about politics? They were thinking about a fellow American who served his country.",
-      "direction": "slightly heated"
+      "character": "LEO",
+      "text": "What happened to Mrs. Chen?",
+      "direction": "gentle"
     },
     {
       "line": 27,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "I'm not saying their hearts weren't in the right place. I'm saying maybe our hearts should be in the right place while these guys are still alive.",
-      "direction": null
+      "character": "JAX",
+      "text": "She was fine, just switched to a different dialysis center. But the point is, my dad noticed. Someone noticed. And these people in Tennessee noticed Lonnie Wayman.",
+      "direction": "earnest"
     },
     {
       "line": 28,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Can I just— this is gonna sound weird, but I keep thinking about the doves. Like, who decided on the doves? Was there a committee meeting about funeral doves?",
-      "direction": "trying to lighten the mood"
+      "character": "DUKE",
+      "text": "Exactly. That's what I'm talking about. Your dad didn't need a federal program to tell him to care about Mrs. Chen.",
+      "direction": "agreeing"
     },
     {
       "line": 29,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Jax, not now.",
-      "direction": "gentle warning"
+      "character": "BREE",
+      "text": "And that's wonderful, but what about the places where there is no Mrs. Chen? What about the veterans who don't have a community like Tennessee? The data shows—",
+      "direction": "trying to interject"
     },
     {
       "line": 30,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "No, I'm serious! Someone made that decision. Someone cared enough to think about the details. That matters.",
-      "direction": "more earnest"
+      "character": "LEO",
+      "text": "Hold on, Bree. What data?",
+      "direction": "moderating"
     },
     {
       "line": 31,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "That's exactly right. Someone thought about making it meaningful.",
-      "direction": "approving"
+      "character": "BREE",
+      "text": "VA records show thousands of unclaimed remains annually. Not all of them get the Tennessee treatment. Most get buried in unmarked graves or cremated and stored in funeral homes indefinitely.",
+      "direction": "factual"
     },
     {
       "line": 32,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Look, I'm not trying to be cynical here. The funeral was beautiful. I just think we can hold two thoughts at once — celebrate the community response and ask why we need community responses in the first place.",
-      "direction": "trying to find middle ground"
+      "character": "DUKE",
+      "text": "So what's your solution? A federal Department of Making Sure People Have Friends?",
+      "direction": "sarcastic"
     },
     {
       "line": 33,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "The VA says there are about a thousand unclaimed veterans nationwide at any given time. So this isn't a one-off situation.",
-      "direction": null
+      "character": "BREE",
+      "text": "Better veteran services integration. Proactive wellness checks. Community liaison programs. It's not rocket science, Duke.",
+      "direction": "sharp"
     },
     {
       "line": 34,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "A thousand. Jesus.",
-      "direction": "quiet dismay"
+      "text": "And it's also not the federal government's job to be everyone's best friend. Sometimes people are alone because they choose to be alone.",
+      "direction": "flat"
     },
     {
       "line": 35,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "See? That's a systemic issue. That's not individual failure, that's institutional failure.",
-      "direction": null
+      "character": "JAX",
+      "text": "Okay, but can we agree that what happened in Tennessee was good? Like, regardless of policy debates, a bunch of people showed up for a stranger's funeral because it was the right thing to do?",
+      "direction": "bringing it back"
     },
     {
       "line": 36,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Maybe. But you know what's not institutional? Those three hundred people who showed up. That's individual choice. That's character.",
-      "direction": "firm"
+      "character": "LEO",
+      "text": "I think we can all agree on that. The question is whether it should be the exception or the rule.",
+      "direction": "summarizing"
     },
     {
       "line": 37,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "The question becomes — how do we scale that character? How do we make sure it happens for all thousand of those veterans, not just the ones that go viral?",
-      "direction": null
+      "character": "BREE",
+      "text": "It should be the rule. And that requires systems, not just hoping for the kindness of strangers.",
+      "direction": "firm"
     },
     {
       "line": 38,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Better mental health support. Better community outreach while they're alive. Better—",
-      "direction": null
+      "character": "DUKE",
+      "text": "It is the rule in most places. Most communities do take care of their own. We just don't hear about it because it's not news when things work right.",
+      "direction": "confident"
     },
     {
       "line": 39,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Better personal responsibility too. I'm sorry, but some of this is on us as individuals. Check on your neighbors. Know who lives on your street.",
-      "direction": null
+      "character": "LEO",
+      "text": "Let me bring in Professor Pringle on this. Doc, you've been quiet. This has to remind you of something historical.",
+      "direction": "transitional"
     },
     {
       "line": 40,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Duke just solved loneliness with suburban nosiness. I respect that.",
-      "direction": "grinning"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Indeed it does, Leo. The story of Lonnie Wayman takes me back to November 11th, 1921. The dedication of the Tomb of the Unknown Soldier at Arlington National Cemetery.",
+      "direction": "measured, storytelling"
     },
     {
       "line": 41,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Mock me all you want. When's the last time you talked to your neighbors?",
-      "direction": "challenging but not hostile"
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Oh wow, we're going back to 1921. I'm buckling in.",
+      "direction": "playful"
     },
     {
       "line": 42,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Um. My neighbor's a cat named The Situation, so, this morning.",
-      "direction": "sheepish"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "After the Great War, there were thousands of unidentified American dead. Bodies so damaged by artillery and gas that they could not be identified. The Army selected four unknowns from different battlefields in France.",
+      "direction": "deliberate"
     },
     {
       "line": 43,
-      "segment": "deep_dive",
+      "segment": "pringle",
       "character": "BREE",
-      "text": "I actually think Duke's right about that part. My building has a group chat now. It's mostly noise complaints, but still.",
-      "direction": "conceding"
+      "text": "This is already devastating.",
+      "direction": "quiet"
     },
     {
       "line": 44,
-      "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Alright, so the Tennessee story gives us both — institutional failure and individual response. The question is whether three hundred people showing up makes the failure better or just more visible.",
-      "direction": "wrapping"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Sergeant Edward Younger, himself a veteran, was chosen to select one casket. He walked around each casket several times, then placed a bouquet of white roses on one. That soldier became the Unknown Soldier.",
+      "direction": "reverent"
     },
     {
       "line": 45,
-      "segment": "deep_dive",
+      "segment": "pringle",
       "character": "DUKE",
-      "text": "I'll take visible failure over invisible failure any day. At least visible failure gets addressed.",
-      "direction": null
+      "text": "And we've been guarding that tomb ever since.",
+      "direction": "respectful"
     },
     {
       "line": 46,
       "segment": "pringle",
-      "character": "LEO",
-      "text": "Professor, this has to connect to something in history — communities honoring unknown or unclaimed service members.",
-      "direction": null
+      "character": "PRINGLE",
+      "text": "Twenty-four hours a day, seven days a week, since 1937. Through hurricanes, blizzards, the attacks of September 11th. The Old Guard maintains their vigil.",
+      "direction": "solemn"
     },
     {
       "line": 47,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Indeed it does, and quite directly. The Tomb of the Unknown Soldier at Arlington — dedicated in nineteen twenty-one — emerged from precisely this impulse.",
-      "direction": null
+      "character": "LEO",
+      "text": "What's the parallel you're drawing, Professor?",
+      "direction": "prompting"
     },
     {
       "line": 48,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "After the Great War, we had thousands of unidentified remains. Families back home had no grave to visit, no place to mourn. The Army realized this was, in Duke's parlance, a systemic problem.",
-      "direction": "slight warmth at the reference"
+      "text": "The Unknown Soldier represents every unidentified service member. But Lonnie Wayman was not unknown — he was unclaimed. The community in Tennessee performed the same function as Sergeant Younger. They claimed him.",
+      "direction": "connecting dots"
     },
     {
       "line": 49,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "Huh. So they made one grave represent all of them?",
-      "direction": "curious"
+      "character": "JAX",
+      "text": "Oh damn. That's actually beautiful.",
+      "direction": "genuinely moved"
     },
     {
       "line": 50,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "Precisely. One unknown soldier, representing all unknown soldiers. But here's the fascinating part — they didn't just bury him quietly. They made it the most honored grave in America.",
-      "direction": null
+      "text": "Throughout history, societies have grappled with how to honor military dead who have no one to mourn them. The Romans created the cult of the war dead. The British built the Cenotaph. We created Arlington.",
+      "direction": "professorial"
     },
     {
       "line": 51,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Twenty-four hour guard. Changing of the guard ceremony. Wreath laying by presidents. The most anonymous soldier in American history became the most famous.",
-      "direction": null
+      "character": "BREE",
+      "text": "But those are all institutional responses, Doc. Government responses.",
+      "direction": "making a point"
     },
     {
       "line": 52,
       "segment": "pringle",
-      "character": "BREE",
-      "text": "That's actually beautiful. And it serves the living families, not just the dead soldier.",
-      "direction": "thoughtful"
+      "character": "PRINGLE",
+      "text": "Quite right, Bree. But they began as community responses. Families placing flowers on graves. Neighbors maintaining monuments. The institutions came later to formalize what communities were already doing.",
+      "direction": "gentle correction"
     },
     {
       "line": 53,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Exactly right, Miss Aldana. It gave every Gold Star family a place to mourn their unidentified son. It transformed individual grief into collective mourning.",
-      "direction": null
+      "character": "DUKE",
+      "text": "See? Community first, government second.",
+      "direction": "vindicated"
     },
     {
       "line": 54,
       "segment": "pringle",
-      "character": "JAX",
-      "text": "Wait, so we've been doing the community funeral thing for over a hundred years?",
-      "direction": null
+      "character": "PRINGLE",
+      "text": "The question, Duke, is what happens when community fails. During the Civil War, Clara Barton spent decades searching for missing soldiers because families couldn't do it alone. Sometimes institutions must step in where community cannot reach.",
+      "direction": "thoughtful"
     },
     {
       "line": 55,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "In a sense, yes. Though the tomb honors the unknown, not the unclaimed. There's a distinction. Unknown soldiers died in service. Unclaimed veterans often died in peacetime, forgotten by circumstance rather than war.",
-      "direction": null
+      "character": "BREE",
+      "text": "Thank you. That's exactly what I'm saying.",
+      "direction": "feeling supported"
     },
     {
       "line": 56,
       "segment": "pringle",
-      "character": "LEO",
-      "text": "So the Tennessee funeral is actually filling a gap that the tomb tradition doesn't cover.",
-      "direction": null
+      "character": "PRINGLE",
+      "text": "The inscription on the Tomb of the Unknown Soldier reads 'Here rests in honored glory an American soldier known but to God.' Lonnie Wayman was known to God — and thanks to Tennessee, known to us as well.",
+      "direction": "concluding"
     },
     {
       "line": 57,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Quite so. The tomb says 'we honor our war dead.' The Tennessee funeral says 'we honor our veterans, period.' It's an evolution of the same principle.",
-      "direction": null
+      "character": "LEO",
+      "text": "Thank you, Professor. That's a beautiful way to frame it.",
+      "direction": "grateful"
     },
     {
       "line": 58,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "That makes me feel better about it, actually. Like there's precedent for caring about people you never met.",
-      "direction": null
+      "character": "JAX",
+      "text": "I need a minute. That was heavier than I expected for a Monday morning.",
+      "direction": "emotional"
     },
     {
       "line": 59,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "There's more. In ancient Rome, soldiers who died far from home were buried with coins over their eyes — payment for Charon to ferry them across the river Styx. The community took responsibility for the dead soldier's journey.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Let's shift gears. Deputy Attorney General Todd Blanche announced a new DOJ fraud division last week, and the numbers he cited are staggering.",
+      "direction": "transitional"
     },
     {
       "line": 60,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Every culture has some version of this. The Scots have the 'Unknown Warrior' at Edinburgh Castle. The French have their 'Soldat Inconnu' under the Arc de Triomphe. It's a human constant — the community claims the unclaimed.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Finally. Do you know how much money we're losing to fraud every year?",
+      "direction": "engaged"
     },
     {
       "line": 61,
-      "segment": "pringle",
-      "character": "BREE",
-      "text": "So maybe what happened in Tennessee wasn't performative. Maybe it was just... human nature?",
-      "direction": "reconsidering"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Blanche gave one example — two men from Pennsylvania who got four million dollars in federal funding for homeless shelters in Minneapolis. The shelters didn't exist.",
+      "direction": "factual"
     },
     {
       "line": 62,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "I would argue it's both. Performance in the best sense — a ritual that serves a social function. Theater that creates meaning.",
-      "direction": null
-    },
-    {
-      "line": 63,
-      "segment": "pringle",
+      "segment": "deep_dive",
       "character": "JAX",
-      "text": "Doc just made me feel smarter about crying over a news story. Thank you.",
-      "direction": "genuine gratitude"
-    },
-    {
-      "line": 64,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "The tears are the point, young man. Grief shared is grief diminished. The Romans knew this. So did the people of Tennessee.",
-      "direction": "gentle"
-    },
-    {
-      "line": 65,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Alright, time to cleanse the palate with some truly absurd news. First up — a boss in Ireland repeatedly shouted the word 'potato' at his Irish employee and somehow thought this wouldn't be a harassment lawsuit.",
+      "text": "Wait, they just... asked for money for fake homeless shelters and got it?",
       "direction": "incredulous"
     },
     {
-      "line": 66,
-      "segment": "rapid_fire",
+      "line": 63,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "They got signatures from actual homeless people in Minneapolis and promised they'd receive appropriate care. Then took the money and ran.",
+      "direction": "explaining"
+    },
+    {
+      "line": 64,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "That's horrific. Those are real people who needed help and these guys used them as props for fraud.",
+      "direction": "angry"
+    },
+    {
+      "line": 65,
+      "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Just... potato? Like, as an insult?",
-      "direction": "confused"
+      "text": "And this is why I don't trust big government programs. There's no accountability. Blanche said the feds give money away like candy.",
+      "direction": "frustrated"
+    },
+    {
+      "line": 66,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "The problem isn't the programs, Duke. The problem is inadequate oversight. These programs help millions of people legitimately.",
+      "direction": "defensive"
     },
     {
       "line": 67,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Apparently! The employment tribunal said it created a 'hostile work environment.' I mean, yeah. If my boss kept yelling vegetables at me, I'd be hostile too.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "And they also help millions of people fraudulently, apparently. School lunch programs, daycare centers that don't exist — how do you not notice that a daycare center doesn't exist?",
+      "direction": "building intensity"
     },
     {
       "line": 68,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "That's just straight-up ethnic harassment. Not funny at all.",
-      "direction": "serious"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "The new division promises prosecution for any fraud over a thousand dollars. Quote — 'If you steal $1001, that's a felony, and you are going to go to prison.'",
+      "direction": "reading quote"
     },
     {
       "line": 69,
-      "segment": "rapid_fire",
+      "segment": "deep_dive",
       "character": "JAX",
-      "text": "You're absolutely right. Moving on — remember Palantir's scary AI weapons system that everyone was worried about? Well, it's now being used to help government workers find office chairs.",
-      "direction": null
+      "text": "A thousand bucks? That seems low for federal prosecution.",
+      "direction": "questioning"
     },
     {
       "line": 70,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "I'm sorry, what?",
-      "direction": "disbelieving"
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Low? It's perfect. You want to stop fraud? Make it hurt. Make people believe they'll actually get caught and go to prison for stealing taxpayer money.",
+      "direction": "emphatic"
     },
     {
       "line": 71,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "I kid you not. The same AI that was designed to identify enemy combatants is now helping the General Services Administration optimize furniture procurement. From targeting humans to targeting ergonomic seating solutions.",
-      "direction": "building to the punchline"
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But is that cost-effective? Federal prosecutors going after thousand-dollar fraud cases? The court costs alone—",
+      "direction": "analytical"
     },
     {
       "line": 72,
-      "segment": "rapid_fire",
+      "segment": "deep_dive",
       "character": "DUKE",
-      "text": "That's the most government thing I've ever heard. Take a two-billion-dollar weapons system and use it for office supplies.",
-      "direction": "deadpan"
+      "text": "Bree, you're missing the point. It's about deterrence. If people think they can steal a thousand bucks and nothing happens, they'll steal ten thousand next time.",
+      "direction": "cutting her off"
     },
     {
       "line": 73,
-      "segment": "rapid_fire",
+      "segment": "deep_dive",
       "character": "BREE",
-      "text": "Honestly? I prefer this. Less murder, more lumbar support.",
-      "direction": null
+      "text": "I get deterrence, but there's also something called prosecutorial discretion. Should federal resources really go toward—",
+      "direction": "arguing back"
     },
     {
       "line": 74,
-      "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "Swords into plowshares. Or in this case, algorithms into adjustable desk chairs.",
-      "direction": "amused"
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Yes. Absolutely yes. Every dollar stolen from taxpayers is a dollar that doesn't go to people who actually need it.",
+      "direction": "firm"
     },
     {
       "line": 75,
-      "segment": "rapid_fire",
+      "segment": "deep_dive",
       "character": "JAX",
-      "text": "Next — Louisiana schools have until Friday to post the Ten Commandments in every classroom, and apparently nobody thought about what happens if you're Jewish or Muslim or, you know, care about the First Amendment.",
-      "direction": null
+      "text": "Okay, but like, are we sure the system is ready for this? Because if they're prosecuting everyone who steals a thousand bucks, the courts are gonna be backed up until 2030.",
+      "direction": "practical concern"
     },
     {
       "line": 76,
-      "segment": "rapid_fire",
+      "segment": "deep_dive",
       "character": "LEO",
-      "text": "That's heading straight to the Supreme Court.",
-      "direction": null
+      "text": "That's actually a fair point. The Justice Department is creating an entirely new division with a dedicated assistant attorney general, which suggests they're expecting a lot of cases.",
+      "direction": "moderating"
     },
     {
       "line": 77,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "I mean, look, I'm a religious guy, but you can't just mandate one religion in public schools. That's not how this works.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "And that means a lot of fraud is happening. Which brings me back to my original point — maybe we should focus on preventing fraud instead of just prosecuting it after the fact.",
+      "direction": "circling back"
     },
     {
       "line": 78,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Thank you. Also, which version of the Ten Commandments? Catholic? Protestant? Jewish? They're not all the same.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "You can't prevent fraud, Bree. People are gonna try to steal money. The only thing that stops them is knowing they'll get caught and punished.",
+      "direction": "matter-of-fact"
     },
     {
       "line": 79,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Oh, and final story — a Florida drug dealer locked his customer in a storage unit for months over an unpaid debt, which I guess is one way to handle collections.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But you can make it harder. Better verification systems, cross-referencing databases, requiring physical inspections—",
+      "direction": "listing solutions"
     },
     {
       "line": 80,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "Jesus Christ.",
-      "direction": "appalled"
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "More bureaucracy. More delays. More barriers for legitimate people who need help.",
+      "direction": "dismissive"
     },
     {
       "line": 81,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "The guy survived on what the dealer brought him, which apparently was not a lot. He's in the hospital now, the dealer's in jail, and I have so many questions about the logistics of this operation.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "It's not more bureaucracy, it's competent administration. There's a difference.",
+      "direction": "sharp"
     },
     {
       "line": 82,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Like, did he pay rent on the storage unit? Was that factored into the debt?",
-      "direction": "dark humor"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Alright, let's move on. We've got housing legislation making unexpected progress in the Senate.",
+      "direction": "wrapping up"
     },
     {
       "line": 83,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Duke, no. This is kidnapping and torture, not a business model.",
-      "direction": "horrified"
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "Oh right, the thing I joked about earlier. Congress actually doing something.",
+      "direction": "remembering"
     },
     {
       "line": 84,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "You're right. That was dark, even for me.",
-      "direction": "apologetic"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "The Times reports that comprehensive housing legislation is moving forward, addressing affordability issues that are expected to dominate the midterms.",
+      "direction": "informative"
     },
     {
       "line": 85,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Florida continues to be the state where the laws of physics and human decency go to die.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "This is huge. Housing costs are the number one economic issue for most Americans right now.",
+      "direction": "excited"
     },
     {
       "line": 86,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Alright, your Daily Do. That Tennessee story got me thinking — there are probably unclaimed veteran services happening near you that could use community support.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "And it's also a local issue, not a federal one. Zoning is handled by cities and counties, not Washington.",
+      "direction": "skeptical"
     },
     {
       "line": 87,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Check your local VA cemetery website or call them directly. Many host services for unclaimed veterans throughout the year, and they're always looking for community members to attend.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But federal policy can incentivize local reform. Tax credits for cities that eliminate single-family zoning, funding tied to housing production targets—",
+      "direction": "explaining quickly"
     },
     {
       "line": 88,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "You don't have to be a veteran. You don't have to know the person. You just have to show up. Sometimes that's enough.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "So bribery. The federal government bribing local governments to ignore their voters' preferences on zoning.",
+      "direction": "cutting"
     },
     {
       "line": 89,
-      "segment": "daily_do",
-      "character": "DUKE",
-      "text": "That's a good one, Leo. I'm gonna look into that myself.",
-      "direction": "sincere"
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "It's not bribery, it's policy alignment. And voters' preferences often reflect NIMBY attitudes that make housing unaffordable for everyone else.",
+      "direction": "frustrated"
     },
     {
       "line": 90,
-      "segment": "daily_do",
-      "character": "PRINGLE",
-      "text": "As Marcus Aurelius wrote, 'What brings no benefit to the hive can bring none to the bee.' Sometimes being part of the hive means showing up for someone you never met.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "NIMBY?",
+      "direction": "confused"
     },
     {
       "line": 91,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "That's The Friction. We're back tomorrow with more news that matters and jokes that probably don't. I'm Jax, and remember — if you steal one thousand and one dollars, Todd Blanche is coming for you.",
-      "direction": "grinning"
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Not In My Backyard. People who want affordable housing in theory but fight against it in their neighborhood.",
+      "direction": "defining"
     },
     {
       "line": 92,
-      "segment": "daily_do",
+      "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Very specific threat there, Jax.",
-      "direction": "chuckling"
+      "text": "Or people who bought homes in neighborhoods they liked and don't want them turned into apartment complexes. That's not NIMBY, that's property rights.",
+      "direction": "defending"
     },
     {
       "line": 93,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "We're going to have to leave that there. Time for Rapid Fire with Jax.",
+      "direction": "transitional"
+    },
+    {
+      "line": 94,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Alright everybody, time to cleanse the palate with some truly bizarre news. First up — an Irish employee is suing his boss for workplace harassment because the boss repeatedly shouted 'potato' at him.",
+      "direction": "amused"
+    },
+    {
+      "line": 95,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Potato?",
+      "direction": "confused"
+    },
+    {
+      "line": 96,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Potato. Like, just the word 'potato.' Apparently this went on for months. The guy would walk by and his boss would just yell 'POTATO!' at him.",
+      "direction": "building the absurdity"
+    },
+    {
+      "line": 97,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "That's... that's actually really messed up. Irish potato famine references? That's not funny, that's ethnic harassment.",
+      "direction": "serious"
+    },
+    {
+      "line": 98,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Right? Like, if someone kept yelling 'pasta' at me because I'm Italian, I'd be pissed too. Except I'm not Italian, I'm Irish, so I guess they'd yell 'potato' at me too.",
+      "direction": "working through it"
+    },
+    {
+      "line": 99,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Wait, you're Irish?",
+      "direction": "surprised"
+    },
+    {
+      "line": 100,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Mooney? From Revere? Come on, Duke. Next story — Palantir's AI weapons technology has been reassigned to help the government find office chairs.",
+      "direction": "moving on quickly"
+    },
+    {
+      "line": 101,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "I'm sorry, what?",
+      "direction": "double-take"
+    },
+    {
+      "line": 102,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "The same AI that was designed to identify enemy combatants is now being used to locate ergonomic office furniture for federal employees. Apparently there's a chair shortage.",
+      "direction": "deadpan"
+    },
+    {
+      "line": 103,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "This reminds me of the Pentagon's infamous toilet seat scandal of the 1980s.",
+      "direction": "thoughtful"
+    },
+    {
+      "line": 104,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Doc, please tell me the government didn't spend millions on toilet seats.",
+      "direction": "pleading"
+    },
+    {
+      "line": 105,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "Six hundred dollars per toilet seat for the C-5A Galaxy transport aircraft. The chairs, I suspect, will cost considerably more.",
+      "direction": "dry"
+    },
+    {
+      "line": 106,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Of course they will. Next — Louisiana schools must display the Ten Commandments in classrooms by Friday. This is apparently still happening.",
+      "direction": "matter-of-fact"
+    },
+    {
+      "line": 107,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Oh, the separation of church and state lawsuit is gonna be massive.",
+      "direction": "predicting"
+    },
+    {
+      "line": 108,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Good. Maybe kids will learn something about moral behavior for once.",
+      "direction": "supportive"
+    },
+    {
+      "line": 109,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Duke, public schools can't—",
+      "direction": "starting to argue"
+    },
+    {
+      "line": 110,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Nope, nope, we're moving on. Last story — a Florida drug dealer locked a man in a storage unit for months over an unpaid debt.",
+      "direction": "cutting off debate"
+    },
+    {
+      "line": 111,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Months?",
+      "direction": "shocked"
+    },
+    {
+      "line": 112,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Months. The guy survived on gas station snacks and energy drinks. When they finally found him, he'd organized the entire storage unit and written a memoir on the back of cardboard boxes.",
+      "direction": "building the story"
+    },
+    {
+      "line": 113,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Florida Man strikes again.",
+      "direction": "resigned"
+    },
+    {
+      "line": 114,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "That's kidnapping. That's literally kidnapping.",
+      "direction": "appalled"
+    },
+    {
+      "line": 115,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "It's Florida. Different rules apply. The memoir is apparently being shopped to publishers as we speak.",
+      "direction": "joking"
+    },
+    {
+      "line": 116,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "The Count of Monte Cristo meets Breaking Bad. Alexandre Dumas would be fascinated.",
+      "direction": "amused"
+    },
+    {
+      "line": 117,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "And that's your Rapid Fire for today. Leo, take us home.",
+      "direction": "wrapping up"
+    },
+    {
+      "line": 118,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Time for the Daily Do. Today's story about Lonnie Wayman reminded me that there are probably veterans in your community right now who could use some company.",
+      "direction": "thoughtful"
+    },
+    {
+      "line": 119,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "So here's what you can do today — check in on an elderly neighbor or veteran you know. Not because the government told you to, not because of any program or policy. Just because it's the right thing to do.",
+      "direction": "encouraging"
+    },
+    {
+      "line": 120,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "A simple conversation can make all the difference. Ask how they're doing. Listen to their stories. Maybe they'll tell you about their service, maybe they won't. Either way, they'll know someone cares.",
+      "direction": "warm"
+    },
+    {
+      "line": 121,
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "That's actually perfect, Leo.",
+      "direction": "approving"
+    },
+    {
+      "line": 122,
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "Community in action.",
+      "direction": "satisfied"
+    },
+    {
+      "line": 123,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Professor, take us out with a quote.",
+      "direction": "prompting"
+    },
+    {
+      "line": 124,
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "From the inscription at Arlington National Cemetery — 'Here rests in honored glory an American soldier known but to God.' Today, let's make sure fewer soldiers rest known only to God.",
+      "direction": "solemn"
+    },
+    {
+      "line": 125,
       "segment": "daily_do",
       "character": "JAX",
-      "text": "Hey, I don't make the rules. I just mock them. See you tomorrow.",
-      "direction": null
+      "text": "Damn, Doc. You always nail the landing.",
+      "direction": "impressed"
+    },
+    {
+      "line": 126,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "I'm Leo Barros. Thanks for listening to The Friction. We'll see you tomorrow.",
+      "direction": "sign-off"
     }
   ]
 }
