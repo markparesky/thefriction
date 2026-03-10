@@ -787,6 +787,51 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "quiet",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "The Suburb That Won’t Sleep",
+          "source": "New York Times",
+          "keywords": [
+            "suburb",
+            "wont",
+            "sleep"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "F.D.A. Opens Door to More Flavored E-Cigarettes",
+          "source": "New York Times",
+          "keywords": [
+            "fda",
+            "opens",
+            "door",
+            "flavored",
+            "ecigarettes"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Tarik Skubal leaves Team USA to return to Tigers camp despite mixed feelings after successful start",
+          "source": "Fox News",
+          "keywords": [
+            "tarik",
+            "skubal",
+            "leaves",
+            "team",
+            "usa",
+            "return",
+            "tigers",
+            "camp",
+            "despite",
+            "mixed"
+          ]
+        }
+      ]
     }
   ]
 }
