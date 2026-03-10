@@ -136,7 +136,10 @@ def synthesize_line(text: str, character: str, line_num: int, direction: str = "
                 time.sleep(retry_after)
 
             elif response.status_code == 401:
-                logger.error("ElevenLabs API key is invalid. Check ELEVENLABS_API_KEY.")
+                logger.error(f"ElevenLabs API key rejected. Status: 401")
+                logger.error(f"Response: {response.text[:500]}")
+                logger.error(f"Key used starts with: {ELEVENLABS_API_KEY[:10]}...")
+                logger.error(f"Key length: {len(ELEVENLABS_API_KEY)}")
                 sys.exit(1)
 
             elif response.status_code == 422:
