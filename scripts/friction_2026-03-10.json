@@ -3,30 +3,30 @@
     "episode_date": "2026-03-10",
     "episode_archetype": "quiet",
     "headlines": {
-      "geopolitics": "Iranian Military Shows It Knows How to Adapt, U.S. Officials Say",
-      "economy": "Culture at Columbia Shielded Sexual Assault by Physician, Report Finds",
-      "domestic": "Fox News Poll: Voters expect AI to transform our lives — but today is not that day"
+      "geopolitics": "Navy veteran with no known family buried with full military honors as community refuses to let him be buried alone",
+      "economy": "DOJ launches new fraud division targeting 'insane' levels of federal program abuse",
+      "domestic": "New poll shows 87% expect AI to transform American life, but most don't find it useful yet"
     },
-    "daily_do": "Check your own AI detection skills — try identifying if something is AI-generated before checking. Building that muscle now matters more than waiting for perfect tools.",
+    "daily_do": "Check on an elderly neighbor or veteran in your community this week",
     "pringle_mode": "direct_parallel",
     "clips": [
       {
-        "start_line": 67,
-        "end_line": 74,
-        "caption": "When Duke realizes he might be using AI without knowing it 😅",
+        "start_line": 78,
+        "end_line": 85,
+        "caption": "When Duke gets unexpectedly emotional about military service",
         "platform": "tiktok"
       },
       {
-        "start_line": 102,
-        "end_line": 109,
-        "caption": "Dr. Pringle drops historical truth about technology adoption",
+        "start_line": 142,
+        "end_line": 149,
+        "caption": "Pringle drops historical knowledge about the Tomb of the Unknown Soldier",
         "platform": "youtube"
       },
       {
-        "start_line": 135,
-        "end_line": 142,
-        "caption": "Jax's take on aliens vs AI priorities has us dying",
-        "platform": "tiktok"
+        "start_line": 167,
+        "end_line": 174,
+        "caption": "Jax discovers the most ridiculous government AI contract ever",
+        "platform": "x"
       }
     ]
   },
@@ -35,897 +35,701 @@
       "line": 1,
       "segment": "cold_open",
       "character": "DUKE",
-      "text": "Wait, so you're telling me that thing I've been using to write thank you notes might actually be— oh man, Jenny's gonna kill me.",
-      "direction": "dawning realization turning to panic"
+      "text": "Look, I've been to too many funerals where three people showed up. But when hundreds of strangers come out for a guy they never met? That's not just nice. That's America.",
+      "direction": "quiet, emotional"
     },
     {
       "line": 2,
       "segment": "brief",
       "character": "LEO",
-      "text": "It's Monday, March 10th. I'm Leo Barros, and this is The Friction. Let's start with what we know.",
-      "direction": "measured, authoritative"
+      "text": "Good morning, I'm Leo Barros. It's Monday, March 10th. Here's what happened while you were sleeping off your weekend.",
+      "direction": "standard opening pace"
     },
     {
       "line": 3,
       "segment": "brief",
       "character": "LEO",
-      "text": "Geopolitics first. U.S. officials are reporting that Iran's military is showing tactical adaptability, specifically targeting what they see as American vulnerabilities in our regional air defense systems.",
+      "text": "Geopolitics first. A Navy veteran named Lonnie Wayman died with no known family in Tennessee. Officials marked his file as 'unclaimed.' But when word got out, hundreds of people showed up to his funeral yesterday morning.",
       "direction": null
     },
     {
       "line": 4,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "Of course they are.",
-      "direction": "flat, unsurprised"
+      "character": "JAX",
+      "text": "Oh man.",
+      "direction": "soft reaction"
     },
     {
       "line": 5,
       "segment": "brief",
       "character": "LEO",
-      "text": "The Times is reporting this as Iran probing for weaknesses in systems designed to protect U.S. troops and assets in the region.",
+      "text": "Full military honors. Veterans groups, community members, people who'd never heard his name filled the sanctuary and stood outside. A VA rep said the word 'unclaimed' was wrong — the military community had claimed him.",
       "direction": null
     },
     {
       "line": 6,
       "segment": "brief",
       "character": "BREE",
-      "text": "How is this different from what they've been doing for, like, the past decade?",
-      "direction": "genuinely curious"
+      "text": "That's beautiful.",
+      "direction": "quietly moved"
     },
     {
       "line": 7,
       "segment": "brief",
       "character": "LEO",
-      "text": "Good question. We'll get into that. Economy next — an external investigation found that Columbia University and NewYork-Presbyterian Hospital mishandled sexual assault allegations against physician Robert Hadden.",
+      "text": "Economy. Deputy Attorney General Todd Blanche announced a new DOJ fraud division targeting what he calls 'insane' levels of Medicaid and federal program fraud.",
       "direction": null
     },
     {
       "line": 8,
       "segment": "brief",
       "character": "LEO",
-      "text": "Two affiliated doctors have resigned following the report's findings about what investigators called a culture that enabled the abuse.",
+      "text": "He cited two Pennsylvania men who got four million dollars in federal funds for fake homeless shelters in Minneapolis. The new division will prosecute any fraud over a thousand dollars as a felony.",
       "direction": null
     },
     {
       "line": 9,
       "segment": "brief",
-      "character": "PRINGLE",
-      "text": "Institutional protection over individual accountability. Tale as old as time, I'm afraid.",
-      "direction": "weary"
+      "character": "DUKE",
+      "text": "About time.",
+      "direction": "flat approval"
     },
     {
       "line": 10,
       "segment": "brief",
-      "character": "JAX",
-      "text": "Wait, is this the same Columbia that's been in the news for like seventeen other scandals this year?",
+      "character": "LEO",
+      "text": "Domestic. A new Fox News poll shows eighty-seven percent of voters expect AI to significantly change American life, but only forty-seven percent find it useful in daily life right now.",
       "direction": null
     },
     {
       "line": 11,
       "segment": "brief",
       "character": "LEO",
-      "text": "Different issue, same institution. And domestically, a Fox News poll shows eighty-seven percent of voters expect AI to transform American life, but only forty-seven percent find it useful in their daily activities right now.",
+      "text": "Eighty-nine percent want disclosure requirements for AI-generated content. Eighty percent are concerned AI is eroding trust in news and social media.",
       "direction": null
     },
     {
       "line": 12,
       "segment": "brief",
-      "character": "BREE",
-      "text": "So we think it's coming but we're not there yet. That actually makes sense.",
-      "direction": null
+      "character": "JAX",
+      "text": "I mean, yeah. Have you seen the deepfakes of me on TikTok? I look way better in them.",
+      "direction": "deadpan"
     },
     {
       "line": 13,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "Eighty-nine percent want disclosure requirements for AI content. I mean, yeah, obviously.",
-      "direction": null
+      "character": "BREE",
+      "text": "There are deepfakes of you?",
+      "direction": "incredulous"
     },
     {
       "line": 14,
       "segment": "brief",
       "character": "JAX",
-      "text": "Also, seventy-four percent of people think aliens exist. Just throwing that out there.",
-      "direction": "casual, like it's totally normal"
+      "text": "Not yet, but I'm manifesting it.",
+      "direction": null
     },
     {
       "line": 15,
       "segment": "brief",
       "character": "LEO",
-      "text": "We'll get to the aliens, Jax. Let's start with Iran.",
-      "direction": "patient but firm"
+      "text": "And in a fun bonus finding, seventy-four percent of Americans believe intelligent life exists somewhere else in the universe.",
+      "direction": null
     },
     {
       "line": 16,
-      "segment": "deep_dive",
-      "character": "LEO",
-      "text": "So, Duke, you served in the region. When officials say Iran is showing 'tactical adaptability,' what does that actually mean?",
-      "direction": null
+      "segment": "brief",
+      "character": "DUKE",
+      "text": "Have they met Congress?",
+      "direction": "deadpan"
     },
     {
       "line": 17,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "It means they're not stupid. Look, every military studies their opponent's weaknesses. The fact that we're surprised by this is kind of embarrassing.",
-      "direction": null
+      "segment": "brief",
+      "character": "JAX",
+      "text": "Boom! Duke with the drive-by!",
+      "direction": "laughing"
     },
     {
       "line": 18,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "But isn't the bigger question why we have air defense vulnerabilities in the first place? I mean, we spend more on defense than the next ten countries combined.",
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Alright, let's dig into that Tennessee story because it says something about who we are.",
       "direction": null
     },
     {
       "line": 19,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Because perfect defense doesn't exist, Bree. Every system has gaps. The question is whether you adapt faster than the other guy finds them.",
+      "character": "LEO",
+      "text": "Lonnie Wayman served in the Navy. He died alone. No family came forward. His file got marked 'unclaimed veteran.' But when the Middle Tennessee State Veterans Cemetery announced his burial, hundreds showed up.",
       "direction": null
     },
     {
       "line": 20,
       "segment": "deep_dive",
       "character": "LEO",
-      "text": "The Times suggests Iran is specifically targeting what they perceive as American vulnerabilities. Duke, is this escalation or just intelligence gathering?",
+      "text": "The sanctuary was packed. People stood outside. They released doves. A VA representative said the word 'unclaimed' was wrong — that the military community had claimed him.",
       "direction": null
     },
     {
       "line": 21,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Probably both. They probe, we respond, they learn from our response. It's like— Jenny and I do this dance when we're fighting. She pokes, I react, she learns what buttons to push next time.",
-      "direction": null
+      "character": "BREE",
+      "text": "This is America at its absolute best. Like, this is what we say we are when we talk about community and service.",
+      "direction": "warm but building energy"
     },
     {
       "line": 22,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Did Duke just compare Iranian military strategy to marriage counseling?",
-      "direction": "delighted"
+      "character": "DUKE",
+      "text": "Damn right it is.",
+      "direction": "firm agreement"
     },
     {
       "line": 23,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "I'm saying conflict patterns are conflict patterns, smart guy.",
-      "direction": "defensive but amused"
+      "character": "BREE",
+      "text": "But here's what kills me — where was this community when he was alive? I mean, I'm glad they showed up, but—",
+      "direction": "trying to balance appreciation with criticism"
     },
     {
       "line": 24,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "But here's what I don't get. If we know they're probing for weaknesses, and we know where our vulnerabilities are, why not just— I don't know, fix them?",
-      "direction": null
+      "character": "DUKE",
+      "text": "Hold on, hold on. You don't know what his life was like. Maybe he was private. Maybe he didn't want help.",
+      "direction": "pushing back"
     },
     {
       "line": 25,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Because you fix one, three more pop up. It's not whack-a-mole, it's chess. Every move creates new positions.",
-      "direction": null
+      "character": "BREE",
+      "text": "Or maybe our systems for taking care of veterans are so broken that people fall through the cracks and we only notice when they're dead.",
+      "direction": "getting heated"
     },
     {
       "line": 26,
       "segment": "deep_dive",
       "character": "LEO",
-      "text": "Bree, you've been critical of our Middle East presence. Does this change your calculus?",
-      "direction": null
+      "text": "What do we actually know about veteran homelessness and isolation?",
+      "direction": "moderating"
     },
     {
       "line": 27,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "Look, I still think we're overextended. But if Iran is actively testing our defenses, pulling back right now sends the wrong signal. It's like— okay, bad analogy time — it's like leaving your house unlocked because you're tired of buying better locks.",
-      "direction": "working through her thoughts"
+      "text": "Thirty-seven thousand veterans experiencing homelessness on any given night. Suicide rates twenty-two percent higher than civilians. Social isolation is a documented crisis.",
+      "direction": "citing data"
     },
     {
       "line": 28,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "That's actually not a terrible analogy.",
-      "direction": "surprised agreement"
+      "text": "And you know what helps with that? Community. Like what happened yesterday. Those people didn't just show up for a photo op.",
+      "direction": null
     },
     {
       "line": 29,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Thank you. I think.",
-      "direction": null
+      "character": "JAX",
+      "text": "Can I just— this is gonna sound weird, but I teared up reading this story. Like, actually teared up.",
+      "direction": "uncharacteristically vulnerable"
     },
     {
       "line": 30,
       "segment": "deep_dive",
       "character": "LEO",
-      "text": "So what's the play here? More defense spending? Diplomatic engagement? Both?",
+      "text": "Why?",
       "direction": null
     },
     {
       "line": 31,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "You shore up the defenses first. Then you talk. Diplomacy from weakness is just begging.",
-      "direction": null
+      "character": "JAX",
+      "text": "Because it's like— we're all so divided about everything, right? But put out the call that a veteran needs people to show up, and hundreds of strangers just... show up.",
+      "direction": "working through the thought"
     },
     {
       "line": 32,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "But Duke, that's exactly the thinking that got us into this arms race in the first place. At some point, someone has to—",
-      "direction": "getting animated"
+      "text": "That's exactly my point though. We can mobilize for a funeral but not for housing assistance or mental health services or—",
+      "direction": "frustrated"
     },
     {
       "line": 33,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Someone has to what? Trust Iran? Come on.",
-      "direction": "incredulous"
+      "text": "Look, I've been to military funerals. I've been to too many of them.",
+      "direction": "getting serious"
     },
     {
       "line": 34,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Not trust. Engage. There's a difference between trusting someone and talking to them.",
-      "direction": null
+      "character": "DUKE",
+      "text": "And I've been to funerals where three people showed up because the guy was difficult, or proud, or just... lost touch. But when hundreds of strangers come out for a guy they never met?",
+      "direction": "building emotion"
     },
     {
       "line": 35,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Can I just say, as the guy who doesn't know anything about military strategy, this whole conversation is giving me anxiety about things I didn't know I should be anxious about?",
-      "direction": null
+      "character": "DUKE",
+      "text": "That's not just nice. That's America. That's the promise we made when he raised his right hand.",
+      "direction": "quiet conviction"
     },
     {
       "line": 36,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Welcome to foreign policy, Jax. Professor, you've been quiet. Historical perspective?",
-      "direction": null
+      "character": "BREE",
+      "text": "But Duke, the promise was also that we'd take care of him while he was alive.",
+      "direction": "gentle but persistent"
     },
     {
       "line": 37,
       "segment": "deep_dive",
-      "character": "PRINGLE",
-      "text": "Oh, I'm saving the good stuff for my segment. But I will say this— every empire thinks it's the first to face adaptive adversaries. None of them are.",
-      "direction": "cryptic but amused"
+      "character": "DUKE",
+      "text": "And maybe we failed at that. I'm not arguing we didn't. But yesterday? Yesterday we didn't fail.",
+      "direction": null
     },
     {
       "line": 38,
-      "segment": "pringle",
+      "segment": "deep_dive",
       "character": "LEO",
-      "text": "Alright, Professor, the floor is yours.",
+      "text": "There's something about military service that creates this... permanent bond, right? Even with people you've never met.",
       "direction": null
     },
     {
       "line": 39,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Thank you, Leo. Now, when I hear about Iran probing American defenses, I'm reminded of something that happened in October 1962.",
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "It's tribal. In the best way. You serve, you're family. Doesn't matter when, doesn't matter where.",
       "direction": null
     },
     {
       "line": 40,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "The Soviets had been testing American radar coverage over Alaska for months. Not with missiles— with aircraft. Flying patterns, turning back, seeing how we responded.",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "I get that, I do. But can we channel that same energy into making sure the next Lonnie Wayman doesn't die alone in the first place?",
+      "direction": "earnest"
     },
     {
       "line": 41,
-      "segment": "pringle",
+      "segment": "deep_dive",
       "character": "JAX",
-      "text": "Wait, during the Cuban Missile Crisis?",
-      "direction": null
+      "text": "What if we just made this a thing? Like, not just for veterans but for anybody who dies alone. Just... show up.",
+      "direction": "thinking out loud"
     },
     {
       "line": 42,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Precisely. While Kennedy and Khrushchev were playing nuclear chess in the Caribbean, Soviet pilots were mapping our blind spots in the Arctic. Classic misdirection.",
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "There are actually groups that do this. Volunteer mourners for people with no family.",
       "direction": null
     },
     {
       "line": 43,
-      "segment": "pringle",
-      "character": "DUKE",
-      "text": "So you're saying Iran might be doing this while we're focused somewhere else?",
-      "direction": null
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "See? This is why I listen to this show. I learn stuff and then I feel feelings about it.",
+      "direction": "mock complaint"
     },
     {
       "line": 44,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "I'm saying adversaries always probe when they think you're distracted. The Soviets knew we were fixated on Cuba. What's Iran betting we're fixated on now?",
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Okay but seriously, what's the policy solution here? Because warm feelings don't fix veteran homelessness.",
       "direction": null
     },
     {
       "line": 45,
-      "segment": "pringle",
-      "character": "BREE",
-      "text": "Ukraine? China? Our own political chaos?",
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Sometimes warm feelings are the policy solution. Sometimes community is the answer, not another government program.",
       "direction": null
     },
     {
       "line": 46,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Could be any of those. But here's the thing about 1962— those Soviet test flights actually helped us. We discovered gaps in our coverage and fixed them before they mattered.",
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But Duke, community failed him while he was alive. That's why he died alone.",
       "direction": null
     },
     {
       "line": 47,
-      "segment": "pringle",
-      "character": "LEO",
-      "text": "So Iran testing our defenses might actually be doing us a favor?",
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Or maybe he chose to be alone. You don't know. I don't know. But I know that when it mattered, when it was time to honor him, people showed up.",
       "direction": null
     },
     {
       "line": 48,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "If we're smart about it. The Soviets taught us where we were vulnerable. The question is whether we learn the lesson or just get angry about the test.",
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Alright, let's bring in our historian. Professor, this story feels like it connects to something deeper about how we honor the dead.",
       "direction": null
     },
     {
       "line": 49,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "Huh. So maybe we should be thanking them?",
-      "direction": "dry sarcasm"
+      "character": "PRINGLE",
+      "text": "Indeed it does, Leo. This takes me directly to November 11th, 1921, and the dedication of the Tomb of the Unknown Soldier at Arlington National Cemetery.",
+      "direction": null
     },
     {
       "line": 50,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "I wouldn't go that far. But historically, the militaries that adapt to probing become stronger. The ones that just complain about it get surprised later.",
+      "text": "After the Great War, communities across America and Europe faced a crisis remarkably similar to Mr. Wayman's situation. Thousands of soldiers had died with no identifiable remains, no way to notify families.",
       "direction": null
     },
     {
       "line": 51,
       "segment": "pringle",
-      "character": "JAX",
-      "text": "This is why I love history class with you, Doc. It's like therapy but with more nuclear weapons.",
+      "character": "PRINGLE",
+      "text": "The public response was extraordinary. In Britain, they selected an unknown soldier and buried him in Westminster Abbey. France did the same at the Arc de Triomphe.",
       "direction": null
     },
     {
       "line": 52,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "That might be the most accurate description of my field I've ever heard.",
-      "direction": "chuckling"
+      "text": "But here in America, when they brought the Unknown Soldier to Washington, ninety thousand people attended the ceremony. Ninety thousand. For a man whose name they would never know.",
+      "direction": "building to the point"
     },
     {
       "line": 53,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "Alright, let's shift gears. Jax, what caught your eye today?",
-      "direction": null
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Holy crap, ninety thousand?",
+      "direction": "impressed"
     },
     {
       "line": 54,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Oh man, where do I start? First up, we got this AI poll that's basically Americans saying 'We think robots are coming for us but they're not here yet so pass the popcorn.'",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The inscription reads 'Here rests in honored glory an American soldier known but to God.' The idea being that anonymity did not diminish honor — it amplified it.",
       "direction": null
     },
     {
       "line": 55,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "I mean, that's not wrong though. Eighty-seven percent think AI will change everything, but only forty-seven percent find it useful now.",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "What happened in Tennessee yesterday follows this same impulse. When we cannot honor the individual, we honor the service itself.",
       "direction": null
     },
     {
       "line": 56,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Right? It's like when everyone said the internet would change everything in 1995, but half the websites still looked like they were designed by someone's nephew.",
-      "direction": null
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "Doc, that's beautiful, but the Unknown Soldier died in combat. Lonnie Wayman died of neglect.",
+      "direction": "respectful but challenging"
     },
     {
       "line": 57,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Hold on. Forty-seven percent find it useful? What are people using AI for?",
-      "direction": "genuinely curious"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Ah, but that's where you're mistaken, my dear. We don't know how Mr. Wayman died. We only know he died alone.",
+      "direction": null
     },
     {
       "line": 58,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Writing emails, apparently. And like, homework help. Oh, and Duke, you're gonna love this— the poll shows men under forty-five are most likely to find it useful.",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "And the community's response suggests they understood something profound — that a life of service deserves honor regardless of how it ends.",
       "direction": null
     },
     {
       "line": 59,
-      "segment": "rapid_fire",
+      "segment": "pringle",
       "character": "DUKE",
-      "text": "I'm forty-three.",
-      "direction": "defensive"
+      "text": "That's it exactly. The service matters. Not the circumstances.",
+      "direction": "agreement"
     },
     {
       "line": 60,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "And you're a Republican, which makes you even more likely to find it useful according to this thing.",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "In Roman times, they had a phrase — 'Dulce et decorum est pro patria mori.' It is sweet and proper to die for one's country.",
       "direction": null
     },
     {
       "line": 61,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "I don't use AI.",
-      "direction": "firm"
-    },
-    {
-      "line": 62,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Duke, do you use Google Maps?",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "But I would argue that Tennessee yesterday demonstrated something equally profound — it is sweet and proper to be honored by one's country, regardless of how one dies.",
       "direction": null
     },
     {
+      "line": 62,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Professor, you just made me emotional about Latin. That shouldn't be possible.",
+      "direction": "genuinely moved"
+    },
+    {
       "line": 63,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Yeah, obviously.",
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The Tomb of the Unknown Soldier is guarded twenty-four hours a day, three hundred sixty-five days a year. Rain or shine, guards walk their precise twenty-one steps.",
       "direction": null
     },
     {
       "line": 64,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "That's AI. Do you use predictive text when you're texting Jenny?",
-      "direction": null
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "That's what those people in Tennessee did yesterday — they stood guard for a fallen comrade. They walked their twenty-one steps.",
+      "direction": "concluding thought"
     },
     {
       "line": 65,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Well, yeah, but that's just—",
-      "direction": "starting to realize"
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Professor, thank you. That's a perfect bridge to our rapid fire segment, where Jax will hopefully not make us cry about anything else.",
+      "direction": null
     },
     {
       "line": 66,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "AI. Do you have Netflix recommendations?",
+      "character": "JAX",
+      "text": "No promises! Alright, buckle up for the weird stuff. First up — Palantir, the AI company that helps track terrorists, just got a government contract to find office chairs.",
       "direction": null
     },
     {
       "line": 67,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Wait, so you're telling me that thing I've been using to write thank you notes might actually be— oh man, Jenny's gonna kill me.",
-      "direction": "dawning realization turning to panic"
+      "character": "BREE",
+      "text": "I'm sorry, what?",
+      "direction": "confused"
     },
     {
       "line": 68,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "What do you mean write thank you notes?",
-      "direction": "sensing comedy gold"
+      "text": "They deployed their military-grade AI weapons system to help government workers locate ergonomic seating solutions. I am not making this up.",
+      "direction": null
     },
     {
       "line": 69,
       "segment": "rapid_fire",
       "character": "DUKE",
-      "text": "My phone has this thing where it suggests what to say when I'm texting people thank you messages. I thought it was just being helpful.",
-      "direction": "sheepish"
+      "text": "We spent how much on that?",
+      "direction": "deadpan disbelief"
     },
     {
       "line": 70,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Duke, you've been using AI to write thank you notes?",
-      "direction": "trying not to laugh"
+      "character": "JAX",
+      "text": "Two point seven million dollars. To find chairs. That you can buy on Amazon for ninety-nine bucks.",
+      "direction": null
     },
     {
       "line": 71,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "I guess? Jenny always says my messages sound more thoughtful lately. She's gonna think I'm a fraud.",
-      "direction": "genuine concern"
+      "character": "LEO",
+      "text": "This ties into our fraud story from earlier.",
+      "direction": "connecting dots"
     },
     {
       "line": 72,
       "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "This is exactly what the poll is talking about. Sixty percent of people think they can tell if something is AI-generated, but—",
+      "character": "JAX",
+      "text": "Speaking of which, Louisiana schools have until Friday to post the Ten Commandments in every classroom. But here's the kicker — nobody can agree on which version.",
       "direction": null
     },
     {
       "line": 73,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "But Duke's been accidentally catfishing his own wife with robot thank you notes.",
-      "direction": "delighted"
+      "text": "Catholic version? Protestant? Jewish? Apparently there are like fifteen different translations and they're all arguing about whether it's 'thou shalt not kill' or 'thou shalt not murder.'",
+      "direction": null
     },
     {
       "line": 74,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "That's not— okay, that's probably exactly what I've been doing.",
-      "direction": "defeated"
+      "character": "PRINGLE",
+      "text": "Well, the Hebrew is quite clear — 'lo tirtzach' means unlawful killing, not all killing.",
+      "direction": null
     },
     {
       "line": 75,
       "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "You know, this reminds me of when spell check first became common. People worried it would make us all terrible spellers.",
+      "character": "JAX",
+      "text": "See, this is why I love this show. I learn about ancient Hebrew grammar while talking about Louisiana politics.",
       "direction": null
     },
     {
       "line": 76,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Did it?",
+      "character": "BREE",
+      "text": "What happens if they don't comply by Friday?",
       "direction": null
     },
     {
       "line": 77,
       "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "I can't tell. None of my students spell anything correctly anymore, but they also don't seem to care.",
-      "direction": "matter-of-fact"
+      "character": "JAX",
+      "text": "Unclear! But I'm imagining a very awkward conversation between the state education department and Jesus.",
+      "direction": null
     },
     {
       "line": 78,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "But here's what's interesting about the poll— eighty-nine percent want disclosure requirements. People want to know when they're interacting with AI.",
+      "character": "JAX",
+      "text": "Next up — and this is my favorite — somebody named 'Literally Anybody Else' is officially on the ballot for mayor of a Texas town.",
       "direction": null
     },
     {
       "line": 79,
       "segment": "rapid_fire",
       "character": "DUKE",
-      "text": "Yeah, well, apparently I needed a disclosure requirement for my own phone.",
-      "direction": "still processing his AI revelation"
+      "text": "That's honestly refreshing.",
+      "direction": null
     },
     {
       "line": 80,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "The best part of this poll is that eighty percent of people are worried AI is eroding trust in news and social media. Like, have you seen social media? Trust was already dead and buried.",
+      "text": "Right? Like, at least they're being honest about their qualifications. Their campaign slogan is just 'Why not?'",
       "direction": null
     },
     {
       "line": 81,
       "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "Fair point. What else caught your eye?",
-      "direction": null
+      "character": "BREE",
+      "text": "I mean, have you seen some mayors? Literally anybody else might be an upgrade.",
+      "direction": "laughing"
     },
     {
       "line": 82,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "Oh, the alien thing. Seventy-four percent of Americans think life exists or existed on other planets. Which is actually the most rational thing in this entire poll.",
+      "text": "And finally, because Florida never disappoints — a drug dealer locked his customer in a storage unit for months over an unpaid debt.",
       "direction": null
     },
     {
       "line": 83,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "I mean, statistically, given the size of the universe—",
-      "direction": null
+      "character": "LEO",
+      "text": "For months?",
+      "direction": "incredulous"
     },
     {
       "line": 84,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "Right? But here's what kills me— we're worried about AI taking over humanity, but three-quarters of us think aliens probably exist. Like, what's our priority list here?",
+      "text": "Months! Like, this wasn't a quick timeout. This was a whole prison sentence. The guy probably started his own podcast in there.",
       "direction": null
     },
     {
       "line": 85,
       "segment": "rapid_fire",
       "character": "DUKE",
-      "text": "At least aliens haven't been writing my thank you notes without me knowing about it.",
-      "direction": "still processing"
+      "text": "Florida drug dealers have worse customer service than airlines.",
+      "direction": "deadpan"
     },
     {
       "line": 86,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "That you know of.",
-      "direction": "ominous"
+      "text": "I'm imagining the Yelp review. 'One star. Great product, terrible accommodations. Also, I'm still locked in here. Please send help.'",
+      "direction": null
     },
     {
       "line": 87,
       "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "You know, there's actually a fascinating historical parallel to this AI adoption pattern. In the 1990s, everyone predicted the internet would revolutionize commerce, but most people were still afraid to enter their credit card numbers online.",
+      "character": "BREE",
+      "text": "How did they even catch this?",
       "direction": null
     },
     {
       "line": 88,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "And now we buy everything online without thinking about it.",
+      "character": "JAX",
+      "text": "The storage facility manager heard someone screaming during a routine inspection. Which raises so many questions about their inspection schedule.",
       "direction": null
     },
     {
       "line": 89,
       "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "Exactly. The gap between expectation and adoption is usually about comfort and trust. People need time to figure out what's safe.",
+      "character": "LEO",
+      "text": "Alright, that's enough Florida for one day. Let's wrap up.",
       "direction": null
     },
     {
       "line": 90,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "LEO",
-      "text": "Speaking of trust, let's talk about Columbia University for a minute.",
+      "text": "Today's Daily Do is inspired by Lonnie Wayman's story. Check on an elderly neighbor or veteran in your community this week.",
       "direction": null
     },
     {
       "line": 91,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Oh right, the sexual assault cover-up report. Man, Columbia is having a year.",
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Not because they need you to show up to their funeral, but because they might need you to show up to their life.",
       "direction": null
     },
     {
       "line": 92,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "This is about institutional culture, right? Like, it's not just one bad actor, it's the system that protected him.",
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "A five-minute conversation over the fence. A text asking if they need anything from the store. The kind of small connection that reminds someone they're not invisible.",
       "direction": null
     },
     {
       "line": 93,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "The external report found that administrators mishandled allegations against physician Robert Hadden. Two affiliated doctors resigned after the findings.",
-      "direction": null
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "Leo, that's perfect.",
+      "direction": "warm approval"
     },
     {
       "line": 94,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "DUKE",
-      "text": "How do you mishandle something like that? Either you investigate properly or you don't.",
+      "text": "My neighbor Bob brings in my garbage cans when I'm traveling. Seems small, but it's not.",
       "direction": null
     },
     {
       "line": 95,
-      "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "Oh, institutions are remarkably creative when it comes to protecting their reputation over individual safety. We saw it at Penn State, we've seen it in the Catholic Church, we see it everywhere powerful institutions feel threatened.",
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "I'm gonna check on Mrs. Chen next door. She makes the best dumplings and I haven't seen her in a while.",
       "direction": null
     },
     {
       "line": 96,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "The pattern is always the same. Minimize, isolate, hope it goes away. Until it doesn't.",
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "As the poet John Donne wrote, 'No man is an island.' But sometimes we need to build the bridge ourselves.",
       "direction": null
     },
     {
       "line": 97,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "And then they act shocked when an external investigation finds exactly what everyone suspected. It's like, guys, we could have told you this was gonna happen.",
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Professor, thank you for that. And thank you for the history lesson about the Tomb of the Unknown Soldier. That really reframed this story for me.",
       "direction": null
     },
     {
       "line": 98,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "The question is whether resignations actually fix the culture or just remove the visible problem.",
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "My pleasure, Leo. Sometimes the best way to understand the present is through the lens of the past.",
       "direction": null
     },
     {
       "line": 99,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Probably depends on who replaces them and what incentives they face.",
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Alright everybody, that's The Friction for Monday, March 10th. I'm Jax Mooney reminding you that if you die alone in Texas, you can still run for mayor.",
       "direction": null
     },
     {
       "line": 100,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Right. If the institution doesn't change its decision-making process, you just get new people making the same mistakes.",
-      "direction": null
-    },
-    {
-      "line": 101,
-      "segment": "pringle",
-      "character": "LEO",
-      "text": "Professor, you mentioned this pattern before. Is there a historical lesson here?",
-      "direction": null
-    },
-    {
-      "line": 102,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Oh, absolutely. You know, when the printing press was invented in the 1440s, the Catholic Church's initial response was to try to control who could own one.",
-      "direction": null
-    },
-    {
-      "line": 103,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "They were terrified that if anyone could print books, people might start reading things they weren't supposed to read. Dangerous ideas might spread.",
-      "direction": null
-    },
-    {
-      "line": 104,
-      "segment": "pringle",
-      "character": "JAX",
-      "text": "Wait, are we talking about AI or the printing press?",
-      "direction": "confused"
-    },
-    {
-      "line": 105,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Both. Every transformative technology goes through the same cycle. First, institutions try to control it. Then they try to ignore it. Then they try to adapt to it. Finally, they pretend they invented it.",
-      "direction": null
-    },
-    {
-      "line": 106,
-      "segment": "pringle",
-      "character": "DUKE",
-      "text": "So where are we with AI?",
-      "direction": null
-    },
-    {
-      "line": 107,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Somewhere between trying to control it and trying to ignore it. The fact that eighty-nine percent want disclosure requirements? That's the control phase.",
-      "direction": null
-    },
-    {
-      "line": 108,
-      "segment": "pringle",
-      "character": "BREE",
-      "text": "But is that wrong? I mean, shouldn't people know when they're interacting with AI?",
-      "direction": null
-    },
-    {
-      "line": 109,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Not wrong, just historically predictable. The printing press had to be licensed. Radio had to be regulated. Television had to be controlled. The internet was supposed to be civilized. How'd that work out?",
-      "direction": "wry amusement"
-    },
-    {
-      "line": 110,
-      "segment": "pringle",
-      "character": "JAX",
-      "text": "So you're saying we're gonna end up with AI everywhere whether we want it or not?",
-      "direction": null
-    },
-    {
-      "line": 111,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "I'm saying Duke's phone is already writing his thank you notes, and he didn't even know it. That's usually how these things go.",
-      "direction": null
-    },
-    {
-      "line": 112,
-      "segment": "pringle",
-      "character": "DUKE",
-      "text": "Thanks for bringing that up again, Professor.",
-      "direction": "mock irritation"
-    },
-    {
-      "line": 113,
       "segment": "daily_do",
       "character": "LEO",
-      "text": "Alright, let's wrap this up. Daily Do time.",
-      "direction": null
-    },
-    {
-      "line": 114,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "That poll showed sixty percent of people think they can tell if something is AI-generated. But Duke's story suggests maybe we're not as good at that as we think.",
-      "direction": null
-    },
-    {
-      "line": 115,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "So here's what you can do today. Before you check if something is AI-generated, try to guess. Build that detection muscle while the stakes are still low.",
-      "direction": null
-    },
-    {
-      "line": 116,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Look at an email, a social media post, even a text message suggestion. Ask yourself— does this sound human or not? Then check if you can.",
-      "direction": null
-    },
-    {
-      "line": 117,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "The goal isn't to become paranoid about AI. It's to become literate about it. Because Professor Pringle's right— it's coming whether we're ready or not.",
-      "direction": null
-    },
-    {
-      "line": 118,
-      "segment": "daily_do",
-      "character": "DUKE",
-      "text": "I'm starting with my own phone, apparently.",
-      "direction": "resigned"
-    },
-    {
-      "line": 119,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "Duke's gonna have the most awkward conversation with Jenny tonight.",
-      "direction": null
-    },
-    {
-      "line": 120,
-      "segment": "daily_do",
-      "character": "DUKE",
-      "text": "Honey, remember all those thoughtful thank you texts? Well, funny story...",
-      "direction": "practicing the conversation"
-    },
-    {
-      "line": 121,
-      "segment": "daily_do",
-      "character": "BREE",
-      "text": "At least now you know why they sounded so much better than your usual messages.",
-      "direction": "teasing"
-    },
-    {
-      "line": 122,
-      "segment": "daily_do",
-      "character": "DUKE",
-      "text": "Wow. Thanks, Bree. Really helpful.",
-      "direction": "deadpan"
-    },
-    {
-      "line": 123,
-      "segment": "daily_do",
-      "character": "PRINGLE",
-      "text": "If I may leave you with a thought from Arthur C. Clarke— 'Any sufficiently advanced technology is indistinguishable from magic.'",
-      "direction": null
-    },
-    {
-      "line": 124,
-      "segment": "daily_do",
-      "character": "PRINGLE",
-      "text": "The magic isn't scary once you understand how the trick works.",
-      "direction": null
-    },
-    {
-      "line": 125,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "And on that note, this has been The Friction. I'm Jax Mooney, reminding you that seventy-four percent of Americans believe in aliens, but only forty-seven percent find AI useful.",
-      "direction": null
-    },
-    {
-      "line": 126,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "Make of that what you will. We'll see you tomorrow, assuming the robots haven't written our show for us by then.",
-      "direction": null
-    },
-    {
-      "line": 127,
-      "segment": "daily_do",
-      "character": "DUKE",
-      "text": "Please don't give them any ideas.",
-      "direction": "genuinely concerned"
-    },
-    {
-      "line": 128,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "Too late. My phone is already suggesting what I should say next.",
-      "direction": "ominous"
+      "text": "We'll see you tomorrow.",
+      "direction": "standard outro"
     }
   ]
 }
