@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "episode_date": "2026-03-10",
+    "episode_archetype": "culture",
+    "headlines": {
+      "geopolitics": "Mike Johnson warns Sharia law 'serious problem' after GOP rep's anti-Muslim post",
+      "economy": "Culture at Columbia Shielded Sexual Assault by Physician, Report Finds",
+      "domestic": "Fox News Poll: Voters expect AI to transform our lives — but today is not that day"
+    },
+    "daily_do": "Check one piece of content you share today to see if it's AI-generated — most of us are way too confident we can tell the difference",
+    "pringle_mode": "direct_parallel",
+    "clips": [
+      {
+        "start_line": 67,
+        "end_line": 73,
+        "caption": "When Duke accidentally makes Bree's point about religious freedom 😅",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 98,
+        "end_line": 108,
+        "caption": "Dr. Pringle explains why the Know-Nothing Party is having a moment",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 145,
+        "end_line": 152,
+        "caption": "Jax discovers AI is being used to... find office chairs?",
+        "platform": "tiktok"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "DUKE",
+      "text": "Look, I'm all for religious freedom, but when you're talking about a legal system that— wait, did I just make Bree's argument?",
+      "direction": "confused realization"
+    },
+    {
+      "line": 2,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Good morning, it's Monday, March 10th. I'm Leo Barros with The Friction. Let's get you caught up on what happened while you were sleeping off the weekend.",
+      "direction": "warm, professional"
+    },
+    {
+      "line": 3,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Geopolitics: House Speaker Mike Johnson is defending Rep. Andy Ogles' post that quote, 'Muslims don't belong in American society,' by warning that Sharia law poses a serious threat to the Constitution. Conservative Republicans are forming a 'Sharia-free America Caucus.'",
+      "direction": "factual"
+    },
+    {
+      "line": 4,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "Oh good, another caucus. We definitely needed more of those.",
+      "direction": "dry sarcasm"
+    },
+    {
+      "line": 5,
+      "segment": "brief",
+      "character": "BREE",
+      "text": "Wait, did he actually say Muslims don't belong? Like, those exact words?",
+      "direction": "incredulous"
+    },
+    {
+      "line": 6,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Those exact words. Then he doubled down and said it wouldn't be news if he'd said it about Christians.",
+      "direction": "matter-of-fact"
+    },
+    {
+      "line": 7,
+      "segment": "brief",
+      "character": "DUKE",
+      "text": "Well that's just stupid.",
+      "direction": "flat"
+    },
+    {
+      "line": 8,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Economy: An external report found Columbia University and NewYork-Presbyterian Hospital mishandled sexual assault allegations against physician Robert Hadden. Two doctors stepped down following the findings about institutional culture that shielded the accused.",
+      "direction": "serious"
+    },
+    {
+      "line": 9,
+      "segment": "brief",
+      "character": "PRINGLE",
+      "text": "Institutional protection. Tale as old as time.",
+      "direction": "grim"
+    },
+    {
+      "line": 10,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "And domestic: A Fox News poll shows 87% of voters expect AI to significantly change American life, but only 47% find it useful right now. 89% want clear disclosure when content is AI-generated, and 80% are concerned AI is eroding trust in news and social media.",
+      "direction": "measured"
+    },
+    {
+      "line": 11,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "I'm in that 80%. I can't tell if my barber's Instagram stories are real anymore. Last week he posted a video of himself cutting hair underwater.",
+      "direction": "confused"
+    },
+    {
+      "line": 12,
+      "segment": "brief",
+      "character": "BREE",
+      "text": "Was it AI?",
+      "direction": "genuinely curious"
+    },
+    {
+      "line": 13,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "I have no idea! That's the problem!",
+      "direction": "exasperated"
+    },
+    {
+      "line": 14,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Alright, let's dig into the Sharia law story because this feels like one of those moments where we need to separate the politics from the actual issue.",
+      "direction": "transitioning"
+    },
+    {
+      "line": 15,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "So here's what happened: Tennessee Rep Andy Ogles posts 'Muslims don't belong in American society.' Gets backlash. Then Speaker Johnson tries to clean it up by saying it's really about Sharia law conflicting with the Constitution.",
+      "direction": "laying out facts"
+    },
+    {
+      "line": 16,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Right, so we're doing the thing where we take a bigoted statement and try to make it sound like constitutional scholarship.",
+      "direction": "sharp"
+    },
+    {
+      "line": 17,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Hold on. I mean, Ogles' phrasing was terrible, but is Johnson wrong about Sharia law and the Constitution?",
+      "direction": "measured"
+    },
+    {
+      "line": 18,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Duke, we already have a system for that. It's called the Supremacy Clause. Federal law trumps everything else. We don't need a special caucus to protect us from imaginary threats.",
+      "direction": "frustrated"
+    },
+    {
+      "line": 19,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "But that's exactly my point. If federal law already handles it, then what's the problem with saying so?",
+      "direction": "logical"
+    },
+    {
+      "line": 20,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "The problem is you're starting with 'Muslims don't belong' and working backwards to find a constitutional justification.",
+      "direction": "cutting through"
+    },
+    {
+      "line": 21,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Let me ask this: Duke, do you think there's a meaningful distinction between Islamic religious practices and Sharia law as a legal system?",
+      "direction": "probing"
+    },
+    {
+      "line": 22,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Of course. Look, I'm all for religious freedom. Pray however you want, follow whatever dietary laws you want. But when you're talking about a legal system that conflicts with—",
+      "direction": "explaining, then stopping"
+    },
+    {
+      "line": 23,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Wait. Did I just make Bree's argument?",
+      "direction": "confused realization"
+    },
+    {
+      "line": 24,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "You literally just described the First Amendment. Religious exercise is protected, but civil law is supreme.",
+      "direction": "trying not to smile"
+    },
+    {
+      "line": 25,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Okay but— no, that's not— the issue is when people want to impose—",
+      "direction": "flustered, starting over"
+    },
+    {
+      "line": 26,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Duke, can you name a specific case where someone tried to impose Sharia law over federal law in America?",
+      "direction": "direct question"
+    },
+    {
+      "line": 27,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "I mean, not off the top of my head, but—",
+      "direction": "hesitant"
+    },
+    {
+      "line": 28,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Because it doesn't happen. What happens is religious arbitration, which Jewish and Catholic communities have been doing for decades. It's voluntary, it's private, and it can't override civil law.",
+      "direction": "informative"
+    },
+    {
+      "line": 29,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "So we're forming a caucus to protect us from something that already can't happen?",
+      "direction": "incredulous"
+    },
+    {
+      "line": 30,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Look, fine, maybe the specific threat is overblown. But you can't tell me there isn't a broader issue about assimilation and shared values.",
+      "direction": "defensive but thoughtful"
+    },
+    {
+      "line": 31,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But whose values? And who decides what counts as assimilation? Because historically, that conversation has not gone well for minority communities.",
+      "direction": "pointed"
+    },
+    {
+      "line": 32,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Constitutional values. Democratic values. The stuff we all supposedly agree on.",
+      "direction": "firm"
+    },
+    {
+      "line": 33,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Like religious freedom?",
+      "direction": "gotcha moment"
+    },
+    {
+      "line": 34,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Touché.",
+      "direction": "conceding with a chuckle"
+    },
+    {
+      "line": 35,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Here's what I'm hearing: we have a constitutional framework that already handles conflicts between religious law and civil law. The question is whether this is about protecting that framework or targeting a specific community.",
+      "direction": "summarizing"
+    },
+    {
+      "line": 36,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "And when you start with 'Muslims don't belong,' it's pretty clear which one it is.",
+      "direction": "definitive"
+    },
+    {
+      "line": 37,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Yeah, I'll give you that. Ogles stepped in it with the phrasing.",
+      "direction": "admitting"
+    },
+    {
+      "line": 38,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "Stepped in it? He didn't step in it, he dove headfirst into a pool of it.",
+      "direction": "animated"
+    },
+    {
+      "line": 39,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Alright, let's get some historical perspective on this. Professor, you mentioned the Know-Nothing Party earlier. Walk us through it.",
+      "direction": "transitioning to Pringle"
+    },
+    {
+      "line": 40,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Ah yes, the American Party. Though they were better known by their nickname, the Know-Nothing Party. 1850s. Fascinating parallel, really.",
+      "direction": "settling in to tell a story"
+    },
+    {
+      "line": 41,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "See, back then it wasn't Muslims who supposedly didn't belong in American society. It was Catholics. Irish Catholics, German Catholics, anyone who owed allegiance to the Pope.",
+      "direction": "historical context"
+    },
+    {
+      "line": 42,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "Wait, Catholics? But America was founded by—",
+      "direction": "confused"
+    },
+    {
+      "line": 43,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Protestants, yes. And they were terrified that Catholic immigrants would be more loyal to Rome than to Washington. Sound familiar?",
+      "direction": "knowingly"
+    },
+    {
+      "line": 44,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Oh snap.",
+      "direction": "recognition dawning"
+    },
+    {
+      "line": 45,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The Know-Nothings claimed that Catholic canon law was incompatible with American democracy. They said Catholics couldn't be real Americans because they followed papal authority over constitutional authority.",
+      "direction": "drawing the parallel"
+    },
+    {
+      "line": 46,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Okay, I see where you're going with this.",
+      "direction": "uncomfortable recognition"
+    },
+    {
+      "line": 47,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "They burned convents. They rioted in Philadelphia. They elected governors and congressmen on a platform of excluding Catholics from public life. All in the name of protecting American values.",
+      "direction": "building the case"
+    },
+    {
+      "line": 48,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "And how did that work out for them?",
+      "direction": "knowing the answer"
+    },
+    {
+      "line": 49,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Well, we've had Catholic presidents, Supreme Court justices, generals, you name it. Turns out Catholics could be Americans just fine. The Know-Nothing Party collapsed by 1860, discredited by their own extremism.",
+      "direction": "matter-of-fact"
+    },
+    {
+      "line": 50,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "So the pattern is: new religious minority arrives, existing majority claims they're incompatible with American values, panic ensues, then we figure out it's fine?",
+      "direction": "clarifying the pattern"
+    },
+    {
+      "line": 51,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "More or less. Though I should note, the Know-Nothings weren't entirely wrong about divided loyalties being a challenge. The question is whether you address it through exclusion or inclusion.",
+      "direction": "nuanced"
+    },
+    {
+      "line": 52,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Meaning what, exactly?",
+      "direction": "asking for clarification"
+    },
+    {
+      "line": 53,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Meaning you can either say 'you don't belong here' and create permanent outsiders, or you can say 'here's how our system works, welcome to the conversation' and create Americans.",
+      "direction": "explaining the choice"
+    },
+    {
+      "line": 54,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "That's actually beautiful, Doc.",
+      "direction": "genuinely moved"
+    },
+    {
+      "line": 55,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Yeah, but did the Know-Nothings have Twitter? Because that feels like it would have made things worse.",
+      "direction": "bringing it to present day"
+    },
+    {
+      "line": 56,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "They had newspapers that were just as inflammatory, young man. The medium changes, the message doesn't.",
+      "direction": "mildly reproachful but amused"
+    },
+    {
+      "line": 57,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Professor, one more question: is there anything fundamentally different about Islam that would make this parallel not hold?",
+      "direction": "pressing for completeness"
+    },
+    {
+      "line": 58,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Well, Islam does have detailed legal traditions, more so than Catholicism did. But so does Judaism, and we sorted that out just fine. The key is that American Muslims, like American Catholics and American Jews, understand they live under American law first.",
+      "direction": "balanced assessment"
+    },
+    {
+      "line": 59,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "And if they don't?",
+      "direction": "honest question"
+    },
+    {
+      "line": 60,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Then you enforce American law. Same as you would for anyone else. The system works if you let it work.",
+      "direction": "simple wisdom"
+    },
+    {
+      "line": 61,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Alright, let's shift gears. Jax, you've been unusually quiet about our AI story. What's going on in the weird corners of the internet?",
+      "direction": "transitioning to rapid fire"
+    },
+    {
+      "line": 62,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Oh man, where do I start? So Palantir, the company that makes AI for finding terrorists, is now using their technology to... help government employees find office chairs.",
+      "direction": "incredulous"
+    },
+    {
+      "line": 63,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "I'm sorry, what?",
+      "direction": "confused"
+    },
+    {
+      "line": 64,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "I am not making this up. They deployed their AI weaponry to optimize government furniture procurement. We've gone from 'find the bad guys' to 'find the ergonomic lumbar support.'",
+      "direction": "building the absurdity"
+    },
+    {
+      "line": 65,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "You know what? I'm actually okay with this. Government waste on office furniture is a real problem.",
+      "direction": "unexpectedly supportive"
+    },
+    {
+      "line": 66,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Duke, they built Skynet for office supplies. This is not the dystopia I was worried about.",
+      "direction": "exasperated"
+    },
+    {
+      "line": 67,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "What else you got?",
+      "direction": "moving along"
+    },
+    {
+      "line": 68,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Louisiana schools have until Friday to post the Ten Commandments in every classroom. Which, you know, feels relevant to our earlier conversation about religious law.",
+      "direction": "connecting threads"
+    },
+    {
+      "line": 69,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Wait, so we're worried about Sharia law but mandating Biblical law is fine?",
+      "direction": "pointing out hypocrisy"
+    },
+    {
+      "line": 70,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Those are moral guidelines, not legal prescriptions.",
+      "direction": "defensive"
+    },
+    {
+      "line": 71,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Duke, 'Thou shalt not commit adultery' is literally a legal prescription.",
+      "direction": "challenging"
+    },
+    {
+      "line": 72,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Okay, fair point.",
+      "direction": "conceding quickly"
+    },
+    {
+      "line": 73,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Moving on before you two start a theological debate. Florida drug dealer locks a guy in a storage unit for months over unpaid debt. Which is horrifying, but also, like, that's just Florida Tuesday.",
+      "direction": "dark humor"
+    },
+    {
+      "line": 74,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "Debtor's prison. We abolished that in the 1830s, but apparently nobody told Florida.",
+      "direction": "historical context, deadpan"
+    },
+    {
+      "line": 75,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "And finally, my personal favorite: someone named 'Literally Anybody Else' is officially on the ballot for mayor in Texas. Which honestly sounds like the most reasonable candidate we've had in years.",
+      "direction": "building to the punchline"
+    },
+    {
+      "line": 76,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Is that their legal name?",
+      "direction": "journalist instincts"
+    },
+    {
+      "line": 77,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Yep. They legally changed it. Dustin Ebey is now Literally Anybody Else. And honestly? I respect the commitment to the bit.",
+      "direction": "admiring"
+    },
+    {
+      "line": 78,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "That's the most Texas thing I've ever heard.",
+      "direction": "appreciative"
+    },
+    {
+      "line": 79,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "I mean, given the state of politics right now, Literally Anybody Else might actually be an improvement.",
+      "direction": "half-joking"
+    },
+    {
+      "line": 80,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "That's what I'm saying! Finally, a candidate whose platform I can get behind: not being the current person.",
+      "direction": "enthusiastic"
+    },
+    {
+      "line": 81,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Alright, Daily Do time. Here's your one actionable thing for today, and it ties back to that AI poll we talked about.",
+      "direction": "wrapping up"
+    },
+    {
+      "line": 82,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "60% of people think they can tell when something is AI-generated. But the research shows most of us are way overconfident about this. So today, pick one piece of content you're about to share — a photo, a video, an article — and actually check if it's AI-generated.",
+      "direction": "practical advice"
+    },
+    {
+      "line": 83,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Reverse image search it. Look for AI detection tools. Read the byline. Just slow down for thirty seconds before you hit share. Because if 80% of us are worried about AI eroding trust in media, maybe we should start by being more careful consumers ourselves.",
+      "direction": "building the case"
+    },
+    {
+      "line": 84,
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "I love this. It's like fact-checking but for reality itself.",
+      "direction": "appreciative"
+    },
+    {
+      "line": 85,
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "Jenny sent me a video yesterday of a dog that could apparently talk. I shared it immediately. Now I'm wondering if I should go back and check.",
+      "direction": "sheepish"
+    },
+    {
+      "line": 86,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Duke, if it was a talking dog, it was definitely AI. Or you need to call the Nobel Prize committee.",
+      "direction": "matter-of-fact"
+    },
+    {
+      "line": 87,
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "It was very convincing.",
+      "direction": "defensive"
+    },
+    {
+      "line": 88,
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "As Voltaire said, 'Common sense is not so common.' Though I suspect he would have been quite alarmed by artificial intelligence creating talking dogs.",
+      "direction": "thoughtful"
+    },
+    {
+      "line": 89,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "That's it for today. We're The Friction — I'm Leo Barros with Dr. Haywood Pringle, Bree Aldana, Duke Patel, and Jax Mooney.",
+      "direction": "sign-off"
+    },
+    {
+      "line": 90,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Remember, if you can't tell if we're real people or AI, that's probably a good thing. It means the AI is getting really good, or we're getting really weird. Either way, we'll see you tomorrow.",
+      "direction": "playful sign-off"
+    }
+  ]
+}
