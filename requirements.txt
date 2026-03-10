@@ -1,24 +1,9 @@
-# THE FRICTION — Python Dependencies
-# Install: pip install -r requirements.txt
+# THE FRICTION - Python Dependencies
 
-# Phase 1: News Ingestion
-feedparser>=6.0.0          # RSS feed parsing
-trafilatura>=1.6.0         # Article text extraction from web pages
-requests>=2.31.0           # HTTP requests
-python-dotenv>=1.0.0       # Load .env files
-
-# Phase 2: Script Generation
-anthropic>=0.39.0          # Claude API client
-openai>=1.40.0             # GPT-4o API client (backup)
-
-# Phase 3: Voice Synthesis
-elevenlabs>=1.0.0          # ElevenLabs TTS API
-
-# Phase 4: Audio Mixing
-pydub>=0.25.1              # Audio manipulation (requires FFmpeg installed)
-
-# Phase 6: Social Posting
-# (Buffer API is REST-based, no special package needed)
-
-# Utilities
-schedule>=1.2.0            # Optional: in-process scheduling
+feedparser>=6.0.0
+trafilatura>=1.6.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+anthropic>=0.39.0
+pydub>=0.25.1
+pyaudioop
