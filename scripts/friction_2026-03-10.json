@@ -7,26 +7,26 @@
       "economy": "Culture at Columbia Shielded Sexual Assault by Physician, Report Finds",
       "domestic": "Fox News Poll: Voters expect AI to transform our lives — but today is not that day"
     },
-    "daily_do": "Check one piece of content you share today to see if it's AI-generated. Most browsers now have detection tools built in, or just Google 'AI detector' and paste a link.",
-    "pringle_mode": "direct_parallel",
+    "daily_do": "Check your AI detection confidence - most of us are overconfident about spotting deepfakes and generated content",
+    "pringle_mode": "structural_lesson",
     "clips": [
       {
         "start_line": 67,
         "end_line": 74,
-        "caption": "When your professor drops historical truth bombs",
+        "caption": "When Duke accidentally agrees with Bree on AI regulation 😂",
         "platform": "tiktok"
-      },
-      {
-        "start_line": 145,
-        "end_line": 152,
-        "caption": "'Literally Anybody Else' is actually on the ballot",
-        "platform": "youtube"
       },
       {
         "start_line": 89,
         "end_line": 96,
-        "caption": "The AI trust problem explained perfectly",
-        "platform": "x"
+        "caption": "Dr. Pringle explains why we always think new technology will destroy us",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 134,
+        "end_line": 141,
+        "caption": "Jax discovers the most Florida crime story of all time",
+        "platform": "tiktok"
       }
     ]
   },
@@ -34,695 +34,562 @@
     {
       "line": 1,
       "segment": "cold_open",
-      "character": "PRINGLE",
-      "text": "The Soviets had a saying: 'When your enemy adapts, you must adapt faster, or you will find yourself playing yesterday's game with tomorrow's consequences.'",
-      "direction": "thoughtful, building to something bigger"
+      "character": "DUKE",
+      "text": "Look, I'm not saying the government should regulate everything, but when a drug dealer is running a more efficient detention facility than the federal prison system, maybe we need to ask some questions.",
+      "direction": "deadpan"
     },
     {
       "line": 2,
       "segment": "brief",
       "character": "LEO",
-      "text": "It's Monday, March 10th. I'm Leo Barros, and this is The Friction.",
-      "direction": "standard opening pace"
+      "text": "Good morning, I'm Leo Barros and this is The Friction. It's Monday, March 10th. Let's get you caught up. Starting with geopolitics — Iran's military is showing tactical adaptability that has U.S. officials concerned. They're specifically targeting what they see as American vulnerabilities, including air defense systems protecting our troops and assets in the region.",
+      "direction": "measured pace"
     },
     {
       "line": 3,
       "segment": "brief",
-      "character": "LEO",
-      "text": "Three headlines this morning. First, geopolitics: U.S. officials say Iran's military is showing tactical adaptability, specifically targeting what they see as American vulnerabilities in our regional air defense systems.",
-      "direction": "measured, factual"
+      "character": "DUKE",
+      "text": "Well that's not ominous at all.",
+      "direction": "flat"
     },
     {
       "line": 4,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "Of course they are.",
-      "direction": "flat, unsurprised"
+      "character": "LEO",
+      "text": "Moving to the economy — well, sort of. Columbia University and NewYork-Presbyterian Hospital are dealing with fallout from an external investigation. The report found administrators mishandled sexual assault allegations against physician Robert Hadden. Two affiliated doctors have already stepped down.",
+      "direction": "serious"
     },
     {
       "line": 5,
       "segment": "brief",
-      "character": "LEO",
-      "text": "Second, domestic institutions: An external investigation found Columbia University and NewYork-Presbyterian Hospital mishandled sexual assault allegations against physician Robert Hadden. Two doctors have stepped down following the report.",
-      "direction": "serious tone"
+      "character": "BREE",
+      "text": "Institutional protection over victims. Again.",
+      "direction": "frustrated"
     },
     {
       "line": 6,
       "segment": "brief",
-      "character": "BREE",
-      "text": "Jesus. How many more of these are we gonna find?",
-      "direction": "frustrated"
+      "character": "LEO",
+      "text": "And domestically, a Fox News poll on artificial intelligence shows 87% of voters expect AI to significantly change American life, but only 47% find it useful right now. The gap between expectation and reality is, um, significant.",
+      "direction": "slight pause"
     },
     {
       "line": 7,
       "segment": "brief",
-      "character": "LEO",
-      "text": "And third, technology and trust: A new Fox News poll shows 87% of voters expect AI to transform American life, but only 47% find it useful today. Meanwhile, 80% are extremely or very worried about distinguishing real from AI-generated content.",
-      "direction": "building to the contradiction"
+      "character": "JAX",
+      "text": "So we're all terrified of something we don't actually use. That tracks.",
+      "direction": "amused"
     },
     {
       "line": 8,
       "segment": "brief",
-      "character": "JAX",
-      "text": "So we're scared of something we also think is useless. That tracks.",
-      "direction": "dry observation"
+      "character": "LEO",
+      "text": "Eighty percent are concerned AI is eroding trust in news and social media, but 60% think they can spot AI-generated content. That confidence might be misplaced.",
+      "direction": "measured"
     },
     {
       "line": 9,
       "segment": "brief",
       "character": "PRINGLE",
-      "text": "Fear and fascination often walk hand in hand.",
-      "direction": "thoughtful"
+      "text": "Overconfidence in the face of technological disruption. Tale as old as time.",
+      "direction": "knowing"
     },
     {
       "line": 10,
       "segment": "brief",
       "character": "LEO",
-      "text": "We'll start with Iran, then dive into what this AI poll tells us about trust in 2026. Plus, Dr. Pringle has thoughts on adaptation in warfare, and Jax found a candidate literally named 'Literally Anybody Else.'",
-      "direction": "setting the table"
+      "text": "Speaking of tales, Professor, we'll get your take in a bit. But first, let's dig into this Iran story because it represents something bigger about how adversaries adapt to American power.",
+      "direction": "transitioning"
     },
     {
       "line": 11,
-      "segment": "brief",
-      "character": "JAX",
-      "text": "I'm not making that up.",
-      "direction": "defensive but amused"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "So Bree, when you read that Iran is specifically targeting air defense systems — the things that protect our people — what's your immediate concern?",
+      "direction": "interviewing"
     },
     {
       "line": 12,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "So Iran's military is adapting. The Times reports they're specifically targeting perceived weaknesses in U.S. air defenses protecting our troops and assets in the region. Duke, you served over there. Is this normal military evolution or something more concerning?",
-      "direction": "direct question"
+      "character": "BREE",
+      "text": "That we're playing defense when we should be asking why we have so many assets that need defending in the first place. I mean, how many bases do we actually need in the region?",
+      "direction": "building"
     },
     {
       "line": 13,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "It's both, honestly. Look, any competent military studies their opponent and adapts. That's basic doctrine. But the fact that U.S. officials are talking about it publicly means they're either worried enough to send a message, or they want Iran to know we're watching.",
-      "direction": "analytical"
+      "text": "Oh here we go. The problem isn't that Iran is targeting our defenses, it's that we have defenses to target?",
+      "direction": "exasperated"
     },
     {
       "line": 14,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "Or they're laying groundwork for more military spending. I mean, 'Iran is getting better at fighting us' sounds like a great pitch for upgraded defense systems.",
-      "direction": "skeptical"
+      "text": "The problem is that after twenty-five years of this, we still haven't figured out that military presence creates military targets.",
+      "direction": "pointed"
     },
     {
       "line": 15,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Bree, with all due respect, not everything is a defense contractor conspiracy. Iran has been probing our systems for years. They hit that Saudi facility in 2019, remember? They're good at this.",
-      "direction": "patient but firm"
+      "text": "And the alternative is what? We pack up and let Iran run the whole region?",
+      "direction": "challenging"
     },
     {
       "line": 16,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "I'm not saying it's a conspiracy, I'm saying timing matters. We just approved another forty billion for regional defense last month. Now suddenly Iran is super adaptive?",
-      "direction": "making her case"
+      "text": "The alternative is admitting that our current strategy isn't working. They're adapting to us faster than we're adapting to them.",
+      "direction": "frustrated"
     },
     {
       "line": 17,
       "segment": "deep_dive",
       "character": "LEO",
-      "text": "The reporting suggests this adaptation is ongoing, not sudden. What does adaptation look like in practice?",
-      "direction": "refocusing"
+      "text": "That's actually what struck me about this reporting. U.S. officials are acknowledging Iranian tactical flexibility. That's not language we heard much during, say, the Iraq surge.",
+      "direction": "analytical"
     },
     {
       "line": 18,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "They watch how we respond to attacks. If we shoot down their drones one way, they change the flight pattern next time. If our radar picks up certain signatures, they modify those signatures. It's like— Jenny and I play this game with our kids where we hide their toys, and they get better at finding them every time.",
-      "direction": "explaining simply"
+      "text": "Because we learned that lesson the hard way. Look, I served there. You adapt or you get people killed. Iran's doing the same thing.",
+      "direction": "serious"
     },
     {
       "line": 19,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Except in this version, the toys explode.",
-      "direction": "dark humor"
+      "character": "BREE",
+      "text": "Right, so maybe— wait, did you just agree with me?",
+      "direction": "surprised"
     },
     {
       "line": 20,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Right, so the stakes are a little higher.",
-      "direction": "dry acknowledgment"
+      "text": "I agreed that adaptation matters. I didn't agree that we should abandon the region.",
+      "direction": "clarifying quickly"
     },
     {
       "line": 21,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "But here's what I don't get. If they're adapting to our defenses, why aren't we adapting our diplomacy? Like, maybe the reason they're getting better at attacking us is because we keep giving them reasons to want to attack us.",
-      "direction": "building momentum"
+      "character": "JAX",
+      "text": "This is like watching my parents agree on the problem but fight about the solution. Which is basically every family dinner.",
+      "direction": "amused"
     },
     {
       "line": 22,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Bree, they've been chanting 'Death to America' for forty years. I don't think our diplomatic tone is the variable here.",
-      "direction": "matter-of-fact"
+      "character": "LEO",
+      "text": "But here's what I want to understand, Duke. If Iran is successfully identifying and targeting our vulnerabilities, doesn't that suggest our defensive posture has predictable weaknesses?",
+      "direction": "probing"
     },
     {
       "line": 23,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "And we've been sanctioning them for forty years! Meanwhile, they've gone from basically no nuclear program to almost having a bomb. So clearly the sanctions-plus-military-pressure approach isn't working either.",
-      "direction": "heated"
+      "character": "DUKE",
+      "text": "Every defensive posture has weaknesses. The question is whether those weaknesses are acceptable given the alternatives.",
+      "direction": "measured"
     },
     {
       "line": 24,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "The reporting doesn't suggest these are offensive preparations. It sounds more like Iran studying how to defend against us if things escalate.",
-      "direction": "clarifying"
+      "character": "BREE",
+      "text": "But that's exactly my point. We're accepting casualties to maintain a presence that isn't actually containing Iranian influence.",
+      "direction": "pressing"
     },
     {
       "line": 25,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "Which is what any military would do. The problem is, in that region, defense and offense look pretty similar. A missile that can take out our air defense can also take out a civilian airport.",
-      "direction": "serious"
+      "text": "Iranian influence over what? Because last I checked, they don't control Saudi Arabia, they don't control the UAE, they don't control Jordan.",
+      "direction": "listing"
     },
     {
       "line": 26,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "True. But maybe that's exactly why we need to be talking to them instead of just... you know, having this endless arms race where both sides keep getting better at killing each other.",
-      "direction": "earnest"
+      "text": "They control significant proxy networks in Lebanon, Syria, Iraq, and Yemen. Our presence hasn't stopped that.",
+      "direction": "countering"
     },
     {
       "line": 27,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Can I just say, as someone who gets anxious when my Wi-Fi goes down, I find it deeply unsettling that there are people whose job is to think about how to blow up our stuff more efficiently?",
-      "direction": "nervous humor"
+      "character": "DUKE",
+      "text": "And without our presence, those proxy networks would be Iranian army bases.",
+      "direction": "firm"
     },
     {
       "line": 28,
       "segment": "deep_dive",
-      "character": "PRINGLE",
-      "text": "That has been the human condition for millennia, young man.",
-      "direction": "gentle correction"
+      "character": "LEO",
+      "text": "Okay, so we have a fundamental disagreement about deterrence theory. Bree thinks our presence creates the problem. Duke thinks our absence would make it worse.",
+      "direction": "summarizing"
     },
     {
       "line": 29,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Professor, you mentioned Soviet adaptation earlier. Is there a historical parallel here?",
-      "direction": "transitioning"
+      "character": "JAX",
+      "text": "And I think Iran is just really good at playing the long game while we're over here playing checkers with our attention span.",
+      "direction": "observational"
     },
     {
       "line": 30,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Indeed there is. The Cold War was essentially a forty-year seminar in military adaptation. Every move by one side prompted a countermove by the other.",
-      "direction": "settling into professor mode"
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "That's actually not wrong. They've been consistent for decades. We change strategies every administration.",
+      "direction": "agreeing reluctantly"
     },
     {
       "line": 31,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Take the Cuban Missile Crisis. The Soviets placed missiles in Cuba not because they wanted to start a war, but because they had studied American nuclear capabilities and realized they were falling behind. They adapted to what they perceived as an American advantage.",
-      "direction": "building the parallel"
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Sometimes consistency is just stubbornness with better marketing.",
+      "direction": "dry"
     },
     {
       "line": 32,
-      "segment": "pringle",
-      "character": "BREE",
-      "text": "Right, and that almost ended the world.",
-      "direction": "concerned"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Professor, you've been listening to this back and forth. Where does history land on adversaries who successfully adapt to American military presence?",
+      "direction": "turning to Pringle"
     },
     {
       "line": 33,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "Precisely. But here's what's instructive: both Kennedy and Khrushchev realized they were trapped in an escalation spiral neither wanted. The resolution came through back-channel diplomacy while maintaining public strength.",
-      "direction": "making the lesson clear"
+      "text": "Well Leo, what we're witnessing is not unique to Iran or to this moment. Throughout history, smaller powers have survived by becoming students of larger powers' weaknesses.",
+      "direction": "settling in"
     },
     {
       "line": 34,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "But that worked because both sides were rational actors who didn't want nuclear war. I'm not sure Iran's leadership calculates risk the same way.",
-      "direction": "challenging"
+      "character": "PRINGLE",
+      "text": "The pattern is quite consistent. A dominant power establishes what it believes is an optimal defensive posture. The smaller power studies that posture obsessively, identifies the gaps, and develops tactics specifically to exploit them.",
+      "direction": "professorial"
     },
     {
       "line": 35,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "An interesting point. But consider this: Iran has been fighting proxy wars for decades without directly engaging American forces. That suggests a certain rational restraint, does it not?",
-      "direction": "thoughtful pushback"
+      "character": "JAX",
+      "text": "So like, Iran went to military school and we were the textbook?",
+      "direction": "trying to understand"
     },
     {
       "line": 36,
       "segment": "pringle",
-      "character": "BREE",
-      "text": "Exactly! They're not suicidal. They're strategic. Which is exactly why diplomacy might actually work.",
-      "direction": "energized"
+      "character": "PRINGLE",
+      "text": "In a sense, yes. Consider the Vietnamese against the French, then against us. Or the Afghan mujahideen against the Soviets. Or even the early Americans against the British.",
+      "direction": "listing examples"
     },
     {
       "line": 37,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "The Soviets also developed increasingly sophisticated ways to test American defenses without triggering war. They would fly bombers toward our airspace and turn back at the last moment, studying our response times and procedures.",
-      "direction": "continuing the historical thread"
+      "character": "DUKE",
+      "text": "Hold on, Professor. Are you saying the American Revolution was basically asymmetric warfare?",
+      "direction": "intrigued"
     },
     {
       "line": 38,
       "segment": "pringle",
-      "character": "JAX",
-      "text": "That sounds like the geopolitical equivalent of 'I'm not touching you, I'm not touching you.'",
-      "direction": "amused"
+      "character": "PRINGLE",
+      "text": "Duke, what was the Boston Tea Party if not a targeted attack on British economic vulnerabilities? What was the decision to avoid pitched battles if not adaptation to British military superiority?",
+      "direction": "rhetorical"
     },
     {
       "line": 39,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "That is... actually not an inaccurate analogy. The point is, military adaptation in adversarial relationships follows predictable patterns. Each side studies the other, probes for weaknesses, and develops countermeasures.",
-      "direction": "pleased with the analogy"
+      "character": "BREE",
+      "text": "Oh wow. So we literally wrote the playbook that everyone else is using against us now.",
+      "direction": "realizing"
     },
     {
       "line": 40,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "Right, but the difference is we had hotlines with Moscow. We don't have that kind of communication infrastructure with Tehran.",
-      "direction": "practical concern"
+      "character": "PRINGLE",
+      "text": "The irony is profound, Bree. The dominant power always believes its advantages are permanent. The challenging power always believes those advantages have expiration dates.",
+      "direction": "thoughtful"
     },
     {
       "line": 41,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Which is precisely why this Iranian adaptation should concern us. Without communication channels, adaptation can look like preparation for attack. Both sides may be responding to perceived threats that don't actually exist.",
-      "direction": "serious"
+      "character": "LEO",
+      "text": "So what's the historical lesson for American policymakers? That our adversaries will always adapt, so we need to assume our current defensive posture is temporary?",
+      "direction": "seeking clarity"
     },
     {
       "line": 42,
       "segment": "pringle",
-      "character": "LEO",
-      "text": "So the historical lesson is that adaptation without communication leads to misunderstanding?",
-      "direction": "clarifying"
+      "character": "PRINGLE",
+      "text": "The lesson is that adaptation is a race, not a destination. The British assumed their military superiority was sufficient. The French assumed the Maginot Line would hold. The Soviets assumed their Afghan strategy would work because it worked in Hungary.",
+      "direction": "building to a point"
     },
     {
       "line": 43,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "Among other things, yes. The Soviets had a saying: 'When your enemy adapts, you must adapt faster, or you will find yourself playing yesterday's game with tomorrow's consequences.' But they also understood that adaptation without dialogue is a recipe for miscalculation.",
-      "direction": "concluding the lesson"
+      "text": "In each case, the dominant power was fighting the last war while their opponents were preparing for the next one.",
+      "direction": "concluding"
     },
     {
       "line": 44,
       "segment": "pringle",
-      "character": "BREE",
-      "text": "Which brings us back to talking to them instead of just trying to out-adapt them.",
-      "direction": "bringing it full circle"
+      "character": "DUKE",
+      "text": "But Professor, doesn't that argue for maintaining our presence? If we leave, we stop learning how they're adapting to us.",
+      "direction": "pushing back"
     },
     {
       "line": 45,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "I hear you, but talking requires both sides wanting to talk. And right now, Iran's idea of diplomacy seems to be 'remove all sanctions, accept our nuclear program, and oh by the way, death to America.'",
-      "direction": "skeptical"
+      "character": "PRINGLE",
+      "text": "Perhaps. Or perhaps it argues for questioning whether the framework itself is sound. Sometimes the wisest move is to change the game entirely.",
+      "direction": "measured"
     },
     {
       "line": 46,
       "segment": "pringle",
-      "character": "LEO",
-      "text": "All right, let's shift gears. That AI poll has some fascinating numbers about trust and technology. Bree, you've been following this space closely.",
-      "direction": "transitioning topics"
+      "character": "JAX",
+      "text": "Like when you realize you're playing chess and your opponent is playing poker?",
+      "direction": "tentative"
     },
     {
       "line": 47,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Yeah, and these numbers tell a story about where we are right now. 87% think AI will change everything, but only 47% find it useful today. That gap is huge.",
-      "direction": "analytical"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "That's surprisingly apt, Jax. Yes, sometimes the rules of engagement themselves become the trap.",
+      "direction": "impressed"
     },
     {
       "line": 48,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "It's like everyone's waiting for AI to be amazing while also being terrified that it already is.",
-      "direction": "observational"
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Alright, let's shift gears. Jax, what caught your eye in the weird news this week?",
+      "direction": "transitioning"
     },
     {
       "line": 49,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "But here's the really interesting part: 80% are worried about distinguishing real content from AI-generated content. That's not just about technology, that's about the collapse of shared reality.",
-      "direction": "building concern"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Oh man, where do I start? First up, Palantir — you know, the company that makes AI weapons systems — has deployed their technology to help government workers find office chairs.",
+      "direction": "amused disbelief"
     },
     {
       "line": 50,
-      "segment": "deep_dive",
+      "segment": "rapid_fire",
       "character": "DUKE",
-      "text": "I mean, we already had that problem before AI. Half the stuff on social media was fake anyway.",
-      "direction": "dismissive"
+      "text": "I'm sorry, what?",
+      "direction": "confused"
     },
     {
       "line": 51,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Yeah, but this is different. Before, you needed actual humans to create fake content. Now you can generate a thousand fake news articles in the time it takes me to drink my coffee.",
-      "direction": "urgent"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Apparently the Pentagon's furniture procurement system was so broken they needed artificial intelligence to locate chairs. The same AI that tracks terrorists is now tracking office supplies.",
+      "direction": "building"
     },
     {
       "line": 52,
-      "segment": "deep_dive",
-      "character": "LEO",
-      "text": "The poll shows only 60% feel confident they can identify AI-generated content. That number hasn't changed since last June.",
-      "direction": "factual"
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "That's the most government thing I've ever heard.",
+      "direction": "deadpan"
     },
     {
       "line": 53,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Which is wild because AI has gotten way better in the last nine months. So either people are getting better at detecting it, or they're just confident in their wrongness.",
-      "direction": "amused concern"
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "How much did this chair-finding AI cost taxpayers?",
+      "direction": "dreading the answer"
     },
     {
       "line": 54,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "I bet it's the second one. I showed my mom a deepfake video last week and she was like 'that looks fake.' I showed her a real video and she said the same thing. We're just guessing now.",
-      "direction": "frustrated"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "They won't say, which means it's either classified or embarrassing. Maybe both. But hey, at least the chairs are ergonomic now.",
+      "direction": "shrugging"
     },
     {
       "line": 55,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "So what's the solution? Ban AI? Good luck with that. China's not gonna stop developing it because Americans are confused.",
-      "direction": "practical"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Speaking of government efficiency, Louisiana has until Friday to put the Ten Commandments in every classroom. Apparently Moses had strong opinions about homework policy.",
+      "direction": "transitioning"
     },
     {
       "line": 56,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "No, but we could require disclosure. The poll shows 89% want to be told when content is AI-generated. That's about as close to consensus as you get in America these days.",
-      "direction": "pushing for action"
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "The lawsuits on this are gonna be something to watch.",
+      "direction": "matter-of-fact"
     },
     {
       "line": 57,
-      "segment": "deep_dive",
-      "character": "LEO",
-      "text": "X just announced they're requiring disclosure for AI-generated videos of armed conflicts. That seems like a start.",
-      "direction": "noting progress"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "But my favorite story this week comes from Texas, where a candidate named 'Literally Anybody Else' is officially on the mayoral ballot.",
+      "direction": "delighted"
     },
     {
       "line": 58,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Right, but who's gonna enforce that? The AI police? 'Sir, step away from the ChatGPT and show me your disclosure badge.'",
-      "direction": "mocking"
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "That's honestly the most appealing candidate name I've heard in years.",
+      "direction": "sincere"
     },
     {
       "line": 59,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Look, the technology exists to watermark AI content automatically. The platforms could build it in. They just don't want to because it might slow down engagement.",
-      "direction": "frustrated with tech companies"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Right? His platform is basically 'I am not the other guy.' Which, let's be honest, has won elections before.",
+      "direction": "appreciative"
     },
     {
       "line": 60,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "And there's the real problem. It's not the technology, it's the business model. Confusion drives clicks.",
-      "direction": "cynical but accurate"
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "Protest candidates have a long tradition in American politics. Though usually they choose more subtle names.",
+      "direction": "academic"
     },
     {
       "line": 61,
-      "segment": "deep_dive",
-      "character": "PRINGLE",
-      "text": "If I may, this reminds me of the early days of the printing press. People were terrified that anyone could now create convincing pamphlets spreading false information.",
-      "direction": "historical perspective"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "But the Florida story — oh my god, the Florida story. A drug dealer locked his customer in a storage unit for months because the guy owed him money.",
+      "direction": "building anticipation"
     },
     {
       "line": 62,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Did they figure that one out?",
-      "direction": "genuinely curious"
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "I'm sorry, months?",
+      "direction": "shocked"
     },
     {
       "line": 63,
-      "segment": "deep_dive",
-      "character": "PRINGLE",
-      "text": "Eventually, yes. Through institutions - journalism standards, fact-checking, legal frameworks. But it took centuries.",
-      "direction": "measured"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Months. The guy was living in a storage unit like it was a studio apartment. The drug dealer was bringing him food, checking on him, basically running a private prison.",
+      "direction": "incredulous"
     },
     {
       "line": 64,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Great, so we just need to wait three hundred years and we'll figure out AI. Very reassuring.",
-      "direction": "sarcastic"
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Look, I'm not saying the government should regulate everything, but when a drug dealer is running a more efficient detention facility than the federal prison system, maybe we need to ask some questions.",
+      "direction": "deadpan"
     },
     {
       "line": 65,
-      "segment": "deep_dive",
-      "character": "PRINGLE",
-      "text": "Well, we do have one advantage our ancestors didn't: we've seen this pattern before.",
-      "direction": "optimistic"
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Did the customer have a lease agreement? Was there a security deposit?",
+      "direction": "genuinely curious"
     },
     {
       "line": 66,
       "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "All right, time for rapid fire with Jax. What weird news are we not paying attention to?",
-      "direction": "transitioning energy"
+      "character": "JAX",
+      "text": "Bree, you're asking the real policy questions here. What's the regulatory framework for drug dealer imprisonment?",
+      "direction": "laughing"
     },
     {
       "line": 67,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Oh man, where do I start? First up: Palantir, the AI weapons company, just deployed their artificial intelligence system to help the government find... office chairs.",
-      "direction": "building to the punchline"
+      "character": "LEO",
+      "text": "How did this even get discovered?",
+      "direction": "still processing"
     },
     {
       "line": 68,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "I'm sorry, what?",
-      "direction": "disbelief"
+      "character": "JAX",
+      "text": "The storage facility manager got suspicious when someone kept visiting unit 47 with groceries. Turns out Florida Man was just trying to keep his debtor fed and healthy.",
+      "direction": "amused"
     },
     {
       "line": 69,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Apparently the Pentagon was having trouble tracking furniture inventory, so they hired the company that makes AI to identify terrorist targets to find missing desk chairs. The same algorithm that can spot a weapons cache from satellite imagery is now like, 'Hey, that's a Herman Miller Aeron in conference room B.'",
-      "direction": "amused by the absurdity"
+      "character": "PRINGLE",
+      "text": "Debtors' prisons were outlawed in the 1830s, but apparently nobody told this fellow.",
+      "direction": "historical note"
     },
     {
       "line": 70,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "This is either the most American story ever or a sign that we've completely lost the plot.",
-      "direction": "laughing despite herself"
+      "character": "DUKE",
+      "text": "The fact that this happened in Florida is the least surprising part of this entire story.",
+      "direction": "resigned"
     },
     {
       "line": 71,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Why not both? Next story: Louisiana has until Friday to put the Ten Commandments in every classroom, and apparently some districts are just... not gonna do it.",
-      "direction": "setting up conflict"
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Before we go, let's circle back to that AI poll because it connects to something important. Sixty percent of voters think they can spot AI-generated content, but research suggests most of us are overconfident about this.",
+      "direction": "transitioning to serious"
     },
     {
       "line": 72,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "LEO",
-      "text": "This is the law that passed last year?",
-      "direction": "clarifying"
+      "text": "So today's Daily Do is simple: test your AI detection skills. There are free tools online that show you examples of deepfakes, AI-generated images, and synthetic text. See how well you actually do.",
+      "direction": "instructional"
     },
     {
       "line": 73,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Yep. And some school boards are basically going 'come and make us.' It's like constitutional chicken. Who's gonna blink first, the state or the schools?",
-      "direction": "enjoying the standoff"
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "I tried this last week and got maybe half right. It was humbling.",
+      "direction": "admitting"
     },
     {
       "line": 74,
-      "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "Nullification crises have a long and complicated history in American federalism.",
-      "direction": "academic tone"
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "My daughter showed me some TikToks that I was absolutely convinced were real. They were completely AI-generated.",
+      "direction": "sheepish"
     },
     {
       "line": 75,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "JAX",
-      "text": "Right, but usually they're about slavery or taxes, not whether kids need to see 'Thou shalt not covet' next to the periodic table.",
-      "direction": "pointing out the absurdity"
+      "text": "Wait, Duke's on TikTok now?",
+      "direction": "surprised"
     },
     {
       "line": 76,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "DUKE",
-      "text": "I mean, 'thou shalt not steal' isn't terrible life advice for teenagers.",
-      "direction": "mild defense"
+      "text": "I'm not on TikTok. My daughter shows me TikToks. There's a difference.",
+      "direction": "defensive"
     },
     {
       "line": 77,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Sure, but do we really need government mandates for basic moral concepts? Also, what about kids who aren't Christian?",
-      "direction": "pushing back"
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "The point is, if we're going to live in a world where AI can create convincing fake content, we need to get better at recognizing it. Overconfidence is dangerous.",
+      "direction": "bringing it back"
     },
     {
       "line": 78,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Speaking of government, Texas has a mayoral candidate literally named 'Literally Anybody Else.' That's their legal name. They changed it specifically to run for office.",
-      "direction": "delighted by this"
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "As Benjamin Franklin once said, 'The doorstep to the temple of wisdom is a knowledge of our own ignorance.'",
+      "direction": "quote delivery"
     },
     {
       "line": 79,
-      "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "That's... actually brilliant.",
-      "direction": "impressed despite himself"
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "And as Florida Man apparently said, 'If you can't pay your debts, welcome to your new home in unit 47.' I'm Jax Mooney.",
+      "direction": "sign-off"
     },
     {
       "line": 80,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Right? Like, imagine being in the voting booth and seeing 'Literally Anybody Else' on the ballot. That's gotta be tempting for about 60% of voters at any given time.",
-      "direction": "appreciating the strategy"
-    },
-    {
-      "line": 81,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Honestly, depending on the other options, they might get my vote.",
-      "direction": "half-joking"
-    },
-    {
-      "line": 82,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "This is how democracy dies. Not with a bang, but with a really good joke name.",
-      "direction": "mock dramatic"
-    },
-    {
-      "line": 83,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "And finally, Florida man news: a drug dealer locked his customer in a storage unit for months over unpaid debt. The customer just got rescued last week.",
-      "direction": "classic Florida energy"
-    },
-    {
-      "line": 84,
-      "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "How is this rapid fire story and not the lead?",
-      "direction": "questioning priorities"
-    },
-    {
-      "line": 85,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Because it's Florida, so it barely registers anymore. But yeah, apparently the guy owed like eight hundred bucks and got imprisoned in a ten-by-ten storage unit with a bucket and some crackers.",
-      "direction": "matter-of-fact about the horror"
-    },
-    {
-      "line": 86,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "That's kidnapping! That's literally kidnapping!",
-      "direction": "outraged"
-    },
-    {
-      "line": 87,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Yeah, the dealer has been charged with false imprisonment, which seems like undercharging, but hey, Florida.",
-      "direction": "shrugging at Florida logic"
-    },
-    {
-      "line": 88,
-      "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "Debtor's prisons were outlawed in this country in 1833. Apparently no one informed Florida.",
-      "direction": "dry historical correction"
-    },
-    {
-      "line": 89,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "To be fair, a lot of laws seem optional in Florida. It's like the Wild West, but with more alligators and worse decision-making.",
-      "direction": "wrapping up with Florida slander"
-    },
-    {
-      "line": 90,
       "segment": "daily_do",
       "character": "LEO",
-      "text": "All right, time for today's Daily Do. With 80% of people worried about distinguishing real from AI-generated content, here's something you can actually control.",
-      "direction": "transitioning to practical advice"
-    },
-    {
-      "line": 91,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Before you share something today - anything, a news article, a funny video, a photo - take thirty seconds to check if it might be AI-generated. Most browsers now have built-in detection tools, or just Google 'AI detector' and paste the link.",
-      "direction": "clear, actionable"
-    },
-    {
-      "line": 92,
-      "segment": "daily_do",
-      "character": "BREE",
-      "text": "And honestly? When in doubt, don't share it. The internet will survive without your questionable repost.",
-      "direction": "practical addition"
-    },
-    {
-      "line": 93,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "Unless it's really funny. Then all bets are off.",
-      "direction": "undermining the advice"
-    },
-    {
-      "line": 94,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Jax...",
-      "direction": "warning tone"
-    },
-    {
-      "line": 95,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "I'm kidding! Check first, then laugh. Responsible comedy consumption.",
-      "direction": "backing down playfully"
-    },
-    {
-      "line": 96,
-      "segment": "daily_do",
-      "character": "PRINGLE",
-      "text": "As Benjamin Franklin once said, 'Believe none of what you hear and half of what you see.' In 2026, perhaps we should believe a quarter of what we see and verify the rest.",
-      "direction": "thoughtful closing wisdom"
-    },
-    {
-      "line": 97,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "That's The Friction for Monday, March 10th. I'm Leo Barros.",
-      "direction": "standard closing"
-    },
-    {
-      "line": 98,
-      "segment": "daily_do",
-      "character": "JAX",
-      "text": "And remember, if you're ever unsure about what's real anymore, just vote for Literally Anybody Else. At least you'll know what you're getting.",
-      "direction": "final joke callback"
-    },
-    {
-      "line": 99,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "We'll see you tomorrow.",
-      "direction": "final sign-off"
+      "text": "This has been The Friction. We'll see you tomorrow.",
+      "direction": "closing"
     }
   ]
 }
