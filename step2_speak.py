@@ -151,7 +151,11 @@ def main():
     success = 0
     failed = 0
     total = len(lines)
-    saved_to_github = 0
+
+    local_audio = Path("audio")
+    local_audio.mkdir(exist_ok=True)
+    for f in local_audio.glob("*.mp3"):
+        f.unlink()
 
     logger.info(f"\nSynthesizing {total} lines...")
     for i, line in enumerate(lines):
@@ -177,9 +181,9 @@ def main():
         audio = synthesize_line(text, character, settings)
         if audio:
             clip_name = f"{line_num:04d}_{character}.mp3"
-            clip_path = f"audio/{date_str}/{clip_name}"
-            if save_to_github(audio, clip_path, f"Audio: {clip_name}"):
-                saved_to_github += 1
+            local_path = local_audio / clip_name
+            with open(local_path, "wb") as f:
+                f.write(audio)
             success += 1
         else:
             failed += 1
@@ -187,18 +191,34 @@ def main():
     logger.info(f"\nSynthesis complete:")
     logger.info(f"  Successful: {success}/{total}")
     logger.info(f"  Failed: {failed}/{total}")
-    logger.info(f"  Saved to GitHub: {saved_to_github}")
 
     if success == 0:
         send_status_email(f"FRICTION FAILED: No Audio | {date_str}",
             "Zero lines synthesized. Check ElevenLabs key and credits.")
         sys.exit(1)
 
+    # Zip all clips and upload to GitHub as one file
+    import zipfile
+    zip_path = f"audio_{date_str}.zip"
+    logger.info(f"\nZipping {success} clips...")
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
+        for mp3 in sorted(local_audio.glob("*.mp3")):
+            zf.write(mp3, mp3.name)
+    zip_size_mb = os.path.getsize(zip_path) / 1024 / 1024
+    logger.info(f"Zip file: {zip_size_mb:.1f} MB")
+
+    with open(zip_path, "rb") as f:
+        zip_data = f.read()
+    github_zip_path = f"audio/{date_str}/clips.zip"
+    logger.info(f"Uploading to GitHub: {github_zip_path}")
+    saved = save_to_github(zip_data, github_zip_path, f"Audio clips: {date_str}")
+
     summary = f"""THE FRICTION - Voice Synthesis Complete
 Date: {date_str}
 Lines: {success}/{total} synthesized
 Failed: {failed}
-Saved to GitHub: audio/{date_str}/
+Zip size: {zip_size_mb:.1f} MB
+Saved to GitHub: {'YES' if saved else 'FAILED'}
 
 Ready for Step 3 (Mix).
 """
