@@ -1,9 +1,5 @@
-"""
-THE FRICTION - Master Pipeline Orchestrator
-This is the script Railway runs on schedule.
-For now, it runs the news ingestion step.
-We'll add more steps as we build them.
-"""
+# THE FRICTION - Master Pipeline Orchestrator
+# This is the script Railway runs on schedule
 
 import sys
 import logging
