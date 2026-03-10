@@ -1,10 +1,11 @@
 # THE FRICTION - Step 1: Write
-# Fetches news, generates script, saves to Dropbox, emails status
+# Fetches news, generates script, saves to GitHub, emails status
 
 import os
 import json
 import logging
 import sys
+import base64
 import requests
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,7 +14,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger("friction.write")
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-DROPBOX_TOKEN = os.getenv("DROPBOX_TOKEN", "")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_REPO = "markparesky/thefriction"
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL", "")
 
@@ -28,46 +30,38 @@ def send_status_email(subject, body_text):
     except Exception as e:
         logger.error(f"Email failed: {e}")
 
-def save_to_dropbox(data_bytes, path, content_type="application/octet-stream"):
-    if not DROPBOX_TOKEN:
-        logger.error("DROPBOX_TOKEN not set")
+def save_script_to_github(script_json, filename):
+    if not GITHUB_TOKEN:
+        logger.error("GITHUB_TOKEN not set")
         return False
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/scripts/{filename}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    content_b64 = base64.b64encode(script_json.encode("utf-8")).decode("utf-8")
+
+    # Check if file exists
+    sha = None
     try:
-        resp = requests.post("https://content.dropboxapi.com/2/files/upload",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}",
-                     "Dropbox-API-Arg": json.dumps({"path": path, "mode": "overwrite", "autorename": False}),
-                     "Content-Type": "application/octet-stream"},
-            data=data_bytes, timeout=120)
-        if resp.status_code == 200:
-            logger.info(f"Saved to Dropbox: {path}")
+        check = requests.get(url, headers=headers, timeout=30)
+        if check.status_code == 200:
+            sha = check.json().get("sha")
+    except Exception:
+        pass
+
+    payload = {"message": f"Script: {filename}", "content": content_b64}
+    if sha:
+        payload["sha"] = sha
+
+    try:
+        resp = requests.put(url, headers=headers, json=payload, timeout=60)
+        if resp.status_code in (200, 201):
+            logger.info(f"Script saved to GitHub: scripts/{filename}")
             return True
         else:
-            logger.error(f"Dropbox save failed: {resp.status_code} - {resp.text[:300]}")
+            logger.error(f"GitHub save failed: {resp.status_code} - {resp.text[:300]}")
             return False
     except Exception as e:
-        logger.error(f"Dropbox error: {e}")
+        logger.error(f"GitHub save error: {e}")
         return False
-
-def get_dropbox_link(path):
-    if not DROPBOX_TOKEN:
-        return ""
-    try:
-        resp = requests.post("https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}", "Content-Type": "application/json"},
-            json={"path": path, "settings": {"requested_visibility": "public"}}, timeout=30)
-        if resp.status_code == 200:
-            return resp.json().get("url", "").replace("dl=0", "dl=1")
-        elif resp.status_code == 409:
-            resp2 = requests.post("https://api.dropboxapi.com/2/sharing/list_shared_links",
-                headers={"Authorization": f"Bearer {DROPBOX_TOKEN}", "Content-Type": "application/json"},
-                json={"path": path, "direct_only": True}, timeout=30)
-            if resp2.status_code == 200:
-                links = resp2.json().get("links", [])
-                if links:
-                    return links[0].get("url", "").replace("dl=0", "dl=1")
-    except Exception as e:
-        logger.error(f"Dropbox link error: {e}")
-    return ""
 
 def fetch_news():
     import news_ingestion
@@ -216,17 +210,12 @@ def main():
     total_words = sum(len((l.get("text") or "").split()) for l in lines)
     logger.info(f"Script: {len(lines)} lines, ~{total_words} words, ~{total_words/170:.1f} minutes")
 
-    # Save script to Dropbox
+    # Save script to GitHub
     script_json = json.dumps(script, indent=2, ensure_ascii=False)
-    dropbox_path = f"/scripts/friction_{date_str}.json"
-    saved = save_to_dropbox(script_json.encode("utf-8"), dropbox_path)
+    filename = f"friction_{date_str}.json"
+    saved = save_script_to_github(script_json, filename)
 
-    # Also save locally for other steps
-    with open("daily_script.json", "w", encoding="utf-8") as f:
-        f.write(script_json)
-
-    # Get link
-    script_link = get_dropbox_link(dropbox_path) if saved else ""
+    github_url = f"https://github.com/{GITHUB_REPO}/blob/main/scripts/{filename}" if saved else ""
 
     # Build summary
     headlines = metadata.get("headlines", {})
@@ -242,8 +231,8 @@ Headlines:
 Script: {len(lines)} lines, ~{total_words} words, ~{total_words/170:.1f} min
 Daily Do: {metadata.get('daily_do', '?')[:100]}
 
-Script saved to Dropbox: {dropbox_path}
-Link: {script_link or 'no link'}
+Script saved to GitHub: scripts/{filename}
+{github_url}
 """
 
     send_status_email(f"FRICTION Script Ready | {date_str} | {headlines.get('geopolitics', '')[:40]}", summary)

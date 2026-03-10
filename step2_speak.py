@@ -14,6 +14,8 @@ logger = logging.getLogger("friction.speak")
 
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 DROPBOX_TOKEN = os.getenv("DROPBOX_TOKEN", "")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_REPO = "markparesky/thefriction"
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL", "")
 
@@ -66,6 +68,24 @@ def save_to_dropbox(data_bytes, path):
     except Exception as e:
         logger.error(f"Dropbox error: {e}")
         return False
+
+def download_script_from_github(filename):
+    if not GITHUB_TOKEN:
+        return None
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/scripts/{filename}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    try:
+        resp = requests.get(url, headers=headers, timeout=30)
+        if resp.status_code == 200:
+            import base64
+            content = base64.b64decode(resp.json().get("content", "")).decode("utf-8")
+            return content
+        else:
+            logger.error(f"GitHub download failed: {resp.status_code}")
+            return None
+    except Exception as e:
+        logger.error(f"GitHub download error: {e}")
+        return None
 
 def download_from_dropbox(path):
     if not DROPBOX_TOKEN:
@@ -123,17 +143,17 @@ def main():
     logger.info("=" * 60)
 
     date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    script_path = f"/scripts/friction_{date_str}.json"
+    filename = f"friction_{date_str}.json"
 
-    # Download script from Dropbox
-    logger.info(f"\nDownloading script: {script_path}")
-    script_data = download_from_dropbox(script_path)
-    if not script_data:
+    # Download script from GitHub
+    logger.info(f"\nDownloading script from GitHub: scripts/{filename}")
+    script_text = download_script_from_github(filename)
+    if not script_text:
         send_status_email(f"FRICTION FAILED: No Script | {date_str}",
-            f"Could not find script at {script_path}\nMake sure Step 1 ran first.")
+            f"Could not find script at scripts/{filename}\nMake sure Step 1 ran first.")
         sys.exit(1)
 
-    script = json.loads(script_data.decode("utf-8"))
+    script = json.loads(script_text)
     lines = script.get("script", [])
     logger.info(f"Script: {len(lines)} lines")
 
