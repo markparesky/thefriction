@@ -697,6 +697,51 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Explosion Damages Synagogue in Belgium",
+          "source": "New York Times",
+          "keywords": [
+            "explosion",
+            "damages",
+            "synagogue",
+            "belgium"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "G7 Countries Hold Off on Releasing Emergency Oil Supplies",
+          "source": "New York Times",
+          "keywords": [
+            "countries",
+            "hold",
+            "off",
+            "releasing",
+            "emergency",
+            "oil",
+            "supplies"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Mamdani Chooses His Words Carefully After Alleged Terror Attack",
+          "source": "New York Times",
+          "keywords": [
+            "mamdani",
+            "chooses",
+            "words",
+            "carefully",
+            "alleged",
+            "terror",
+            "attack"
+          ]
+        }
+      ]
     }
   ]
 }
