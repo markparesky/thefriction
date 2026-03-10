@@ -1089,6 +1089,60 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "'Serious concerns': GOP sounds alarm on taxpayer funds going to 'high risk' universities vulnerable to CCP",
+          "source": "Fox News",
+          "keywords": [
+            "serious",
+            "concerns",
+            "gop",
+            "sounds",
+            "alarm",
+            "taxpayer",
+            "funds",
+            "going",
+            "high",
+            "risk"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Fed Up With High Costs, American Theater Takes a Trip to London",
+          "source": "New York Times",
+          "keywords": [
+            "fed",
+            "high",
+            "costs",
+            "american",
+            "theater",
+            "takes",
+            "trip",
+            "london"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "San Francisco Bay Area Residents Weigh Possibility of BART Reductions",
+          "source": "New York Times",
+          "keywords": [
+            "san",
+            "francisco",
+            "bay",
+            "area",
+            "residents",
+            "weigh",
+            "possibility",
+            "bart",
+            "reductions"
+          ]
+        }
+      ]
     }
   ]
 }
