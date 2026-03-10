@@ -936,6 +936,55 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Hegseth once warned against endless wars. Now he’s leading Trump’s strike-first doctrine",
+          "source": "Fox News",
+          "keywords": [
+            "hegseth",
+            "once",
+            "warned",
+            "against",
+            "endless",
+            "wars",
+            "hes",
+            "leading",
+            "trumps",
+            "strikefirst"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Tell Us About Your Plans for a Longer Life",
+          "source": "New York Times",
+          "keywords": [
+            "tell",
+            "plans",
+            "longer",
+            "life"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Who Is Balendra Shah, The Rapper Set to Be Nepal’s Next Prime Minister?",
+          "source": "New York Times",
+          "keywords": [
+            "balendra",
+            "shah",
+            "rapper",
+            "set",
+            "nepals",
+            "next",
+            "prime",
+            "minister"
+          ]
+        }
+      ]
     }
   ]
 }
