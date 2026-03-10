@@ -1,6 +1,17 @@
-# THE FRICTION - Audio Mixing (Phase 4)
-# Takes individual audio clips from Phase 3 and assembles them
-# into a finished podcast episode with pauses between speakers.
+"""
+THE FRICTION - Audio Mixing (Phase 4)
+=======================================
+Takes individual audio clips from Phase 3 and assembles them
+into a finished podcast episode with pauses between speakers.
+
+Output: episode.mp3
+
+Requirements:
+  - pydub (pip install pydub)
+  - ffmpeg installed on the system
+  - audio/ directory with MP3 files from Phase 3
+  - daily_script.json for segment information
+"""
 
 import os
 import json
