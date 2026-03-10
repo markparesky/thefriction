@@ -11,7 +11,7 @@ Requirements:
   - ffmpeg installed on the system
   - audio/ directory with MP3 files from Phase 3
   - daily_script.json for segment information
-"""
+  """
 
 import os
 import json
