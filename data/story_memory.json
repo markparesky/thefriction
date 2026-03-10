@@ -832,6 +832,61 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Iran Choosing Mojtaba Khamenei as Supreme Leader Signals Defiance Amid War",
+          "source": "New York Times",
+          "keywords": [
+            "iran",
+            "choosing",
+            "mojtaba",
+            "khamenei",
+            "supreme",
+            "leader",
+            "signals",
+            "defiance",
+            "amid",
+            "war"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Talent Agent Ari Emanuel Launches His Own Podcast, ‘Rushmore’",
+          "source": "New York Times",
+          "keywords": [
+            "talent",
+            "agent",
+            "ari",
+            "emanuel",
+            "launches",
+            "own",
+            "podcast",
+            "rushmore"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Conan O'Brien knew late-night shows were in trouble after viral 'Hot Ones' appearance",
+          "source": "Fox News",
+          "keywords": [
+            "conan",
+            "obrien",
+            "knew",
+            "latenight",
+            "shows",
+            "trouble",
+            "viral",
+            "hot",
+            "ones",
+            "appearance"
+          ]
+        }
+      ]
     }
   ]
 }
