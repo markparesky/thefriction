@@ -115,34 +115,27 @@ def main():
     lines = script.get("script", [])
     logger.info(f"Script: {len(lines)} lines")
 
-    # List and download audio clips from GitHub
-    audio_folder = f"audio/{date_str}"
-    logger.info(f"\nListing audio clips: {audio_folder}")
-    clip_paths = list_github_folder(audio_folder)
-    logger.info(f"Found {len(clip_paths)} clips")
-
-    if not clip_paths:
+    # Download audio clips zip from GitHub
+    zip_path = f"audio/{date_str}/clips.zip"
+    logger.info(f"\nDownloading audio zip: {zip_path}")
+    zip_data = download_from_github(zip_path)
+    if not zip_data:
         send_status_email(f"FRICTION FAILED: No Clips | {date_str}",
-            f"No audio clips at {audio_folder}\nMake sure Step 2 ran first.")
+            f"Could not find {zip_path}\nMake sure Step 2 ran first.")
         sys.exit(1)
 
+    # Extract clips
+    import zipfile
+    import io
     local_audio = Path("audio")
     local_audio.mkdir(exist_ok=True)
     for f in local_audio.glob("*.mp3"):
         f.unlink()
 
-    logger.info("Downloading clips from GitHub...")
-    downloaded = 0
-    for clip_path in clip_paths:
-        clip_name = clip_path.split("/")[-1]
-        data = download_from_github(clip_path)
-        if data:
-            with open(local_audio / clip_name, "wb") as f:
-                f.write(data)
-            downloaded += 1
-        if downloaded % 20 == 0 and downloaded > 0:
-            logger.info(f"  Downloaded {downloaded}/{len(clip_paths)}")
-    logger.info(f"Downloaded {downloaded} clips")
+    with zipfile.ZipFile(io.BytesIO(zip_data)) as zf:
+        zf.extractall(str(local_audio))
+    downloaded = len(list(local_audio.glob("*.mp3")))
+    logger.info(f"Extracted {downloaded} clips")
 
     # Build audio map
     audio_map = {}
