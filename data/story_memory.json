@@ -649,6 +649,54 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "5 Iranian women's soccer players receive asylum in Australia after Trump pressure",
+          "source": "Fox News",
+          "keywords": [
+            "iranian",
+            "womens",
+            "soccer",
+            "players",
+            "receive",
+            "asylum",
+            "australia",
+            "trump",
+            "pressure"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Investors and Trump Face an Iran Dilemma",
+          "source": "New York Times",
+          "keywords": [
+            "investors",
+            "trump",
+            "face",
+            "iran",
+            "dilemma"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Billionaires Made 19% of Federal Election Campaign Contributions in 2024",
+          "source": "New York Times",
+          "keywords": [
+            "billionaires",
+            "made",
+            "federal",
+            "election",
+            "campaign",
+            "contributions",
+            "2024"
+          ]
+        }
+      ]
     }
   ]
 }
