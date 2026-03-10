@@ -1035,6 +1035,60 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "As War Comes to Gulf States, Migrant Workers Pay the Highest Price",
+          "source": "New York Times",
+          "keywords": [
+            "war",
+            "comes",
+            "gulf",
+            "states",
+            "migrant",
+            "workers",
+            "pay",
+            "highest",
+            "price"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "U.S. Solar Installations Fell in 2025 as Trump Attacked Clean Energy",
+          "source": "New York Times",
+          "keywords": [
+            "solar",
+            "installations",
+            "fell",
+            "2025",
+            "trump",
+            "attacked",
+            "clean",
+            "energy"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Tyler Linderbaum's $81M record-breaking deal headlines Raiders' free agent spending spree",
+          "source": "Fox News",
+          "keywords": [
+            "tyler",
+            "linderbaums",
+            "81m",
+            "recordbreaking",
+            "deal",
+            "headlines",
+            "raiders",
+            "free",
+            "agent",
+            "spending"
+          ]
+        }
+      ]
     }
   ]
 }
