@@ -985,6 +985,56 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Live Updates: After Global Economy Shudders, Trump Zigzags on Whether War Is Nearing End",
+          "source": "New York Times",
+          "keywords": [
+            "live",
+            "updates",
+            "global",
+            "economy",
+            "shudders",
+            "trump",
+            "zigzags",
+            "whether",
+            "war",
+            "nearing"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "An Amish Avatar and an A.I. Monk Are Pitching Supplements on Social Media",
+          "source": "New York Times",
+          "keywords": [
+            "amish",
+            "avatar",
+            "monk",
+            "pitching",
+            "supplements",
+            "social",
+            "media"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Homemade Bombs in ISIS-Inspired Attack Were Deadly, N.Y.P.D. Says",
+          "source": "New York Times",
+          "keywords": [
+            "homemade",
+            "bombs",
+            "isisinspired",
+            "attack",
+            "deadly",
+            "nypd"
+          ]
+        }
+      ]
     }
   ]
 }
