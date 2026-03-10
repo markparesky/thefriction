@@ -1,5 +1,5 @@
 # THE FRICTION - Step 3: Mix
-# Downloads audio clips from Dropbox, mixes with music, saves episode to Dropbox
+# Downloads audio clips from GitHub, mixes with music, emails episode
 
 import os
 import json
@@ -14,7 +14,6 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("friction.mix")
 
-DROPBOX_TOKEN = os.getenv("DROPBOX_TOKEN", "")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 GITHUB_REPO = "markparesky/thefriction"
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
@@ -27,100 +26,71 @@ def send_status_email(subject, body_text):
         requests.post("https://api.resend.com/emails",
             headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
             json={"from": "The Friction <onboarding@resend.dev>", "to": [NOTIFY_EMAIL],
-                  "subject": subject, "html": f"<pre style='font-family:monospace;font-size:14px;'>{body_text}</pre>"})
+                  "subject": subject, "html": f"<pre style='font-family:monospace;font-size:14px;'>{body_text}</pre>"},
+            timeout=30)
     except Exception as e:
         logger.error(f"Email failed: {e}")
 
-def save_to_dropbox(data_bytes, path):
-    if not DROPBOX_TOKEN:
+def send_episode_email(subject, body_text, mp3_path):
+    if not RESEND_API_KEY or not NOTIFY_EMAIL:
         return False
     try:
-        resp = requests.post("https://content.dropboxapi.com/2/files/upload",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}",
-                     "Dropbox-API-Arg": json.dumps({"path": path, "mode": "overwrite", "autorename": False}),
-                     "Content-Type": "application/octet-stream"},
-            data=data_bytes, timeout=300)
-        if resp.status_code == 200:
-            logger.info(f"Saved to Dropbox: {path}")
-            return True
-        else:
-            logger.error(f"Dropbox save failed: {resp.status_code} - {resp.text[:300]}")
-            return False
-    except Exception as e:
-        logger.error(f"Dropbox error: {e}")
-        return False
-
-def download_from_dropbox(path):
-    if not DROPBOX_TOKEN:
-        return None
-    try:
-        resp = requests.post("https://content.dropboxapi.com/2/files/download",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}",
-                     "Dropbox-API-Arg": json.dumps({"path": path})},
+        with open(mp3_path, "rb") as f:
+            mp3_data = f.read()
+        mp3_b64 = base64.b64encode(mp3_data).decode("utf-8")
+        filename = os.path.basename(mp3_path)
+        resp = requests.post("https://api.resend.com/emails",
+            headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
+            json={
+                "from": "The Friction <onboarding@resend.dev>",
+                "to": [NOTIFY_EMAIL],
+                "subject": subject,
+                "html": f"<pre style='font-family:monospace;font-size:14px;'>{body_text}</pre>",
+                "attachments": [{"filename": filename, "content": mp3_b64}]
+            },
             timeout=120)
         if resp.status_code == 200:
-            return resp.content
+            logger.info("Episode email sent with attachment!")
+            return True
         else:
-            logger.error(f"Download failed: {resp.status_code}")
-            return None
+            logger.error(f"Episode email failed: {resp.status_code} - {resp.text[:300]}")
+            return False
     except Exception as e:
-        logger.error(f"Download error: {e}")
-        return None
+        logger.error(f"Episode email error: {e}")
+        return False
 
-def get_dropbox_link(path):
-    if not DROPBOX_TOKEN:
-        return ""
-    try:
-        resp = requests.post("https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}", "Content-Type": "application/json"},
-            json={"path": path, "settings": {"requested_visibility": "public"}}, timeout=30)
-        if resp.status_code == 200:
-            return resp.json().get("url", "").replace("dl=0", "dl=1")
-        elif resp.status_code == 409:
-            resp2 = requests.post("https://api.dropboxapi.com/2/sharing/list_shared_links",
-                headers={"Authorization": f"Bearer {DROPBOX_TOKEN}", "Content-Type": "application/json"},
-                json={"path": path, "direct_only": True}, timeout=30)
-            if resp2.status_code == 200:
-                links = resp2.json().get("links", [])
-                if links:
-                    return links[0].get("url", "").replace("dl=0", "dl=1")
-    except Exception as e:
-        logger.error(f"Link error: {e}")
-    return ""
-
-def list_dropbox_folder(path):
-    if not DROPBOX_TOKEN:
-        return []
-    try:
-        resp = requests.post("https://api.dropboxapi.com/2/files/list_folder",
-            headers={"Authorization": f"Bearer {DROPBOX_TOKEN}", "Content-Type": "application/json"},
-            json={"path": path}, timeout=30)
-        if resp.status_code == 200:
-            entries = resp.json().get("entries", [])
-            return [e.get("path_lower", "") for e in entries if e.get("name", "").endswith(".mp3")]
-        else:
-            logger.error(f"List folder failed: {resp.status_code} - {resp.text[:200]}")
-            return []
-    except Exception as e:
-        logger.error(f"List folder error: {e}")
-        return []
-
-def download_script_from_github(filename):
+def download_from_github(filepath):
     if not GITHUB_TOKEN:
         return None
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/scripts/{filename}"
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filepath}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     try:
-        resp = requests.get(url, headers=headers, timeout=30)
+        resp = requests.get(url, headers=headers, timeout=60)
         if resp.status_code == 200:
-            content = base64.b64decode(resp.json().get("content", "")).decode("utf-8")
-            return content
+            return base64.b64decode(resp.json().get("content", ""))
         else:
-            logger.error(f"GitHub download failed: {resp.status_code}")
+            logger.error(f"GitHub download failed ({filepath}): {resp.status_code}")
             return None
     except Exception as e:
         logger.error(f"GitHub download error: {e}")
         return None
+
+def list_github_folder(folder_path):
+    if not GITHUB_TOKEN:
+        return []
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{folder_path}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    try:
+        resp = requests.get(url, headers=headers, timeout=30)
+        if resp.status_code == 200:
+            files = resp.json()
+            return [f.get("path", "") for f in files if f.get("name", "").endswith(".mp3")]
+        else:
+            logger.error(f"GitHub list failed ({folder_path}): {resp.status_code}")
+            return []
+    except Exception as e:
+        logger.error(f"GitHub list error: {e}")
+        return []
 
 def main():
     logger.info("=" * 60)
@@ -134,43 +104,44 @@ def main():
 
     # Download script from GitHub
     filename = f"friction_{date_str}.json"
-    logger.info(f"\nDownloading script from GitHub: scripts/{filename}")
-    script_text = download_script_from_github(filename)
-    if not script_text:
+    logger.info(f"\nDownloading script: scripts/{filename}")
+    script_data = download_from_github(f"scripts/{filename}")
+    if not script_data:
         send_status_email(f"FRICTION FAILED: No Script | {date_str}",
-            f"Could not find script at scripts/{filename}")
+            f"Could not find scripts/{filename}")
         sys.exit(1)
 
-    script = json.loads(script_text)
+    script = json.loads(script_data.decode("utf-8"))
     lines = script.get("script", [])
     logger.info(f"Script: {len(lines)} lines")
 
-    # List audio clips from Dropbox
-    audio_folder = f"/audio/{date_str}"
+    # List and download audio clips from GitHub
+    audio_folder = f"audio/{date_str}"
     logger.info(f"\nListing audio clips: {audio_folder}")
-    clip_paths = list_dropbox_folder(audio_folder)
+    clip_paths = list_github_folder(audio_folder)
     logger.info(f"Found {len(clip_paths)} clips")
 
     if not clip_paths:
-        send_status_email(f"FRICTION FAILED: No Audio Clips | {date_str}",
-            f"No audio clips found at {audio_folder}\nMake sure Step 2 ran first.")
+        send_status_email(f"FRICTION FAILED: No Clips | {date_str}",
+            f"No audio clips at {audio_folder}\nMake sure Step 2 ran first.")
         sys.exit(1)
 
-    # Download all clips to local temp directory
     local_audio = Path("audio")
     local_audio.mkdir(exist_ok=True)
     for f in local_audio.glob("*.mp3"):
         f.unlink()
 
-    logger.info("Downloading clips...")
+    logger.info("Downloading clips from GitHub...")
     downloaded = 0
     for clip_path in clip_paths:
-        filename = clip_path.split("/")[-1]
-        data = download_from_dropbox(clip_path)
+        clip_name = clip_path.split("/")[-1]
+        data = download_from_github(clip_path)
         if data:
-            with open(local_audio / filename, "wb") as f:
+            with open(local_audio / clip_name, "wb") as f:
                 f.write(data)
             downloaded += 1
+        if downloaded % 20 == 0 and downloaded > 0:
+            logger.info(f"  Downloaded {downloaded}/{len(clip_paths)}")
     logger.info(f"Downloaded {downloaded} clips")
 
     # Build audio map
@@ -196,7 +167,7 @@ def main():
             except Exception as e:
                 logger.warning(f"Could not load {name}.mp3: {e}")
         else:
-            logger.info(f"Music not found (optional): {mp}")
+            logger.info(f"Music not found: {mp}")
 
     # Assemble episode
     logger.info("\nAssembling episode...")
@@ -224,7 +195,6 @@ def main():
         except Exception:
             continue
 
-        # Segment transition
         if segment != current_segment and current_segment != "":
             if "transition" in music:
                 episode += AudioSegment.silent(duration=200)
@@ -238,7 +208,6 @@ def main():
             current_segment = segment
             logger.info(f"  --- {segment.upper()} ---")
 
-        # Add clip
         if line_num in audio_map:
             try:
                 clip = AudioSegment.from_mp3(str(audio_map[line_num]))
@@ -257,7 +226,6 @@ def main():
             except Exception as e:
                 logger.warning(f"Error loading clip {line_num}: {e}")
 
-    # Outro
     if "outro" in music:
         episode += AudioSegment.silent(duration=500)
         episode += music["outro"]
@@ -270,33 +238,33 @@ def main():
     episode = AudioSegment.silent(duration=500) + episode + AudioSegment.silent(duration=1000)
 
     # Export
-    output_path = "episode.mp3"
-    episode.export(output_path, format="mp3", bitrate="192k",
+    output_file = f"friction_{date_str}.mp3"
+    episode.export(output_file, format="mp3", bitrate="192k",
         tags={"title": f"The Friction - {datetime.now().strftime('%B %d, %Y')}",
               "artist": "The Friction", "album": "The Friction Daily", "genre": "Podcast"})
 
     duration_min = len(episode) / 1000 / 60
-    file_size_mb = os.path.getsize(output_path) / 1024 / 1024
+    file_size_mb = os.path.getsize(output_file) / 1024 / 1024
     logger.info(f"\nEpisode: {duration_min:.1f} min, {file_size_mb:.1f} MB, {clips_used} clips")
 
-    # Upload episode to Dropbox
-    logger.info("Uploading episode to Dropbox...")
-    dropbox_ep_path = f"/episodes/friction_{date_str}.mp3"
-    with open(output_path, "rb") as f:
-        saved = save_to_dropbox(f.read(), dropbox_ep_path)
-
-    episode_link = get_dropbox_link(dropbox_ep_path) if saved else ""
-
-    # Email
+    # Email episode as attachment
+    logger.info("Emailing episode...")
     summary = f"""THE FRICTION - Episode Ready!
 Date: {date_str}
 Duration: {duration_min:.1f} minutes
 File size: {file_size_mb:.1f} MB
-Clips used: {clips_used}/{len(lines)}
+Clips: {clips_used}/{len(lines)}
 
-LISTEN: {episode_link or 'upload failed'}
+Episode attached to this email.
 """
-    send_status_email(f"FRICTION EPISODE READY | {date_str} | {duration_min:.1f} min", summary)
+    email_sent = send_episode_email(
+        f"FRICTION EPISODE | {date_str} | {duration_min:.1f} min",
+        summary, output_file)
+
+    if not email_sent:
+        send_status_email(f"FRICTION WARNING: Episode built but email failed | {date_str}",
+            f"Episode was mixed ({duration_min:.1f} min) but could not be emailed.\nFile size: {file_size_mb:.1f} MB")
+
     logger.info("\nStep 3 complete.")
 
 if __name__ == "__main__":
