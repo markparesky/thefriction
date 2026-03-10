@@ -27,6 +27,7 @@ logger = logging.getLogger("friction.mixer")
 AUDIO_INPUT_DIR = os.getenv("AUDIO_OUTPUT_DIR", "audio")
 SCRIPT_INPUT_FILE = os.getenv("SCRIPT_OUTPUT_FILE", "daily_script.json")
 EPISODE_OUTPUT_FILE = os.getenv("EPISODE_OUTPUT_FILE", "episode.mp3")
+MUSIC_DIR = "music"
 
 
 # ---------------------------------------------------------------------------
@@ -84,9 +85,31 @@ def run():
 
     logger.info(f"Mapped {len(audio_map)} audio clips to script lines")
 
+    # Load music files
+    from pydub import AudioSegment as AS
+    music_dir = Path(MUSIC_DIR)
+    music = {}
+
+    for name in ("intro", "transition", "outro", "bed"):
+        music_path = music_dir / f"{name}.mp3"
+        if music_path.exists():
+            try:
+                music[name] = AudioSegment.from_mp3(str(music_path))
+                logger.info(f"Loaded music: {name}.mp3 ({len(music[name])/1000:.1f}s)")
+            except Exception as e:
+                logger.warning(f"Could not load {name}.mp3: {e}")
+        else:
+            logger.info(f"Music file not found (optional): {music_path}")
+
     # Assemble the episode
     logger.info("\nAssembling episode...")
     episode = AudioSegment.empty()
+
+    # Add intro music if available
+    if "intro" in music:
+        logger.info("  Adding intro music...")
+        episode += music["intro"]
+        episode += AudioSegment.silent(duration=300)  # Brief pause after intro
 
     # Pause durations (milliseconds)
     PAUSE_SAME_SPEAKER = (80, 180)       # Short pause, same person continues
@@ -125,24 +148,52 @@ def run():
     previous_clip_duration = 0  # Track how long the last clip was
     clips_added = 0
     clips_missing = 0
+    brief_start_position = 0
 
     for i, line in enumerate(lines):
         line_num = line.get("line", 0)
         character = line.get("character", "")
         segment = line.get("segment", "")
-        text = line.get("text", "").lower().strip()
-        direction = line.get("direction", "").lower()
+        text = (line.get("text") or "").lower().strip()
+        direction = (line.get("direction") or "").lower()
         word_count = len(text.split())
 
-        # Add segment transition pause
+        # Add segment transition
         if segment != current_segment and current_segment != "":
-            pause_ms = random.randint(*PAUSE_SEGMENT_TRANSITION)
-            episode += AudioSegment.silent(duration=pause_ms)
-            logger.info(f"  --- {segment.upper()} --- (transition pause: {pause_ms}ms)")
+            # If leaving the Brief segment, overlay the music bed
+            if current_segment == "brief" and "bed" in music:
+                brief_end_position = len(episode)
+                brief_duration = brief_end_position - brief_start_position
+                if brief_duration > 0:
+                    bed = music["bed"]
+                    loops_needed = (brief_duration // len(bed)) + 1
+                    looped_bed = bed * loops_needed
+                    looped_bed = looped_bed[:brief_duration]
+                    looped_bed = looped_bed.fade_in(1000).fade_out(2000)
+                    episode = episode.overlay(looped_bed, position=brief_start_position)
+                    logger.info(f"  Overlaid music bed on Brief segment ({brief_duration/1000:.1f}s)")
+
+            # Add transition sting or pause
+            if "transition" in music:
+                episode += AudioSegment.silent(duration=200)
+                episode += music["transition"]
+                episode += AudioSegment.silent(duration=200)
+            else:
+                pause_ms = random.randint(*PAUSE_SEGMENT_TRANSITION)
+                episode += AudioSegment.silent(duration=pause_ms)
+
+            logger.info(f"  --- {segment.upper()} ---")
+
+            # Track Brief start
+            if segment == "brief":
+                brief_start_position = len(episode)
+
             current_segment = segment
             previous_clip_duration = 0
         elif current_segment == "":
             current_segment = segment
+            if segment == "brief":
+                brief_start_position = len(episode)
             logger.info(f"  --- {segment.upper()} ---")
 
         # Find the audio clip
@@ -196,6 +247,12 @@ def run():
                 clips_missing += 1
         else:
             clips_missing += 1
+
+    # Add outro music if available
+    if "outro" in music:
+        logger.info("  Adding outro music...")
+        episode += AudioSegment.silent(duration=500)
+        episode += music["outro"]
 
     # Normalize audio levels
     logger.info("\nNormalizing audio levels...")
