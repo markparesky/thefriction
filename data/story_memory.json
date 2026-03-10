@@ -597,6 +597,58 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "policy",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Shells Fired From Lebanon Land West of Syrian Capital, Country’s Military Says",
+          "source": "New York Times",
+          "keywords": [
+            "shells",
+            "fired",
+            "lebanon",
+            "land",
+            "west",
+            "syrian",
+            "capital",
+            "countrys",
+            "military"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Biden-appointed judge in the hot seat after DHS fires back at 'false' claims about ICE facility",
+          "source": "Fox News",
+          "keywords": [
+            "bidenappointed",
+            "judge",
+            "hot",
+            "seat",
+            "dhs",
+            "fires",
+            "back",
+            "false",
+            "claims",
+            "ice"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "The Hitchhiker’s Guide to the 'talking filibuster' and the SAVE Act",
+          "source": "Fox News",
+          "keywords": [
+            "hitchhikers",
+            "guide",
+            "talking",
+            "filibuster",
+            "save",
+            "act"
+          ]
+        }
+      ]
     }
   ]
 }
