@@ -742,6 +742,51 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "quiet",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "On the Road With Zelensky, Weathered, Weary and Fighting On",
+          "source": "New York Times",
+          "keywords": [
+            "road",
+            "zelensky",
+            "weathered",
+            "weary",
+            "fighting"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Tell Us About Your Plans for a Longer Life",
+          "source": "New York Times",
+          "keywords": [
+            "tell",
+            "plans",
+            "longer",
+            "life"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "At least 40 percent of California teachers plan to quit in the next decade: survey",
+          "source": "Fox News",
+          "keywords": [
+            "least",
+            "percent",
+            "california",
+            "teachers",
+            "plan",
+            "quit",
+            "next",
+            "decade",
+            "survey"
+          ]
+        }
+      ]
     }
   ]
 }
