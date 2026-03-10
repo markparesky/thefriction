@@ -551,6 +551,52 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Here’s What Happened in the Conflict on Monday",
+          "source": "New York Times",
+          "keywords": [
+            "heres",
+            "happened",
+            "conflict",
+            "monday"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Casey Wasserman Agency Removes His Name From Company in Epstein Fallout",
+          "source": "New York Times",
+          "keywords": [
+            "casey",
+            "wasserman",
+            "agency",
+            "removes",
+            "name",
+            "company",
+            "epstein",
+            "fallout"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Epstein’s Remote Zorro Ranch Is Searched by New Mexico Investigators",
+          "source": "New York Times",
+          "keywords": [
+            "epsteins",
+            "remote",
+            "zorro",
+            "ranch",
+            "searched",
+            "mexico",
+            "investigators"
+          ]
+        }
+      ]
     }
   ]
 }
