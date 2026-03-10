@@ -1,5 +1,5 @@
 # “””
-THE FRICTION — Audio Mixing (Phase 4)
+THE FRICTION - Audio Mixing (Phase 4)
 
 Takes individual audio clips from Phase 3 and assembles them
 into a finished podcast episode with pauses between speakers.
@@ -39,7 +39,7 @@ MUSIC_DIR = “music”
 def run():
 “”“Assemble audio clips into a finished episode.”””
 logger.info(”=” * 60)
-logger.info(“THE FRICTION — Audio Mixing (Phase 4)”)
+logger.info(“THE FRICTION - Audio Mixing (Phase 4)”)
 logger.info(f”Run time: {datetime.now(timezone.utc).isoformat()}”)
 logger.info(”=” * 60)
 
@@ -138,7 +138,7 @@ PAUSE_SEGMENT_TRANSITION = (700, 1100)  # Pause between segments
 
 # Interruption/reaction detection keywords
 INTERRUPTION_STARTERS = [
-    "hold on", "wait", "no no", "but—", "that's—", "oh come on",
+    "hold on", "wait", "no no", "but-", "that's-", "oh come on",
     "can I", "let me", "hang on", "stop", "whoa", "excuse me",
 ]
 QUICK_REACTIONS = [
@@ -148,7 +148,7 @@ QUICK_REACTIONS = [
     "called it", "there it is", "oh boy", "oof",
 ]
 
-# Overlay detection — these get layered on top of the previous clip
+# Overlay detection - these get layered on top of the previous clip
 OVERLAY_DIRECTIONS = ["laughing in background", "background laughter", "chuckling over"]
 OVERLAY_REACTIONS = ["ha!", "oh man", "pfft", "ohhh", "wow"]
 
@@ -181,7 +181,7 @@ for i, line in enumerate(lines):
         direction = raw_direction.lower().strip()
         word_count = len(text.split()) if text else 0
     except Exception as e:
-        logger.warning(f"  Skipping malformed line {i}: {e} — data: {line}")
+        logger.warning(f"  Skipping malformed line {i}: {e} - data: {line}")
         continue
 
     # Add segment transition
@@ -240,7 +240,7 @@ for i, line in enumerate(lines):
 
                 episode = episode.overlay(overlay_clip, position=overlap_start)
                 clips_added += 1
-                # Don't update previous_character — the main speaker is still talking
+                # Don't update previous_character - the main speaker is still talking
 
             else:
                 # Normal sequential placement with smart pauses
@@ -249,11 +249,11 @@ for i, line in enumerate(lines):
                     pause_ms = random.randint(*PAUSE_SAME_SPEAKER)
 
                 elif "interrupt" in direction or any(text.startswith(s) for s in INTERRUPTION_STARTERS):
-                    # Interruption — almost no gap
+                    # Interruption - almost no gap
                     pause_ms = random.randint(0, 50)
 
                 elif any(text.startswith(r) for r in QUICK_REACTIONS) or word_count <= 3:
-                    # Quick reaction — very short gap
+                    # Quick reaction - very short gap
                     pause_ms = random.randint(30, 120)
 
                 elif "laughing" in direction or "chuckling" in direction:
