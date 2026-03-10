@@ -26,19 +26,18 @@ def send_status_email(subject, body_text):
         requests.post("https://api.resend.com/emails",
             headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
             json={"from": "The Friction <onboarding@resend.dev>", "to": [NOTIFY_EMAIL],
-                  "subject": subject, "html": f"<pre style='font-family:monospace;font-size:14px;'>{body_text}</pre>"})
+                  "subject": subject, "html": f"<pre style='font-family:monospace;font-size:14px;'>{body_text}</pre>"},
+            timeout=30)
     except Exception as e:
         logger.error(f"Email failed: {e}")
 
-def save_script_to_github(script_json, filename):
+def save_to_github(content_bytes, filepath, message):
     if not GITHUB_TOKEN:
         logger.error("GITHUB_TOKEN not set")
         return False
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/scripts/{filename}"
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filepath}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
-    content_b64 = base64.b64encode(script_json.encode("utf-8")).decode("utf-8")
-
-    # Check if file exists
+    content_b64 = base64.b64encode(content_bytes).decode("utf-8")
     sha = None
     try:
         check = requests.get(url, headers=headers, timeout=30)
@@ -46,15 +45,13 @@ def save_script_to_github(script_json, filename):
             sha = check.json().get("sha")
     except Exception:
         pass
-
-    payload = {"message": f"Script: {filename}", "content": content_b64}
+    payload = {"message": message, "content": content_b64}
     if sha:
         payload["sha"] = sha
-
     try:
         resp = requests.put(url, headers=headers, json=payload, timeout=60)
         if resp.status_code in (200, 201):
-            logger.info(f"Script saved to GitHub: scripts/{filename}")
+            logger.info(f"Saved to GitHub: {filepath}")
             return True
         else:
             logger.error(f"GitHub save failed: {resp.status_code} - {resp.text[:300]}")
@@ -77,7 +74,6 @@ def generate_script(news):
     system_prompt = system_prompt_path.read_text(encoding="utf-8")
     logger.info(f"System prompt: {len(system_prompt.split())} words")
 
-    # Build user message
     parts = [f"Today's date: {news.get('episode_date', datetime.now().strftime('%Y-%m-%d'))}", ""]
     if news.get("episode_archetype"):
         parts.append(f"SUGGESTED EPISODE ARCHETYPE: {news['episode_archetype']}")
@@ -116,7 +112,6 @@ def generate_script(news):
     user_message = "\n".join(parts)
     logger.info(f"User message: {len(user_message.split())} words")
 
-    # Call Claude API
     logger.info("Calling Claude API...")
     for attempt in range(1, 3):
         try:
@@ -136,7 +131,6 @@ def generate_script(news):
                         raw_text += block.get("text", "")
                 usage = data.get("usage", {})
                 logger.info(f"Tokens: {usage.get('input_tokens', '?')} in, {usage.get('output_tokens', '?')} out")
-                # Parse JSON
                 text = raw_text.strip()
                 if text.startswith("```"):
                     text = text.split("\n", 1)[1] if "\n" in text else text[3:]
@@ -154,15 +148,13 @@ def generate_script(news):
                         except json.JSONDecodeError:
                             pass
                 logger.warning(f"Could not parse JSON (attempt {attempt})")
-            elif resp.status_code == 401:
-                logger.error("ANTHROPIC API KEY INVALID OR NO CREDITS")
+            elif resp.status_code in (401, 403):
                 send_status_email("FRICTION FAILED: Anthropic API Error",
-                    f"Status: {resp.status_code}\n\nCheck your Anthropic API key and billing.\n\n{resp.text[:500]}")
+                    f"Status: {resp.status_code}\nCheck API key and billing.\n\n{resp.text[:500]}")
                 sys.exit(1)
             elif resp.status_code == 429:
-                logger.error("ANTHROPIC RATE LIMITED - may need to wait or check billing")
                 send_status_email("FRICTION FAILED: Anthropic Rate Limited",
-                    f"Status: {resp.status_code}\n\nYou may be out of credits or rate limited.\n\n{resp.text[:500]}")
+                    f"Out of credits or rate limited.\n\n{resp.text[:500]}")
                 sys.exit(1)
             else:
                 logger.error(f"API error: {resp.status_code} - {resp.text[:300]}")
@@ -184,7 +176,6 @@ def main():
 
     date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
-    # Phase 1: News
     logger.info("\nFetching news...")
     try:
         news = fetch_news()
@@ -193,7 +184,6 @@ def main():
         send_status_email(f"FRICTION FAILED: News | {date_str}", f"Error: {e}")
         sys.exit(1)
 
-    # Phase 2: Script
     logger.info("\nGenerating script...")
     try:
         script = generate_script(news)
@@ -204,20 +194,15 @@ def main():
         send_status_email(f"FRICTION FAILED: Script | {date_str}", f"Error: {e}")
         sys.exit(1)
 
-    # Validate
     lines = script.get("script", [])
     metadata = script.get("metadata", {})
     total_words = sum(len((l.get("text") or "").split()) for l in lines)
     logger.info(f"Script: {len(lines)} lines, ~{total_words} words, ~{total_words/170:.1f} minutes")
 
-    # Save script to GitHub
     script_json = json.dumps(script, indent=2, ensure_ascii=False)
     filename = f"friction_{date_str}.json"
-    saved = save_script_to_github(script_json, filename)
+    saved = save_to_github(script_json.encode("utf-8"), f"scripts/{filename}", f"Script: {date_str}")
 
-    github_url = f"https://github.com/{GITHUB_REPO}/blob/main/scripts/{filename}" if saved else ""
-
-    # Build summary
     headlines = metadata.get("headlines", {})
     summary = f"""THE FRICTION - Script Generated
 Date: {date_str}
@@ -231,10 +216,8 @@ Headlines:
 Script: {len(lines)} lines, ~{total_words} words, ~{total_words/170:.1f} min
 Daily Do: {metadata.get('daily_do', '?')[:100]}
 
-Script saved to GitHub: scripts/{filename}
-{github_url}
+Saved to GitHub: {'YES' if saved else 'FAILED'}
 """
-
     send_status_email(f"FRICTION Script Ready | {date_str} | {headlines.get('geopolitics', '')[:40]}", summary)
     logger.info("\nStep 1 complete.")
 
