@@ -7,25 +7,25 @@
       "economy": "Culture at Columbia Shielded Sexual Assault by Physician, Report Finds",
       "domestic": "Fox News Poll: Voters expect AI to transform our lives — but today is not that day"
     },
-    "daily_do": "Check one piece of content today before sharing it — ask yourself 'could this be AI-generated?' and look for the tells.",
+    "daily_do": "Check your AI detection skills with one piece of content today — news article, social media post, or video. See if you can spot what's real.",
     "pringle_mode": "false_parallel",
     "clips": [
       {
-        "start_line": 47,
-        "end_line": 53,
-        "caption": "When Duke accidentally becomes the AI whisperer 😂",
+        "start_line": 67,
+        "end_line": 74,
+        "caption": "When Dr. Pringle corrects everyone's AI assumptions",
         "platform": "tiktok"
       },
       {
-        "start_line": 78,
-        "end_line": 85,
-        "caption": "Dr. Pringle destroys the 'AI is like the internet' comparison",
+        "start_line": 112,
+        "end_line": 118,
+        "caption": "Jax explains why office chairs are now a national security issue",
         "platform": "youtube"
       },
       {
-        "start_line": 142,
-        "end_line": 148,
-        "caption": "Palantir using AI to find office chairs is peak 2026",
+        "start_line": 89,
+        "end_line": 96,
+        "caption": "Duke's take on why AI polls don't matter",
         "platform": "x"
       }
     ]
@@ -35,617 +35,596 @@
       "line": 1,
       "segment": "cold_open",
       "character": "PRINGLE",
-      "text": "Everyone keeps saying artificial intelligence is like the internet in the 1990s. It is not. And the reason why should terrify you.",
-      "direction": "serious, slightly ominous"
+      "text": "The internet revolution? Complete nonsense. This is nothing like the 1990s, and everyone who keeps saying it is has learned exactly the wrong lesson from history.",
+      "direction": "matter-of-fact"
     },
     {
       "line": 2,
       "segment": "brief",
       "character": "LEO",
-      "text": "Good morning, I'm Leo Barros and this is The Friction for Monday, March 10th. Let's start with what's happening in the world.",
-      "direction": "steady, morning energy"
+      "text": "Monday, March 10th. I'm Leo Barros, and this is The Friction. Let's get you caught up. First, geopolitics — Iran's military is showing new tactical adaptability, specifically targeting what U.S. officials call American vulnerabilities in the region.",
+      "direction": null
     },
     {
       "line": 3,
       "segment": "brief",
-      "character": "LEO",
-      "text": "First, geopolitics. Iran's military is showing tactical adaptation according to U.S. officials, specifically targeting what they see as American vulnerabilities in regional air defense systems.",
-      "direction": "factual"
+      "character": "DUKE",
+      "text": "Here we go.",
+      "direction": "flat"
     },
     {
       "line": 4,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "Of course they are.",
-      "direction": "flat, unsurprised"
+      "character": "LEO",
+      "text": "They're focusing on air defense systems that protect our troops and assets, suggesting they've shifted strategy from broad confrontation to precision targeting.",
+      "direction": null
     },
     {
       "line": 5,
       "segment": "brief",
-      "character": "LEO",
-      "text": "Second, domestic institutions. An external investigation found Columbia University and NewYork-Presbyterian Hospital mishandled sexual assault allegations against physician Robert Hadden. Two affiliated doctors have resigned.",
-      "direction": "measured"
+      "character": "BREE",
+      "text": "That's... actually smart. Terrifying, but smart.",
+      "direction": null
     },
     {
       "line": 6,
       "segment": "brief",
-      "character": "BREE",
-      "text": "Institutional protection again. Classic.",
-      "direction": "bitter"
+      "character": "LEO",
+      "text": "Second, economy — Columbia University and NewYork-Presbyterian Hospital are dealing with fallout from an external report about sexual assault allegations against physician Robert Hadden. Two doctors have stepped down after the report found administrators mishandled the situation.",
+      "direction": null
     },
     {
       "line": 7,
       "segment": "brief",
-      "character": "LEO",
-      "text": "And third, technology and society. A new Fox News poll shows 87% of voters expect AI to transform American life, but only 47% find it useful right now. Meanwhile, 80% are concerned about AI eroding trust in news and social media.",
-      "direction": "neutral"
+      "character": "JAX",
+      "text": "Oh man, not another institution covering for predators.",
+      "direction": "disgusted"
     },
     {
       "line": 8,
       "segment": "brief",
-      "character": "JAX",
-      "text": "So basically we're all waiting for the robot apocalypse but can't get ChatGPT to write a decent grocery list.",
-      "direction": "deadpan"
+      "character": "LEO",
+      "text": "And domestic — a new Fox News poll shows 87% of voters expect AI to transform American life, but only 47% find it useful right now. There's a huge demographic divide on this.",
+      "direction": null
     },
     {
       "line": 9,
       "segment": "brief",
-      "character": "BREE",
-      "text": "That's... actually not wrong.",
-      "direction": "reluctantly agreeing"
+      "character": "DUKE",
+      "text": "Let me guess — young people love it, old people hate it, and everyone's pretending they understand it.",
+      "direction": "deadpan"
     },
     {
       "line": 10,
       "segment": "brief",
-      "character": "LEO",
-      "text": "Also in that same poll, 74% of voters believe extraterrestrial life exists.",
-      "direction": "slight amusement"
+      "character": "BREE",
+      "text": "The income divide is what gets me. Lower-income households are most skeptical, which makes sense if you can't afford the latest tech.",
+      "direction": null
     },
     {
       "line": 11,
       "segment": "brief",
-      "character": "DUKE",
-      "text": "More people believe in aliens than find AI useful. That tracks.",
-      "direction": "chuckling"
+      "character": "LEO",
+      "text": "We'll dig into all of this, plus Professor Pringle has thoughts on why everyone's getting the AI comparison wrong.",
+      "direction": null
     },
     {
       "line": 12,
       "segment": "brief",
       "character": "PRINGLE",
-      "text": "Given the vastness of the universe, the alien statistic is actually quite reasonable.",
-      "direction": "matter-of-fact"
+      "text": "Indeed I do.",
+      "direction": "ominous"
     },
     {
       "line": 13,
-      "segment": "brief",
-      "character": "JAX",
-      "text": "Doc just casually defending his space friends.",
-      "direction": "teasing"
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Let's start with Iran. Duke, you've been tracking this — what does tactical adaptability actually mean here?",
+      "direction": null
     },
     {
       "line": 14,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Let's dig into this AI polling data because it reveals something interesting about where we are right now. Bree, you've been tracking tech policy — what's your read on this disconnect?",
-      "direction": "setting the table"
+      "character": "DUKE",
+      "text": "It means they've been watching how we operate and they found our weak spots. Air defense systems are expensive, complex, and if you take one out, you've created a gap that's hard to fill quickly.",
+      "direction": null
     },
     {
       "line": 15,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "It's actually fascinating, um, because what you're seeing is this massive expectation gap. People know something big is coming but they can't feel it yet in their daily lives.",
-      "direction": "analytical"
+      "text": "But this is exactly the escalation cycle that gets us into bigger conflicts. They probe, we reinforce, they probe harder, we reinforce more, and suddenly we're in a shooting war.",
+      "direction": null
     },
     {
       "line": 16,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "And that 80% concern about AI eroding trust? That's not hypothetical anxiety. We're already seeing deepfakes in political campaigns, AI-generated news articles, synthetic voices.",
-      "direction": "building intensity"
+      "character": "DUKE",
+      "text": "Or — hear me out — we show them that targeting our defenses has consequences, and they stop doing it.",
+      "direction": null
     },
     {
       "line": 17,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "But here's what kills me about this poll. The people who find AI most useful? Men under 45 and Republicans under 45. You know what that tells me?",
-      "direction": "setting up a point"
+      "character": "BREE",
+      "text": "How's that working out so far? We've been playing deterrence games with Iran for, what, forty years?",
+      "direction": "heated"
     },
     {
       "line": 18,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "That it's early adopter bias?",
-      "direction": "guessing"
+      "character": "DUKE",
+      "text": "And they haven't directly attacked the homeland in forty years, so... pretty well?",
+      "direction": "matter-of-fact"
     },
     {
       "line": 19,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "That the people with the most free time to mess around with new technology are the ones who like it. Meanwhile, women without college degrees, rural voters, people making under fifty grand — they're not impressed.",
-      "direction": "matter-of-fact"
+      "character": "JAX",
+      "text": "I love how we're debating the effectiveness of a strategy that's older than I am.",
+      "direction": null
     },
     {
       "line": 20,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Because they need technology that actually solves real problems, not toys.",
-      "direction": "emphasizing"
+      "character": "LEO",
+      "text": "The question is whether this represents a shift in Iranian strategy or just better intelligence on their part.",
+      "direction": null
     },
     {
       "line": 21,
       "segment": "deep_dive",
       "character": "BREE",
-      "text": "That's actually a really good point. But the trust erosion issue — that's hitting everyone equally. Rich, poor, educated, not educated. Everyone's worried about not being able to tell what's real.",
-      "direction": "conceding, then pivoting"
+      "text": "It's both, and that's what makes it dangerous. They're not just throwing darts at a map anymore — they're studying our deployment patterns, our response times, our logistics chains.",
+      "direction": null
     },
     {
       "line": 22,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "The poll shows 60% think they can tell if something is AI-generated. That number hasn't changed since last June.",
-      "direction": "presenting data"
+      "character": "DUKE",
+      "text": "Which is why you don't give them time to study. You move fast, you move unpredictably, and you make sure the cost of probing is higher than the value of the intelligence.",
+      "direction": null
     },
     {
       "line": 23,
       "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Sixty percent of people think they can spot AI content. I guarantee you sixty percent of people cannot spot AI content.",
-      "direction": "skeptical"
+      "character": "BREE",
+      "text": "Or — and this is crazy — we could reduce our footprint so there are fewer targets to study in the first place.",
+      "direction": "sarcastic"
     },
     {
       "line": 24,
       "segment": "deep_dive",
       "character": "DUKE",
-      "text": "My neighbor posted a picture of his cat last week that looked weird to me. I spent twenty minutes trying to figure out if it was AI. It was just a bad photo.",
-      "direction": "self-deprecating"
+      "text": "Right, because Iran definitely won't fill that vacuum with their own proxies. That's worked great in Iraq and Syria.",
+      "direction": "flat"
     },
     {
       "line": 25,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Ha! But that's exactly the problem. We're becoming paranoid about everything because we can't trust our own perception anymore.",
-      "direction": "laughing, then serious"
+      "character": "LEO",
+      "text": "What's interesting is that U.S. officials are acknowledging this publicly. That suggests either they want Iran to know we know, or they're preparing public opinion for a response.",
+      "direction": null
     },
     {
       "line": 26,
       "segment": "deep_dive",
-      "character": "LEO",
-      "text": "So what's the policy response here? The poll shows 89% want clear disclosure when content is AI-generated. That's about as close to universal agreement as you get on anything.",
-      "direction": "steering toward solutions"
+      "character": "BREE",
+      "text": "Or they're trying to justify more defense spending. Sorry, that was cynical, but also probably true.",
+      "direction": null
     },
     {
       "line": 27,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Right, and we're starting to see platforms respond. X just announced they're requiring disclosure for AI-generated conflict videos. But enforcement is the real question.",
-      "direction": "policy mode"
+      "character": "DUKE",
+      "text": "Sometimes cynical and true are the same thing. If Iran's getting better at targeting our stuff, we need better stuff.",
+      "direction": null
     },
     {
       "line": 28,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Good luck enforcing that. You're gonna have a twenty-two-year-old content moderator in Dublin trying to figure out if a video from Syria is real or fake.",
-      "direction": "skeptical"
+      "character": "JAX",
+      "text": "Can we just appreciate that we're having a rational debate about military strategy without anyone screaming about World War Three? I feel like we've grown as a show.",
+      "direction": null
     },
     {
       "line": 29,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Which is why we need— look, this is where regulation actually makes sense. Technical standards, watermarking requirements, things that are built into the technology itself.",
-      "direction": "getting animated"
+      "character": "LEO",
+      "text": "The bar is very low, Jax. But you're not wrong.",
+      "direction": "dry"
     },
     {
       "line": 30,
       "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "Until someone builds an AI that removes the watermarks.",
-      "direction": "deadpan"
+      "character": "BREE",
+      "text": "I just think we need to be honest about what deterrence actually costs. It's not just money — it's diplomatic flexibility, regional relationships, and the constant risk of miscalculation.",
+      "direction": null
     },
     {
       "line": 31,
       "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Then you build better watermarks! This is an arms race, not a surrender.",
-      "direction": "frustrated"
+      "character": "DUKE",
+      "text": "And the cost of not deterring is Iran with nuclear weapons and regional hegemony. I'll take the current costs.",
+      "direction": null
     },
     {
       "line": 32,
       "segment": "deep_dive",
       "character": "LEO",
-      "text": "The poll also shows that 52% are concerned AI will eventually take control of humans. Duke, as someone who's not particularly worried about robot overlords, what's your take?",
-      "direction": "slightly amused"
+      "text": "We'll see how this plays out. The fact that they're being so systematic about it suggests this isn't going away.",
+      "direction": null
     },
     {
       "line": 33,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "My take is that we can't get AI to reliably book a restaurant reservation, but we're worried it's gonna enslave humanity. Let's focus on the immediate problems.",
-      "direction": "practical"
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Professor Pringle, you mentioned earlier that everyone's getting the AI comparison wrong. What are we missing?",
+      "direction": null
     },
     {
       "line": 34,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Wait, you guys are using AI to book restaurant reservations?",
-      "direction": "confused"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Well Leo, everyone keeps comparing AI adoption to the internet revolution of the 1990s, and it's complete nonsense. This is nothing like the internet, and everyone who keeps saying it is has learned exactly the wrong lesson from history.",
+      "direction": null
     },
     {
       "line": 35,
-      "segment": "deep_dive",
-      "character": "DUKE",
-      "text": "No, that's my point. It can't do it.",
-      "direction": "patient"
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Oh boy, here we go.",
+      "direction": "delighted"
     },
     {
       "line": 36,
-      "segment": "deep_dive",
-      "character": "JAX",
-      "text": "Oh. I was about to say, that sounds useful.",
-      "direction": "disappointed"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The internet was infrastructure. Like the railroad or the telegraph — it connected existing things in new ways. AI is not infrastructure. It's automation. The proper comparison is not the 1990s internet. It's the 1970s calculator.",
+      "direction": null
     },
     {
       "line": 37,
-      "segment": "deep_dive",
+      "segment": "pringle",
       "character": "BREE",
-      "text": "But the existential risk concern isn't crazy. When you have 44% of people extremely concerned about AI eroding trust in media, that's a democracy problem.",
-      "direction": "serious"
+      "text": "Wait, the calculator?",
+      "direction": "confused"
     },
     {
       "line": 38,
-      "segment": "deep_dive",
-      "character": "LEO",
-      "text": "Interesting demographic split there too. Very conservative voters and MAGA supporters are most concerned about AI taking control of humans. That's not what I would have predicted.",
-      "direction": "thoughtful"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "In 1970, if you needed to do complex mathematics, you hired a mathematician. By 1980, you bought a calculator for twelve dollars. The mathematician didn't disappear — but the profession fundamentally changed.",
+      "direction": null
     },
     {
       "line": 39,
-      "segment": "deep_dive",
+      "segment": "pringle",
       "character": "DUKE",
-      "text": "Makes sense to me. If you don't trust institutions, you're not gonna trust the institutions building the AI.",
-      "direction": "matter-of-fact"
+      "text": "So you're saying AI is going to make certain jobs obsolete, not create new industries.",
+      "direction": null
     },
     {
       "line": 40,
-      "segment": "deep_dive",
-      "character": "BREE",
-      "text": "Which is actually a reasonable concern! These are the same tech companies that couldn't protect our data, and now they're building artificial minds.",
-      "direction": "agreeing reluctantly"
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "I'm saying it's going to make certain types of thinking obsolete, which is far more profound. The internet made information easier to access. AI makes thinking unnecessary in specific domains.",
+      "direction": null
     },
     {
       "line": 41,
-      "segment": "deep_dive",
+      "segment": "pringle",
       "character": "LEO",
-      "text": "So we have this interesting moment where the technology isn't quite here yet, but the social anxiety about it absolutely is.",
-      "direction": "summarizing"
+      "text": "And the public reaction? This poll shows people expect transformation but don't find it useful yet.",
+      "direction": null
     },
     {
       "line": 42,
       "segment": "pringle",
-      "character": "LEO",
-      "text": "Professor, everyone's comparing AI adoption to the early internet. Is that the right historical parallel?",
-      "direction": "setting up Pringle"
+      "character": "PRINGLE",
+      "text": "That's exactly what happened with calculators. In 1975, people said 'Why would I need this? I can do arithmetic.' By 1985, they couldn't imagine living without one.",
+      "direction": null
     },
     {
       "line": 43,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Everyone keeps saying artificial intelligence is like the internet in the 1990s. It is not. And the reason why should terrify you.",
-      "direction": "serious, building tension"
+      "character": "JAX",
+      "text": "I literally cannot do long division anymore. Like, I know it exists, but if you put a gun to my head and asked me to divide 847 by 23, I would die.",
+      "direction": null
     },
     {
       "line": 44,
       "segment": "pringle",
-      "character": "BREE",
-      "text": "Okay, now I'm nervous.",
-      "direction": "slightly worried"
+      "character": "PRINGLE",
+      "text": "Precisely. And that's what's coming for writing, for analysis, for pattern recognition. The concern isn't that AI will take jobs — it's that it will take cognitive abilities we don't realize we're losing until they're gone.",
+      "direction": null
     },
     {
       "line": 45,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "The internet in the 1990s was a communication tool that people could understand. You sent an email. You visited a website. You could see what it was doing.",
-      "direction": "professorial"
+      "character": "BREE",
+      "text": "That's actually terrifying. The income divide in the poll makes more sense now — if you can't afford the latest AI tools, you're not just behind technologically, you're behind cognitively.",
+      "direction": null
     },
     {
       "line": 46,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Yes, there was skepticism — I remember Newsweek's famous 1995 article predicting the internet would fail. But the skepticism was about adoption, not about fundamental reality.",
-      "direction": "building the case"
+      "character": "DUKE",
+      "text": "But that assumes everyone needs to be doing high-level cognitive work. Most jobs are still physical, still require human judgment, still need people to show up and solve problems in real time.",
+      "direction": null
     },
     {
       "line": 47,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "Artificial intelligence is different. It's not a tool we use — it's a mirror of human cognition that we cannot fully understand or control. When someone creates content with AI, they often don't know how it was made.",
-      "direction": "getting more intense"
+      "text": "That's true, but it misses the broader point. When calculators became ubiquitous, we stopped teaching children to do arithmetic by hand. What happens when AI becomes ubiquitous and we stop teaching children to think critically?",
+      "direction": null
     },
     {
       "line": 48,
       "segment": "pringle",
-      "character": "DUKE",
-      "text": "Huh. I never thought about it that way.",
-      "direction": "genuinely surprised"
+      "character": "LEO",
+      "text": "The poll shows 89% want disclosure when content is AI-generated. That suggests people understand there's a trust issue.",
+      "direction": null
     },
     {
       "line": 49,
       "segment": "pringle",
       "character": "PRINGLE",
-      "text": "The better parallel is the printing press in 1450. Johannes Gutenberg didn't just create a new communication tool — he created a technology that could replicate human knowledge at scale.",
-      "direction": "warming to the topic"
+      "text": "Yes, but disclosure only works if people can still tell the difference. Once AI becomes sophisticated enough, disclosure becomes the only way to know — and disclosure can be gamed, ignored, or simply forgotten over time.",
+      "direction": null
     },
     {
       "line": 50,
       "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "And what happened? Within fifty years, you had the Protestant Reformation, political upheaval across Europe, the end of the medieval information monopoly. The printing press didn't just change how we communicated — it changed who had the power to shape reality.",
-      "direction": "building to climax"
+      "character": "JAX",
+      "text": "So basically we're all going to become cognitive infants who can't think without our AI pacifiers.",
+      "direction": null
     },
     {
       "line": 51,
       "segment": "pringle",
-      "character": "JAX",
-      "text": "So you're saying AI is gonna cause religious wars?",
-      "direction": "concerned"
+      "character": "PRINGLE",
+      "text": "Not infants — specialists. We'll become very good at using AI tools and very bad at the underlying skills those tools replace. Whether that's progress or decline depends on your perspective.",
+      "direction": null
     },
     {
       "line": 52,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "I'm saying AI is going to change who controls the construction of truth. And historically, when that changes, everything else changes too.",
-      "direction": "grave"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Alright, let's move to the weird news because honestly, today's stories are perfectly designed to make everyone feel slightly uncomfortable about the future. First up — Palantir, the company that builds AI weapons systems for the Pentagon, has deployed their technology for a new mission: finding office chairs for government workers.",
+      "direction": null
     },
     {
       "line": 53,
-      "segment": "pringle",
-      "character": "BREE",
-      "text": "Oh god. That's why 80% of people are worried about trust in media. It's not just about fake videos — it's about the entire information ecosystem.",
-      "direction": "realization dawning"
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "I'm sorry, what?",
+      "direction": "flat"
     },
     {
       "line": 54,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Precisely. The internet gave everyone a printing press. AI gives everyone the ability to create content that appears to come from human intelligence — including intelligence they don't possess.",
-      "direction": "confirming"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Apparently the government has so much office furniture spread across so many buildings that they needed AI to figure out where all the chairs are. Because nothing says 'peak bureaucracy' like using military-grade artificial intelligence to locate seating.",
+      "direction": null
     },
     {
       "line": 55,
-      "segment": "pringle",
-      "character": "DUKE",
-      "text": "So when I asked ChatGPT to explain quantum physics and it gave me an answer that sounded smart, I had no way to verify if it was actually correct.",
-      "direction": "working through it"
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "This is actually a perfect example of what Doc was talking about. We're using AI for inventory management because we've lost the ability to just... keep track of our stuff.",
+      "direction": null
     },
     {
       "line": 56,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "Exactly. And neither did the AI. It was producing the statistical pattern of what a correct explanation should look like.",
-      "direction": "pleased with the student"
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Although to be fair, if you're going to use AI for something, office chair logistics seems less dystopian than targeted killings.",
+      "direction": null
     },
     {
       "line": 57,
-      "segment": "pringle",
-      "character": "LEO",
-      "text": "That's a genuinely unsettling way to think about this technology.",
-      "direction": "thoughtful"
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "True, but imagine being a Palantir engineer. You got into this to help fight terrorism, and now you're debugging code that can't find the Herman Miller chair from Accounting.",
+      "direction": null
     },
     {
       "line": 58,
-      "segment": "pringle",
-      "character": "PRINGLE",
-      "text": "The printing press took 200 years to fully transform European society. AI is moving faster. Much faster.",
-      "direction": "ominous"
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Hey, that Herman Miller chair probably cost more than my truck. I'd want to keep track of it too.",
+      "direction": null
     },
     {
       "line": 59,
       "segment": "rapid_fire",
-      "character": "LEO",
-      "text": "Alright, let's shift gears. Jax, what else is happening in the world that we should know about?",
-      "direction": "transitioning energy"
+      "character": "JAX",
+      "text": "Speaking of government efficiency, Louisiana schools have until Friday to post the Ten Commandments in every classroom. This is happening. In 2026. In public schools.",
+      "direction": null
     },
     {
       "line": 60,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Well, speaking of AI, Palantir — the company that builds surveillance systems for the government — has deployed artificial intelligence to help find office chairs for government staff.",
-      "direction": "amused disbelief"
+      "character": "BREE",
+      "text": "I thought we settled this in like 1962.",
+      "direction": "exasperated"
     },
     {
       "line": 61,
       "segment": "rapid_fire",
       "character": "DUKE",
-      "text": "I'm sorry, what?",
-      "direction": "flat confusion"
+      "text": "Look, I'm not saying it's constitutional, but at least it's better moral guidance than TikTok.",
+      "direction": null
     },
     {
       "line": 62,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "They used their fancy AI weaponry to optimize furniture procurement. We've gone from 'we need AI to fight terrorism' to 'we need AI to find ergonomic seating solutions.'",
-      "direction": "building the absurdity"
+      "text": "The best part is they have to figure out which version to use. There are like three different versions of the Ten Commandments depending on which tradition you follow. So now Louisiana school administrators are doing Biblical scholarship.",
+      "direction": null
     },
     {
       "line": 63,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "That's actually peak government efficiency right there.",
-      "direction": "sarcastic"
+      "character": "PRINGLE",
+      "text": "This happened in Kentucky in the 1980s. The Supreme Court ruled it unconstitutional in about fifteen minutes.",
+      "direction": null
     },
     {
       "line": 64,
       "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "In my day, you found office chairs by walking to the supply closet.",
-      "direction": "bewildered"
+      "character": "LEO",
+      "text": "That was a different Supreme Court, Professor.",
+      "direction": "pointed"
     },
     {
       "line": 65,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Moving on. Louisiana classrooms are required to post the Ten Commandments by this Friday. Because apparently the state legislature decided Moses had some thoughts on curriculum standards.",
-      "direction": "dry"
+      "character": "PRINGLE",
+      "text": "Ah. Yes. Quite right.",
+      "direction": "understanding"
     },
     {
       "line": 66,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "I mean, 'thou shalt not cheat' probably applies to homework.",
-      "direction": "deadpan"
+      "character": "JAX",
+      "text": "In Texas election news, there's a candidate for mayor whose legal name is literally 'Literally Anybody Else.' Like, that's on the ballot. 'Literally Anybody Else for Mayor.'",
+      "direction": null
     },
     {
       "line": 67,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "I can't tell if you're joking.",
-      "direction": "suspicious"
+      "character": "DUKE",
+      "text": "Honestly? That candidate might have my vote. At least they're being honest about what they represent.",
+      "direction": null
     },
     {
       "line": 68,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "Neither can I.",
-      "direction": "honest confusion"
+      "character": "BREE",
+      "text": "This is what happens when people lose faith in institutions. Democracy becomes performance art.",
+      "direction": null
     },
     {
       "line": 69,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "In Florida news — and yes, it's always Florida news — a drug dealer locked a man in a storage unit for months over unpaid debt.",
-      "direction": "weary"
+      "text": "Or maybe democracy was always performance art and we're just being more honest about it.",
+      "direction": null
     },
     {
       "line": 70,
       "segment": "rapid_fire",
       "character": "LEO",
-      "text": "Months?",
-      "direction": "shocked"
+      "text": "That's... surprisingly profound, Jax.",
+      "direction": "surprised"
     },
     {
       "line": 71,
       "segment": "rapid_fire",
       "character": "JAX",
-      "text": "Months. Like, this wasn't a weekend timeout. This was a whole seasonal imprisonment situation.",
-      "direction": "emphasizing the absurdity"
+      "text": "I have my moments. And finally, in Florida — because of course it's Florida — a drug dealer locked a customer in a storage unit for months over an unpaid debt. The customer had to be rescued by police.",
+      "direction": null
     },
     {
       "line": 72,
       "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "How did nobody notice?",
-      "direction": "horrified"
+      "character": "DUKE",
+      "text": "That's not drug dealing, that's kidnapping with extra steps.",
+      "direction": null
     },
     {
       "line": 73,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "It's Florida. A man screaming from a storage unit probably didn't even make the top ten weird sounds in the neighborhood.",
-      "direction": "matter-of-fact"
+      "character": "BREE",
+      "text": "The fact that this happened in a storage unit is somehow the most Florida part of the story.",
+      "direction": null
     },
     {
       "line": 74,
       "segment": "rapid_fire",
-      "character": "DUKE",
-      "text": "That's dark, man.",
-      "direction": "uncomfortable laugh"
+      "character": "JAX",
+      "text": "Right? Like, even Florida criminals are dealing with the housing crisis. 'Sorry bro, I can't afford a proper dungeon, but I've got a ten-by-ten at Public Storage.'",
+      "direction": null
     },
     {
       "line": 75,
       "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "And finally, in Texas, someone named 'Literally Anybody Else' is on the mayoral ballot. Which honestly might be the most honest political campaign slogan I've ever seen.",
-      "direction": "appreciative"
+      "character": "LEO",
+      "text": "And on that deeply disturbing note...",
+      "direction": "trailing off"
     },
     {
       "line": 76,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "LEO",
-      "text": "Wait, that's their actual legal name?",
-      "direction": "clarifying"
+      "text": "Your Daily Do: Professor Pringle's calculator comparison got me thinking. We're all confident we can spot AI-generated content, but are we actually good at it?",
+      "direction": null
     },
     {
       "line": 77,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Apparently they legally changed it just to run for office. Which is either the greatest political stunt ever or a cry for help from Texas voters.",
-      "direction": "admiring"
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "Oh, I love this. Like a test?",
+      "direction": "interested"
     },
     {
       "line": 78,
-      "segment": "rapid_fire",
-      "character": "BREE",
-      "text": "Honestly? They might win.",
-      "direction": "half-serious"
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Exactly. Today, find one piece of content — could be a news article, a social media post, a video — and really examine it. Ask yourself: is this AI-generated? Then try to verify your answer.",
+      "direction": null
     },
     {
       "line": 79,
-      "segment": "rapid_fire",
+      "segment": "daily_do",
       "character": "DUKE",
-      "text": "'Literally Anybody Else' versus 'Generic Incumbent.' That's the choice America deserves.",
-      "direction": "philosophical"
+      "text": "This is going to make me paranoid about everything I read.",
+      "direction": null
     },
     {
       "line": 80,
-      "segment": "rapid_fire",
-      "character": "PRINGLE",
-      "text": "In ancient Athens, they sometimes selected officials by lottery. Perhaps we're coming full circle.",
-      "direction": "thoughtful"
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Good! Paranoia is the appropriate response to living in the future.",
+      "direction": null
     },
     {
       "line": 81,
-      "segment": "rapid_fire",
-      "character": "JAX",
-      "text": "Doc just endorsed random candidate selection. 2026 is wild.",
-      "direction": "delighted"
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "The point isn't to become paranoid — it's to become calibrated. Right now, we think we're better at spotting AI than we probably are.",
+      "direction": null
     },
     {
       "line": 82,
       "segment": "daily_do",
-      "character": "LEO",
-      "text": "Alright, let's wrap with the Daily Do. Given everything we talked about today around AI and trust in information, here's something concrete you can do.",
-      "direction": "wrapping up"
+      "character": "PRINGLE",
+      "text": "As Santayana said, 'Those who cannot remember the past are condemned to repeat it.' But those who cannot distinguish the present from the artificial are condemned to live in neither.",
+      "direction": null
     },
     {
       "line": 83,
       "segment": "daily_do",
-      "character": "LEO",
-      "text": "Before you share any piece of content today — a news article, a video, a social media post — ask yourself one question: 'Could this be AI-generated?' Then look for the tells.",
-      "direction": "practical"
+      "character": "BREE",
+      "text": "Did Santayana actually say that second part?",
+      "direction": "suspicious"
     },
     {
       "line": 84,
       "segment": "daily_do",
-      "character": "LEO",
-      "text": "Weird shadows in photos, text that's too perfect, videos where the lip sync looks off. It's not about becoming paranoid — it's about training your eye to notice when something feels constructed rather than authentic.",
-      "direction": "instructional"
+      "character": "PRINGLE",
+      "text": "No, I added that. But he would have, if he'd lived to see ChatGPT.",
+      "direction": "matter-of-fact"
     },
     {
       "line": 85,
       "segment": "daily_do",
-      "character": "BREE",
-      "text": "And if you can't tell, that's valuable information too.",
-      "direction": "adding"
-    },
-    {
-      "line": 86,
-      "segment": "daily_do",
-      "character": "LEO",
-      "text": "Exactly. The goal isn't to be right every time. It's to be intentional about what you're consuming and sharing.",
-      "direction": "affirming"
-    },
-    {
-      "line": 87,
-      "segment": "daily_do",
-      "character": "PRINGLE",
-      "text": "As Aristotle said, 'It is the mark of an educated mind to be able to entertain a thought without accepting it.'",
-      "direction": "final wisdom"
-    },
-    {
-      "line": 88,
-      "segment": "daily_do",
       "character": "JAX",
-      "text": "I'm Jax Mooney. Thanks for hanging out with us. We'll be back tomorrow to figure out what the hell happened overnight.",
-      "direction": "sign-off energy"
+      "text": "And that's The Friction for Monday, March 10th. I'm Jax Mooney, reminding you that if you can't tell whether this show was written by humans or AI, the future is already here and it's mildly concerning. We'll see you tomorrow.",
+      "direction": null
     }
   ]
 }
