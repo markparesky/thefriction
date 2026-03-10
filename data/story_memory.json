@@ -887,6 +887,55 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "archetype": "crisis",
+      "stories": [
+        {
+          "category": "geopolitics",
+          "headline": "Trump says it’s an ‘honor’ to keep Strait of Hormuz open for China and other countries",
+          "source": "Fox News",
+          "keywords": [
+            "trump",
+            "honor",
+            "keep",
+            "strait",
+            "hormuz",
+            "open",
+            "china",
+            "countries"
+          ]
+        },
+        {
+          "category": "economy",
+          "headline": "Colman McCarthy, 87, Journalist Who Waged Peace in the Classroom, Dies",
+          "source": "New York Times",
+          "keywords": [
+            "colman",
+            "mccarthy",
+            "journalist",
+            "waged",
+            "peace",
+            "classroom",
+            "dies"
+          ]
+        },
+        {
+          "category": "domestic",
+          "headline": "Alexander Brothers Found Guilty on All Counts in Sex-Trafficking Trial",
+          "source": "New York Times",
+          "keywords": [
+            "alexander",
+            "brothers",
+            "found",
+            "guilty",
+            "counts",
+            "sextrafficking",
+            "trial"
+          ]
+        }
+      ]
     }
   ]
 }
