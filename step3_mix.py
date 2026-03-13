@@ -62,12 +62,39 @@ def send_episode_email(subject, body_text, mp3_path):
 def download_from_github(filepath):
     if not GITHUB_TOKEN:
         return None
+    # First try the Contents API (works for files under ~10MB)
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filepath}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     try:
         resp = requests.get(url, headers=headers, timeout=60)
         if resp.status_code == 200:
-            return base64.b64decode(resp.json().get("content", ""))
+            data = resp.json()
+            # If content is included, decode it
+            if data.get("content"):
+                return base64.b64decode(data["content"])
+            # If file is too large, use the download_url
+            if data.get("download_url"):
+                logger.info(f"File too large for API, using raw download...")
+                raw_resp = requests.get(data["download_url"],
+                    headers={"Authorization": f"token {GITHUB_TOKEN}"},
+                    timeout=120)
+                if raw_resp.status_code == 200:
+                    return raw_resp.content
+                else:
+                    logger.error(f"Raw download failed: {raw_resp.status_code}")
+                    return None
+        # For very large files, API returns 403 - try raw URL directly
+        elif resp.status_code == 403:
+            logger.info(f"Contents API returned 403, trying raw download...")
+            raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{filepath}"
+            raw_resp = requests.get(raw_url,
+                headers={"Authorization": f"token {GITHUB_TOKEN}"},
+                timeout=120)
+            if raw_resp.status_code == 200:
+                return raw_resp.content
+            else:
+                logger.error(f"Raw download failed: {raw_resp.status_code}")
+                return None
         else:
             logger.error(f"GitHub download failed ({filepath}): {resp.status_code}")
             return None
