@@ -115,27 +115,43 @@ def main():
     lines = script.get("script", [])
     logger.info(f"Script: {len(lines)} lines")
 
-    # Download audio clips zip from GitHub
-    zip_path = f"audio/{date_str}/clips.zip"
-    logger.info(f"\nDownloading audio zip: {zip_path}")
-    zip_data = download_from_github(zip_path)
-    if not zip_data:
-        send_status_email(f"FRICTION FAILED: No Clips | {date_str}",
-            f"Could not find {zip_path}\nMake sure Step 2 ran first.")
-        sys.exit(1)
-
-    # Extract clips
-    import zipfile
-    import io
+    # Download audio clips from GitHub
+    # Try zip first, fall back to individual files
     local_audio = Path("audio")
     local_audio.mkdir(exist_ok=True)
     for f in local_audio.glob("*.mp3"):
         f.unlink()
 
-    with zipfile.ZipFile(io.BytesIO(zip_data)) as zf:
-        zf.extractall(str(local_audio))
-    downloaded = len(list(local_audio.glob("*.mp3")))
-    logger.info(f"Extracted {downloaded} clips")
+    zip_path = f"audio/{date_str}/clips.zip"
+    logger.info(f"\nTrying zip: {zip_path}")
+    zip_data = download_from_github(zip_path)
+
+    if zip_data:
+        import zipfile
+        import io
+        with zipfile.ZipFile(io.BytesIO(zip_data)) as zf:
+            zf.extractall(str(local_audio))
+        downloaded = len(list(local_audio.glob("*.mp3")))
+        logger.info(f"Extracted {downloaded} clips from zip")
+    else:
+        logger.info("No zip found. Downloading individual clips...")
+        clip_list = list_github_folder(f"audio/{date_str}")
+        logger.info(f"Found {len(clip_list)} clips to download")
+        if not clip_list:
+            send_status_email(f"FRICTION FAILED: No Clips | {date_str}",
+                f"No audio clips found at audio/{date_str}/\nMake sure Step 2 ran first.")
+            sys.exit(1)
+        downloaded = 0
+        for clip_path in clip_list:
+            clip_name = clip_path.split("/")[-1]
+            data = download_from_github(clip_path)
+            if data:
+                with open(local_audio / clip_name, "wb") as f:
+                    f.write(data)
+                downloaded += 1
+                if downloaded % 20 == 0:
+                    logger.info(f"  Downloaded {downloaded}/{len(clip_list)}")
+        logger.info(f"Downloaded {downloaded} clips")
 
     # Build audio map
     audio_map = {}
