@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "episode_date": "2026-03-13",
+    "episode_archetype": "quiet",
+    "headlines": {
+      "geopolitics": "After 17 Oscar nominations, Diane Warren is still chasing her first win",
+      "economy": "Change in data sources led to lower inflation reading",
+      "domestic": "Pete Hegseth says 'the sooner David Ellison' buys CNN, 'the better'"
+    },
+    "daily_do": "Check one economic indicator you rely on and see if its methodology has changed recently",
+    "pringle_mode": "direct_parallel",
+    "clips": [
+      {
+        "start_line": 67,
+        "end_line": 74,
+        "caption": "When your defense secretary has media opinions",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 95,
+        "end_line": 105,
+        "caption": "Dr. Pringle explains Susan Lucci's 19-year Emmy drought",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 142,
+        "end_line": 149,
+        "caption": "Florida Man strikes again",
+        "platform": "x"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "PRINGLE",
+      "text": "Susan Lucci was nominated nineteen times for an Emmy. Nineteen. By the eighteenth nomination, the Academy was essentially trolling her.",
+      "direction": "matter-of-fact"
+    },
+    {
+      "line": 2,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Good morning. I'm Leo Barros. It's Friday, March 13th, and this is The Friction. Three headlines to start your day.",
+      "direction": "steady"
+    },
+    {
+      "line": 3,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "First, geopolitics — well, sort of. Composer Diane Warren just received her seventeenth Oscar nomination for original song, extending her record as the most-nominated person never to win in that category.",
+      "direction": null
+    },
+    {
+      "line": 4,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "Seventeen? Jesus.",
+      "direction": "wincing"
+    },
+    {
+      "line": 5,
+      "segment": "brief",
+      "character": "BREE",
+      "text": "That's just cruel at this point.",
+      "direction": null
+    },
+    {
+      "line": 6,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Second, economy. A recent inflation report showed better-than-expected results, but economists discovered that methodological changes in data sources contributed to the lower reading. Markets had already reacted to the initial numbers.",
+      "direction": null
+    },
+    {
+      "line": 7,
+      "segment": "brief",
+      "character": "DUKE",
+      "text": "Oh, come on.",
+      "direction": "flat disappointment"
+    },
+    {
+      "line": 8,
+      "segment": "brief",
+      "character": "BREE",
+      "text": "Wait, so the good news wasn't actually good news?",
+      "direction": null
+    },
+    {
+      "line": 9,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "The good news was... complicated. And third, domestic. Defense Secretary nominee Pete Hegseth commented that it would be better if David Ellison purchased CNN, sparking concerns about potential editorial direction changes.",
+      "direction": null
+    },
+    {
+      "line": 10,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "Did the Defense Secretary just... pick a media owner?",
+      "direction": "confused"
+    },
+    {
+      "line": 11,
+      "segment": "brief",
+      "character": "DUKE",
+      "text": "I mean, everyone else has opinions about CNN.",
+      "direction": "shrugging"
+    },
+    {
+      "line": 12,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Those are your three headlines. Let's dig into that Hegseth story first.",
+      "direction": null
+    },
+    {
+      "line": 13,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "So Pete Hegseth, who's supposed to be focused on, you know, defending the country, decided to weigh in on CNN's potential sale. He said quote, 'the sooner David Ellison' buys CNN, 'the better.' Thoughts?",
+      "direction": null
+    },
+    {
+      "line": 14,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "I mean, this is exactly why we have civilian control of the military, right? Defense secretaries shouldn't be picking media winners and losers.",
+      "direction": null
+    },
+    {
+      "line": 15,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Look, everyone in Washington has media opinions. At least he's being honest about it instead of pretending to be neutral while leaking to reporters.",
+      "direction": null
+    },
+    {
+      "line": 16,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But there's a difference between having opinions and publicly advocating for specific ownership changes. That's... that feels like crossing a line.",
+      "direction": null
+    },
+    {
+      "line": 17,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "Can I just say, the fact that we're debating whether the Defense Secretary should pick CNN's owner is peak 2026?",
+      "direction": null
+    },
+    {
+      "line": 18,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Duke, you really don't see a problem with a cabinet official weighing in on media ownership?",
+      "direction": null
+    },
+    {
+      "line": 19,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "I see a bigger problem with pretending that politics and media aren't connected. Every administration has relationships with friendly outlets. This guy's just saying it out loud.",
+      "direction": null
+    },
+    {
+      "line": 20,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But saying it out loud is the problem! It's like— okay, everyone knows politicians have favorite reporters, but when you start publicly endorsing ownership changes, that's market manipulation territory.",
+      "direction": "getting heated"
+    },
+    {
+      "line": 21,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Market manipulation? Come on, Bree. It's a comment, not a policy directive.",
+      "direction": "dismissive"
+    },
+    {
+      "line": 22,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Comments from cabinet officials move markets! And more importantly, they signal to other media companies what kind of coverage this administration prefers.",
+      "direction": null
+    },
+    {
+      "line": 23,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "I love that we're having a constitutional crisis over CNN. Like, CNN. The network my dad watches at the airport.",
+      "direction": "amused"
+    },
+    {
+      "line": 24,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "It's not really about CNN specifically, though. It's about the precedent of cabinet officials publicly advocating for media ownership changes.",
+      "direction": null
+    },
+    {
+      "line": 25,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Fine, maybe he should've kept it private. But let's not pretend this is some unprecedented assault on press freedom. Media companies get bought and sold all the time.",
+      "direction": null
+    },
+    {
+      "line": 26,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "They do, but usually without the Defense Secretary cheering from the sidelines for specific buyers.",
+      "direction": null
+    },
+    {
+      "line": 27,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "The broader question here is about media consolidation, right? Whether we're comfortable with fewer and fewer people controlling more and more news outlets.",
+      "direction": null
+    },
+    {
+      "line": 28,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Exactly. And when government officials start picking their preferred consolidators, that's when I get really nervous.",
+      "direction": null
+    },
+    {
+      "line": 29,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "I'm more nervous about media companies that are already in the tank for one party or another. At least this way it's transparent.",
+      "direction": null
+    },
+    {
+      "line": 30,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "Plot twist: what if Ellison buys CNN and turns it into a cooking channel? Suddenly everyone's arguing about soufflé techniques.",
+      "direction": null
+    },
+    {
+      "line": 31,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "I would actually watch that.",
+      "direction": "laughing despite herself"
+    },
+    {
+      "line": 32,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Alright, let's move on to our economic story. Professor, this seems right up your alley.",
+      "direction": null
+    },
+    {
+      "line": 33,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Indeed. This inflation methodology story reminds me of something that happened in Britain in the early 1980s.",
+      "direction": null
+    },
+    {
+      "line": 34,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Margaret Thatcher's government was facing mounting criticism over unemployment figures that kept climbing. The official rate had reached nearly twelve percent by 1982.",
+      "direction": null
+    },
+    {
+      "line": 35,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "So the government changed how they calculated unemployment. Not once, not twice, but twenty-nine times between 1979 and 1988.",
+      "direction": null
+    },
+    {
+      "line": 36,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Twenty-nine times? That's not methodology, that's just cheating.",
+      "direction": null
+    },
+    {
+      "line": 37,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Each change was technically legitimate — removing certain categories of workers, adjusting seasonal factors, changing survey methods. But the cumulative effect was to reduce the reported unemployment rate by nearly two percentage points.",
+      "direction": null
+    },
+    {
+      "line": 38,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "So they made the numbers look better without actually improving the economy?",
+      "direction": null
+    },
+    {
+      "line": 39,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Precisely. And here's the crucial point — markets and voters made decisions based on those modified numbers. By the time economists realized what had happened, policy had already shifted.",
+      "direction": null
+    },
+    {
+      "line": 40,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "But sometimes methodology does need to change, right? I mean, the economy evolves.",
+      "direction": null
+    },
+    {
+      "line": 41,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Oh, absolutely. The challenge is distinguishing between legitimate updates and what the British press called 'statistical massage.' The frequency and timing of changes matter enormously.",
+      "direction": null
+    },
+    {
+      "line": 42,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "So in our case, was this inflation methodology change legitimate or suspicious?",
+      "direction": null
+    },
+    {
+      "line": 43,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "From what I understand, this was a routine update to data sources. But the timing — right when inflation numbers are driving policy debates — creates the appearance of manipulation even when none exists.",
+      "direction": null
+    },
+    {
+      "line": 44,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "Which is why transparency matters so much. If you're changing methodology, announce it beforehand, not after the numbers come out looking good.",
+      "direction": null
+    },
+    {
+      "line": 45,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Fair enough. But let's be honest — if the numbers had come out worse, nobody would be questioning the methodology.",
+      "direction": null
+    },
+    {
+      "line": 46,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "That's human nature, I'm afraid. We scrutinize data that contradicts our expectations and accept data that confirms them. Thatcher's opponents questioned every methodology change, while her supporters defended them.",
+      "direction": null
+    },
+    {
+      "line": 47,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "So basically, economic statistics are like restaurant reviews. Everyone's got an agenda, and the only thing you can trust is your own experience.",
+      "direction": null
+    },
+    {
+      "line": 48,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "That's... actually not a terrible analogy, Mr. Mooney.",
+      "direction": "slightly surprised"
+    },
+    {
+      "line": 49,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Speaking of experiences that don't match expectations, let's talk about Diane Warren's Oscar drought. Professor, you mentioned Susan Lucci earlier?",
+      "direction": null
+    },
+    {
+      "line": 50,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Indeed. Susan Lucci was nominated nineteen times for a Daytime Emmy for her role on All My Children. Nineteen consecutive nominations without a win, from 1978 to 1999.",
+      "direction": null
+    },
+    {
+      "line": 51,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "By the eighteenth nomination, the Academy was essentially trolling her. The presenters would make jokes. The audience would groan when her name was called.",
+      "direction": null
+    },
+    {
+      "line": 52,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "That sounds awful.",
+      "direction": null
+    },
+    {
+      "line": 53,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "But here's what's fascinating — when she finally won on the nineteenth try, the standing ovation lasted nearly four minutes. Four minutes. The room was genuinely emotional.",
+      "direction": null
+    },
+    {
+      "line": 54,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "So you're saying Diane Warren just needs to hang in there for two more nominations?",
+      "direction": null
+    },
+    {
+      "line": 55,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The pattern is remarkably similar. Both are beloved industry figures who keep producing excellent work. Both seem cursed by their own consistency.",
+      "direction": null
+    },
+    {
+      "line": 56,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Maybe that's the problem. If you're nominated every year, each individual nomination feels less special.",
+      "direction": null
+    },
+    {
+      "line": 57,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "But that's not her fault! She's just consistently good at her job.",
+      "direction": null
+    },
+    {
+      "line": 58,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "There's also a psychological phenomenon at work. Voters assume she'll be nominated again next year, so they vote for someone else to 'spread the wealth.' It becomes self-perpetuating.",
+      "direction": null
+    },
+    {
+      "line": 59,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Is there a historical precedent for that kind of thinking?",
+      "direction": null
+    },
+    {
+      "line": 60,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Oh yes. The Nobel Prize committee has admitted to similar reasoning. They've passed over deserving candidates because they assumed those people would have other opportunities.",
+      "direction": null
+    },
+    {
+      "line": 61,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "That's like not tipping your regular barista because you figure other people will tip them.",
+      "direction": null
+    },
+    {
+      "line": 62,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Except Diane Warren is probably doing fine without the Oscar.",
+      "direction": "dry"
+    },
+    {
+      "line": 63,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "That's not the point! It's about recognition for excellence.",
+      "direction": null
+    },
+    {
+      "line": 64,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "When Lucci finally won, she said something I'll never forget: 'I've learned that the work is the reward.' But then she paused and added, 'But this is nice too.'",
+      "direction": "warm"
+    },
+    {
+      "line": 65,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Alright, let's move to our rapid-fire round. Jax, what's caught your attention this week?",
+      "direction": null
+    },
+    {
+      "line": 66,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Oh boy, do I have some stories for you. First up: Florida ambulance owner arrested for cross-state cocaine run in company vehicle.",
+      "direction": null
+    },
+    {
+      "line": 67,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Florida Man strikes again.",
+      "direction": "deadpan"
+    },
+    {
+      "line": 68,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "But here's the twist — he got pulled over because he was driving too slowly on the interstate. Like, suspiciously slowly. Turns out when you're transporting cocaine in an ambulance, you really don't want to speed.",
+      "direction": null
+    },
+    {
+      "line": 69,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Wait, so being a careful driver is what got him caught?",
+      "direction": null
+    },
+    {
+      "line": 70,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "The irony is beautiful. Next story: grandmother jailed six months after AI wrongly links her to out-of-state crime.",
+      "direction": null
+    },
+    {
+      "line": 71,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Six months?",
+      "direction": "sharp"
+    },
+    {
+      "line": 72,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Facial recognition software matched her to surveillance footage from a robbery in another state. She was at church at the time, but apparently AI doesn't recognize prayer hands as an alibi.",
+      "direction": null
+    },
+    {
+      "line": 73,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "This is exactly why I've been saying we need AI accountability standards.",
+      "direction": "frustrated"
+    },
+    {
+      "line": 74,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Or maybe just, you know, basic police work to verify the match before arresting someone.",
+      "direction": null
+    },
+    {
+      "line": 75,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Moving on to sports: Big 12 abandons slippery glass basketball court mid-tournament.",
+      "direction": null
+    },
+    {
+      "line": 76,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "I'm sorry, what?",
+      "direction": "genuinely confused"
+    },
+    {
+      "line": 77,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "They installed this fancy transparent court for the tournament. Looked amazing on TV. Unfortunately, the players kept slipping like they were ice skating.",
+      "direction": null
+    },
+    {
+      "line": 78,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Someone approved a basketball court that players couldn't actually play on?",
+      "direction": null
+    },
+    {
+      "line": 79,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Three ankle injuries in the first quarter. They switched back to regular hardwood at halftime. The glass court is now being used as a very expensive conference table.",
+      "direction": null
+    },
+    {
+      "line": 80,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "I bet the person who designed that court has never actually played basketball.",
+      "direction": null
+    },
+    {
+      "line": 81,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "This is like when tech companies design products without considering how humans actually use them.",
+      "direction": null
+    },
+    {
+      "line": 82,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "And finally, Israeli military drops sexual assault charges against soldiers.",
+      "direction": "more serious tone"
+    },
+    {
+      "line": 83,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "What's the story there?",
+      "direction": null
+    },
+    {
+      "line": 84,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Military prosecutors determined there wasn't sufficient evidence to proceed with the case. The charges involved alleged misconduct during detention operations.",
+      "direction": null
+    },
+    {
+      "line": 85,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "That's probably the right call if the evidence wasn't there. Military justice should have the same standards as civilian justice.",
+      "direction": null
+    },
+    {
+      "line": 86,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "True, but it also highlights how difficult these cases are to prosecute, especially in military contexts.",
+      "direction": null
+    },
+    {
+      "line": 87,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "Alright, that brings us to our daily do.",
+      "direction": null
+    },
+    {
+      "line": 88,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Given today's inflation methodology story, here's something you can actually do: check one economic indicator you rely on and see if its methodology has changed recently.",
+      "direction": null
+    },
+    {
+      "line": 89,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Whether it's unemployment numbers, housing prices, or your local cost of living index — most agencies publish methodology changes on their websites. It takes five minutes and might change how you interpret the numbers.",
+      "direction": null
+    },
+    {
+      "line": 90,
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "That's actually really useful. I had no idea they published that stuff.",
+      "direction": null
+    },
+    {
+      "line": 91,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Knowledge is power, especially when it comes to data that drives policy decisions.",
+      "direction": null
+    },
+    {
+      "line": 92,
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "As Benjamin Disraeli supposedly said, 'There are three kinds of lies: lies, damned lies, and statistics.' Though he probably never actually said that.",
+      "direction": "amused"
+    },
+    {
+      "line": 93,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Wait, so that quote about lies is itself a lie?",
+      "direction": null
+    },
+    {
+      "line": 94,
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "The attribution is almost certainly false, yes. Mark Twain popularized it, but he credited it to Disraeli. Most scholars believe neither man actually originated the phrase.",
+      "direction": null
+    },
+    {
+      "line": 95,
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "So we've been misquoting a quote about lies being lies.",
+      "direction": "dry"
+    },
+    {
+      "line": 96,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "And on that perfectly circular note, I'm Leo Barros.",
+      "direction": null
+    },
+    {
+      "line": 97,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "I'm Jax Mooney. Don't trust AI, don't play basketball on glass, and maybe check your economic data sources.",
+      "direction": null
+    },
+    {
+      "line": 98,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "We'll see you Monday.",
+      "direction": null
+    }
+  ]
+}
