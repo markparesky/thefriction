@@ -61,45 +61,52 @@ def send_episode_email(subject, body_text, mp3_path):
 
 def download_from_github(filepath):
     if not GITHUB_TOKEN:
+        logger.error("No GITHUB_TOKEN")
         return None
-    # First try the Contents API (works for files under ~10MB)
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{filepath}"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     try:
+        logger.info(f"  GitHub API call: {filepath}")
         resp = requests.get(url, headers=headers, timeout=60)
+        logger.info(f"  Response status: {resp.status_code}")
         if resp.status_code == 200:
             data = resp.json()
-            # If content is included, decode it
-            if data.get("content"):
+            has_content = bool(data.get("content"))
+            has_download = bool(data.get("download_url"))
+            file_size = data.get("size", 0)
+            logger.info(f"  File size: {file_size}, has_content: {has_content}, has_download_url: {has_download}")
+            if has_content:
                 return base64.b64decode(data["content"])
-            # If file is too large, use the download_url
-            if data.get("download_url"):
-                logger.info(f"File too large for API, using raw download...")
+            if has_download:
+                logger.info(f"  Using download_url: {data['download_url'][:80]}...")
                 raw_resp = requests.get(data["download_url"],
                     headers={"Authorization": f"token {GITHUB_TOKEN}"},
                     timeout=120)
+                logger.info(f"  Raw download status: {raw_resp.status_code}, size: {len(raw_resp.content)}")
                 if raw_resp.status_code == 200:
                     return raw_resp.content
                 else:
-                    logger.error(f"Raw download failed: {raw_resp.status_code}")
+                    logger.error(f"  Raw download failed: {raw_resp.status_code}")
                     return None
-        # For very large files, API returns 403 - try raw URL directly
+            logger.error(f"  No content and no download_url in response")
+            return None
         elif resp.status_code == 403:
-            logger.info(f"Contents API returned 403, trying raw download...")
+            logger.info(f"  Contents API returned 403, trying raw download...")
             raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{filepath}"
             raw_resp = requests.get(raw_url,
                 headers={"Authorization": f"token {GITHUB_TOKEN}"},
                 timeout=120)
+            logger.info(f"  Raw download status: {raw_resp.status_code}")
             if raw_resp.status_code == 200:
                 return raw_resp.content
             else:
-                logger.error(f"Raw download failed: {raw_resp.status_code}")
+                logger.error(f"  Raw download failed: {raw_resp.status_code}")
                 return None
         else:
-            logger.error(f"GitHub download failed ({filepath}): {resp.status_code}")
+            logger.error(f"  GitHub download failed ({filepath}): {resp.status_code} - {resp.text[:200]}")
             return None
     except Exception as e:
-        logger.error(f"GitHub download error: {e}")
+        logger.error(f"  GitHub download error: {e}")
         return None
 
 def list_github_folder(folder_path):
@@ -150,8 +157,71 @@ def main():
         f.unlink()
 
     zip_path = f"audio/{date_str}/clips.zip"
-    logger.info(f"\nTrying zip: {zip_path}")
-    zip_data = download_from_github(zip_path)
+    logger.info(f"\nDownloading zip: {zip_path}")
+    
+    # Try multiple download methods
+    zip_data = None
+    
+    # Method 1: Direct raw URL (most reliable for large files)
+    raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{zip_path}"
+    logger.info(f"  Trying raw URL: {raw_url}")
+    try:
+        resp = requests.get(raw_url, 
+            headers={"Authorization": f"token {GITHUB_TOKEN}"},
+            timeout=120)
+        logger.info(f"  Raw URL status: {resp.status_code}, size: {len(resp.content)}")
+        if resp.status_code == 200 and len(resp.content) > 1000:
+            zip_data = resp.content
+            logger.info(f"  Downloaded {len(zip_data)} bytes via raw URL")
+    except Exception as e:
+        logger.error(f"  Raw URL failed: {e}")
+    
+    # Method 2: GitHub Contents API with download_url fallback
+    if not zip_data:
+        logger.info("  Trying Contents API...")
+        try:
+            api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{zip_path}"
+            resp = requests.get(api_url,
+                headers={"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"},
+                timeout=60)
+            logger.info(f"  API status: {resp.status_code}")
+            if resp.status_code == 200:
+                data = resp.json()
+                if data.get("content"):
+                    zip_data = base64.b64decode(data["content"])
+                    logger.info(f"  Downloaded {len(zip_data)} bytes via API content")
+                elif data.get("download_url"):
+                    dl_resp = requests.get(data["download_url"],
+                        headers={"Authorization": f"token {GITHUB_TOKEN}"},
+                        timeout=120)
+                    if dl_resp.status_code == 200:
+                        zip_data = dl_resp.content
+                        logger.info(f"  Downloaded {len(zip_data)} bytes via download_url")
+        except Exception as e:
+            logger.error(f"  API method failed: {e}")
+    
+    # Method 3: GitHub Blob API (handles any file size)
+    if not zip_data:
+        logger.info("  Trying Blob API...")
+        try:
+            # Get the tree to find the blob SHA
+            tree_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/audio/{date_str}"
+            resp = requests.get(tree_url,
+                headers={"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"},
+                timeout=30)
+            if resp.status_code == 200:
+                for item in resp.json():
+                    if item.get("name") == "clips.zip" and item.get("sha"):
+                        blob_url = f"https://api.github.com/repos/{GITHUB_REPO}/git/blobs/{item['sha']}"
+                        blob_resp = requests.get(blob_url,
+                            headers={"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"},
+                            timeout=120)
+                        if blob_resp.status_code == 200:
+                            zip_data = base64.b64decode(blob_resp.json().get("content", ""))
+                            logger.info(f"  Downloaded {len(zip_data)} bytes via Blob API")
+                        break
+        except Exception as e:
+            logger.error(f"  Blob API failed: {e}")
 
     if zip_data:
         import zipfile
