@@ -35,7 +35,7 @@ SYSTEM_PROMPT_FILE = "system_prompt.txt"
 PRIMARY_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
 FALLBACK_MODEL = "claude-sonnet-4-20250514"  # Same model as fallback; change to claude-opus-4-6 if desired
 MAX_TOKENS = 12000
-TEMPERATURE = 0.85
+TEMPERATURE = 0.70
 MAX_RETRIES = 2
 
 
@@ -135,11 +135,23 @@ def build_user_message(news: dict) -> str:
 
         parts.append("")
 
-    # Offbeat stories for Jax
+    # Category validation instruction
+    parts.append("--- CATEGORY CHECK ---")
+    parts.append("Before writing, verify each story fits its assigned category. If a story is "
+                 "entertainment, culture, science, or tech, do NOT force it into 'geopolitics' or "
+                 "'domestic.' Relabel it accurately (e.g., 'culture', 'entertainment') or swap in a "
+                 "story that fits. Leo should never have to hedge with 'well, sort of' when "
+                 "introducing a category.")
+    parts.append("")
+
+    # Offbeat stories for Jax — with tonal tags
     offbeat = news.get("offbeat", [])
     offbeat_headlines = news.get("offbeat_headlines", [])
 
     parts.append("--- OFFBEAT STORIES (for Jax's Rapid Fire) ---")
+    parts.append("NOTE: Stories tagged [SERIOUS] involve real human harm and should NOT be used in "
+                 "Rapid Fire. Move them to the Deep Dive or Pringle segment, or cut them. "
+                 "Rapid Fire should be light and funny.")
     if offbeat_headlines:
         for headline in offbeat_headlines:
             parts.append(f"- {headline}")
@@ -375,6 +387,85 @@ def validate_script(script: dict) -> bool:
         logger.warning(f"VALIDATION: Script may be too short ({est_minutes:.1f} min, target 15).")
     elif est_minutes > 20:
         logger.warning(f"VALIDATION: Script may be too long ({est_minutes:.1f} min, target 15).")
+
+    # -----------------------------------------------------------------------
+    # Quality checks (character, direction, tone)
+    # -----------------------------------------------------------------------
+
+    # Check direction coverage in Deep Dive and Pringle segments
+    for seg_name in ("deep_dive", "pringle"):
+        seg_lines = [l for l in lines if l.get("segment") == seg_name]
+        if seg_lines:
+            missing_dir = [l for l in seg_lines if not l.get("direction")]
+            if missing_dir:
+                pct_missing = len(missing_dir) / len(seg_lines) * 100
+                logger.warning(
+                    f"VALIDATION: {seg_name} has {len(missing_dir)}/{len(seg_lines)} "
+                    f"lines ({pct_missing:.0f}%) with no direction note. Target: 0%."
+                )
+
+    # Check Leo editorializing — flag lines where Leo frames/summarizes the debate
+    leo_editorial_patterns = [
+        "the broader question", "the real issue", "what this comes down to",
+        "what this really", "the bigger picture", "the fundamental question",
+        "at the end of the day", "the bottom line here",
+    ]
+    deep_dive_leo = [l for l in lines
+                     if l.get("segment") == "deep_dive" and l.get("character") == "LEO"]
+    for l in deep_dive_leo:
+        text_lower = l.get("text", "").lower()
+        for pattern in leo_editorial_patterns:
+            if pattern in text_lower:
+                logger.warning(
+                    f"VALIDATION: Leo may be editorializing (line {l.get('line', '?')}): "
+                    f"contains '{pattern}'. Leo should ask questions, not frame stakes."
+                )
+                break
+
+    # Check Duke argument quality — flag if Duke has no lines > 25 words in deep dive
+    deep_dive_duke = [l for l in lines
+                      if l.get("segment") == "deep_dive" and l.get("character") == "DUKE"]
+    if deep_dive_duke:
+        duke_substantive = [l for l in deep_dive_duke if len(l.get("text", "").split()) > 25]
+        if not duke_substantive:
+            logger.warning(
+                "VALIDATION: Duke has no substantive arguments (>25 words) in the deep dive. "
+                "He may be relying on one-liner dismissals instead of real arguments."
+            )
+        # Check for weak argument patterns
+        duke_weak_patterns = [
+            "at least he's being honest", "everyone has opinions", "it's not that big",
+            "come on", "that's just how", "I mean, it's not",
+        ]
+        duke_weak_count = 0
+        for l in deep_dive_duke:
+            text_lower = l.get("text", "").lower()
+            for pattern in duke_weak_patterns:
+                if pattern in text_lower:
+                    duke_weak_count += 1
+                    break
+        if duke_weak_count > 1:
+            logger.warning(
+                f"VALIDATION: Duke has {duke_weak_count} weak/dismissive arguments in the "
+                f"deep dive. He needs specific facts, precedents, or reframes."
+            )
+
+    # Check Rapid Fire tonal appropriateness — flag potentially serious stories
+    rapid_fire_lines = [l for l in lines if l.get("segment") == "rapid_fire"]
+    serious_keywords = [
+        "arrested", "jailed", "prison", "killed", "died", "death", "assault",
+        "abuse", "shooting", "murdered", "sentenced", "charges dropped",
+        "wrongful", "incarcerated",
+    ]
+    for l in rapid_fire_lines:
+        text_lower = l.get("text", "").lower()
+        for keyword in serious_keywords:
+            if keyword in text_lower:
+                logger.warning(
+                    f"VALIDATION: Rapid Fire line {l.get('line', '?')} contains '{keyword}' — "
+                    f"may be too serious for comedy segment. Review for tonal fit."
+                )
+                break
 
     return is_valid
 
