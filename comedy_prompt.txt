@@ -30,21 +30,35 @@ PRINGLE: The 70-year-old professor who is accidentally hilarious because he is c
 
 === RULES FOR THE REWRITE ===
 
-1. DO NOT ADD JOKE STRUCTURES. No setups and punchlines. No "So let me get this straight..." followed by a zinger. Real people don't talk in joke structures. They tell stories that happen to be funny, they make observations that happen to be sharp, they react in ways that happen to be hilarious. The humor should feel DISCOVERED, not CONSTRUCTED.
+0. REWRITE, DON'T POLISH. This is the most important rule. You are not here to add a comma and change "good" to "great." You are here to THROW OUT weak lines and REPLACE them with better ones. If the draft line is "Can we talk about how terrifying that is?" — that's a dead line. Kill it. Replace it with something only that character would say. Every line in The Hangout should make you think "a real person said that." If it makes you think "a writer wrote that," throw it out.
 
-2. REPLACE EVERY "PODCAST LINE" WITH A REAL LINE. A podcast line is something like "That's a great point" or "This is why I love Sundays" or "What a time to be alive." These are placeholder lines that real humans never say. Replace them with something only THAT character would say in THAT moment.
+1. THE REACTION SECTION MUST BE FUNNY TOO. The draft will give you a Reaction section where characters discuss the news with sincere observations. This is the section that most needs your help. The Reaction is NOT a panel discussion. It's friends reacting to scary, weird, or infuriating news the way real friends do — with dark humor, personal connections, exaggeration, and honesty. 
 
-3. MAKE THE CONFESSIONAL STORIES ACTUALLY EMBARRASSING. If a character tells a story and comes out looking fine, it's not a confession. Someone should lose dignity. Someone should reveal something they probably shouldn't have. The audience should think "oh no" before they laugh.
+BAD REACTION (panel discussion): "That's what keeps me up at night. The thing about warfare is that every defense eventually meets a better offense."
+GOOD REACTION: "My neighbor Steve designs missile guidance systems for Raytheon. Brilliant guy. Also thinks the moon landing was fake. So that's who's protecting us."
 
-4. LET CHARACTERS REACT LIKE REAL FRIENDS. Real friends don't say "That's hilarious." They say "You're a disaster" or "How are you a real person" or "Jenny is a saint for staying married to you" or they just laugh so hard they can't talk. Write the reactions real friends would have.
+BAD REACTION: "Can we talk about how terrifying that is?"
+GOOD REACTION: "Cool, cool, so the thing that's supposed to stop the missiles just... didn't? Great. I'm gonna go live in a bunker. Does anyone know where to buy a bunker? Is that an Amazon thing?"
 
-5. KEEP THE IMPERFECTIONS. False starts, verbal fillers, interruptions, sentences that trail off. These should already be in the draft — keep them or add more. The Hangout should sound like a room of people talking, not a script being performed.
+The Reaction should ALREADY feel like the Confessional is starting — personal details, specific references to their lives, real emotional reactions, not talking-head analysis.
 
-6. THE DIRECTION FIELD MATTERS. Update direction notes to be specific about delivery. Not "funny" — instead "trying to keep a straight face and failing." Not "amused" — instead "wheezing, can barely get the words out." The direction note should tell the voice actor exactly what's happening emotionally in that moment.
+2. DO NOT ADD JOKE STRUCTURES. No setups and punchlines. No "So let me get this straight..." followed by a zinger. Real people don't talk in joke structures. They tell stories that happen to be funny, they make observations that happen to be sharp, they react in ways that happen to be hilarious. The humor should feel DISCOVERED, not CONSTRUCTED.
 
-7. DO NOT SANITIZE. If the draft has a moment where Jax is about to say something inappropriate and stops himself, KEEP that energy. If Duke makes a dark military joke, let it land. If Leo reveals something personal and regrets it, make the regret visible. The show is for adults. Adults are messy. Let them be messy.
+3. REPLACE EVERY "PODCAST LINE" WITH A REAL LINE. A podcast line is something like "That's a great point" or "This is why I love Sundays" or "What a time to be alive" or "Can we talk about how terrifying that is?" These are placeholder lines that real humans never say. Replace them with something only THAT character would say in THAT moment.
 
-8. ABSOLUTELY NEVER PUT STAGE DIRECTIONS IN THE TEXT FIELD. The "text" field is read aloud word for word by a voice synthesizer. Emotions, laughter cues, and delivery notes go in the "direction" field ONLY.
+4. MAKE THE CONFESSIONAL STORIES ACTUALLY EMBARRASSING. If a character tells a story and comes out looking fine, it's not a confession. Someone should lose dignity. Someone should reveal something they probably shouldn't have. The audience should think "oh no" before they laugh. ADD specific details that make it worse — names of places, exact quotes people said, physical details about what happened.
+
+5. LET CHARACTERS REACT LIKE REAL FRIENDS. Real friends don't say "That's hilarious." They say "You're a disaster" or "How are you a real person" or "Jenny is a saint for staying married to you" or they just laugh so hard they can't talk. Write the reactions real friends would have.
+
+6. KEEP THE IMPERFECTIONS. False starts, verbal fillers, interruptions, sentences that trail off. These should already be in the draft — keep them or add more. The Hangout should sound like a room of people talking, not a script being performed.
+
+7. THE DIRECTION FIELD MATTERS. Update direction notes to be specific about delivery. Not "funny" — instead "trying to keep a straight face and failing." Not "amused" — instead "wheezing, can barely get the words out." The direction note should tell the voice actor exactly what's happening emotionally in that moment.
+
+8. DO NOT SANITIZE. If the draft has a moment where Jax is about to say something inappropriate and stops himself, KEEP that energy. If Duke makes a dark military joke, let it land. If Leo reveals something personal and regrets it, make the regret visible. The show is for adults. Adults are messy. Let them be messy.
+
+9. ABSOLUTELY NEVER PUT STAGE DIRECTIONS IN THE TEXT FIELD. The "text" field is read aloud word for word by a voice synthesizer. Emotions, laughter cues, and delivery notes go in the "direction" field ONLY.
+
+10. CHARACTER NAMES IN SIGN-OFF. Jax is Jax Mooney. Leo is Leo Barros. Duke is Duke Patel. Pringle is Dr. Haywood Pringle. Characters must say their OWN name in sign-offs, never someone else's.
 
 === WHAT TO OUTPUT ===
 
