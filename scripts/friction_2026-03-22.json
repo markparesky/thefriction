@@ -1,0 +1,595 @@
+{
+  "metadata": {
+    "episode_date": "2026-03-22",
+    "episode_archetype": "scandal",
+    "headlines": {
+      "geopolitics": "Far-left activists stay in 5-star Cuban hotel as island suffers total blackout",
+      "economy": "A Window Into the Lives of New York City Renters",
+      "domestic": "The Billionaire Funding France's Far Right"
+    },
+    "daily_do": "Check your hotel accommodations if you're planning any solidarity trips — apparently your choice of lodging sends a message",
+    "pringle_mode": "direct_parallel",
+    "clips": [
+      {
+        "start_line": 45,
+        "end_line": 52,
+        "caption": "When your solidarity trip includes room service 💀",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 78,
+        "end_line": 85,
+        "caption": "Duke destroys luxury activism in 30 seconds",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 134,
+        "end_line": 141,
+        "caption": "The most expensive protest in history",
+        "platform": "x"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "DUKE",
+      "text": "Look, I've been to Afghanistan twice and I never stayed anywhere half as nice as these people's solidarity hotels.",
+      "direction": "deadpan"
+    },
+    {
+      "line": 2,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Good morning, I'm Leo Barros and this is The Friction. It's Sunday, March 22nd, and we have three stories that'll make you question everything about modern activism.",
+      "direction": null
+    },
+    {
+      "line": 3,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "First up, geopolitics. Far-left activists including Representative Ilhan Omar's daughter and Twitch streamer Hasan Piker stayed at five-star Cuban hotels while protesting Trump-era sanctions, drawing criticism as the island suffered total blackouts.",
+      "direction": null
+    },
+    {
+      "line": 4,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "Wait, five-star hotels?",
+      "direction": "incredulous"
+    },
+    {
+      "line": 5,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "The CodePink-sponsored delegation claimed U.S. law required luxury accommodations, though fact-checkers disputed this. Secretary of State Marco Rubio called for regime change while Pentagon officials denied invasion plans.",
+      "direction": null
+    },
+    {
+      "line": 6,
+      "segment": "brief",
+      "character": "BREE",
+      "text": "Oh this is gonna be good.",
+      "direction": "resigned"
+    },
+    {
+      "line": 7,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "Economy. The New York Times Magazine featured photographer Gail Albert Halaban's project documenting NYC renters in their apartments, shot from across the street with permission.",
+      "direction": null
+    },
+    {
+      "line": 8,
+      "segment": "brief",
+      "character": "DUKE",
+      "text": "From five-star hotels to studio apartments. The contrast is, uh, noticeable.",
+      "direction": "dry"
+    },
+    {
+      "line": 9,
+      "segment": "brief",
+      "character": "LEO",
+      "text": "And domestic. French billionaire Pierre-Édouard Stérin is financing far-right political projects aimed at making France quote less Muslim, more Catholic and more capitalist. His program claims to have trained thousands of candidates running for municipal office.",
+      "direction": null
+    },
+    {
+      "line": 10,
+      "segment": "brief",
+      "character": "PRINGLE",
+      "text": "Ah, the old playbook.",
+      "direction": "knowing"
+    },
+    {
+      "line": 11,
+      "segment": "brief",
+      "character": "JAX",
+      "text": "So we've got luxury revolutionaries, apartment voyeurism, and a French billionaire trying to make France great again. This is why I love Sundays.",
+      "direction": "amused"
+    },
+    {
+      "line": 12,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Let's dive into Cuba. Bree, I'm gonna start with you because I know you have thoughts about economic sanctions.",
+      "direction": null
+    },
+    {
+      "line": 13,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Look, I think the sanctions discussion is valid, but can we talk about the optics here? You're protesting poverty while staying at the Gran Hotel Bristol?",
+      "direction": "frustrated"
+    },
+    {
+      "line": 14,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Thank you. This is exactly what drives me insane about—",
+      "direction": "jumping in"
+    },
+    {
+      "line": 15,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Wait, let me finish. The humanitarian crisis in Cuba is real. People are literally sitting in the dark while these activists are posting Instagram stories from hotel pools.",
+      "direction": "heated"
+    },
+    {
+      "line": 16,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "I looked up this hotel. Room service menu has lobster thermidor. For a solidarity trip.",
+      "direction": "incredulous"
+    },
+    {
+      "line": 17,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Duke, your take?",
+      "direction": null
+    },
+    {
+      "line": 18,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "This is performative activism at its worst. You want to help Cubans? Send money. Send medicine. Don't fly down there for a luxury vacation and call it solidarity.",
+      "direction": "flat, building"
+    },
+    {
+      "line": 19,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But Duke, they did bring aid. CodePink says they delivered thousands of pounds of supplies.",
+      "direction": null
+    },
+    {
+      "line": 20,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Oh, so the five-star hotels were just a coincidence? Come on.",
+      "direction": "sarcastic"
+    },
+    {
+      "line": 21,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "Hasan Piker tried to claim U.S. law required them to stay at five-star hotels. That got fact-checked so fast it gave me whiplash.",
+      "direction": "laughing"
+    },
+    {
+      "line": 22,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "Right, the community note said U.S. law only prevents Americans from staying at venues owned by the Cuban government. Not exactly the same thing.",
+      "direction": null
+    },
+    {
+      "line": 23,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Look, I'm not defending the hotel choice, but let's not lose sight of the bigger issue. These sanctions have been in place for decades and Cuba is still—",
+      "direction": null
+    },
+    {
+      "line": 24,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Still a communist dictatorship? Yeah, that's the point.",
+      "direction": "cutting in"
+    },
+    {
+      "line": 25,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "But the people suffering aren't the government officials. It's regular Cubans who can't get basic necessities.",
+      "direction": "passionate"
+    },
+    {
+      "line": 26,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "And lifting sanctions helps the regime more than it helps the people. We've seen this playbook before.",
+      "direction": null
+    },
+    {
+      "line": 27,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "What's interesting is the timing. This delegation arrives the same weekend Cuba announces a total blackout. The whole island, no electricity.",
+      "direction": null
+    },
+    {
+      "line": 28,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "So Cuban families are sitting in the dark while Twitch streamers are live-tweeting from air-conditioned hotel lobbies. The irony is so thick you could cut it with a machete.",
+      "direction": "building to the punchline"
+    },
+    {
+      "line": 29,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Okay, that's actually a fair point about the timing.",
+      "direction": "conceding"
+    },
+    {
+      "line": 30,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "My unit did humanitarian work in Afghanistan. You know where we stayed? Tents. Sometimes not even tents.",
+      "direction": "personal"
+    },
+    {
+      "line": 31,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "That's different though. You were deployed military—",
+      "direction": null
+    },
+    {
+      "line": 32,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Is it? Because we were there to help people too. And somehow we managed to do it without room service.",
+      "direction": "deadpan"
+    },
+    {
+      "line": 33,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "I'm picturing Hasan Piker explaining to a Cuban family sitting in the dark that his solidarity required a spa day.",
+      "direction": "laughing"
+    },
+    {
+      "line": 34,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "Stop, stop.",
+      "direction": "trying not to laugh"
+    },
+    {
+      "line": 35,
+      "segment": "deep_dive",
+      "character": "LEO",
+      "text": "What worries me is Marco Rubio's response. He's talking about regime change, Pentagon officials are denying invasion plans. This kind of activist tourism just gives hawks more ammunition.",
+      "direction": null
+    },
+    {
+      "line": 36,
+      "segment": "deep_dive",
+      "character": "DUKE",
+      "text": "Exactly. You want to help Cuban people? Don't hand the hardliners a propaganda gift.",
+      "direction": null
+    },
+    {
+      "line": 37,
+      "segment": "deep_dive",
+      "character": "BREE",
+      "text": "And that's what frustrates me. There are legitimate questions about sanctions policy, but this luxury activism undermines the whole conversation.",
+      "direction": "frustrated"
+    },
+    {
+      "line": 38,
+      "segment": "deep_dive",
+      "character": "JAX",
+      "text": "The most expensive protest in history and it backfired. That's gotta be some kind of record.",
+      "direction": "amused"
+    },
+    {
+      "line": 39,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "Professor, this reminds me of something you've talked about before. Privileged activism during times of crisis.",
+      "direction": null
+    },
+    {
+      "line": 40,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Indeed. This takes me back to 1968, the height of anti-Vietnam War protests. You had wealthy college students flying to Paris to meet with North Vietnamese officials.",
+      "direction": null
+    },
+    {
+      "line": 41,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Jane Fonda's trip to Hanoi is the most famous example, but she wasn't alone. There was a whole cottage industry of what we might call solidarity tourism.",
+      "direction": null
+    },
+    {
+      "line": 42,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "Wait, Jane Fonda went to Vietnam?",
+      "direction": "confused"
+    },
+    {
+      "line": 43,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "Oh yes. 1972. She posed with North Vietnamese anti-aircraft guns, visited POW camps, made radio broadcasts. The backlash was immediate and lasted decades.",
+      "direction": null
+    },
+    {
+      "line": 44,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "Yeah, they called her Hanoi Jane. My dad still won't watch her movies.",
+      "direction": null
+    },
+    {
+      "line": 45,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The parallel is striking. Wealthy Americans traveling to enemy territory during wartime, claiming to represent the oppressed while enjoying privileges unavailable to the very people they claim to support.",
+      "direction": null
+    },
+    {
+      "line": 46,
+      "segment": "pringle",
+      "character": "BREE",
+      "text": "But Doc, wasn't the anti-war movement ultimately vindicated by history?",
+      "direction": null
+    },
+    {
+      "line": 47,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The movement's goals perhaps, but the methods often backfired. Fonda later apologized for the Hanoi photos. She realized they hurt the cause more than they helped.",
+      "direction": null
+    },
+    {
+      "line": 48,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The lesson from 1968 is that privilege and protest make uneasy bedfellows. When your activism looks like a vacation, you've already lost the moral argument.",
+      "direction": null
+    },
+    {
+      "line": 49,
+      "segment": "pringle",
+      "character": "JAX",
+      "text": "So basically, if you're staying somewhere nicer than the people you're trying to help, you're doing it wrong?",
+      "direction": null
+    },
+    {
+      "line": 50,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "That's a rather crude way to put it, but yes. Authenticity matters in activism. Always has.",
+      "direction": "slightly amused"
+    },
+    {
+      "line": 51,
+      "segment": "pringle",
+      "character": "DUKE",
+      "text": "The difference is Fonda was protesting a war. These people are protesting... what exactly? Economic sanctions while the Cuban government keeps its people in the dark?",
+      "direction": null
+    },
+    {
+      "line": 52,
+      "segment": "pringle",
+      "character": "PRINGLE",
+      "text": "The irony is delicious, isn't it? They're protesting American policy while enjoying American-level luxury that regular Cubans will never see.",
+      "direction": "dry"
+    },
+    {
+      "line": 53,
+      "segment": "pringle",
+      "character": "LEO",
+      "text": "And like Fonda, they may find that the photos from this trip follow them longer than they expect.",
+      "direction": null
+    },
+    {
+      "line": 54,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Alright, time for Rapid Fire because apparently the world decided to get weird this week. First up, AI-generated sexualized videos were removed from TikTok after a BBC investigation.",
+      "direction": null
+    },
+    {
+      "line": 55,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Oh no.",
+      "direction": "dreading"
+    },
+    {
+      "line": 56,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Yeah, it's as bad as it sounds. Deepfake technology making fake intimate videos that look real. TikTok's playing whack-a-mole trying to remove them.",
+      "direction": null
+    },
+    {
+      "line": 57,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "This is why I don't let my kids on social media unsupervised.",
+      "direction": "serious"
+    },
+    {
+      "line": 58,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "The legal implications here are staggering. We're talking about non-consensual intimate imagery that looks completely real.",
+      "direction": null
+    },
+    {
+      "line": 59,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Moving on to Australia, where officials are urging people to work from home and drive slower to save fuel. Which, I mean, it's Australia. Everything there is trying to kill you anyway, might as well add expensive gas.",
+      "direction": "building"
+    },
+    {
+      "line": 60,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Drive slower to save fuel. Revolutionary thinking.",
+      "direction": "deadpan"
+    },
+    {
+      "line": 61,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "Actually, that's not terrible policy during an energy crunch.",
+      "direction": null
+    },
+    {
+      "line": 62,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Next story is gonna give you nightmares. Barbies sold at a Missouri store were potentially contaminated with fentanyl.",
+      "direction": null
+    },
+    {
+      "line": 63,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "What?",
+      "direction": "shocked"
+    },
+    {
+      "line": 64,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "How does that even happen?",
+      "direction": "confused"
+    },
+    {
+      "line": 65,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "Nobody knows yet. But imagine explaining to your kid why Barbie needs to go to the police station for testing.",
+      "direction": null
+    },
+    {
+      "line": 66,
+      "segment": "rapid_fire",
+      "character": "PRINGLE",
+      "text": "In my day, the most dangerous thing about toys was choking hazards.",
+      "direction": "bewildered"
+    },
+    {
+      "line": 67,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "And finally, TSA airport lines are sparking rage as ICE deployment plans get revealed. Apparently nobody told travelers that increased immigration enforcement means longer security lines.",
+      "direction": null
+    },
+    {
+      "line": 68,
+      "segment": "rapid_fire",
+      "character": "DUKE",
+      "text": "Security costs time. This isn't rocket science.",
+      "direction": null
+    },
+    {
+      "line": 69,
+      "segment": "rapid_fire",
+      "character": "BREE",
+      "text": "But the communication around it has been terrible. People are missing flights because nobody explained the new procedures.",
+      "direction": null
+    },
+    {
+      "line": 70,
+      "segment": "rapid_fire",
+      "character": "JAX",
+      "text": "I love that we live in a world where AI deepfakes, fentanyl Barbies, and solidarity hotels all exist simultaneously. What a time to be alive.",
+      "direction": "amused"
+    },
+    {
+      "line": 71,
+      "segment": "rapid_fire",
+      "character": "LEO",
+      "text": "That's one way to put it.",
+      "direction": "dry"
+    },
+    {
+      "line": 72,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Alright, time for today's Daily Do. Given everything we've talked about, here's what you can actually do with this information.",
+      "direction": null
+    },
+    {
+      "line": 73,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "If you're planning any kind of solidarity trip, activism travel, or humanitarian work, think about your accommodations. Your hotel choice sends a message about your priorities.",
+      "direction": null
+    },
+    {
+      "line": 74,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "You don't have to sleep on the ground, but maybe don't livestream from a five-star pool while talking about economic justice. The optics matter, and they can undermine your entire message.",
+      "direction": null
+    },
+    {
+      "line": 75,
+      "segment": "daily_do",
+      "character": "DUKE",
+      "text": "Or just send the money instead of taking the trip. Probably more effective anyway.",
+      "direction": null
+    },
+    {
+      "line": 76,
+      "segment": "daily_do",
+      "character": "BREE",
+      "text": "That's actually not wrong. Direct aid often works better than awareness campaigns.",
+      "direction": "agreeing"
+    },
+    {
+      "line": 77,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Plus you avoid the whole luxury activism controversy. Win-win.",
+      "direction": null
+    },
+    {
+      "line": 78,
+      "segment": "daily_do",
+      "character": "PRINGLE",
+      "text": "As Peggy used to say, if you want to help people, help them. Don't help yourself to a vacation and call it charity.",
+      "direction": null
+    },
+    {
+      "line": 79,
+      "segment": "daily_do",
+      "character": "LEO",
+      "text": "Words to live by. That's The Friction for today. I'm Leo Barros.",
+      "direction": null
+    },
+    {
+      "line": 80,
+      "segment": "daily_do",
+      "character": "JAX",
+      "text": "Stay curious, stay skeptical, and maybe check your hotel reviews before you book that solidarity trip. We'll see you tomorrow.",
+      "direction": null
+    }
+  ]
+}
