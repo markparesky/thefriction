@@ -4,28 +4,28 @@
     "episode_archetype": "crisis",
     "headlines": {
       "geopolitics": "Israel's Missile Defense Under Scrutiny After Iranian Attack",
-      "culture": "Taylor Frankie Paul and the Downfall of the 'Bachelor' Empire",
-      "international": "French Local Elections Are Yardstick for Far Right. Initial Results Are Mixed."
+      "economy": "Amazon MGM Gets a Much-Needed Hit With 'Project Hail Mary'",
+      "domestic": "French Local Elections Are Yardstick for Far Right. Initial Results Are Mixed."
     },
-    "daily_do": "Call your representatives about foreign military aid transparency",
+    "daily_do": "Check your home security system. If two missiles can penetrate Israel's defenses, your Ring doorbell might not be as bulletproof as you think.",
     "pringle_mode": "false_parallel",
     "clips": [
       {
         "start_line": 78,
         "end_line": 85,
-        "caption": "When your defense contractor neighbor explains missile systems 😅",
+        "caption": "When your wife catches you crying at a kids movie 😭",
         "platform": "tiktok"
       },
       {
-        "start_line": 102,
-        "end_line": 109,
-        "caption": "Leo's dating life remains classified 🤐",
+        "start_line": 112,
+        "end_line": 119,
+        "caption": "Dating app disaster story you won't believe",
         "platform": "youtube"
       },
       {
-        "start_line": 125,
-        "end_line": 132,
-        "caption": "Professor Pringle discovers thirst traps",
+        "start_line": 134,
+        "end_line": 141,
+        "caption": "Professor accidentally becomes thirst trap",
         "platform": "x"
       }
     ]
@@ -35,631 +35,764 @@
       "line": 1,
       "segment": "cold_open",
       "character": "JAX",
-      "text": "I'm sleeping with the person who's pricing me out of my apartment, and somehow that's not even the most complicated relationship we're talking about today.",
-      "direction": "Confessional, slightly mortified but also impressed with himself"
+      "text": "I matched with someone on a dating app and it turns out she works for the company that's trying to evict me. And I still slept with her.",
+      "direction": "confessional, slightly mortified but also proud of the chaos"
     },
     {
       "line": 2,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Good morning. I'm Leo Barros. It's Sunday, March 22nd. Two Iranian missiles penetrated Israel's defense network yesterday, striking near a nuclear facility in the Negev Desert.",
-      "direction": "Authoritative, measured pace, emphasis on 'penetrated'"
+      "text": "Good morning. I'm Leo Barros. It's Sunday, March 22nd. This is The Friction.",
+      "direction": "authoritative morning news anchor tone, clear and measured"
     },
     {
       "line": 3,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The strikes landed hours apart in two separate towns, raising immediate questions about the effectiveness of Israel's multi-layered missile defense system against sophisticated Iranian weapons.",
-      "direction": "Professional concern, building tension"
+      "text": "Two Iranian missiles penetrated Israel's missile defense systems yesterday, striking near a heavily guarded nuclear facility in the Negev Desert. The missiles landed hours apart in two separate towns, marking the first successful breach of Israel's multi-layered air defense network by Iranian weaponry in over a decade.",
+      "direction": "serious, measured delivery emphasizing the gravity of the security breach"
     },
     {
       "line": 4,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "This represents the first successful penetration of Israeli defenses by Iranian missiles in over two years, and it happened near one of the region's most heavily guarded nuclear sites.",
-      "direction": "Emphasizing the significance, slight pause before 'nuclear sites'"
+      "text": "The strikes raise fundamental questions about the effectiveness of systems that have intercepted thousands of projectiles over the past fifteen years. Israel's Iron Dome, David's Sling, and Arrow defense systems are considered among the world's most advanced, jointly developed with the United States at a cost of over twelve billion dollars.",
+      "direction": "building tension, emphasizing the scale of the investment and failure"
     },
     {
       "line": 5,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The timing is particularly concerning. Iran launched the attack during a period when U.S. intelligence had indicated decreased Iranian military activity in the region.",
-      "direction": "Matter-of-fact delivery of troubling information"
+      "text": "The timing is particularly concerning. These missiles were launched just days after Iranian officials publicly threatened to target Israeli nuclear facilities if military operations in Syria continued. The successful strikes suggest Iran has developed countermeasures specifically designed to penetrate Israeli defenses.",
+      "direction": "connecting dots for the audience, slight urgency in voice"
     },
     {
       "line": 6,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Meanwhile, in France, initial projections from municipal elections suggest the far-right may not have achieved the significant gains many predicted.",
-      "direction": "Transitional, lighter tone but still professional"
+      "text": "In other news, Amazon MGM Studios scored its biggest theatrical success with Project Hail Mary, starring Ryan Gosling. The film is on pace to become the company's highest-grossing domestic release, providing much-needed validation for Amazon's entertainment division after several high-profile flops.",
+      "direction": "shifting to lighter tone, still professional but less grave"
     },
     {
       "line": 7,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Early indicators show mixed performance for far-right candidates across French municipalities, potentially signaling broader European resistance to populist movements.",
-      "direction": "Careful not to overstate, presenting preliminary data"
+      "text": "And initial results from French municipal elections suggest the far-right may not have achieved the major gains many predicted. Early projections indicate mixed performance for far-right candidates, potentially signaling limits to populist momentum in Europe.",
+      "direction": "wrapping up headlines section, neutral tone on political developments"
     },
     {
       "line": 8,
-      "segment": "download_headlines",
+      "segment": "download_pringle",
       "character": "LEO",
-      "text": "And in a story that says something about our cultural moment, ABC's Bachelor franchise faces declining relevance as competing dating shows embrace modern relationship norms while the network remains tied to traditional courtship formats.",
-      "direction": "Wry observation, setting up cultural commentary"
+      "text": "Professor, everyone's calling this a massive intelligence failure, comparing it to Pearl Harbor or 9/11. But you've been studying these kinds of surprises for decades. Is that the right parallel?",
+      "direction": "turning to expert, respectful but probing tone"
     },
     {
       "line": 9,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "Professor, everyone is calling this missile strike a repeat of 1973 — Israel caught off guard, defenses failing. But you've been thinking about this differently.",
-      "direction": "Direct question, genuinely interested in Pringle's contrarian take"
+      "character": "PRINGLE",
+      "text": "It is not, Leo. And that misunderstanding could lead to dangerous overreactions. Everyone assumes this was an intelligence failure, but I suspect it was something far more troubling: an engineering success.",
+      "direction": "authoritative, correcting a common misconception with quiet confidence"
     },
     {
       "line": 10,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Indeed I have, Leo. The 1973 comparison is seductive but wrong. The Yom Kippur War was about strategic surprise — Egypt and Syria attacking when Israel expected peace.",
-      "direction": "Professorial authority, correcting a misconception"
+      "text": "The closest historical parallel is not Pearl Harbor, but the Maginot Line in 1940. The French built the world's most sophisticated defensive fortification along their German border. Every expert agreed it was impenetrable. The Germans didn't try to penetrate it. They went around it.",
+      "direction": "storytelling mode, building to a point with deliberate pacing"
     },
     {
       "line": 11,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Yesterday's attack was not surprise. Iran has been telegraphing this capability for months. Israel knew it was coming. They simply could not stop it.",
-      "direction": "Deliberate emphasis on 'could not stop it', building to a point"
+      "text": "Iran appears to have done something similar here. Rather than overwhelm Israel's defenses with numbers, they developed missiles specifically designed to exploit weaknesses in the system's architecture. The defense worked exactly as intended. The offense was simply better engineered.",
+      "direction": "explaining the technical distinction with professorial clarity"
     },
     {
       "line": 12,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "This is not 1973. This is 1940 — the Maginot Line. France built the most sophisticated defensive system in military history. It was technically perfect. It was also strategically obsolete.",
-      "direction": "Drawing the parallel with satisfaction, teaching moment"
+      "character": "LEO",
+      "text": "So this isn't about intelligence gathering or early warning systems failing?",
+      "direction": "seeking clarification, journalist following up on the key distinction"
     },
     {
       "line": 13,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "Because the Germans simply went around it.",
-      "direction": "Understanding, following the logic"
+      "character": "PRINGLE",
+      "text": "Precisely. The French knew the Germans were coming in 1940. They had excellent intelligence. But they had built their entire strategy around fighting the last war. The Germans had moved on to fighting the next one.",
+      "direction": "driving home the historical lesson with quiet intensity"
     },
     {
       "line": 14,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "Precisely. Iran did not go around Israel's defenses. They went through them. With technology Israel's system was never designed to counter.",
-      "direction": "Confirming the lesson with gravity"
+      "character": "LEO",
+      "text": "What does that mean for US military aid to Israel? We've invested twelve billion dollars in these systems.",
+      "direction": "practical follow-up, focusing on policy implications"
     },
     {
       "line": 15,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "So what does that mean for U.S. military aid? We've invested billions in these defense systems.",
-      "direction": "Following up with the practical implications"
+      "character": "PRINGLE",
+      "text": "It means the nature of the threat has evolved faster than our response. This is not a failure of the systems we built. It's evidence that our adversaries have built better ones. The question now is whether we can adapt as quickly as they innovated.",
+      "direction": "sobering conclusion, measured but concerned tone"
     },
     {
       "line": 16,
-      "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "It means we are funding yesterday's war. The French spent a fortune on their Maginot Line too. Every franc was wasted the moment German tanks entered Belgium.",
-      "direction": "Delivering the harsh assessment with historical authority"
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke, you've been listening.",
+      "direction": "transitional, signaling the shift to more personal discussion"
     },
     {
       "line": 17,
-      "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "Military technology advances in leaps, not steps. Iran just demonstrated they have leaped over our defensive strategy entirely.",
-      "direction": "Concluding the analysis with finality"
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Okay, first of all, can we talk about how terrifying that is? Like, Israel has the best missile defense in the world and Iran just... figured out how to beat it?",
+      "direction": "slightly anxious energy, first time hearing his voice in the episode"
     },
     {
       "line": 18,
-      "segment": "bridge",
-      "character": "LEO",
-      "text": "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke — you've been listening.",
-      "direction": "Transitional, opening up the room"
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "That's what keeps me up at night, honestly. I did two tours, and the thing about warfare is that every defense eventually meets a better offense. It's just physics.",
+      "direction": "serious, drawing on military experience, concerned father tone"
     },
     {
       "line": 19,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Okay, hi, good morning, um — can we just acknowledge that Professor Pringle just casually destroyed like forty years of American foreign policy in three minutes?",
-      "direction": "Slightly overwhelmed, talking fast"
+      "character": "LEO",
+      "text": "The question is whether this changes anything strategically or if it's just a psychological victory for Iran.",
+      "direction": "trying to maintain analytical distance, still in news mode"
     },
     {
       "line": 20,
       "segment": "hangout_reaction",
       "character": "DUKE",
-      "text": "Look, I've got a buddy who works for Raytheon. He's gonna be having a very bad Monday morning.",
-      "direction": "Dry, matter-of-fact"
+      "text": "Dude, psychological victories start wars. My buddy from Fort Campbell is on his third deployment in that region. His kid doesn't recognize him on FaceTime anymore.",
+      "direction": "getting more personal, frustration creeping into voice"
     },
     {
       "line": 21,
       "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "Duke, you know people in defense contracting?",
-      "direction": "Curious, learning something new about Duke"
+      "character": "JAX",
+      "text": "Jesus. That's heavy. Meanwhile I'm over here worried about whether my landlord's gonna raise my rent again.",
+      "direction": "attempting to lighten mood but acknowledging the weight of Duke's comment"
     },
     {
       "line": 22,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "My neighbor Steve. He designs missile guidance systems. Super smart guy. Also thinks the moon landing was fake, so, you know, brilliant people can believe dumb things.",
-      "direction": "Affectionate exasperation"
+      "character": "PRINGLE",
+      "text": "The personal cost of geopolitical instability is rarely calculated in our strategic assessments. Peggy used to say that every foreign policy decision should include a line item for broken families.",
+      "direction": "gentle wisdom, invoking his late wife with warmth"
     },
     {
       "line": 23,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Wait, wait, your neighbor is literally building the missiles that just failed?",
-      "direction": "Connecting dots, getting excited"
+      "character": "DUKE",
+      "text": "She was right. Look, I support Israel's right to defend itself, but when people talk about strategic interests, I think about real faces. Real kids.",
+      "direction": "grounded, personal conviction without getting preachy"
     },
     {
       "line": 24,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "No, he builds the— look, it's complicated. But yeah, he's probably stress-eating Jenny's cookies right about now.",
-      "direction": "Defensive, then resigned"
+      "character": "JAX",
+      "text": "Speaking of real consequences, can we talk about Amazon buying every movie studio? Because I have thoughts.",
+      "direction": "pivoting to lighter topic, building energy for transition"
     },
     {
       "line": 25,
       "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "I must ask — does your neighbor understand the historical precedent? The Maginot Line engineers were also quite brilliant.",
-      "direction": "Genuinely curious, professorial"
+      "character": "LEO",
+      "text": "This is about Project Hail Mary being a hit?",
+      "direction": "following Jax's lead but staying focused on the news"
     },
     {
       "line": 26,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "Professor, Steve thinks World War Two was won by American ingenuity and elbow grease. He's not big on historical nuance.",
-      "direction": "Gentle mockery of his neighbor"
+      "character": "JAX",
+      "text": "It's about Jeff Bezos basically owning Hollywood now. Like, the guy who spies on my shopping habits is also deciding what movies get made.",
+      "direction": "building mock outrage, getting animated"
     },
     {
       "line": 27,
-      "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "This is why I stick to journalism. At least when I screw up, nobody gets bombed.",
-      "direction": "Dark humor, self-deprecating"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You know what's funny? Jenny and I went to see that movie last weekend. First time we've been to a theater without kids in like six months.",
+      "direction": "setting up a story, fond but slightly exhausted parent tone"
     },
     {
       "line": 28,
-      "segment": "hangout_reaction",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Unless you count your dating life. Speaking of which—",
-      "direction": "Mischievous, immediately pivoting to tease Leo"
+      "text": "Ooh, date night! How'd that go?",
+      "direction": "perking up, genuinely interested in Duke's personal life"
     },
     {
       "line": 29,
-      "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "We are not doing this.",
-      "direction": "Firm boundary, but amused"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Well, the movie was great. Ryan Gosling in space, very emotional. But here's the thing... I may have cried. Like, full ugly crying.",
+      "direction": "building to embarrassing admission, slightly defensive"
     },
     {
       "line": 30,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Oh, we are absolutely doing this. But first, I have to tell you guys something that happened this week that is so much worse than missile defense failures.",
-      "direction": "Building anticipation, confessional energy"
+      "text": "At Project Hail Mary? It's a science fiction movie!",
+      "direction": "incredulous laughter, not mocking but genuinely surprised"
     },
     {
       "line": 31,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Here we go.",
-      "direction": "Bracing himself, fond exasperation"
+      "text": "There's this scene where he's talking to his friend Rocky and... look, I don't want to spoil it, but it got to me, okay?",
+      "direction": "getting slightly emotional remembering it, trying to justify"
     },
     {
       "line": 32,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "So I matched with someone on Hinge last week, right? Her profile said 'policy analyst' and I thought that sounded hot. Like, finally, someone who can explain supply chains to me.",
-      "direction": "Setting up the story, getting into it"
+      "character": "DUKE",
+      "text": "Jenny looks over and I'm just... leaking. Not a single dignified tear. Full breakdown. She took a photo. She's saving it for quote unquote leverage.",
+      "direction": "admitting the full embarrassment, laughing at himself"
     },
     {
       "line": 33,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "We get to the bar and it turns out she works for my landlord's management company. Like, the actual company that's trying to raise my rent by six hundred dollars.",
-      "direction": "Building to the absurdity, slight disbelief in his own story"
+      "character": "LEO",
+      "text": "Your wife documented your emotional moment for blackmail purposes?",
+      "direction": "dry observation, finding the humor in the marital dynamic"
     },
     {
       "line": 34,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Please tell me you left.",
-      "direction": "Already knowing the answer, resigned"
+      "character": "DUKE",
+      "text": "Fifteen years of marriage, Leo. She knows what she's doing.",
+      "direction": "resigned but affectionate, the tone of a man who loves his wife's ruthlessness"
     },
     {
       "line": 35,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I stayed for the whole date. And it went well. Like, really well. I'm now sleeping with the person who's literally pricing me out of my apartment.",
-      "direction": "Confessing the full mortifying truth"
+      "text": "That's actually beautiful. Like, twisted, but beautiful.",
+      "direction": "genuinely moved by the relationship dynamic despite the teasing"
     },
     {
       "line": 36,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "That's the most Jax thing I've ever heard.",
-      "direction": "Deadpan, not surprised at all"
+      "character": "PRINGLE",
+      "text": "I must ask, what is this leverage Jennifer speaks of?",
+      "direction": "genuinely curious, slightly confused by modern marriage dynamics"
     },
     {
       "line": 37,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "It gets worse. She keeps texting me about 'market rate adjustments' during foreplay. I don't know if it's dirty talk or actual work emails.",
-      "direction": "Mortified but also impressed with the absurdity"
+      "character": "DUKE",
+      "text": "Oh, you know. Next time I leave my shoes in the hallway or forget to take out the trash, she'll threaten to post the crying photo to Facebook.",
+      "direction": "explaining marital warfare with fond resignation"
     },
     {
       "line": 38,
       "segment": "hangout_confessional",
       "character": "PRINGLE",
-      "text": "I must confess, I do not understand any of what you just described. What is a 'Hinge'?",
-      "direction": "Genuinely confused, asking like a student"
+      "text": "Peggy and I were married for forty-one years and she never once threatened me with photographic evidence.",
+      "direction": "wistful but slightly bewildered by modern relationships"
     },
     {
       "line": 39,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Oh, Professor. Sweet, innocent Professor. It's a dating app. You swipe on people's faces.",
-      "direction": "Gentle, explaining to a child"
+      "text": "That's because Peggy was a saint, Professor. Jenny is... more tactical.",
+      "direction": "affectionate teasing of Duke while respecting Pringle's marriage"
     },
     {
       "line": 40,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "You... swipe on faces? Like turning pages in a catalog?",
-      "direction": "Trying to understand, slightly horrified"
+      "character": "DUKE",
+      "text": "She is tactical. Last week she caught me trying to sneak leftover pizza for breakfast and just... stared. Didn't say anything. Just stared until I put it back and made oatmeal.",
+      "direction": "admiring his wife's power while acknowledging his own weakness"
     },
     {
       "line": 41,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Pretty much, yeah. It's like online shopping but for loneliness.",
-      "direction": "Matter-of-fact, dark humor"
+      "character": "LEO",
+      "text": "This is why I eat alone.",
+      "direction": "dry, slightly defensive about his single status"
     },
     {
       "line": 42,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Good heavens. Peggy and I met at a library book sale. She was buying Dickens. I was buying military histories. We argued about whether Great Expectations was his finest work.",
-      "direction": "Nostalgic, warm memory"
+      "character": "JAX",
+      "text": "Oh, here we go! Speaking of eating alone, what's her name?",
+      "direction": "pouncing on the opportunity to dig into Leo's dating life"
     },
     {
       "line": 43,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "That's beautiful, Professor. Also completely impossible now.",
-      "direction": "Genuine appreciation tinged with sadness"
+      "text": "We are not doing this.",
+      "direction": "firm boundary-setting, but not angry, more resigned"
     },
     {
       "line": 44,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Right? Now I have to pretend I find property management sexy. Which, honestly, I'm starting to.",
-      "direction": "Self-aware, slightly disturbed by his own admission"
+      "text": "We are absolutely doing this. Come on, you've been weirdly happy lately. Like, suspiciously happy.",
+      "direction": "pressing the attack with genuine affection and curiosity"
     },
     {
       "line": 45,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Speaking of relationship disasters, Jenny caught me crying at Inside Out 2 last week. Not like a single dignified tear. Full ugly crying.",
-      "direction": "Confessional, embarrassed but committed to the story"
+      "character": "LEO",
+      "text": "I will tell you one thing about dating and then we are never discussing this again.",
+      "direction": "resigned to sharing but setting strict limits"
     },
     {
       "line": 46,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "The twins were fine. The three-year-old was asleep. I was the only person in the theater who needed emotional support.",
-      "direction": "Building the embarrassment"
+      "character": "JAX",
+      "text": "Oh my god, yes! Spill it!",
+      "direction": "victorious excitement, like he's won a major battle"
     },
     {
       "line": 47,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Jenny took a photo. She's saving it for what she calls 'leverage.' I don't know what that means but I'm scared.",
-      "direction": "Genuine concern about his wife's blackmail material"
+      "character": "LEO",
+      "text": "I went on a date last month. We're at this nice restaurant in Hartford. Everything's going well. Good conversation, good wine.",
+      "direction": "setting up the story reluctantly but getting into it"
     },
     {
       "line": 48,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "At least you have someone to be embarrassed in front of. Some of us eat cereal for dinner alone while watching the news.",
-      "direction": "Self-deprecating, accidentally revealing too much"
+      "text": "She excuses herself to the restroom. Comes back five minutes later and says, quote, I googled you at the sink.",
+      "direction": "building to the mortifying moment, slight disbelief in his voice"
     },
     {
       "line": 49,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Aha! See, that's something. What kind of cereal? Is this before or after your mysterious dates?",
-      "direction": "Pouncing on the personal detail, detective mode"
+      "character": "DUKE",
+      "text": "She googled you during dinner?",
+      "direction": "incredulous, like this violates basic social contract"
     },
     {
       "line": 50,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "We are not discussing my cereal choices or my social calendar.",
-      "direction": "Shutting it down but amused despite himself"
+      "text": "At the sink. While I'm sitting there waiting for her to come back. Then she sits down and starts reading my Wikipedia page out loud to me.",
+      "direction": "reliving the humiliation, voice getting slightly higher"
     },
     {
       "line": 51,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "For the record, Honey Nut Cheerios is a perfectly respectable dinner. I've been there.",
-      "direction": "Supportive, dad solidarity"
+      "character": "LEO",
+      "text": "Quote, it says here you left NBC under controversial circumstances. Did you really call your executive producer a pharmaceutical shill on live television?",
+      "direction": "mimicking her voice slightly, showing how mortifying it was"
     },
     {
       "line": 52,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "My granddaughter informed me this week that I had, quote, 'thirst-trapped Historian Twitter' because she posted a photograph of me in my garden without my knowledge.",
-      "direction": "Bewildered, reading from notes"
+      "character": "JAX",
+      "text": "Oh no. Oh no no no. What did you do?",
+      "direction": "cringing with secondhand embarrassment but loving the story"
     },
     {
       "line": 53,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Oh my God, Professor, what were you wearing?",
-      "direction": "Delighted, leaning in"
+      "character": "LEO",
+      "text": "I said, check please. Left forty dollars on the table and walked out. She was still reading Wikipedia when I got to the parking lot.",
+      "direction": "decisive, still slightly traumatized by the experience"
     },
     {
       "line": 54,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "A sun hat and work gloves. I was pruning roses. Apparently this was... appealing? I received three hundred messages from strangers.",
-      "direction": "Completely baffled by the response"
+      "character": "DUKE",
+      "text": "Brutal. That's worse than Jenny's photo blackmail.",
+      "direction": "sympathetic, recognizing a fellow victim of relationship warfare"
     },
     {
       "line": 55,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Professor, you're a silver fox. This shouldn't surprise you.",
-      "direction": "Matter-of-fact, stating the obvious"
+      "character": "PRINGLE",
+      "text": "I must ask, what is Wikipedia?",
+      "direction": "genuine question, completely serious, highlighting generational gap"
     },
     {
       "line": 56,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "What is a silver fox? And why would I want to be one?",
-      "direction": "Genuinely asking, no idea this is a compliment"
+      "character": "JAX",
+      "text": "Oh Professor. You sweet, innocent man.",
+      "direction": "affectionate, protective, finding Pringle's naivety endearing"
     },
     {
       "line": 57,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "It means you're hot, Professor. Like, distinguished hot. Academic hot. You've got that whole sexy professor thing going.",
-      "direction": "Explaining enthusiastically, no filter"
+      "character": "LEO",
+      "text": "And on that note...",
+      "direction": "trying to change subjects, recognizing he's shared too much"
     },
     {
       "line": 58,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Good Lord. Peggy would have found this hilarious. She always said I looked like a scarecrow in gardening clothes.",
-      "direction": "Fond memory, slightly overwhelmed"
+      "character": "JAX",
+      "text": "Wait, wait, wait! I have to tell you guys something that makes Leo's story look normal.",
+      "direction": "seizing the moment to top Leo's embarrassment with his own"
     },
     {
       "line": 59,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "The internet has different standards than Peggy, Professor.",
-      "direction": "Gentle, warm"
+      "character": "DUKE",
+      "text": "Oh god. What did you do now?",
+      "direction": "fond exasperation, like a parent preparing for bad news"
     },
     {
       "line": 60,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Wait, can we go back to Leo's cereal situation? Because I feel like we're not giving that the attention it deserves.",
-      "direction": "Circling back, not letting it go"
+      "text": "Okay, so I matched with someone on Hinge two weeks ago. Her profile says she's a policy analyst. I'm thinking, ooh, smart girl, very attractive, this could be something.",
+      "direction": "setting up the story with building excitement and dread"
     },
     {
       "line": 61,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "I will tell you one thing about my personal life and then we are never discussing this again.",
-      "direction": "Setting boundaries, but giving in slightly"
+      "character": "JAX",
+      "text": "We meet at this bar in East Nashville. Great conversation, she's funny, she's smart, we have three drinks, everything's perfect.",
+      "direction": "building the romance before the inevitable disaster"
     },
     {
       "line": 62,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Oh, this is happening.",
-      "direction": "Settling in, excited"
+      "character": "JAX",
+      "text": "So I'm walking her to her car and I mention that I live in the Riverside Apartments on Woodland. And she goes, oh, I know those apartments very well.",
+      "direction": "building suspense, voice dropping slightly as he realizes what's coming"
     },
     {
       "line": 63,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "I went on a date last month. She googled me at the table. While I was sitting there. She read my Wikipedia page out loud to me.",
-      "direction": "Mortified, still processing the experience"
+      "text": "Please tell me she doesn't work for your landlord.",
+      "direction": "dreading the answer, already knowing where this is going"
     },
     {
       "line": 64,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Quote: 'It says here you left NBC under controversial circumstances.' I'm like, can we order appetizers first?",
-      "direction": "Disbelief, dry delivery of the punchline"
+      "character": "JAX",
+      "text": "She works for Sterling Property Management. The company that owns my building. The company that's trying to raise my rent by three hundred dollars a month.",
+      "direction": "delivering the punchline with mortified glee"
     },
     {
       "line": 65,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "That's brutal. Did you stay?",
-      "direction": "Sympathetic but curious"
+      "character": "DUKE",
+      "text": "You matched with the enemy.",
+      "direction": "stating the obvious with deadpan military precision"
     },
     {
       "line": 66,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "I paid for her wine and left. She texted me later asking if I wanted to discuss my 'media ethics arc.' I blocked her number.",
-      "direction": "Definitive, no regrets"
+      "character": "JAX",
+      "text": "I matched with the enemy! And here's the thing... I still went back to her place.",
+      "direction": "confessing the worst part with a mixture of pride and shame"
     },
     {
       "line": 67,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "See, this is why I married my high school girlfriend. No Wikipedia pages to worry about.",
-      "direction": "Self-satisfied, counting his blessings"
+      "character": "LEO",
+      "text": "Jax.",
+      "direction": "disappointed parent voice, one word conveying volumes"
     },
     {
       "line": 68,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I have a Wikipedia page. My granddaughter created it. She listed my favorite flower as 'begonias.' I have never grown a begonia in my life.",
-      "direction": "Mildly indignant about the factual error"
+      "character": "JAX",
+      "text": "I know! I know! But she was really hot and also she said she might be able to help with the rent situation.",
+      "direction": "defending himself weakly while knowing how bad it sounds"
     },
     {
       "line": 69,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "What's your actual favorite flower, Professor?",
-      "direction": "Genuinely interested, following the tangent"
+      "character": "DUKE",
+      "text": "Did she help with the rent situation?",
+      "direction": "asking the practical question with military directness"
     },
     {
       "line": 70,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Peonies. Peggy planted them our first spring in the house. They bloom once a year for exactly two weeks. Like clockwork.",
-      "direction": "Warm memory, precise and loving"
+      "character": "JAX",
+      "text": "She ghosted me the next morning and I got an eviction notice three days later.",
+      "direction": "delivering the devastating conclusion with rueful laughter"
     },
     {
       "line": 71,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "That's beautiful, Professor. Also, I just realized I don't know what a peony looks like.",
-      "direction": "Honest admission, slightly embarrassed"
+      "character": "PRINGLE",
+      "text": "I must confess, I understand very few of the words you just used.",
+      "direction": "completely baffled by modern dating and housing terminology"
     },
     {
       "line": 72,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Same. I thought it was a type of pasta.",
-      "direction": "Completely serious, no shame"
+      "character": "DUKE",
+      "text": "Professor, he slept with the person who's trying to kick him out of his apartment.",
+      "direction": "translating for Pringle in simple, devastating terms"
     },
     {
       "line": 73,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Okay, speaking of things I don't understand, can we talk about the Episcopal priest who got busted stealing baseball cards from a cathedral?",
-      "direction": "Transitioning to lighter news, incredulous"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Ah. That seems... unwise.",
+      "direction": "massive understatement delivered with professorial restraint"
     },
     {
       "line": 74,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "Wait, what? How do you steal baseball cards from a church?",
-      "direction": "Confused, practical questions"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "It was extremely unwise! But also kind of hot in a really twisted way?",
+      "direction": "still confused about his own motivations, questioning himself"
     },
     {
       "line": 75,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Apparently they had a whole collection in the basement for some charity auction. Father Mike just... helped himself to the good stuff.",
-      "direction": "Explaining with disbelief"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "You have problems.",
+      "direction": "clinical assessment delivered with fond exasperation"
     },
     {
       "line": 76,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "In my day, clergy stole money from the collection plate. Baseball cards seems rather quaint.",
-      "direction": "Dry observation, historical perspective"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Wait, are you actually getting evicted?",
+      "direction": "suddenly concerned, shifting from humor to genuine worry"
     },
     {
       "line": 77,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "There's also a Florida doctor who got arrested after a patient discovered assault video on her own phone. I don't even want to know how that works.",
-      "direction": "Professional disgust, moving quickly past details"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I'm fighting it. My lawyer says I have a case because they didn't follow proper notice procedures. But yeah, I might be homeless by April.",
+      "direction": "trying to sound casual but real anxiety creeping in"
     },
     {
       "line": 78,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Florida Man has evolved into Florida Doctor. That's not progress.",
-      "direction": "Observational, shaking his head"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Dude, you know you can crash at our place if you need to, right?",
+      "direction": "immediate, genuine offer, showing the real friendship underneath the teasing"
     },
     {
       "line": 79,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "Meanwhile, Australia is asking people to drive slower to conserve fuel. Like, as official government policy.",
-      "direction": "Reading from notes, bemused"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "That's... actually really nice. Thank you. Jenny would be okay with that?",
+      "direction": "genuinely moved, vulnerability showing through the usual bravado"
     },
     {
       "line": 80,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "That actually worked during the 1979 oil crisis. Americans reduced highway speeds and saved millions of gallons.",
-      "direction": "Factual, supporting the policy"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Jenny loves you. She thinks you're a bad influence on me, but she loves you.",
+      "direction": "affectionate, showing the family dynamic that includes Jax"
     },
     {
       "line": 81,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Yeah, but this is 2026. We don't do sensible policy responses anymore. We just argue about them on TikTok.",
-      "direction": "Cynical but accurate observation"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Speaking of influences, my granddaughter informed me this week that I had, quote, thirst-trapped Historian Twitter.",
+      "direction": "completely serious, having no idea what he's saying"
     },
     {
       "line": 82,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "Speaking of which, TikTok removed a bunch of AI-generated explicit videos of Black women this week. The internet remains awful.",
-      "direction": "Tired, stating an unfortunate fact"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I'm sorry, what now?",
+      "direction": "delighted confusion, already sensing comedy gold"
     },
     {
       "line": 83,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "I'm glad my kids are too young for social media. By the time they're old enough, maybe we'll have figured out how to make it less terrible.",
-      "direction": "Hopeful but doubtful"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "She posted a photograph of me in my garden without my knowledge. I was wearing my sun hat and apparently that was, in her words, a look.",
+      "direction": "recounting events with complete bewilderment"
     },
     {
       "line": 84,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Or we'll have invented new ways to be terrible. Technology is very innovative that way.",
-      "direction": "Dark humor, resigned to human nature"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, are you telling us you accidentally became a sex symbol?",
+      "direction": "trying not to laugh, asking for clarification"
     },
     {
       "line": 85,
-      "segment": "hangout_daily_do",
-      "character": "LEO",
-      "text": "Alright, your Daily Do. Call your representatives about foreign military aid transparency. Ask them how they're tracking the effectiveness of defense spending abroad.",
-      "direction": "Back to business, clear and actionable"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I received over four hundred messages from what my granddaughter called thirsty academics. I don't understand any of this.",
+      "direction": "completely overwhelmed by modern social media attention"
     },
     {
       "line": 86,
-      "segment": "hangout_daily_do",
+      "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "Professor Pringle just taught us that throwing money at yesterday's military problems doesn't solve tomorrow's threats. Make sure your elected officials understand that too.",
-      "direction": "Connecting the lesson to action"
+      "text": "Professor, I think you broke the internet.",
+      "direction": "amused but also slightly protective of Pringle's innocence"
     },
     {
       "line": 87,
-      "segment": "hangout_daily_do",
+      "segment": "hangout_confessional",
       "character": "PRINGLE",
-      "text": "As Clausewitz wrote, 'The enemy of a good plan is the dream of a perfect plan.' Sometimes the best defense is admitting your current defense doesn't work.",
-      "direction": "Professorial conclusion, measured wisdom"
+      "text": "One woman from Berkeley sent me a very detailed analysis of Roman agricultural practices. Another from Oxford invited me to discuss Thucydides over wine. I'm not sure if these are romantic overtures or academic collaborations.",
+      "direction": "genuinely confused about the nature of the attention"
     },
     {
       "line": 88,
-      "segment": "hangout_daily_do",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "That's The Friction. I'm Jax, still navigating the ethics of sleeping with Big Property Management. We'll see you tomorrow.",
-      "direction": "Sign-off callback, self-deprecating energy"
+      "text": "Professor, they want to collaborate on more than your research.",
+      "direction": "gently breaking the news with affectionate humor"
     },
     {
       "line": 89,
-      "segment": "hangout_daily_do",
-      "character": "DUKE",
-      "text": "Please don't give her your security deposit.",
-      "direction": "Final dad advice, concerned for his friend"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Oh. Oh my. Peggy would have found this very amusing.",
+      "direction": "suddenly understanding, blushing but with warm memory of his wife"
     },
     {
       "line": 90,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "She would have helped you answer the messages.",
+      "direction": "gentle, honoring Peggy's memory while acknowledging the situation"
+    },
+    {
+      "line": 91,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Alright, before we wrap up, can we talk about the Episcopal priest who got busted stealing baseball cards?",
+      "direction": "pivoting to lighter news with renewed energy"
+    },
+    {
+      "line": 92,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "That actually happened?",
+      "direction": "incredulous, wondering if this is another Jax bit"
+    },
+    {
+      "line": 93,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Father Michael in Ohio got caught shoplifting vintage baseball cards from a local card shop. The owner had to call the police on a priest. During Lent.",
+      "direction": "relishing the absurdity of the situation"
+    },
+    {
+      "line": 94,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "What cards was he stealing?",
+      "direction": "asking the important practical question"
+    },
+    {
+      "line": 95,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "1986 Fleer Michael Jordan rookie card. Worth like sixty grand. He had it in his Bible.",
+      "direction": "delivering the punchline with perfect timing"
+    },
+    {
+      "line": 96,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "In his Bible?",
+      "direction": "horrified at the sacrilege more than the theft"
+    },
+    {
+      "line": 97,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Right between Matthew and Mark. The shop owner said he seemed very nervous during checkout and kept clutching his Bible to his chest.",
+      "direction": "adding details with storyteller's glee"
+    },
+    {
+      "line": 98,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "I don't think that's how you're supposed to spread the good word.",
+      "direction": "dry observation, slight dad joke energy"
+    },
+    {
+      "line": 99,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "Also in the news, Australia is asking people to drive slower and work from home to save fuel. Which... isn't that just 2020 again?",
+      "direction": "practical observation with slight confusion"
+    },
+    {
+      "line": 100,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Right? It's like they're speedrunning the pandemic response without the pandemic.",
+      "direction": "making the connection with gaming reference"
+    },
+    {
+      "line": 101,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "And apparently there were Barbies contaminated with fentanyl sold at a Missouri store, which is definitely not the Barbie movie sequel anyone asked for.",
+      "direction": "dark humor, acknowledging the serious nature wrapped in absurdity"
+    },
+    {
+      "line": 102,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "How do you accidentally contaminate Barbie dolls with fentanyl?",
+      "direction": "practical question from someone who worries about child safety"
+    },
+    {
+      "line": 103,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Very carefully, apparently. And also very illegally.",
+      "direction": "making light while acknowledging the severity"
+    },
+    {
+      "line": 104,
+      "segment": "hangout_daily_do",
+      "character": "LEO",
+      "text": "Alright, your Daily Do for today. Given that Iran just proved that even the world's best missile defense can be beaten, maybe it's time to check your own security systems.",
+      "direction": "returning to serious anchor mode for the practical advice"
+    },
+    {
+      "line": 105,
+      "segment": "hangout_daily_do",
+      "character": "LEO",
+      "text": "Update your passwords, test your smoke detectors, make sure your home security actually works. If two missiles can penetrate Israel's defenses, your Ring doorbell might not be as bulletproof as you think.",
+      "direction": "connecting global security to personal security with slight humor"
+    },
+    {
+      "line": 106,
+      "segment": "hangout_daily_do",
+      "character": "PRINGLE",
+      "text": "As Cicero once wrote, to be prepared for war is one of the most effective means of preserving peace. Sometimes the best defense is knowing your vulnerabilities.",
+      "direction": "offering classical wisdom as parting thought"
+    },
+    {
+      "line": 107,
       "segment": "hangout_daily_do",
       "character": "JAX",
-      "text": "Too late.",
-      "direction": "Sheepish admission, perfect button"
+      "text": "And maybe don't sleep with your landlord's employees. I'm Leo Barros, this is The Friction. We'll see you tomorrow.",
+      "direction": "self-deprecating callback to his own story as sign-off"
+    },
+    {
+      "line": 108,
+      "segment": "hangout_daily_do",
+      "character": "DUKE",
+      "text": "Jax, you're never living that down.",
+      "direction": "fond final roast as the show ends"
+    },
+    {
+      "line": 109,
+      "segment": "hangout_daily_do",
+      "character": "JAX",
+      "text": "I know. And somehow I'm okay with that.",
+      "direction": "accepting his fate with good humor, genuine self-awareness"
     }
   ]
 }
