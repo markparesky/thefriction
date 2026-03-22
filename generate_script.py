@@ -1,6 +1,7 @@
 """
-THE FRICTION — Script Generation (Phase 2)
-============================================
+THE FRICTION — Script Generation (Phase 2) v3
+===============================================
+Two-part structure: The Download + The Hangout
 Takes daily_news.json from Phase 1 and calls the Claude API
 to generate a complete episode script in JSON format.
 
@@ -15,6 +16,7 @@ Requirements:
 import os
 import json
 import logging
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -33,9 +35,9 @@ SYSTEM_PROMPT_FILE = "system_prompt.txt"
 
 # Model settings
 PRIMARY_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
-FALLBACK_MODEL = "claude-sonnet-4-20250514"  # Same model as fallback; change to claude-opus-4-6 if desired
-MAX_TOKENS = 12000
-TEMPERATURE = 0.70
+FALLBACK_MODEL = "claude-sonnet-4-20250514"
+MAX_TOKENS = 16000  # Increased for longer two-part scripts
+TEMPERATURE = 0.75  # Balanced: structured enough for JSON, loose enough for comedy
 MAX_RETRIES = 2
 
 
@@ -135,23 +137,12 @@ def build_user_message(news: dict) -> str:
 
         parts.append("")
 
-    # Category validation instruction
-    parts.append("--- CATEGORY CHECK ---")
-    parts.append("Before writing, verify each story fits its assigned category. If a story is "
-                 "entertainment, culture, science, or tech, do NOT force it into 'geopolitics' or "
-                 "'domestic.' Relabel it accurately (e.g., 'culture', 'entertainment') or swap in a "
-                 "story that fits. Leo should never have to hedge with 'well, sort of' when "
-                 "introducing a category.")
-    parts.append("")
-
-    # Offbeat stories for Jax — with tonal tags
+    # Offbeat stories for Jax's section in The Hangout
     offbeat = news.get("offbeat", [])
     offbeat_headlines = news.get("offbeat_headlines", [])
 
-    parts.append("--- OFFBEAT STORIES (for Jax's Rapid Fire) ---")
-    parts.append("NOTE: Stories tagged [SERIOUS] involve real human harm and should NOT be used in "
-                 "Rapid Fire. Move them to the Deep Dive or Pringle segment, or cut them. "
-                 "Rapid Fire should be light and funny.")
+    parts.append("--- OFFBEAT STORIES (for Jax's Offbeat section in The Hangout) ---")
+    parts.append("These should be LIGHT and FUNNY only. No stories involving serious human harm.")
     if offbeat_headlines:
         for headline in offbeat_headlines:
             parts.append(f"- {headline}")
@@ -159,7 +150,20 @@ def build_user_message(news: dict) -> str:
         for story in offbeat:
             parts.append(f"- {story.get('title', 'No headline')} ({story.get('source', '')})")
     else:
-        parts.append("- No offbeat stories available; Jax should riff on the absurdity of the main headlines instead.")
+        parts.append("- No offbeat stories available; Jax should riff on the absurdity "
+                     "of the main headlines instead.")
+    parts.append("")
+
+    # Reminders for the two-part structure
+    parts.append("--- STRUCTURE REMINDERS ---")
+    parts.append("PART 1 (The Download): Leo + Pringle ONLY. No Jax. No Duke "
+                 "(except maybe one brief reaction). Serious, authoritative, no forced comedy.")
+    parts.append("PART 2 (The Hangout): ALL FOUR characters. Loose, funny, personal. "
+                 "The Confessional section needs at least one genuinely embarrassing, "
+                 "specific personal story from Jax (4-6 lines minimum).")
+    parts.append("EVERY line must have a non-null direction field.")
+    parts.append("Target: 150-200 lines total, with The Hangout roughly TWICE as long "
+                 "as The Download.")
     parts.append("")
 
     parts.append("Write today's complete episode script now.")
@@ -243,6 +247,7 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
 
                 if script:
                     logger.info("  Script parsed successfully!")
+                    script = fix_encoding(script)
                     return script
                 else:
                     logger.warning(f"  Failed to parse JSON from response.")
@@ -266,6 +271,48 @@ def generate_script(system_prompt: str, user_message: str) -> dict:
     sys.exit(1)
 
 
+def fix_encoding(script: dict) -> dict:
+    """
+    Fix common UTF-8 encoding artifacts in script text fields.
+    These appear as mojibake when em dashes, curly quotes, etc.
+    get double-encoded or mangled in transit.
+    """
+    replacements = {
+        "â€"": "—",   # em dash
+        "â€"": "–",   # en dash
+        "â€˜": "'",   # left single quote
+        "â€™": "'",   # right single quote / apostrophe
+        "â€œ": '"',   # left double quote
+        "â€\x9d": '"',  # right double quote
+        "â€¦": "…",   # ellipsis
+        "\u00e2\u0080\u0094": "—",
+        "\u00e2\u0080\u0093": "–",
+    }
+
+    lines = script.get("script", [])
+    fixed_count = 0
+    for line in lines:
+        text = line.get("text", "")
+        original = text
+        for bad, good in replacements.items():
+            text = text.replace(bad, good)
+        if text != original:
+            line["text"] = text
+            fixed_count += 1
+
+        # Also fix direction field
+        direction = line.get("direction", "")
+        if direction:
+            for bad, good in replacements.items():
+                direction = direction.replace(bad, good)
+            line["direction"] = direction
+
+    if fixed_count > 0:
+        logger.info(f"  Fixed encoding artifacts in {fixed_count} lines.")
+
+    return script
+
+
 def parse_script_json(raw_text: str) -> dict | None:
     """
     Parse the JSON script from Claude's response.
@@ -275,7 +322,6 @@ def parse_script_json(raw_text: str) -> dict | None:
 
     # Remove markdown code fences if present
     if text.startswith("```"):
-        # Remove first line (```json or ```)
         text = text.split("\n", 1)[1] if "\n" in text else text[3:]
     if text.endswith("```"):
         text = text.rsplit("```", 1)[0]
@@ -287,9 +333,7 @@ def parse_script_json(raw_text: str) -> dict | None:
     except json.JSONDecodeError:
         pass
 
-    # Try to find JSON object in the text (sometimes Claude adds preamble)
-    import re
-    # Look for the outermost { ... } block
+    # Try to find JSON object in the text
     match = re.search(r'\{[\s\S]*\}', text)
     if match:
         try:
@@ -297,7 +341,6 @@ def parse_script_json(raw_text: str) -> dict | None:
         except json.JSONDecodeError:
             pass
 
-    # If still can't parse, log the first/last bits for debugging
     logger.error(f"Could not parse JSON. First 200 chars: {text[:200]}")
     logger.error(f"Last 200 chars: {text[-200:]}")
     return None
@@ -329,11 +372,12 @@ def validate_script(script: dict) -> bool:
     total_lines = len(lines)
     logger.info(f"VALIDATION: {total_lines} total lines")
 
-    # Check line count (target: 120-180)
-    if total_lines < 80:
-        logger.warning(f"VALIDATION: Script is short ({total_lines} lines, target 120-180).")
+    # Check line count (target: 150-200)
+    if total_lines < 120:
+        logger.warning(f"VALIDATION: Script is short ({total_lines} lines, target 150-200). "
+                       f"The Hangout likely needs more content.")
     elif total_lines > 250:
-        logger.warning(f"VALIDATION: Script is long ({total_lines} lines, target 120-180).")
+        logger.warning(f"VALIDATION: Script is long ({total_lines} lines, target 150-200).")
 
     # Check character distribution
     char_counts = {}
@@ -342,32 +386,128 @@ def validate_script(script: dict) -> bool:
         char_counts[char] = char_counts.get(char, 0) + 1
 
     logger.info(f"VALIDATION: Character distribution:")
-    for char in ("LEO", "PRINGLE", "BREE", "DUKE", "JAX"):
+    for char in ("LEO", "PRINGLE", "DUKE", "JAX"):
         count = char_counts.get(char, 0)
         pct = (count / total_lines * 100) if total_lines > 0 else 0
         logger.info(f"  {char}: {count} lines ({pct:.1f}%)")
 
-    # Check Leo has roughly 50%
-    leo_pct = (char_counts.get("LEO", 0) / total_lines * 100) if total_lines > 0 else 0
-    if leo_pct < 35:
-        logger.warning(f"VALIDATION: Leo is underrepresented ({leo_pct:.1f}%, target ~50%).")
-    elif leo_pct > 65:
-        logger.warning(f"VALIDATION: Leo is overrepresented ({leo_pct:.1f}%, target ~50%).")
+    # Check for BREE (should not be present in v3)
+    if char_counts.get("BREE", 0) > 0:
+        logger.warning(f"VALIDATION: BREE appears in script ({char_counts['BREE']} lines). "
+                       f"Bree was removed in v3 — only LEO, PRINGLE, DUKE, JAX.")
+        is_valid = False
 
-    # Check all segments are present
-    segments = set(line.get("segment", "") for line in lines)
-    required_segments = {"cold_open", "brief", "deep_dive", "pringle", "rapid_fire", "daily_do"}
-    missing = required_segments - segments
-    if missing:
-        logger.warning(f"VALIDATION: Missing segments: {missing}")
-
-    # Check for valid characters
-    valid_chars = {"LEO", "PRINGLE", "BREE", "DUKE", "JAX"}
+    # Check valid characters
+    valid_chars = {"LEO", "PRINGLE", "DUKE", "JAX"}
     unknown = set(char_counts.keys()) - valid_chars
     if unknown:
         logger.warning(f"VALIDATION: Unknown characters found: {unknown}")
 
-    # Check clips are flagged
+    # -----------------------------------------------------------------------
+    # Two-part structure checks
+    # -----------------------------------------------------------------------
+
+    # Segment distribution
+    segments = {}
+    for line in lines:
+        seg = line.get("segment", "unknown")
+        segments[seg] = segments.get(seg, 0) + 1
+
+    logger.info(f"VALIDATION: Segment distribution:")
+    for seg, count in sorted(segments.items()):
+        logger.info(f"  {seg}: {count} lines")
+
+    # Check Download vs Hangout balance
+    download_segments = {"cold_open", "download_headlines", "download_pringle", "bridge"}
+    hangout_segments = {"hangout_reaction", "hangout_confessional", "hangout_offbeat",
+                       "hangout_daily_do"}
+
+    download_lines = sum(segments.get(s, 0) for s in download_segments)
+    hangout_lines = sum(segments.get(s, 0) for s in hangout_segments)
+
+    logger.info(f"VALIDATION: Download: {download_lines} lines, Hangout: {hangout_lines} lines")
+    if hangout_lines > 0 and download_lines > 0:
+        ratio = hangout_lines / download_lines
+        logger.info(f"VALIDATION: Hangout/Download ratio: {ratio:.1f}x (target: ~2x)")
+        if ratio < 1.5:
+            logger.warning("VALIDATION: Hangout is too short relative to Download. "
+                          "Target is Hangout ~2x longer.")
+
+    # Check Jax is NOT in The Download
+    download_segment_names = download_segments
+    for line in lines:
+        if line.get("segment") in download_segment_names and line.get("character") == "JAX":
+            logger.warning(f"VALIDATION: Jax appears in Download segment '{line['segment']}' "
+                          f"(line {line.get('line', '?')}). Jax should only be in The Hangout.")
+            is_valid = False
+            break
+
+    # Check Duke is minimal in The Download
+    duke_download = sum(1 for l in lines
+                       if l.get("segment") in download_segment_names
+                       and l.get("character") == "DUKE")
+    if duke_download > 2:
+        logger.warning(f"VALIDATION: Duke has {duke_download} lines in The Download "
+                      f"(max 1-2 allowed).")
+
+    # Check confessional section exists and has substance
+    confessional_lines = [l for l in lines if l.get("segment") == "hangout_confessional"]
+    logger.info(f"VALIDATION: Confessional section: {len(confessional_lines)} lines")
+    if len(confessional_lines) < 15:
+        logger.warning(f"VALIDATION: Confessional section is thin ({len(confessional_lines)} "
+                      f"lines, target 20-30). This is the heart of the show.")
+
+    # Check for Jax extended story in confessional
+    jax_confessional = [l for l in confessional_lines if l.get("character") == "JAX"]
+    jax_long_lines = [l for l in jax_confessional if len(l.get("text", "").split()) > 30]
+    if not jax_long_lines:
+        logger.warning("VALIDATION: Jax has no extended confessional story (>30 words). "
+                      "He needs at least one genuinely embarrassing personal story.")
+
+    # -----------------------------------------------------------------------
+    # Direction coverage
+    # -----------------------------------------------------------------------
+    missing_direction = [l for l in lines if not l.get("direction")]
+    if missing_direction:
+        pct = len(missing_direction) / total_lines * 100
+        logger.warning(f"VALIDATION: {len(missing_direction)}/{total_lines} lines "
+                      f"({pct:.0f}%) have no direction note. Target: 0%.")
+
+    # -----------------------------------------------------------------------
+    # Imperfection checks (Hangout only)
+    # -----------------------------------------------------------------------
+    hangout_text = " ".join(l.get("text", "") for l in lines
+                           if l.get("segment", "").startswith("hangout"))
+
+    # Check for false starts (em dash mid-sentence)
+    false_starts = len(re.findall(r'\w+\s*[—–-]\s*', hangout_text))
+    logger.info(f"VALIDATION: ~{false_starts} false starts detected in Hangout "
+               f"(target: 5-8)")
+    if false_starts < 3:
+        logger.warning("VALIDATION: Too few false starts in Hangout. Dialogue may sound "
+                      "too polished.")
+
+    # Check for verbal fillers
+    filler_words = ["um,", "uh,", "like,", "i mean,", "you know,", "look,",
+                    "here's the thing", "honestly,"]
+    filler_count = sum(hangout_text.lower().count(f) for f in filler_words)
+    logger.info(f"VALIDATION: ~{filler_count} verbal fillers in Hangout")
+    if filler_count < 5:
+        logger.warning("VALIDATION: Too few verbal fillers. Hangout dialogue may sound "
+                      "too clean.")
+
+    # -----------------------------------------------------------------------
+    # Word count and timing
+    # -----------------------------------------------------------------------
+    total_words = sum(len(line.get("text", "").split()) for line in lines)
+    est_minutes = total_words / 170
+    logger.info(f"VALIDATION: ~{total_words} words, estimated {est_minutes:.1f} minutes")
+    if est_minutes < 10:
+        logger.warning(f"VALIDATION: Script may be too short ({est_minutes:.1f} min, target 15).")
+    elif est_minutes > 20:
+        logger.warning(f"VALIDATION: Script may be too long ({est_minutes:.1f} min, target 15).")
+
+    # Check clips
     clips = metadata.get("clips", [])
     logger.info(f"VALIDATION: {len(clips)} clips flagged")
     if len(clips) < 2:
@@ -379,93 +519,20 @@ def validate_script(script: dict) -> bool:
     else:
         logger.warning("VALIDATION: No Daily Do text in metadata.")
 
-    # Word count estimate
-    total_words = sum(len(line.get("text", "").split()) for line in lines)
-    est_minutes = total_words / 170  # ~170 wpm podcast pace
-    logger.info(f"VALIDATION: ~{total_words} words, estimated {est_minutes:.1f} minutes")
-    if est_minutes < 10:
-        logger.warning(f"VALIDATION: Script may be too short ({est_minutes:.1f} min, target 15).")
-    elif est_minutes > 20:
-        logger.warning(f"VALIDATION: Script may be too long ({est_minutes:.1f} min, target 15).")
-
-    # -----------------------------------------------------------------------
-    # Quality checks (character, direction, tone)
-    # -----------------------------------------------------------------------
-
-    # Check direction coverage in Deep Dive and Pringle segments
-    for seg_name in ("deep_dive", "pringle"):
-        seg_lines = [l for l in lines if l.get("segment") == seg_name]
-        if seg_lines:
-            missing_dir = [l for l in seg_lines if not l.get("direction")]
-            if missing_dir:
-                pct_missing = len(missing_dir) / len(seg_lines) * 100
-                logger.warning(
-                    f"VALIDATION: {seg_name} has {len(missing_dir)}/{len(seg_lines)} "
-                    f"lines ({pct_missing:.0f}%) with no direction note. Target: 0%."
-                )
-
-    # Check Leo editorializing — flag lines where Leo frames/summarizes the debate
-    leo_editorial_patterns = [
-        "the broader question", "the real issue", "what this comes down to",
-        "what this really", "the bigger picture", "the fundamental question",
-        "at the end of the day", "the bottom line here",
+    # Personal life references
+    personal_keywords = [
+        "jenny", "mia", "peggy", "my daughter", "my kid", "my wife",
+        "my mom", "my dad", "my mother", "my father", "my granddaughter",
+        "the twins", "little league", "the situation",  # Jax's cat
+        "my ex", "my barber", "my landlord", "my neighbor",
     ]
-    deep_dive_leo = [l for l in lines
-                     if l.get("segment") == "deep_dive" and l.get("character") == "LEO"]
-    for l in deep_dive_leo:
-        text_lower = l.get("text", "").lower()
-        for pattern in leo_editorial_patterns:
-            if pattern in text_lower:
-                logger.warning(
-                    f"VALIDATION: Leo may be editorializing (line {l.get('line', '?')}): "
-                    f"contains '{pattern}'. Leo should ask questions, not frame stakes."
-                )
-                break
-
-    # Check Duke argument quality — flag if Duke has no lines > 25 words in deep dive
-    deep_dive_duke = [l for l in lines
-                      if l.get("segment") == "deep_dive" and l.get("character") == "DUKE"]
-    if deep_dive_duke:
-        duke_substantive = [l for l in deep_dive_duke if len(l.get("text", "").split()) > 25]
-        if not duke_substantive:
-            logger.warning(
-                "VALIDATION: Duke has no substantive arguments (>25 words) in the deep dive. "
-                "He may be relying on one-liner dismissals instead of real arguments."
-            )
-        # Check for weak argument patterns
-        duke_weak_patterns = [
-            "at least he's being honest", "everyone has opinions", "it's not that big",
-            "come on", "that's just how", "I mean, it's not",
-        ]
-        duke_weak_count = 0
-        for l in deep_dive_duke:
-            text_lower = l.get("text", "").lower()
-            for pattern in duke_weak_patterns:
-                if pattern in text_lower:
-                    duke_weak_count += 1
-                    break
-        if duke_weak_count > 1:
-            logger.warning(
-                f"VALIDATION: Duke has {duke_weak_count} weak/dismissive arguments in the "
-                f"deep dive. He needs specific facts, precedents, or reframes."
-            )
-
-    # Check Rapid Fire tonal appropriateness — flag potentially serious stories
-    rapid_fire_lines = [l for l in lines if l.get("segment") == "rapid_fire"]
-    serious_keywords = [
-        "arrested", "jailed", "prison", "killed", "died", "death", "assault",
-        "abuse", "shooting", "murdered", "sentenced", "charges dropped",
-        "wrongful", "incarcerated",
-    ]
-    for l in rapid_fire_lines:
-        text_lower = l.get("text", "").lower()
-        for keyword in serious_keywords:
-            if keyword in text_lower:
-                logger.warning(
-                    f"VALIDATION: Rapid Fire line {l.get('line', '?')} contains '{keyword}' — "
-                    f"may be too serious for comedy segment. Review for tonal fit."
-                )
-                break
+    hangout_lower = hangout_text.lower()
+    personal_refs = sum(1 for kw in personal_keywords if kw in hangout_lower)
+    logger.info(f"VALIDATION: ~{personal_refs} personal life references in Hangout "
+               f"(target: 8-10)")
+    if personal_refs < 4:
+        logger.warning("VALIDATION: Too few personal life references. Characters don't "
+                      "feel like real people.")
 
     return is_valid
 
@@ -477,7 +544,7 @@ def validate_script(script: dict) -> bool:
 def run():
     """Execute the script generation pipeline."""
     logger.info("=" * 60)
-    logger.info("THE FRICTION — Script Generation (Phase 2)")
+    logger.info("THE FRICTION — Script Generation (Phase 2) v3")
     logger.info(f"Run time: {datetime.now(timezone.utc).isoformat()}")
     logger.info("=" * 60)
 
@@ -513,8 +580,8 @@ def run():
     logger.info(f"Episode archetype: {metadata.get('episode_archetype', 'unknown')}")
     logger.info(f"Pringle mode: {metadata.get('pringle_mode', 'unknown')}")
     headlines = metadata.get("headlines", {})
-    for cat in ("geopolitics", "economy", "domestic"):
-        logger.info(f"Headline ({cat}): {headlines.get(cat, 'none')}")
+    for key, val in headlines.items():
+        logger.info(f"Headline ({key}): {val}")
 
     logger.info("\nDone.")
 
