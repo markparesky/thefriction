@@ -183,6 +183,11 @@ def build_user_message(news: dict) -> str:
                  "as The Download.")
     parts.append("")
 
+    # Inject story continuity if available
+    continuity_text = news.get("_continuity_text", "")
+    if continuity_text:
+        parts.append(continuity_text)
+
     parts.append("Write today's complete episode script now.")
 
     return "\n".join(parts)
@@ -699,6 +704,23 @@ def run():
     logger.info("\nLoading comedy prompt...")
     comedy_prompt = load_comedy_prompt()
 
+    # Load story continuity and inject into news dict
+    logger.info("\nLoading story continuity...")
+    try:
+        from story_continuity import load_continuity, format_continuity_for_prompt
+        continuity = load_continuity()
+        continuity_text = format_continuity_for_prompt(continuity)
+        if continuity_text:
+            news["_continuity_text"] = continuity_text
+            logger.info(f"Injected {len(continuity.get('storylines', []))} storylines "
+                       f"into prompt")
+        else:
+            logger.info("No active storylines to inject.")
+    except ImportError:
+        logger.warning("story_continuity.py not found. Skipping continuity.")
+    except Exception as e:
+        logger.warning(f"Could not load continuity: {e}")
+
     # Build user message
     logger.info("\nBuilding user message...")
     user_message = build_user_message(news)
@@ -731,6 +753,16 @@ def run():
         json.dump(script, f, indent=2, ensure_ascii=False)
 
     logger.info(f"\nFinal script saved to: {SCRIPT_OUTPUT_FILE}")
+
+    # Update story continuity with today's episode
+    logger.info("\nUpdating story continuity...")
+    try:
+        from story_continuity import save_episode_continuity
+        save_episode_continuity(script)
+    except ImportError:
+        logger.warning("story_continuity.py not found. Skipping continuity save.")
+    except Exception as e:
+        logger.warning(f"Could not save continuity: {e}")
 
     # Log summary
     metadata = script.get("metadata", {})
