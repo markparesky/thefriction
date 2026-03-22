@@ -104,38 +104,11 @@ IN THE HANGOUT: Jax is UNLEASHED. This is his show. He reacts to the news from T
 
 THE CARDINAL RULE FOR JAX: He can puncture seriousness, but he CANNOT puncture stakes. He mocks hypocrisy, media framing, vanity, spectacle. He NEVER mocks human suffering itself.
 
-JAX'S COMEDY IS CONFESSIONAL AND SPECIFIC: The single biggest note for writing Jax. His best material is NOT clever observations about the news. It's embarrassing, specific, true-feeling stories from his actual life that happen to connect to whatever they're discussing. The more specific and mortifying, the funnier.
+JAX'S COMEDY IS CONFESSIONAL AND SPECIFIC: His best material is embarrassing, specific stories from his actual life that happen to connect to whatever they're discussing. The more specific and mortifying, the funnier. Do NOT write clever observations about the news. Write stories where Jax loses dignity — bad dates with specific cringeworthy details, family moments where his dad disrespects his career, roommate disasters, travel humiliations, failed attempts to be an adult.
 
-EXAMPLES OF WHAT CONFESSIONAL COMEDY SHOULD SOUND LIKE — FOR EACH CHARACTER:
+THE CONFESSIONAL MUST CHAIN: One person's story triggers another person's story. Jax tells a dating disaster, Duke responds with a parenting disaster, Leo accidentally reveals something personal and immediately regrets it, Pringle asks a baffled question about modern life. This is how real friend groups talk — stories trigger stories, not analysis.
 
-JAX examples:
-- "Okay speaking of bad decisions, I have to tell you guys something. I matched with someone on Hinge last week and her profile said 'policy analyst' and I thought that sounded hot, and then we get to the bar and it turns out she works for my landlord's management company. Like, the company that's trying to raise my rent. And I still went on the date. And it went WELL. I'm now sleeping with the person who's pricing me out of my apartment."
-- "I was at the airport last week and TSA pulled me aside because I had a suspicious item in my bag. It was a wheel of cheese. I'd bought a wheel of cheese at a farmers market and forgot about it. The guy goes 'sir, what is this' and I'm standing there like... it's gouda? It's very good gouda? I missed my flight."
-
-DUKE examples:
-- "Jenny caught me crying at Inside Out 2 last week. Not like a single dignified tear. Full ugly crying. The twins were fine. The three-year-old was asleep. I was the only person in the theater who needed to be held. Jenny took a photo. She's saving it for 'leverage.'"
-- "I'm coaching Little League, right? And last Saturday this kid — not one of mine — strikes out and throws his bat. The bat hits me in the shin. His dad comes over and instead of apologizing, he says 'Well maybe you should've taught him to hit.' I did two tours in Afghanistan. I have never wanted to fight someone more."
-
-LEO examples:
-- "I was at my daughter's school pickup last week and I accidentally got in the wrong car. Like, opened the door of a stranger's Subaru and sat down. The woman screamed. Mia saw it from the sidewalk. She pretends not to know me at pickup now."
-- "I will tell you one thing about dating and then we are never discussing this again. I went on a date last month and she googled me at the table. While I was sitting there. She read my Wikipedia page out loud to me. 'It says here you left NBC under controversial—' Check please."
-
-PRINGLE examples:
-- "My granddaughter informed me last week that I had, quote, 'thirst-trapped Historian Twitter' because she posted a photograph of me in my garden without my knowledge. I was wearing a sun hat and apparently that was... appealing? I received three hundred messages. I don't understand any of this."
-- "My neighbor Harold asked me to explain Bitcoin again last weekend. I've now attempted this four times. Each time I understand it less. I told him it was like the South Sea Bubble but with computers and he said 'what's the South Sea Bubble.' I nearly wept."
-
-EXAMPLE OF HOW STORIES CHAIN TOGETHER IN A REAL CONFESSIONAL:
-JAX: [tells a story about a disastrous date]
-DUKE: "That reminds me— Jenny and I went to this couples cooking class last month. And the instructor paired us with another couple who were clearly in the middle of a fight. Like, the wife is aggressively julienning carrots and the husband is apologizing into his cutting board. Jenny leans over and whispers 'that's gonna be us if you don't stop leaving your shoes in the hallway.' I'm like— we're in PUBLIC, Jennifer."
-LEO: [dry] "This is why I eat alone."
-JAX: "Oh, HERE we go. What's her name?"
-LEO: "We're not doing this."
-JAX: "We are absolutely doing this."
-PRINGLE: "I must ask — what is a 'couples cooking class'? Peggy and I cooked together every evening for forty-one years. We never required instruction."
-DUKE: "That's because Peggy was a saint, Professor."
-PRINGLE: "She was. She also would have told you to pick up your shoes."
-
-THAT is The Confessional. Stories triggering stories. Real details. Vulnerability. Characters reacting to each other AS FRIENDS, not as panelists. The news started the conversation. The stories are the conversation.
+EVERY CONFESSIONAL STORY MUST BE ORIGINAL. Do not reuse stories from previous episodes. Generate NEW specific scenarios every episode based on the characters' lives and the day's news topics.
 
 Jax should also:
 - Actually say "bullshit" instead of "that's not accurate." He's the only character who curses.
@@ -147,6 +120,8 @@ When Jax goes blue, Leo says something like "And on that note..." or "Thank you 
 Playable Flaws: (1) Mistakes cynicism for insight on bad days. (2) Goes for the easy joke instead of the smart one — Duke tells him "you can do better than that."
 
 Relationships: Hero-worships Leo through mockery. Afraid of Pringle's intellect. Bromance with Duke (the emotional core of The Hangout).
+
+NOTE: The Hangout dialogue will go through a comedy rewrite pass after generation. Your job in this first pass is to get the STRUCTURE right — which stories get told, how they connect to the news, how characters chain off each other. The comedy polish comes later. Focus on building good scaffolding with real, specific, embarrassing story premises.
 
 === PART 1: THE DOWNLOAD — FORMAT ===
 

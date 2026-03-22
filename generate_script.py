@@ -32,12 +32,14 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 NEWS_INPUT_FILE = os.getenv("NEWS_OUTPUT_FILE", "daily_news.json")
 SCRIPT_OUTPUT_FILE = os.getenv("SCRIPT_OUTPUT_FILE", "daily_script.json")
 SYSTEM_PROMPT_FILE = "system_prompt.txt"
+COMEDY_PROMPT_FILE = "comedy_prompt.txt"
 
 # Model settings
 PRIMARY_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
 FALLBACK_MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 16000  # Increased for longer two-part scripts
 TEMPERATURE = 0.75  # Balanced: structured enough for JSON, loose enough for comedy
+COMEDY_TEMPERATURE = 0.9  # Higher for the comedy rewrite — we want it loose
 MAX_RETRIES = 2
 
 
@@ -82,6 +84,21 @@ def load_system_prompt() -> str:
         prompt = f.read().strip()
 
     logger.info(f"Loaded system prompt ({len(prompt.split())} words)")
+    return prompt
+
+
+def load_comedy_prompt() -> str:
+    """Load the comedy rewrite prompt from file."""
+    path = Path(COMEDY_PROMPT_FILE)
+    if not path.exists():
+        logger.warning(f"Comedy prompt not found: {COMEDY_PROMPT_FILE}")
+        logger.warning("Skipping comedy rewrite pass.")
+        return ""
+
+    with open(path, "r", encoding="utf-8") as f:
+        prompt = f.read().strip()
+
+    logger.info(f"Loaded comedy prompt ({len(prompt.split())} words)")
     return prompt
 
 
@@ -278,15 +295,13 @@ def fix_encoding(script: dict) -> dict:
     get double-encoded or mangled in transit.
     """
     replacements = {
-        "â€"": "—",   # em dash
-        "â€"": "–",   # en dash
-        "â€˜": "'",   # left single quote
-        "â€™": "'",   # right single quote / apostrophe
-        "â€œ": '"',   # left double quote
-        "â€\x9d": '"',  # right double quote
-        "â€¦": "…",   # ellipsis
-        "\u00e2\u0080\u0094": "—",
-        "\u00e2\u0080\u0093": "–",
+        "\u00e2\u0080\u0094": "\u2014",  # em dash
+        "\u00e2\u0080\u0093": "\u2013",  # en dash
+        "\u00e2\u0080\u0098": "\u2018",  # left single quote
+        "\u00e2\u0080\u0099": "\u2019",  # right single quote
+        "\u00e2\u0080\u009c": "\u201c",  # left double quote
+        "\u00e2\u0080\u009d": "\u201d",  # right double quote
+        "\u00e2\u0080\u00a6": "\u2026",  # ellipsis
     }
 
     lines = script.get("script", [])
@@ -310,6 +325,132 @@ def fix_encoding(script: dict) -> dict:
     if fixed_count > 0:
         logger.info(f"  Fixed encoding artifacts in {fixed_count} lines.")
 
+    return script
+
+
+def comedy_rewrite(script: dict, comedy_prompt: str) -> dict:
+    """
+    Second pass: Send the generated script through a comedy rewrite.
+    The comedy prompt rewrites only The Hangout dialogue while
+    preserving The Download and all structural elements.
+    Returns the rewritten script, or the original if rewrite fails.
+    """
+    import requests as req
+
+    if not comedy_prompt:
+        logger.info("No comedy prompt loaded. Skipping rewrite.")
+        return script
+
+    logger.info("Starting comedy rewrite pass...")
+
+    # Send the full script as the user message
+    script_json = json.dumps(script, indent=2, ensure_ascii=False)
+    user_message = (
+        "Here is the full episode script. Rewrite The Hangout sections to be funnier. "
+        "Return the complete JSON with Part 1 unchanged and Part 2 rewritten.\n\n"
+        f"{script_json}"
+    )
+
+    models_to_try = [PRIMARY_MODEL, FALLBACK_MODEL]
+
+    for model in models_to_try:
+        for attempt in range(1, MAX_RETRIES + 1):
+            logger.info(f"  Comedy rewrite (model: {model}, attempt {attempt}/{MAX_RETRIES})...")
+            logger.info(f"  Temperature: {COMEDY_TEMPERATURE}")
+
+            try:
+                response = req.post(
+                    "https://api.anthropic.com/v1/messages",
+                    headers={
+                        "x-api-key": ANTHROPIC_API_KEY,
+                        "anthropic-version": "2023-06-01",
+                        "content-type": "application/json",
+                    },
+                    json={
+                        "model": model,
+                        "max_tokens": MAX_TOKENS,
+                        "temperature": COMEDY_TEMPERATURE,
+                        "system": comedy_prompt,
+                        "messages": [{"role": "user", "content": user_message}],
+                    },
+                    timeout=300,
+                )
+
+                if response.status_code != 200:
+                    logger.error(f"  Comedy rewrite API error: {response.text[:500]}")
+                    if attempt < MAX_RETRIES:
+                        import time
+                        time.sleep(10)
+                    continue
+
+                data = response.json()
+                raw_text = ""
+                for block in data.get("content", []):
+                    if block.get("type") == "text":
+                        raw_text += block.get("text", "")
+
+                usage = data.get("usage", {})
+                logger.info(f"  Comedy rewrite response: {len(raw_text)} chars")
+                logger.info(f"  Input tokens: {usage.get('input_tokens', '?')}")
+                logger.info(f"  Output tokens: {usage.get('output_tokens', '?')}")
+                logger.info(f"  Stop reason: {data.get('stop_reason', '?')}")
+
+                rewritten = parse_script_json(raw_text)
+
+                if rewritten:
+                    # Verify the rewrite preserved structure
+                    orig_lines = len(script.get("script", []))
+                    new_lines = len(rewritten.get("script", []))
+
+                    if abs(orig_lines - new_lines) > 5:
+                        logger.warning(
+                            f"  Comedy rewrite changed line count significantly "
+                            f"({orig_lines} -> {new_lines}). Using rewrite anyway."
+                        )
+
+                    # Verify Part 1 was preserved
+                    download_segments = {"cold_open", "download_headlines",
+                                        "download_pringle", "bridge"}
+                    orig_download = [l for l in script.get("script", [])
+                                    if l.get("segment") in download_segments]
+                    new_download = [l for l in rewritten.get("script", [])
+                                  if l.get("segment") in download_segments]
+
+                    if len(orig_download) != len(new_download):
+                        logger.warning(
+                            f"  Comedy rewrite modified Download section "
+                            f"({len(orig_download)} -> {len(new_download)} lines). "
+                            f"Restoring original Download."
+                        )
+                        # Restore original Download lines
+                        hangout_lines = [l for l in rewritten.get("script", [])
+                                        if l.get("segment") not in download_segments]
+                        rewritten["script"] = orig_download + hangout_lines
+                        # Re-number lines
+                        for i, line in enumerate(rewritten["script"]):
+                            line["line"] = i + 1
+
+                    # Preserve original metadata
+                    rewritten["metadata"] = script["metadata"]
+
+                    logger.info("  Comedy rewrite successful!")
+                    return fix_encoding(rewritten)
+
+                else:
+                    logger.warning("  Failed to parse comedy rewrite JSON.")
+
+            except req.exceptions.Timeout:
+                logger.error("  Comedy rewrite timed out.")
+            except Exception as e:
+                logger.error(f"  Comedy rewrite failed: {type(e).__name__}: {e}")
+
+            if attempt < MAX_RETRIES:
+                import time
+                time.sleep(10)
+
+        logger.warning(f"  Comedy rewrite failed with {model}. Trying next model...")
+
+    logger.warning("Comedy rewrite failed on all attempts. Using original script.")
     return script
 
 
@@ -555,24 +696,41 @@ def run():
     logger.info("\nLoading system prompt...")
     system_prompt = load_system_prompt()
 
+    logger.info("\nLoading comedy prompt...")
+    comedy_prompt = load_comedy_prompt()
+
     # Build user message
     logger.info("\nBuilding user message...")
     user_message = build_user_message(news)
     logger.info(f"User message: {len(user_message.split())} words")
 
-    # Generate script
-    logger.info("\nCalling Claude API...")
+    # Generate script (Call 1: structure + news)
+    logger.info("\nCall 1: Generating script structure...")
     script = generate_script(system_prompt, user_message)
 
-    # Validate
-    logger.info("\nValidating script...")
+    # Validate structure
+    logger.info("\nValidating structure pass...")
     validate_script(script)
 
-    # Save output
+    # Save draft (for debugging)
+    draft_file = SCRIPT_OUTPUT_FILE.replace(".json", "_draft.json")
+    with open(draft_file, "w", encoding="utf-8") as f:
+        json.dump(script, f, indent=2, ensure_ascii=False)
+    logger.info(f"Draft saved to: {draft_file}")
+
+    # Comedy rewrite (Call 2: punch up The Hangout)
+    logger.info("\nCall 2: Comedy rewrite pass...")
+    script = comedy_rewrite(script, comedy_prompt)
+
+    # Validate final script
+    logger.info("\nValidating final script...")
+    validate_script(script)
+
+    # Save final output
     with open(SCRIPT_OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(script, f, indent=2, ensure_ascii=False)
 
-    logger.info(f"\nScript saved to: {SCRIPT_OUTPUT_FILE}")
+    logger.info(f"\nFinal script saved to: {SCRIPT_OUTPUT_FILE}")
 
     # Log summary
     metadata = script.get("metadata", {})
