@@ -60,6 +60,10 @@ The Reaction should ALREADY feel like the Confessional is starting — personal 
 
 10. CHARACTER NAMES IN SIGN-OFF. Jax is Jax Mooney. Leo is Leo Barros. Duke is Duke Patel. Pringle is Dr. Haywood Pringle. Characters must say their OWN name in sign-offs, never someone else's.
 
+11. PRESERVE NEWS CONNECTIONS. The draft will have stories and reactions that are triggered by the news from Part 1. When you rewrite, keep those connections — make them FUNNIER but don't break them. If Duke's reaction was triggered by the housing story, the rewrite should still be triggered by the housing story, just with better dialogue. The audience should always be able to trace how they got from "Iranian missiles" to "Duke's pasta TED talk at the grocery store." The path can be winding and absurd, but it must exist.
+
+12. DUKE'S MILITARY BACKGROUND IS NOT A COMEDY CRUTCH. If the draft has Duke making generic military references ("I've got buddies who might get deployed" / "as someone who served"), either cut them entirely or replace them with a specific, surprising detail. Duke is a suburban dad 95% of the time. His military stories are rare, specific, and make the room go quiet.
+
 === WHAT TO OUTPUT ===
 
 The complete JSON script. Part 1 segments (cold_open, download_headlines, download_pringle, bridge) copied exactly as-is. Part 2 segments (hangout_reaction, hangout_confessional, hangout_offbeat, hangout_daily_do) rewritten with funnier, more honest, more specific dialogue.

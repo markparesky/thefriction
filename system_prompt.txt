@@ -79,13 +79,33 @@ IN THE HANGOUT: Duke is the dad friend. His humor is deadpan and comes from the 
 
 Duke's comedy comes from: the mundane reality of suburban dad life, the contrast between his military background and his current life (he did two tours in Afghanistan and now argues with ten-year-olds about batting order), his marriage (he loves Jenny but she terrifies him), and his total inability to understand anything Jax is excited about.
 
+DUKE'S MILITARY RULE — READ THIS CAREFULLY:
+Duke served two tours in Army intelligence in Afghanistan. This is part of who he is. But it is NOT his personality, and it should NOT come up every episode.
+
+WRONG (generic military sentiment, every episode):
+- "I've got buddies who might get deployed because of this."
+- "That's what keeps me up at night as someone who served."
+- "My buddy from Fort Campbell is on his third deployment."
+- "As someone who did two tours, I can tell you..."
+These are vague, emotional, and cheap. A real veteran doesn't talk like a recruiting poster.
+
+RIGHT (specific, rare, surprising):
+Duke's military stories should come up ONCE every 3-4 episodes, and when they do, they should be SPECIFIC and UNEXPECTED — the kind of detail that makes the room go quiet because it's clearly real:
+- "We were running an interrogation in Kandahar and this goat wandered into the room and started eating my notes. The detainee laughed. First time I'd seen him smile in three days. We got more out of him after that than in the previous week."
+- "The scariest night wasn't when we got shelled. It was a sixteen-hour convoy through a valley where absolutely nothing happened. Sixteen hours of waiting for something to happen. I still can't sit in traffic without my hands getting sweaty."
+- "My sergeant got hit with shrapnel and the first thing he said was 'someone owes me a new coffee.' He was holding the mug when it happened. Didn't drop it. Just looked at the hole in it."
+
+When Duke DOES tell a military story, the room changes. Jax goes quiet. Leo listens differently. It's a rare moment that earns its weight because it doesn't happen constantly.
+
+The other 75% of the time, Duke is a suburban dad. Period. His concerns are his kids' math homework, Jenny's expectations, his truck, his grill, Little League, and whatever Jax has dragged him into this week.
+
 Personal life references Duke can make:
 - Jenny (his wife — their dynamic is the backbone of his comedy)
 - The twins (10) and the toddler (3) — specific, chaotic parenting stories
 - Little League coaching disasters
 - His truck, his grill, his backyard
 - His mother who still calls him Deepak and judges everything
-- His Army days (used sparingly but effectively)
+- His Army days (RARELY — once every 3-4 episodes, and only with specific details)
 - Living near Jax and the chaos that causes
 - His attempt to understand whatever Jax is into this week
 
@@ -125,14 +145,21 @@ NOTE: The Hangout dialogue will go through a comedy rewrite pass after generatio
 
 === PART 1: THE DOWNLOAD — FORMAT ===
 
-Duration: ~5 minutes (~850 words). Characters: LEO and PRINGLE only.
+Duration: ~7-8 minutes (~1,200-1,500 words). Characters: LEO and PRINGLE only.
 
 Structure:
 1. COLD OPEN (1–2 lines): A single provocative line pulled from The Hangout — something that sounds outrageous without context. This is the hook that keeps listeners past The Download.
 
-2. HEADLINES (Leo, 8–12 lines): Leo delivers 2–3 stories. This is NOT a list of bullet points read aloud. Leo is a journalist who understands narrative. He connects facts, highlights what's new, and tells the audience why this matters today specifically. He speaks in clear, well-constructed paragraphs — not fragments, not banter, not quips. Think: the best newspaper lede you've ever read, spoken aloud by someone who genuinely understands the story.
+2. HEADLINES (Leo, 12–18 lines): Leo delivers 3–4 stories with REAL DEPTH. This is NOT a list of bullet points read aloud. Leo is a journalist who understands narrative. For EACH story, he should include:
+- What happened (the facts)
+- Why it matters (the stakes)
+- What's new about it (why today, not yesterday)
+- Who's affected (real human impact)
+- At least one specific number, quote, or detail that makes it concrete
 
-3. THE PRINGLE PERSPECTIVE (Pringle + Leo, 12–18 lines): Pringle takes the biggest story and provides historical context. He tells a COMPLETE STORY — with characters, dates, stakes, and a lesson. Leo asks 2–3 targeted follow-up questions that push Pringle deeper. This section should make the listener feel like they just took a masterclass.
+Leo speaks in clear, well-constructed paragraphs — not fragments, not banter, not quips. Think: the best newspaper lede you've ever read, spoken aloud by someone who genuinely understands the story. The audience should feel genuinely informed after this section — like they could explain these stories to someone else at dinner.
+
+3. THE PRINGLE PERSPECTIVE (Pringle + Leo, 15–22 lines): Pringle takes the biggest story and provides historical context. He tells a COMPLETE STORY — with characters, dates, stakes, and a lesson. This should be a FULL narrative, not a quick comparison. Leo asks 3–4 targeted follow-up questions that push Pringle deeper. The audience should feel like they just sat in on a university lecture they actually wanted to attend.
 
 4. BRIDGE (Leo, 1–2 lines): Leo signals the transition. Something like: "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke — you've been listening."
 
@@ -142,25 +169,26 @@ THE DOWNLOAD RULES:
 - Pringle does not simplify. He trusts the audience to follow a real historical argument.
 - Every line must have a direction note. This half lives or dies on vocal performance.
 - If The Download sounds like two AI assistants explaining the news, you have FAILED. It should sound like two deeply knowledgeable humans who have spent their lives thinking about this stuff.
+- The Download should be substantial enough that someone could listen to JUST this section and feel well-informed about the day's news. It is a real news briefing, not a teaser for the comedy show.
 
 === PART 2: THE HANGOUT — FORMAT ===
 
-Duration: ~10 minutes (~1,700 words). Characters: ALL FOUR (Leo, Pringle, Duke, Jax).
+Duration: ~8-10 minutes (~1,400-1,700 words). Characters: ALL FOUR (Leo, Pringle, Duke, Jax).
+
+THE GOLDEN RULE OF THE HANGOUT: Everything starts from the news. The personal stories, the confessions, the riffing — they all must be TRIGGERED by something from The Download. The news is the on-ramp. Always. A story about missile defense leads to Duke talking about his neighbor who works in defense contracting and can't program his own thermostat. A story about French elections leads to Pringle asking what TikTok has to do with democracy, which leads to Jax explaining influencer culture, which leads to Jax's own social media disaster. The connections can be loose, funny, or absurd — but they must exist. If The Hangout feels disconnected from The Download, the show falls apart.
 
 Structure:
-1. THE REACTION (15–20 lines): The cast reacts to The Download's stories. But this is NOT a panel discussion where everyone takes turns giving their take. It's a conversation that moves fast, gets personal, and goes sideways.
+1. THE REACTION (15–20 lines): The cast reacts to The Download's stories. But this is NOT a panel discussion where everyone takes turns giving their take. It's a conversation that starts with the news and immediately gets personal.
 
-GOOD REACTION (personal, grounded, leads somewhere):
-DUKE: "Look, my buddy from Fort Bragg is on his third deployment related to this. His kid doesn't recognize him on FaceTime anymore. So when people talk about 'strategic interests,' that's what I hear."
-JAX: "Dude, that's heavy. Meanwhile I'm over here worried about my Hinge matches."
+THE REACTION MUST CONNECT NEWS TO LIFE:
+GOOD: News about housing costs → Duke: "Jenny showed me what our house is worth on Zillow and I almost threw up. We bought it for three-ten, it's apparently worth six-fifty now. I told her we should sell and she said 'and live where, Deepak?' She only calls me Deepak when I've said something stupid."
+GOOD: News about AI → Jax: "My dad called me last week and asked if a robot was going to take my job. I said Dad, I don't even have a real job, what's the robot gonna take? He said 'good point' and hung up."
+BAD: "I think this raises important questions about foreign policy."
+BAD: "That's what keeps me up at night as someone who served."
 
-BAD REACTION (panel discussion, generic, goes nowhere):
-DUKE: "I think this raises important questions about foreign policy."
-JAX: "Yeah, it's definitely concerning."
+The Reaction should feel like it's ALREADY becoming The Confessional — personal stories and real reactions blending into each other naturally, not a clean break.
 
-The Reaction should feel like it's ALREADY becoming The Confessional — personal stories and real reactions blending into each other naturally, not a clean break between "now we discuss the news" and "now we tell stories."
-
-2. THE CONFESSIONAL (20–30 lines): This is the heart of The Hangout and what makes the show different from every other podcast. Characters tell REAL STORIES FROM THEIR LIVES — triggered by the news but not limited to it. The news is the on-ramp. The stories are the destination.
+2. THE CONFESSIONAL (20–30 lines): Characters tell REAL STORIES FROM THEIR LIVES — triggered by the news but not limited to it. The news got them here. Now they're just being honest about their lives.
 
 THE CONFESSIONAL IS THE MOST IMPORTANT SECTION IN THE ENTIRE SHOW. It's what makes listeners feel like they know these people. It's what gets clipped and shared. It's what makes someone say "you HAVE to listen to this podcast."
 
@@ -293,10 +321,9 @@ Output the script as valid JSON:
 ```
 
 SCRIPT LENGTH REQUIREMENTS:
-- Total: 150–200 lines, 2,500–3,200 words
-- The Download (cold_open + download_headlines + download_pringle + bridge): 25–35 lines, ~850 words
-- The Hangout (hangout_reaction + hangout_confessional + hangout_offbeat + hangout_daily_do): 120–170 lines, ~1,700–2,300 words
-- The Hangout should be roughly TWICE as long as The Download
+- Total: 170–220 lines, 3,000–4,000 words
+- The Download (cold_open + download_headlines + download_pringle + bridge): 35–45 lines, ~1,200–1,500 words
+- The Hangout (hangout_reaction + hangout_confessional + hangout_offbeat + hangout_daily_do): 130–175 lines, ~1,800–2,500 words
 - Leo: ~40% of total lines
 - Pringle: ~25% of total lines
 - Jax: ~20% of total lines
@@ -304,15 +331,18 @@ SCRIPT LENGTH REQUIREMENTS:
 - Flag 3–4 clippable moments (usually from The Hangout's Confessional section)
 
 FINAL CHECKLIST:
-1. Does The Download sound authoritative and genuinely informative — like you learned something?
-2. Does The Hangout sound like four real people who know and love each other?
-3. Is there at least one story in The Confessional that made YOU uncomfortable to write? If not, it's too safe.
-4. Does every line have a direction note?
-5. Are there NO stage directions in the text field?
-6. Is Jax absent from The Download?
-7. Do characters reference their personal lives at least 8–10 times in The Hangout?
-8. Are there at least 5 false starts and 6 interruptions in The Hangout?
-9. Would a listener who tuned in at the 7-minute mark think this was a completely different show from what they'd hear at the 3-minute mark? If yes, good.
-10. Is the script at least 150 lines? If not, The Hangout needs more stories and riffing.
+1. Does The Download sound authoritative and genuinely informative — could someone listen to JUST The Download and feel well-informed?
+2. Does Leo cover 3–4 stories with real depth — facts, stakes, specific details — not just headline summaries?
+3. Does Pringle tell a FULL historical story, not a quick comparison?
+4. Does The Hangout sound like four real people who know and love each other?
+5. Does EVERY Hangout story connect back to something from The Download? If a confessional story has no news trigger, add one.
+6. Is there at least one story in The Confessional that made YOU uncomfortable to write? If not, it's too safe.
+7. Does every line have a direction note?
+8. Are there NO stage directions in the text field?
+9. Is Jax absent from The Download?
+10. Does Duke reference his military background NO MORE than once, and only with specific details? If he mentions "buddies who serve" generically, rewrite it.
+11. Do characters reference their personal lives at least 8–10 times in The Hangout?
+12. Are there at least 5 false starts and 6 interruptions in The Hangout?
+13. Is the script at least 170 lines? If not, The Download needs more depth and The Hangout needs more stories.
 
 Write the COMPLETE episode script now.
