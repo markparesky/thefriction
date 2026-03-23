@@ -129,20 +129,28 @@ def run():
         episode += AudioSegment.silent(duration=300)  # Brief pause after intro
 
     # Pause durations (milliseconds)
-    PAUSE_SAME_SPEAKER = (80, 180)       # Short pause, same person continues
-    PAUSE_NORMAL_SWITCH = (200, 400)     # Normal speaker change
+    PAUSE_SAME_SPEAKER = (50, 140)       # Short pause, same person continues
+    PAUSE_NORMAL_SWITCH = (150, 300)     # Normal speaker change
     PAUSE_SEGMENT_TRANSITION = (700, 1100)  # Pause between segments
 
     # Interruption/reaction detection keywords
     INTERRUPTION_STARTERS = [
         "hold on", "wait", "no no", "but-", "that's-", "oh come on",
         "can I", "let me", "hang on", "stop", "whoa", "excuse me",
+        "oh here we go", "we are absolutely", "we are not",
     ]
     QUICK_REACTIONS = [
         "ha!", "wow", "oh man", "pfft", "yeesh", "ohhh", "classic",
         "oh no", "yep", "nope", "right", "exactly", "wait what",
         "seriously", "oh god", "geez", "damn", "true", "fair",
-        "called it", "there it is", "oh boy", "oof",
+        "called it", "there it is", "oh boy", "oof", "no.", "yes.",
+        "shit", "stop", "please", "same",
+    ]
+
+    # Direction keywords that indicate this line is cutting someone off
+    INTERRUPTION_DIRECTIONS = [
+        "interrupt", "cutting in", "jumping in", "cutting off",
+        "immediately", "pouncing", "not letting", "before he can",
     ]
 
     # Overlay detection - these get layered on top of the previous clip
@@ -163,6 +171,7 @@ def run():
     current_segment = ""
     previous_character = ""
     previous_clip_duration = 0  # Track how long the last clip was
+    previous_text = ""  # Track previous line text for cutoff detection
     clips_added = 0
     clips_missing = 0
     brief_start_position = 0
@@ -241,29 +250,60 @@ def run():
 
                 else:
                     # Normal sequential placement with smart pauses
+                    is_interruption = False
 
                     if previous_character == character:
                         pause_ms = random.randint(*PAUSE_SAME_SPEAKER)
 
-                    elif "interrupt" in direction or any(text.startswith(s) for s in INTERRUPTION_STARTERS):
-                        # Interruption - almost no gap
-                        pause_ms = random.randint(0, 50)
+                    elif ("interrupt" in direction or
+                          any(d in direction for d in INTERRUPTION_DIRECTIONS) or
+                          any(text.startswith(s) for s in INTERRUPTION_STARTERS) or
+                          previous_text.rstrip().endswith(("—", "–", "-"))):
+                        # TRUE INTERRUPTION — overlap the audio
+                        # The new speaker starts talking BEFORE the previous speaker finishes
+                        # Also triggered when the previous line ends with an em dash,
+                        # indicating that speaker was cut off mid-sentence.
+                        is_interruption = True
 
                     elif any(text.startswith(r) for r in QUICK_REACTIONS) or word_count <= 3:
                         # Quick reaction - very short gap
-                        pause_ms = random.randint(30, 120)
+                        pause_ms = random.randint(20, 90)
 
                     elif "laughing" in direction or "chuckling" in direction:
-                        pause_ms = random.randint(50, 150)
+                        pause_ms = random.randint(30, 120)
 
                     else:
                         pause_ms = random.randint(*PAUSE_NORMAL_SWITCH)
 
-                    episode += AudioSegment.silent(duration=pause_ms)
-                    episode += clip
-                    clips_added += 1
-                    previous_character = character
-                    previous_clip_duration = len(clip)
+                    if is_interruption and previous_clip_duration > 500 and len(episode) > 500:
+                        # OVERLAP: Start the new clip before the previous one ends
+                        # Overlap the last 150-400ms of the previous speaker with
+                        # the first part of the new speaker. This creates the
+                        # "cutting off" effect where both voices are briefly audible.
+                        overlap_ms = random.randint(150, min(400, int(previous_clip_duration * 0.15)))
+                        overlap_position = len(episode) - overlap_ms
+
+                        # Slightly reduce volume of the "cut off" tail so the
+                        # interrupter is clearly dominant
+                        episode = episode.overlay(clip, position=overlap_position)
+                        # Extend the episode length to include the full new clip
+                        new_end = overlap_position + len(clip)
+                        if new_end > len(episode):
+                            episode += AudioSegment.silent(duration=new_end - len(episode))
+                            episode = episode.overlay(clip, position=overlap_position)
+
+                        clips_added += 1
+                        previous_character = character
+                        previous_clip_duration = len(clip)
+                    else:
+                        episode += AudioSegment.silent(duration=pause_ms)
+                        episode += clip
+                        clips_added += 1
+                        previous_character = character
+                        previous_clip_duration = len(clip)
+
+                # Track previous text for cutoff detection
+                previous_text = raw_text
 
             except Exception as e:
                 logger.warning(f"  Line {line_num}: Error loading clip: {e}")

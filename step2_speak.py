@@ -22,7 +22,6 @@ NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL", "")
 VOICE_MAP = {
     "LEO": os.getenv("VOICE_ID_LEO", ""),
     "PRINGLE": os.getenv("VOICE_ID_PRINGLE", ""),
-    "BREE": os.getenv("VOICE_ID_BREE", ""),
     "DUKE": os.getenv("VOICE_ID_DUKE", ""),
     "JAX": os.getenv("VOICE_ID_JAX", ""),
 }
@@ -30,9 +29,8 @@ VOICE_MAP = {
 VOICE_SETTINGS = {
     "LEO": {"stability": 0.65, "similarity_boost": 0.75, "style": 0.35},
     "PRINGLE": {"stability": 0.75, "similarity_boost": 0.75, "style": 0.25},
-    "BREE": {"stability": 0.45, "similarity_boost": 0.75, "style": 0.55},
     "DUKE": {"stability": 0.65, "similarity_boost": 0.75, "style": 0.25},
-    "JAX": {"stability": 0.35, "similarity_boost": 0.65, "style": 0.65},
+    "JAX": {"stability": 0.25, "similarity_boost": 0.60, "style": 0.75},
 }
 
 def send_status_email(subject, body_text):
@@ -171,12 +169,31 @@ def main():
             logger.info(f"  Progress: {i}/{total} ({i*100//total}%)")
 
         settings = dict(VOICE_SETTINGS.get(character, VOICE_SETTINGS["LEO"]))
-        if any(d in direction for d in ["laughing", "amused"]):
+        if any(d in direction for d in ["laughing", "amused", "wheezing", "giggling"]):
             settings["style"] = min(1.0, settings["style"] + 0.3)
-        elif any(d in direction for d in ["angry", "heated"]):
+            settings["stability"] = max(0.2, settings["stability"] - 0.15)
+        elif any(d in direction for d in ["angry", "heated", "furious", "frustrated"]):
             settings["style"] = min(1.0, settings["style"] + 0.2)
-        elif any(d in direction for d in ["sarcastic", "deadpan"]):
+            settings["stability"] = max(0.3, settings["stability"] - 0.1)
+        elif any(d in direction for d in ["excited", "energetic", "animated", "pouncing",
+                                           "delighted", "victorious", "building"]):
+            settings["style"] = min(1.0, settings["style"] + 0.25)
+            settings["stability"] = max(0.2, settings["stability"] - 0.15)
+        elif any(d in direction for d in ["confessional", "mortified", "embarrassed",
+                                           "vulnerable", "genuine"]):
+            settings["style"] = min(1.0, settings["style"] + 0.15)
+            settings["stability"] = max(0.25, settings["stability"] - 0.1)
+        elif any(d in direction for d in ["sarcastic", "deadpan", "flat", "dry"]):
             settings["stability"] = min(1.0, settings["stability"] + 0.15)
+            settings["style"] = max(0.1, settings["style"] - 0.1)
+        elif any(d in direction for d in ["whisper", "quiet", "soft", "gentle"]):
+            settings["stability"] = min(1.0, settings["stability"] + 0.2)
+            settings["style"] = max(0.0, settings["style"] - 0.2)
+        elif any(d in direction for d in ["serious", "grave", "somber", "concerned"]):
+            settings["stability"] = min(0.85, settings["stability"] + 0.1)
+        elif any(d in direction for d in ["bewildered", "confused", "baffled", "puzzled"]):
+            settings["style"] = min(1.0, settings["style"] + 0.15)
+            settings["stability"] = max(0.3, settings["stability"] - 0.05)
 
         audio = synthesize_line(text, character, settings)
         if audio:
