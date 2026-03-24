@@ -1,0 +1,854 @@
+{
+  "metadata": {
+    "episode_date": "2026-03-24",
+    "episode_archetype": "crisis",
+    "headlines": {
+      "geopolitics": "Trump Sours on Keir Starmer Over UK's Decision Not to Join Attacks on Iran",
+      "economy": "Lawmakers' Airport Perks in Crosshairs as DHS Shutdown Snarls Travelers",
+      "domestic": "Afghanistan Frees American Dennis Coyle from Detention"
+    },
+    "daily_do": "Call your representatives about the shutdown - their offices are still answering phones while TSA agents work without pay",
+    "pringle_mode": "false_parallel",
+    "clips": [
+      {
+        "start_line": 52,
+        "end_line": 58,
+        "caption": "Duke reveals what Jenny really thinks about his podcast appearances 💀",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 78,
+        "end_line": 85,
+        "caption": "Jax's TSA nightmare story will make you never want to fly again",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 95,
+        "end_line": 101,
+        "caption": "Professor Pringle doesn't understand cryptocurrency (again)",
+        "platform": "x"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "JAX",
+      "text": "I'm now sleeping with the person who's pricing me out of my apartment.",
+      "direction": "sheepish confession, slightly mortified"
+    },
+    {
+      "line": 2,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "It's Monday, March 24th. I'm Leo Barros. Here's what you need to know.",
+      "direction": "authoritative anchor tone, crisp delivery"
+    },
+    {
+      "line": 3,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The special relationship is straining. President Trump has publicly turned against UK Prime Minister Keir Starmer after Britain declined to participate in recent attacks on Iran. Trump, who previously called Starmer a friend, is now mocking the British leader over the decision.",
+      "direction": "measured reporting tone, emphasizing the contrast"
+    },
+    {
+      "line": 4,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "This marks a sharp deterioration in what was already a complex diplomatic relationship. The dispute highlights growing tensions between traditional allies over Middle East military strategy, with Britain increasingly reluctant to automatically follow American military leadership.",
+      "direction": "analytical, connecting the dots for listeners"
+    },
+    {
+      "line": 5,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Here at home, the government shutdown enters day thirty-eight, now the second-largest in U.S. history. TSA agents are working without pay while lawmakers maintain their airport security perks. Over four hundred TSA agents have quit since February 14th, with thousands more calling out to find paying work.",
+      "direction": "building urgency, slight edge of frustration"
+    },
+    {
+      "line": 6,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Spring break travelers are facing four-plus-hour wait times at major airports from Houston to New York. Iowa Congresswoman Ashley Hinson has introduced legislation to eliminate congressional airport privileges during the shutdown, forcing lawmakers to use standard TSA screening like everyone else.",
+      "direction": "matter-of-fact delivery with underlying tension"
+    },
+    {
+      "line": 7,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "And Afghanistan has released American researcher Dennis Coyle from detention. Coyle was held since last year. The release comes weeks after the United States officially designated Afghanistan as a state sponsor of wrongful detention.",
+      "direction": "straightforward news delivery, professional tone"
+    },
+    {
+      "line": 8,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "Professor, everyone's comparing Trump's pressure on Starmer to past alliance crises. But what's the actual historical precedent here?",
+      "direction": "genuine curiosity, setting up Pringle's expertise"
+    },
+    {
+      "line": 9,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Well, Leo, everyone will mention Suez in 1956, when Eisenhower publicly opposed British military action. But that comparison is backwards. In fifty-six, America restrained Britain. Today, Britain is restraining America.",
+      "direction": "professorial but engaging, correcting a common assumption"
+    },
+    {
+      "line": 10,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "The better parallel is 1982, when Margaret Thatcher invaded the Falklands without consulting Reagan. The Iron Lady simply informed the White House she was going to war. Reagan was furious privately but supported her publicly.",
+      "direction": "storytelling mode, bringing characters to life"
+    },
+    {
+      "line": 11,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "So Thatcher acted unilaterally, and Reagan backed her. Trump is acting unilaterally, and Starmer is refusing to back him.",
+      "direction": "connecting the dots, slight emphasis on the reversal"
+    },
+    {
+      "line": 12,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Precisely. And here's what's fascinating. Reagan's private fury at Thatcher strengthened their relationship. He respected her independence. Trump's public fury at Starmer is destroying theirs. He views independence as betrayal.",
+      "direction": "building to the key insight, slight emphasis on the contrast"
+    },
+    {
+      "line": 13,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "The difference between private frustration and public humiliation.",
+      "direction": "summarizing the lesson, understanding tone"
+    },
+    {
+      "line": 14,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Indeed. Thatcher once said that in diplomacy, you can disagree fiercely behind closed doors, but you must never embarrass an ally in public. Trump appears to believe the opposite.",
+      "direction": "concluding with authority, slight concern in tone"
+    },
+    {
+      "line": 15,
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke, you've been listening.",
+      "direction": "transitional, signaling the mood shift"
+    },
+    {
+      "line": 16,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "I'm here, I'm caffeinated, and I have thoughts about congressional airport perks.",
+      "direction": "energetic entrance, ready to rant"
+    },
+    {
+      "line": 17,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "Yeah, let's talk about that. TSA agents are working without pay, and Congress gets to skip the line? That's some bullshit right there.",
+      "direction": "genuinely irritated, working-class anger"
+    },
+    {
+      "line": 18,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "Language.",
+      "direction": "mild parental correction, not serious"
+    },
+    {
+      "line": 19,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "No, I'm serious. I know guys who work for TSA. They're missing mortgage payments while Nancy Pelosi gets escorted to her gate.",
+      "direction": "doubling down, personal connection to the issue"
+    },
+    {
+      "line": 20,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Wait, do they really escort Nancy Pelosi? Like, does she get the little cart?",
+      "direction": "genuinely curious, slightly amused by the image"
+    },
+    {
+      "line": 21,
+      "segment": "hangout_reaction",
+      "character": "PRINGLE",
+      "text": "I must ask, what is a little cart?",
+      "direction": "innocent confusion, professor trying to understand"
+    },
+    {
+      "line": 22,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Professor, you know those golf cart things that drive around airports for people who need assistance? Like a— oh my god, have you been to an airport recently?",
+      "direction": "explaining, then realizing something"
+    },
+    {
+      "line": 23,
+      "segment": "hangout_reaction",
+      "character": "PRINGLE",
+      "text": "Not since before the pandemic, I'm afraid. Peggy handled all our travel arrangements.",
+      "direction": "wistful admission, missing his wife"
+    },
+    {
+      "line": 24,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "Professor, airports are hell now. Jenny and I took the kids to Disney last month, and I'm not exaggerating— we waited three hours to get through security in Nashville.",
+      "direction": "tired dad energy, genuine exhaustion"
+    },
+    {
+      "line": 25,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "The twins were melting down, the baby was screaming, and there's Jenny trying to fold a stroller while holding three boarding passes in her teeth.",
+      "direction": "building the chaos, fond but exhausted"
+    },
+    {
+      "line": 26,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "And members of Congress just walk around all of that.",
+      "direction": "bringing it back to the point, dry observation"
+    },
+    {
+      "line": 27,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "Exactly. Look, I get it, security concerns, whatever. But when TSA agents are working without paychecks, maybe skip the VIP treatment until you figure your shit out.",
+      "direction": "building to frustration, common sense anger"
+    },
+    {
+      "line": 28,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Can I just say, as someone who flies a lot for comedy gigs, the airports right now are— they're like a dystopian nightmare. Everyone's angry, the lines are insane, and half the TSA agents look like they want to quit mid-shift.",
+      "direction": "building energy, painting the scene"
+    },
+    {
+      "line": 29,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "Four hundred have quit since February.",
+      "direction": "fact-checking with the data, anchor mode"
+    },
+    {
+      "line": 30,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Right! And I don't blame them. You know what's crazy? I was flying back from Austin last week—",
+      "direction": "transitioning into story mode, setting up"
+    },
+    {
+      "line": 31,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Actually, this connects to what we're talking about. I was in the TSA line for like two hours, right? And this TSA agent, probably nineteen years old, is clearly having the worst day of his life.",
+      "direction": "storytelling mode, setting the scene"
+    },
+    {
+      "line": 32,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "He's getting yelled at by every passenger, his supervisor is nowhere to be found, and he's doing this job without getting paid. So when I get to him, I'm like, 'Hey man, how you holding up?'",
+      "direction": "conversational, showing empathy"
+    },
+    {
+      "line": 33,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "And he looks at me and goes, 'Sir, I've been here since five AM, I haven't eaten, and my mom keeps texting asking when I'm gonna get a real job.' I felt so bad for this kid.",
+      "direction": "mimicking the TSA agent's voice, then genuine sympathy"
+    },
+    {
+      "line": 34,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "That's heartbreaking, man.",
+      "direction": "quiet empathy, dad mode"
+    },
+    {
+      "line": 35,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "But here's where it gets weird. I'm trying to be nice, so I go, 'What's your mom's number? I'll call her and tell her you're doing important work.' And he actually gave it to me!",
+      "direction": "building to the punchline, slight disbelief"
+    },
+    {
+      "line": 36,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "You did not call this kid's mother.",
+      "direction": "skeptical but amused, knowing Jax"
+    },
+    {
+      "line": 37,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I called her from the gate! I'm sitting there waiting for my delayed flight, and I call this random woman in Tampa and I'm like, 'Hi Mrs. Rodriguez, your son Tyler is doing great work at Austin airport.'",
+      "direction": "defensive but proud, can't believe he did it either"
+    },
+    {
+      "line": 38,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "What did she say?",
+      "direction": "invested in the story, leaning forward"
+    },
+    {
+      "line": 39,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "She hung up on me! Then she called back five minutes later and apologized because she thought I was a scammer. We ended up talking for twenty minutes about Tyler's college plans.",
+      "direction": "laughing at himself, warm storytelling"
+    },
+    {
+      "line": 40,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "That's rather sweet, actually.",
+      "direction": "genuinely moved, grandfatherly approval"
+    },
+    {
+      "line": 41,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Right? But then my flight got delayed another two hours, and I'm stuck in Austin thinking about this kid working for free while Congress gets the red carpet treatment. It's just— it's wrong.",
+      "direction": "bringing it back to the bigger point, frustrated"
+    },
+    {
+      "line": 42,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You know what's funny? Jenny and I were talking about this last night. She goes, 'Why do you even do that podcast? You just complain about politicians for an hour.'",
+      "direction": "setting up a Jenny story, affectionate exasperation"
+    },
+    {
+      "line": 43,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "And I'm like, 'It's not complaining, it's commentary.' She goes, 'Duke, yesterday you spent ten minutes ranting about how Nancy Pelosi's eyebrows look suspicious.'",
+      "direction": "mimicking Jenny's voice, then defending himself weakly"
+    },
+    {
+      "line": 44,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Wait, her eyebrows DO look suspicious!",
+      "direction": "jumping in to defend Duke, conspiratorial"
+    },
+    {
+      "line": 45,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "That's what I said! But Jenny's like, 'That's not commentary, that's just being weird about an eighty-year-old woman's face.'",
+      "direction": "realizing Jenny might have a point, sheepish"
+    },
+    {
+      "line": 46,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Jenny's not wrong.",
+      "direction": "dry agreement, slightly amused"
+    },
+    {
+      "line": 47,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Look, the point is, she made me realize something. She goes, 'You know what would actually help? If you used your little podcast platform to tell people to call their representatives instead of just making fun of them.'",
+      "direction": "building to Jenny's wisdom, recognizing her point"
+    },
+    {
+      "line": 48,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "And I'm like, 'It's not a little podcast!' But she's right. We should be telling people to actually do something about this shutdown instead of just— what did she call it— 'performative outrage for entertainment.'",
+      "direction": "admitting defeat, Jenny wins again"
+    },
+    {
+      "line": 49,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Jenny's scary smart. How did you trick her into marrying you?",
+      "direction": "genuine admiration tinged with confusion"
+    },
+    {
+      "line": 50,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "I peaked in high school football and she felt sorry for me.",
+      "direction": "deadpan self-deprecation, long-running joke"
+    },
+    {
+      "line": 51,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I must say, Jenny sounds like a remarkable woman. Peggy used to say very similar things about my tendency to, quote, 'lecture at dinner parties.'",
+      "direction": "wistful comparison, missing Peggy's guidance"
+    },
+    {
+      "line": 52,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "She would give me a look when I started explaining the historical precedent for whatever trivial thing someone mentioned. 'Haywood,' she'd say, 'they asked about the weather, not the Little Ice Age.'",
+      "direction": "fond memory, slightly embarrassed at himself"
+    },
+    {
+      "line": 53,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Speaking of weather, can we talk about Trump and Starmer for a second? Because that relationship is ice cold right now.",
+      "direction": "transitioning back to news, anchor instincts"
+    },
+    {
+      "line": 54,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Yeah, what's the deal there? I thought they were buddies.",
+      "direction": "curious, looking for the story"
+    },
+    {
+      "line": 55,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "They were. Until Britain said no to joining attacks on Iran. Now Trump's publicly mocking him.",
+      "direction": "explaining the shift, professional tone"
+    },
+    {
+      "line": 56,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Good for Starmer. Look, I'm all for supporting our allies, but maybe we don't need to drag Britain into every military action in the Middle East.",
+      "direction": "military background showing, measured opinion"
+    },
+    {
+      "line": 57,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "I did two tours over there. The Brits were good partners, but they don't owe us automatic agreement on everything. That's not how alliances work.",
+      "direction": "drawing on experience, slightly defensive of allied independence"
+    },
+    {
+      "line": 58,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "But Trump's taking it personally, right? Like, 'I thought we were friends and you betrayed me.'",
+      "direction": "mimicking Trump's mindset, slightly mocking"
+    },
+    {
+      "line": 59,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "That's precisely the problem. Trump views diplomacy through the lens of personal loyalty rather than national interest. It's quite dangerous, actually.",
+      "direction": "analytical concern, professor mode"
+    },
+    {
+      "line": 60,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "The Professor made a good point in The Download about Reagan and Thatcher. They could disagree privately but still maintain the relationship.",
+      "direction": "bringing back the historical lesson"
+    },
+    {
+      "line": 61,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Right, but Trump puts everything on Twitter. There's no private disagreement anymore. It's all public humiliation.",
+      "direction": "frustrated with modern political communication"
+    },
+    {
+      "line": 62,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Speaking of public humiliation, I have to tell you guys something embarrassing that happened to me this weekend.",
+      "direction": "shifting to confession mode, slightly mortified"
+    },
+    {
+      "line": 63,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So I'm on a date, right? This woman from Hinge. Her profile says she's a 'policy analyst' and I'm thinking, okay, that sounds smart and hot.",
+      "direction": "setting up the story, slightly defensive about his choices"
+    },
+    {
+      "line": 64,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Oh no.",
+      "direction": "already seeing where this is going"
+    },
+    {
+      "line": 65,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "We meet at this bar in East Nashville, and I'm trying to impress her with my political knowledge, you know? Talking about foreign policy, the shutdown, all that.",
+      "direction": "building the scene, slightly proud of himself"
+    },
+    {
+      "line": 66,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "And she's nodding along, asking good questions, seems really engaged. I'm thinking, this is going great! We're connecting over serious issues!",
+      "direction": "optimistic, then building to the fall"
+    },
+    {
+      "line": 67,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Then she goes, 'So where do you live?' And I tell her my address. And her face just— it changes. Like, all the color drains out.",
+      "direction": "mimicking the moment of realization"
+    },
+    {
+      "line": 68,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "What happened?",
+      "direction": "invested despite himself"
+    },
+    {
+      "line": 69,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Turns out she works for Pinnacle Property Management. The company that's trying to raise my rent by four hundred dollars a month. She's literally the policy analyst who recommended my rent increase!",
+      "direction": "building to the punchline, can't believe his luck"
+    },
+    {
+      "line": 70,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You're kidding.",
+      "direction": "disbelief and amusement"
+    },
+    {
+      "line": 71,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I wish I was! She goes, 'Oh my god, you're apartment 4B! I flagged your unit as under-market!' And I'm sitting there like, you're pricing me out of my home!",
+      "direction": "recreating the awkward moment, slight panic"
+    },
+    {
+      "line": 72,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "What did you do?",
+      "direction": "genuinely curious, invested in the story"
+    },
+    {
+      "line": 73,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Here's the thing— the date was going really well. Like, we had chemistry. So I'm sitting there thinking, do I storm out on principle, or do I see where this goes?",
+      "direction": "moral dilemma, slightly ashamed of his choice"
+    },
+    {
+      "line": 74,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Please tell me you left.",
+      "direction": "hoping for the moral high ground"
+    },
+    {
+      "line": 75,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I stayed! We had three more drinks! And when she offered to split an Uber back to her place, I said yes!",
+      "direction": "confessing his weakness, slightly proud and ashamed"
+    },
+    {
+      "line": 76,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Jax, no.",
+      "direction": "disappointed dad voice"
+    },
+    {
+      "line": 77,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I know! I know it's wrong! But she's smart and funny and she smells really good, and I'm thinking maybe I can convince her to lower my rent through pillow talk!",
+      "direction": "defensive but knowing how bad this sounds"
+    },
+    {
+      "line": 78,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So we go back to her place— which, by the way, is gorgeous because she can afford it with all the rent money she's extracting from people like me—",
+      "direction": "bitter observation mid-story"
+    },
+    {
+      "line": 79,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "And we're, you know, getting to know each other better, and right in the middle of— well, you can imagine— she whispers in my ear, 'Your lease is up for renewal next month.'",
+      "direction": "building to the horrifying climax, barely believing it"
+    },
+    {
+      "line": 80,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "She did not.",
+      "direction": "horrified fascination"
+    },
+    {
+      "line": 81,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "She did! And here's the worst part— it was kind of hot? Like, she's literally screwing me over in two different ways simultaneously!",
+      "direction": "mortified confession, can't believe himself"
+    },
+    {
+      "line": 82,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "This is the most Jax story I've ever heard.",
+      "direction": "affectionate exasperation, knowing his friend"
+    },
+    {
+      "line": 83,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So now I'm in this weird situation where I'm sleeping with the person who's pricing me out of my apartment, and I don't know if I should break it off on principle or try to negotiate a better lease through sexual favors.",
+      "direction": "laying out his dilemma, knowing how ridiculous it sounds"
+    },
+    {
+      "line": 84,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I must say, this is not a dilemma covered in any diplomatic handbook I've read.",
+      "direction": "bemused professor trying to find historical precedent"
+    },
+    {
+      "line": 85,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Right? Like, what's the ethical move here? Do I have a responsibility to my fellow tenants to break up with her? Or am I allowed to be selfish and see if I can get a rent freeze?",
+      "direction": "genuinely asking for advice, moral confusion"
+    },
+    {
+      "line": 86,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "The fact that you're even asking that question tells me you already know the answer.",
+      "direction": "disappointed anchor dad voice"
+    },
+    {
+      "line": 87,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "But she's really cool! And she explained the whole rent analysis process to me. Apparently I've been paying below market rate for three years. I should be thanking her!",
+      "direction": "trying to rationalize, grasping at straws"
+    },
+    {
+      "line": 88,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Jax, you're dating the person who's gentrifying you. That's like— that's like Stockholm syndrome but for housing policy.",
+      "direction": "trying to make him see reason, slight amusement"
+    },
+    {
+      "line": 89,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "When you put it like that, it sounds bad.",
+      "direction": "finally starting to see the problem"
+    },
+    {
+      "line": 90,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "It IS bad, Jax.",
+      "direction": "paternal disapproval"
+    },
+    {
+      "line": 91,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Fine, fine. I'll break up with her. But I'm gonna be really sad about it. She had great taste in wine and she laughed at all my jokes.",
+      "direction": "accepting defeat, genuinely disappointed"
+    },
+    {
+      "line": 92,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You'll find someone else who laughs at your jokes and doesn't systematically exploit working-class renters.",
+      "direction": "supportive but firm, good friend advice"
+    },
+    {
+      "line": 93,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "If I may ask, what is Hinge? My granddaughter mentioned it when she was explaining why I received so many, quote, 'thirst messages' after my garden photograph incident.",
+      "direction": "innocent curiosity, still confused about social media"
+    },
+    {
+      "line": 94,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Oh my god, Professor, are you ready for this? Hinge is a dating app where you swipe through photos of people and decide if you want to have sex with them based on their face and like three sentences about their personality.",
+      "direction": "explaining like he's describing alien technology"
+    },
+    {
+      "line": 95,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "That sounds rather efficient, actually. Though perhaps lacking in the courtship rituals Peggy and I were accustomed to.",
+      "direction": "considering it seriously, missing the romance of his era"
+    },
+    {
+      "line": 96,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, promise me you'll never download a dating app. The world isn't ready for you on Hinge.",
+      "direction": "protective concern, imagining the chaos"
+    },
+    {
+      "line": 97,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "My granddaughter did suggest I try something called Bumble after the garden photo incident. She said older women find historians, quote, 'surprisingly sexy.' I don't understand that either.",
+      "direction": "genuinely baffled by his own appeal"
+    },
+    {
+      "line": 98,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "And on that note, let's move to some lighter news.",
+      "direction": "rescuing everyone from this conversation"
+    },
+    {
+      "line": 99,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Okay, speaking of things that don't make sense, the U.S. government just paid TotalEnergies one billion dollars to stop developing offshore wind. We're literally paying them NOT to build clean energy.",
+      "direction": "incredulous, setting up the absurdity"
+    },
+    {
+      "line": 100,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "That's like paying someone not to mow your lawn and then complaining your grass is too long.",
+      "direction": "simple analogy, dad logic"
+    },
+    {
+      "line": 101,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Also, there's an NTSB crash investigator who got stuck in a TSA line for four hours while trying to investigate an airport incident. He was literally investigating airport problems while experiencing airport problems.",
+      "direction": "building the irony, enjoying the meta-ness"
+    },
+    {
+      "line": 102,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "That's very on-brand for this shutdown.",
+      "direction": "dry observation, not surprised"
+    },
+    {
+      "line": 103,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "And finally, my favorite story of the day. There's a serial bank robber who hit six banks in five days and only netted six hundred and five dollars total. That's like a hundred bucks per felony.",
+      "direction": "delighted by the incompetence"
+    },
+    {
+      "line": 104,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "He'd make more money working at McDonald's.",
+      "direction": "practical observation"
+    },
+    {
+      "line": 105,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "And with better benefits! Plus he wouldn't have to worry about federal prison time.",
+      "direction": "adding to Duke's point, genuinely amused"
+    },
+    {
+      "line": 106,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "Bank robbery used to be quite lucrative, historically speaking. Bonnie and Clyde, John Dillinger— they made proper livings at it. This fellow seems to have missed his era by about ninety years.",
+      "direction": "providing historical context to crime incompetence"
+    },
+    {
+      "line": 107,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Maybe he should try cryptocurrency theft instead. Though knowing Professor's track record with understanding crypto, maybe that's not good advice either.",
+      "direction": "playful dig at Pringle's tech confusion"
+    },
+    {
+      "line": 108,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "I still maintain that cryptocurrency is just the South Sea Bubble with computers, and no one has convinced me otherwise.",
+      "direction": "stubborn professor stance, confident in his analysis"
+    },
+    {
+      "line": 109,
+      "segment": "hangout_daily_do",
+      "character": "LEO",
+      "text": "Alright, before we wrap up, your Daily Do. While Congress debates their airport perks, TSA agents are still working without pay.",
+      "direction": "transitioning to practical advice, serious tone"
+    },
+    {
+      "line": 110,
+      "segment": "hangout_daily_do",
+      "character": "LEO",
+      "text": "Call your representatives today. Their offices are still answering phones while TSA agents work for free. Tell them to fund DHS and end this shutdown. It takes two minutes.",
+      "direction": "clear call to action, authoritative"
+    },
+    {
+      "line": 111,
+      "segment": "hangout_daily_do",
+      "character": "PRINGLE",
+      "text": "As Franklin Roosevelt once said, 'The only thing necessary for the triumph of evil is for good people to do nothing.' Though I believe that was actually Edmund Burke. In any case, the sentiment stands.",
+      "direction": "professorial wisdom, slight correction of himself"
+    },
+    {
+      "line": 112,
+      "segment": "hangout_daily_do",
+      "character": "DUKE",
+      "text": "And if you're traveling this week, pack snacks and maybe a phone charger. It's gonna be a long wait.",
+      "direction": "practical dad advice"
+    },
+    {
+      "line": 113,
+      "segment": "hangout_daily_do",
+      "character": "JAX",
+      "text": "Also, if you work in property management and you're on dating apps, maybe lead with that information. Some of us would like to know upfront if you're the reason we can't afford rent.",
+      "direction": "bitter personal advice, still processing his situation"
+    },
+    {
+      "line": 114,
+      "segment": "hangout_daily_do",
+      "character": "LEO",
+      "text": "That's The Friction for Monday, March 24th. I'm Leo Barros.",
+      "direction": "professional sign-off"
+    },
+    {
+      "line": 115,
+      "segment": "hangout_daily_do",
+      "character": "PRINGLE",
+      "text": "Professor Haywood Pringle.",
+      "direction": "formal introduction"
+    },
+    {
+      "line": 116,
+      "segment": "hangout_daily_do",
+      "character": "DUKE",
+      "text": "Duke Patel. Jenny says hi.",
+      "direction": "casual sign-off, including his wife"
+    },
+    {
+      "line": 117,
+      "segment": "hangout_daily_do",
+      "character": "JAX",
+      "text": "And I'm Jax Mooney, currently accepting applications for a new girlfriend who doesn't control my housing costs. We'll see you tomorrow.",
+      "direction": "self-deprecating sign-off, callback to his story"
+    }
+  ]
+}
