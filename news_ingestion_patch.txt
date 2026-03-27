@@ -1,0 +1,94 @@
+NEWS_INGESTION.PY — CHANGES FOR BETTER ARTICLE FETCHING
+=========================================================
+
+CHANGE 1: Update the fetch_full_text function to use requests with 
+browser headers instead of trafilatura.fetch_url() directly.
+Replace the entire fetch_full_text function with this:
+
+----------------------------------------------------------------------
+
+def fetch_full_text(story: Story) -> str:
+    """
+    Fetch and extract the full article text from the story's URL.
+    Uses requests with browser-like headers, then trafilatura for extraction.
+    """
+    if not story.url:
+        return ""
+
+    logger.info(f"Fetching full text: {story.url[:80]}...")
+
+    # Browser-like headers to avoid 403 blocks from major news sites
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+    }
+
+    # Reddit needs an even more specific approach
+    if "reddit.com" in story.url:
+        # Use old.reddit.com which is more scrape-friendly
+        reddit_url = story.url.replace("www.reddit.com", "old.reddit.com")
+        headers["User-Agent"] = "TheFriction/1.0 (podcast news aggregator; contact@thefriction.com)"
+        try:
+            resp = requests.get(reddit_url, headers=headers, timeout=15)
+            if resp.status_code == 200:
+                text = trafilatura.extract(resp.text, include_comments=False, favor_precision=True)
+                if text:
+                    logger.info(f"  -> Extracted {len(text)} chars (Reddit)")
+                    return text[:5000]
+        except Exception as e:
+            logger.warning(f"  -> Reddit fetch failed: {e}")
+        # For Reddit, the title is usually the whole story anyway
+        return story.description
+
+    try:
+        resp = requests.get(story.url, headers=headers, timeout=15, allow_redirects=True)
+
+        if resp.status_code != 200:
+            logger.warning(f"  -> HTTP {resp.status_code} for: {story.url[:80]}")
+            return story.description
+
+        # Use trafilatura to extract article text from the HTML
+        text = trafilatura.extract(
+            resp.text,
+            include_comments=False,
+            include_tables=False,
+            no_fallback=False,
+            favor_precision=True,
+        )
+
+        if text:
+            text = text[:5000]
+            logger.info(f"  -> Extracted {len(text)} chars")
+            return text
+        else:
+            logger.warning(f"  -> Extraction returned empty for: {story.url[:80]}")
+            return story.description
+
+    except requests.exceptions.Timeout:
+        logger.warning(f"  -> Timeout fetching: {story.url[:80]}")
+        return story.description
+    except Exception as e:
+        logger.error(f"  -> Error fetching full text: {e}")
+        return story.description
+
+----------------------------------------------------------------------
+
+NOTE: NYT and WSJ may still block full article access because they have 
+paywalls, not just bot detection. The browser headers will get you past 
+the bot check, but paywalled content may still be truncated. The RSS 
+description fallback handles this gracefully — the script generation 
+still works with just the summary, it's just less detailed.
+
+If you want full NYT access, you'd need a NYT API key ($0/month for 
+limited use). WSJ is harder — they're strictly paywalled.
+
+Reddit's fix is using old.reddit.com instead of www.reddit.com and 
+sending a proper bot User-Agent (Reddit's API terms require identifying 
+your application).
