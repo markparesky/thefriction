@@ -1,11 +1,11 @@
 {
   "metadata": {
     "episode_date": "2026-03-27",
-    "episode_archetype": "crisis",
+    "episode_archetype": "policy",
     "headlines": {
-      "geopolitics": "Global Food Supply Faces Dangerous Bottleneck as Iran War Persists",
-      "economy": "Versant in Talks to Acquire Vox Media's Podcast Division",
-      "domestic": "Virginia Governor Spanberger Under Fire from Multiple Sides"
+      "geopolitics": "Global Food Supply Faces a Dangerous Bottleneck as Iran War Persists",
+      "economy": "Versant, Owner of MS NOW, in Talks to Acquire Vox Media's Podcast Division",
+      "domestic": "'Ship has sailed': This is what Dems won't get in DHS deal after shunning GOP"
     },
     "daily_do": "",
     "pringle_mode": "direct_parallel",
@@ -13,20 +13,20 @@
       {
         "start_line": 78,
         "end_line": 85,
-        "caption": "When your neighbor asks about crypto but you can't even program your thermostat",
+        "caption": "Duke explains why his wife Jenny controls their grocery budget",
         "platform": "tiktok"
       },
       {
-        "start_line": 142,
-        "end_line": 149,
-        "caption": "Dating app disaster that ended with police involvement",
+        "start_line": 112,
+        "end_line": 119,
+        "caption": "Jax's dating app disaster gets uncomfortably specific",
         "platform": "youtube"
       },
       {
-        "start_line": 165,
-        "end_line": 172,
-        "caption": "Professor tries to understand what 'looksmaxxing' means",
-        "platform": "tiktok"
+        "start_line": 156,
+        "end_line": 162,
+        "caption": "Pringle discovers what a thirst trap is",
+        "platform": "x"
       }
     ]
   },
@@ -35,708 +35,890 @@
       "line": 1,
       "segment": "cold_open",
       "character": "JAX",
-      "text": "So apparently I got interrogated by TSA because they thought my protein powder was suspicious, and now I'm on some kind of list where they have to pat down my ankles every time I fly.",
-      "direction": "Exasperated, building to the absurd reveal"
+      "text": "I told her we should sell and she said 'and live where, Deepak?' She only calls me Deepak when I've said something stupid.",
+      "direction": "Exasperated, slightly embarrassed"
     },
     {
       "line": 2,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Good morning. I'm Leo Barros. This is The Friction for Thursday, March 27th.",
-      "direction": "Authoritative opening, clear and measured"
+      "text": "Good morning. I'm Leo Barros, and this is The Friction for Thursday, March twenty-seventh.",
+      "direction": "Professional, measured pace"
     },
     {
       "line": 3,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The global food system is facing a crisis that could affect every person on earth. Ongoing conflict in Iran has disrupted worldwide fertilizer supplies, driving prices up thirty-seven percent in just six weeks.",
-      "direction": "Serious, emphasizing the scope of the crisis"
+      "text": "The war in the Middle East is creating a global food crisis most Americans haven't noticed yet. Fertilizer prices are climbing twenty-three percent this quarter as supply chains through Iran and the Persian Gulf face continued disruption.",
+      "direction": "Authoritative, building tension"
     },
     {
       "line": 4,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Iran produces roughly twelve percent of the world's phosphate fertilizers and eight percent of nitrogen-based compounds. The war has shut down three major production facilities and blocked shipping routes through the Persian Gulf that carry fertilizer to Asia, Africa, and South America.",
-      "direction": "Factual delivery, each statistic landing with weight"
+      "text": "Iran produces roughly twelve percent of the world's phosphate fertilizers. Russia and Belarus, also under sanctions, control another thirty percent of global potash exports. Agricultural economists are warning that spring planting in both the U.S. and Europe could see reduced yields if these disruptions continue through April.",
+      "direction": "Precise delivery, emphasizing the numbers"
     },
     {
       "line": 5,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The UN's Food and Agriculture Organization warns that without these supplies, global crop yields could drop fifteen to twenty percent by harvest season. That translates to potential food shortages for over four hundred million people, primarily in developing nations that depend on imported fertilizer.",
-      "direction": "Building urgency, the human stakes becoming clear"
+      "text": "The Biden administration is weighing whether to ease sanctions on Russian fertilizer exports, a move that would undercut broader efforts to isolate Moscow but could prevent food shortages in developing nations. State Department officials tell us no decision has been made, but the clock is ticking on planting season.",
+      "direction": "Slightly faster, conveying urgency"
     },
     {
       "line": 6,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Agricultural economists are calling this the most significant threat to global food security since the 2008 grain crisis. The difference is that this disruption hits at the production level, not just distribution.",
-      "direction": "Contextualizing the severity, slight emphasis on 'production level'"
+      "text": "In media consolidation news, Versant Corporation, parent company of CNBC and MS NOW, is in advanced talks to acquire Vox Media's entire podcast division for an estimated four hundred million dollars.",
+      "direction": "Neutral, business news tone"
     },
     {
       "line": 7,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "In media consolidation news, Versant Corporation, which owns CNBC and MS NOW, is in advanced talks to acquire Vox Media's podcast division for an estimated two-point-four billion dollars.",
-      "direction": "Transitioning to business news, matter-of-fact tone"
+      "text": "The deal would give Versant control of major shows including The Ezra Klein Show and Today Explained, as traditional cable companies continue pivoting toward digital audio. Vox would retain its written journalism and video operations. Industry analysts see this as part of a broader flight from podcast independence as production costs rise and advertising revenues plateau.",
+      "direction": "Matter-of-fact, building the bigger picture"
     },
     {
       "line": 8,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The deal would give Versant control of over forty podcast properties, including several that compete directly with traditional cable programming. Industry analysts see this as Versant's strategy to capture younger audiences who have largely abandoned cable television.",
-      "direction": "Explaining the business logic, analytical tone"
+      "text": "On Capitol Hill, the second-longest Department of Homeland Security shutdown in U.S. history ended early Friday morning, but Democrats walked away empty-handed after two months of political brinksmanship.",
+      "direction": "Slightly critical tone"
     },
     {
       "line": 9,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Versant's stock rose eight percent on news of the potential acquisition, while traditional media stocks declined. The company has been aggressively expanding beyond cable, acquiring streaming platforms and digital content creators over the past eighteen months.",
-      "direction": "Reporting market reaction, crisp delivery of numbers"
+      "text": "Senate Democrats had demanded sweeping reforms to ICE and Border Patrol operations following fatal shootings in Minnesota. They wanted judicial warrants for immigration arrests, requirements for agents to display visible identification, and restrictions on enforcement near schools and hospitals.",
+      "direction": "Factual, listing the demands clearly"
     },
     {
       "line": 10,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Domestically, Virginia Governor Abigail Spanberger is facing intense criticism from multiple directions over immigration enforcement and redistricting controversies.",
-      "direction": "Setting up political conflict, neutral but engaged tone"
+      "text": "Instead, they got twenty million dollars for body cameras, which was already in the original funding bill. Senate Majority Leader John Thune said Democrats 'kissed that opportunity goodbye' by blocking funding attempts. Republicans retained full immigration enforcement funding and plan to extend it for up to a decade using budget reconciliation.",
+      "direction": "Concluding with finality"
     },
     {
       "line": 11,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Former Governor Glenn Youngkin publicly rebuked Spanberger yesterday for supporting Democratic redistricting efforts, calling her position a quote 'blatant lie' and a complete reversal of her campaign promises.",
-      "direction": "Quoting directly, letting the harshness of 'blatant lie' land"
+      "text": "The political miscalculation leaves Democrats with little leverage as the administration prepares to ramp up deportation operations this spring.",
+      "direction": "Analytical, wrapping up the story"
     },
     {
       "line": 12,
-      "segment": "download_headlines",
+      "segment": "download_pringle",
       "character": "LEO",
-      "text": "Separately, families affected by violent crimes involving undocumented immigrants confronted Spanberger at a housing event in Culpeper. The mother of Stephanie Minter, allegedly murdered by an undocumented immigrant at a Fairfax County bus stop last month, accused the governor of spreading inaccurate information about federal deportation procedures.",
-      "direction": "Careful, precise reporting of sensitive material"
+      "text": "Professor, this fertilizer crisis feels unprecedented, but you've seen supply chain shocks disrupt global politics before.",
+      "direction": "Transitioning to Pringle, respectful"
     },
     {
       "line": 13,
-      "segment": "download_headlines",
-      "character": "LEO",
-      "text": "When pressed by reporters, Spanberger blamed ICE for not executing a deportation order. However, according to court documents, the suspect was held by ICE for seven hundred days while an immigration judge blocked deportation to Sierra Leone.",
-      "direction": "Factual correction, letting the contradiction speak for itself"
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Indeed. October nineteen seventy-three. The Arab oil embargo. King Faisal of Saudi Arabia and President Sadat of Egypt coordinated a petroleum embargo against nations supporting Israel in the Yom Kippur War.",
+      "direction": "Professorial, setting the historical scene"
     },
     {
       "line": 14,
-      "segment": "download_headlines",
-      "character": "LEO",
-      "text": "The controversy intensifies as Culpeper police arrested another undocumented immigrant, Angel David Rubio Marin, on charges of soliciting sexual content from children under ten years old in exchange for online gaming currency.",
-      "direction": "Grave tone appropriate to the serious charges"
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Within six months, oil prices quadrupled from three dollars to twelve dollars per barrel. But the real damage wasn't just at the gas pump. The embargo exposed how completely the global economy depended on a handful of chokepoints controlled by hostile actors.",
+      "direction": "Building the parallel deliberately"
     },
     {
       "line": 15,
       "segment": "download_pringle",
       "character": "LEO",
-      "text": "Professor, this fertilizer crisis has echoes of past supply chain disruptions that reshaped global politics. What should we be learning from history here?",
-      "direction": "Transitioning to analysis, inviting Pringle's expertise"
+      "text": "How did that reshape American foreign policy?",
+      "direction": "Focused follow-up question"
     },
     {
       "line": 16,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Indeed, Leo. This bears striking resemblance to the oil embargo of 1973, when OPEC weaponized petroleum exports and exposed how vulnerable modern economies are to single-point-of-failure supply chains.",
-      "direction": "Professorial tone, drawing the historical parallel clearly"
+      "text": "It forced Nixon and Kissinger to completely recalibrate Middle East strategy. They realized that America's industrial might meant nothing if a few Arab kings could shut down our economy with a phone call. The Strategic Petroleum Reserve, created in nineteen seventy-five, was a direct response.",
+      "direction": "Authoritative, connecting cause and effect"
     },
     {
       "line": 17,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "In October 1973, Arab oil producers cut exports to nations supporting Israel during the Yom Kippur War. Oil prices quadrupled overnight. Americans waited in gas lines for hours. The Dow Jones fell sixteen percent. But the deeper consequence was strategic.",
-      "direction": "Building the narrative with specific details, each fact adding weight"
+      "text": "But here's the crucial difference. Oil has substitutes, eventually. You can drill elsewhere, develop alternative energy, change consumption patterns. Food production has no substitutes. People must eat, and they must eat every day.",
+      "direction": "Grave, emphasizing the stakes"
     },
     {
       "line": 18,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "That crisis forced Western nations to confront their dependence on a volatile region for a critical resource. It accelerated the development of North Sea oil, strategic petroleum reserves, and alternative energy research. It fundamentally altered how democracies thought about resource security.",
-      "direction": "Explaining long-term consequences, thoughtful pacing"
+      "character": "LEO",
+      "text": "So this fertilizer shortage could be more disruptive than the oil shocks?",
+      "direction": "Pressing for the implications"
     },
     {
       "line": 19,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "So you're saying this fertilizer disruption could have similar strategic implications beyond just food prices?",
-      "direction": "Following up, pushing for deeper analysis"
+      "character": "PRINGLE",
+      "text": "Potentially, yes. The nineteen seventy-three embargo lasted five months. Food shortages topple governments. The French Revolution began with bread riots. The Arab Spring started when a Tunisian fruit vendor couldn't afford to eat.",
+      "direction": "Ominous, historical weight"
     },
     {
       "line": 20,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Precisely. Food security is national security. Nations that cannot feed their populations face internal instability, mass migration, and political collapse. The Arab Spring began with food riots triggered by grain shortages.",
-      "direction": "Making the connection explicit, serious and measured"
+      "text": "If Iran can hold global agriculture hostage, they've discovered a weapon more powerful than nuclear missiles.",
+      "direction": "Concluding with stark assessment"
     },
     {
       "line": 21,
-      "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "What we're witnessing now could accelerate investment in domestic fertilizer production, vertical farming, and agricultural technology. Countries may begin stockpiling fertilizer the way they stockpile oil. The geopolitics of agriculture could become as contentious as the geopolitics of energy.",
-      "direction": "Forward-looking analysis, connecting past to future implications"
-    },
-    {
-      "line": 22,
-      "segment": "download_pringle",
-      "character": "LEO",
-      "text": "And this hits developing nations hardest because they're most dependent on imported fertilizer?",
-      "direction": "Clarifying the humanitarian dimension"
-    },
-    {
-      "line": 23,
-      "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "Correct. Sub-Saharan Africa imports seventy percent of its fertilizer. When prices spike, farmers plant less, yields drop, and food becomes unaffordable for the urban poor. This is how supply chain disruptions become humanitarian crises, which become political crises, which become security crises.",
-      "direction": "Tracing the cascade of consequences, building to the security implications"
-    },
-    {
-      "line": 24,
       "segment": "bridge",
       "character": "LEO",
       "text": "That's your Download for Thursday. Now let's talk about what all of this actually means for real people. Jax, Duke, you've been listening.",
-      "direction": "Clear transition, signaling the shift in tone"
+      "direction": "Transitional, opening up the room"
+    },
+    {
+      "line": 22,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Okay, so we're all gonna starve because some fertilizer got caught up in a war? That's the most twenty twenty-six headline ever.",
+      "direction": "Incredulous, slightly panicked energy"
+    },
+    {
+      "line": 23,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "Look, I went to the grocery store last weekend and Jenny handed me a list. I'm scanning barcodes with my phone to check prices before I put anything in the cart. Dude, I felt like I was conducting an orchestra of anxiety.",
+      "direction": "Exasperated, building to the punchline"
+    },
+    {
+      "line": 24,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "You're checking prices on your phone while shopping?",
+      "direction": "Mildly amused disbelief"
     },
     {
       "line": 25,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Okay, so I'm sitting here thinking about fertilizer prices and I realize I don't even know what fertilizer costs because I've killed every plant I've ever owned.",
-      "direction": "Jumping in with characteristic self-deprecation"
+      "character": "DUKE",
+      "text": "Jenny installed this app called Basket. It tracks grocery inflation in real time. She's got charts, Leo. Charts of our cereal expenses going back eighteen months.",
+      "direction": "Defeated, slightly embarrassed"
     },
     {
       "line": 26,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "Ha, well, I can tell you it costs a lot more than it used to. I was at Home Depot last weekend and a bag of lawn fertilizer that was thirty bucks last spring is like fifty-five now.",
-      "direction": "Practical observation, slight frustration in voice"
+      "character": "JAX",
+      "text": "Your wife tracks your cereal expenses?",
+      "direction": "Delighted, ready to pounce"
     },
     {
       "line": 27,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Wait, you fertilize your lawn? That's so suburban dad of you.",
-      "direction": "Mock surprise, affectionately teasing"
+      "character": "DUKE",
+      "text": "She tracks everything. Last month she showed me a spreadsheet proving we spend more on the kids' goldfish food than I spend on lunch. The goldfish, Jax. They're eating better than I am.",
+      "direction": "Mock outrage, but actually impressed"
     },
     {
       "line": 28,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "I mean, yes? I have a lawn. Jenny expects it to be green. The neighbors judge you if your grass looks like shit. This is adulting, Jax.",
-      "direction": "Defending his suburban choices with mock seriousness"
+      "character": "PRINGLE",
+      "text": "I find it remarkable that we've digitized the ancient practice of household budgeting to such a granular degree. Peggy kept our expenses in a ledger book for forty years.",
+      "direction": "Genuinely fascinated, not dismissive"
     },
     {
       "line": 29,
       "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "But Duke, you're talking about lawn care. We're talking about people potentially not being able to grow food to eat.",
-      "direction": "Gently redirecting to the serious implications"
+      "character": "DUKE",
+      "text": "Professor, Jenny's not keeping a ledger. She's conducting economic warfare against inflation. I suggested we switch to generic cereal and she pulled up a cost-per-serving analysis that would make the Congressional Budget Office weep.",
+      "direction": "Awed by his wife's capabilities"
     },
     {
       "line": 30,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "No, I get that. I'm just saying this stuff trickles down to everything. If fertilizer doubles in price, food prices go up, lawn care goes up, everything connected to agriculture gets more expensive.",
-      "direction": "More serious now, making the economic connection"
+      "character": "JAX",
+      "text": "This is why I'm single. I can't handle that level of financial accountability. Like, if someone tracked my DoorDash spending, they'd stage an intervention.",
+      "direction": "Self-aware, slightly defensive"
     },
     {
       "line": 31,
-      "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "Duke raises an excellent point about cascading effects. In 1973, the oil crisis didn't just affect gasoline. It affected plastics, heating costs, transportation, manufacturing. Everything petroleum touched became more expensive.",
-      "direction": "Validating Duke's observation with historical context"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Speaking of interventions, Mia called me out on my grocery spending last week. She's fourteen and apparently more financially literate than I am.",
+      "direction": "Reluctant confession, embarrassed"
     },
     {
       "line": 32,
-      "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "So what you're saying is my grocery bill is gonna get even more insane? Because I already spend like two hundred bucks a week feeding just myself.",
-      "direction": "Bringing it to personal impact, slight exaggeration for effect"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "What happened?",
+      "direction": "Interested, leaning in"
     },
     {
       "line": 33,
-      "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "Two hundred a week? Dude, what are you eating, gold-plated avocado toast?",
-      "direction": "Incredulous, genuinely shocked at the number"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "I'm picking her up from her mom's house and I mention I need to stop at Whole Foods. Mia looks at me and says, 'Dad, why do you shop at Whole Paycheck when you complain about money all the time?'",
+      "direction": "Imitating his daughter's voice, slightly mortified"
     },
     {
       "line": 34,
-      "segment": "hangout_reaction",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Look, I don't cook, okay? Everything I eat comes from restaurants or those meal delivery things. I know it's expensive but I tried cooking and it was a disaster.",
-      "direction": "Defensive but acknowledging his poor life choices"
+      "text": "Did she actually call it Whole Paycheck?",
+      "direction": "Delighted by the teenager's sass"
     },
     {
       "line": 35,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Like, I tried to make pasta last month. Pasta! The simplest food on earth. I somehow managed to burn the water.",
-      "direction": "Building to the absurd confession"
+      "character": "LEO",
+      "text": "She did. Then she pulls up the Stop & Shop app on her phone and shows me I could save thirty-seven dollars on the exact same grocery list. My fourteen-year-old daughter is now my financial advisor.",
+      "direction": "Rueful, impressed despite himself"
     },
     {
       "line": 36,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "You can't burn water, Jax.",
-      "direction": "Matter-of-fact correction, slightly amused"
+      "character": "DUKE",
+      "text": "Did you take her advice?",
+      "direction": "Curious, knowing the answer"
     },
     {
       "line": 37,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "I left the pot on the stove and forgot about it. All the water boiled away and the pot turned black. My smoke alarm went off. My neighbor knocked on my door thinking there was a fire.",
-      "direction": "Embarrassed but committed to the story"
+      "character": "LEO",
+      "text": "Of course I did. I'm not an idiot. But now she texts me grocery store coupons. Coupons, from my teenager. I've never felt older in my life.",
+      "direction": "Defeated acceptance"
     },
     {
       "line": 38,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Oh man, that reminds me of when I tried to surprise Jenny by cooking dinner for our anniversary. I was making this fancy chicken dish I found online.",
-      "direction": "Triggered by Jax's story, setting up his own disaster"
+      "character": "JAX",
+      "text": "Okay, but can we talk about the real issue here? Leo, are you actually complaining about money to your daughter? Because that's like, therapy-level concerning.",
+      "direction": "Genuinely worried beneath the humor"
     },
     {
       "line": 39,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "The recipe said to cook it at four-fifty for twenty minutes. But I misread it and cooked it at four-fifty for an hour and twenty minutes.",
-      "direction": "Building the setup, emphasizing the mistake"
+      "character": "LEO",
+      "text": "I don't complain to her. I complain near her. There's a difference. She just has very good hearing and an alarming ability to retain financial information.",
+      "direction": "Defensive, trying to justify himself"
     },
     {
       "line": 40,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "By the time she got home, the chicken looked like a hockey puck and the smoke alarm was screaming. She walked in and just said 'Pizza?' and I said 'Pizza.' We've never spoken of it since.",
-      "direction": "Delivering the punchline with deadpan resignation"
+      "text": "Look, the twins asked me last week why I yelled at the gas pump. Apparently I said something about the price of premium that they found educational.",
+      "direction": "Sheepish, relating to Leo"
     },
     {
       "line": 41,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "At least you tried. Mia asked me to cook breakfast for her sleepover last weekend. I panicked and ordered Dunkin' Donuts for eight teenage girls.",
-      "direction": "Reluctantly sharing, immediately regretting the admission"
+      "character": "JAX",
+      "text": "What did you say?",
+      "direction": "Eager for the embarrassing detail"
     },
     {
       "line": 42,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Wait, that's actually genius. What's wrong with that?",
-      "direction": "Genuinely confused about why this is embarrassing"
+      "character": "DUKE",
+      "text": "I may have referred to the oil companies using language that Jenny described as 'colorful' and the twins described as 'new vocabulary words for school.'",
+      "direction": "Embarrassed, trailing off"
     },
     {
       "line": 43,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Apparently other dads make actual pancakes and eggs. Like, from scratch. Mia told me her friend's dad made quote 'real breakfast' and gave me this look like I'd failed as a human being.",
-      "direction": "Self-deprecating, the pain of parental judgment"
+      "character": "PRINGLE",
+      "text": "I'm curious about this grocery price-tracking phenomenon. Is this a generational response to economic uncertainty, or have we simply made anxiety more efficient through technology?",
+      "direction": "Genuinely academic question"
     },
     {
       "line": 44,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Dude, teenagers are brutal. My twins told me last week that I dress like I shop at the dad store.",
-      "direction": "Commiserating, sharing the pain of teen judgment"
+      "character": "JAX",
+      "text": "Professor, we've made everything more anxious through technology. I got a notification yesterday that my Uber rating dropped to four-point-eight-seven and I spent twenty minutes wondering what I did wrong in a car ride I don't remember taking.",
+      "direction": "Frazzled, building anxiety"
     },
     {
       "line": 45,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "The dad store?",
-      "direction": "Curious despite himself"
+      "character": "DUKE",
+      "text": "Four-point-eight-seven is still good though, right?",
+      "direction": "Trying to be supportive"
     },
     {
       "line": 46,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Apparently it's a magical place where they only sell khakis, polo shirts, and New Balance sneakers. According to them, every dad gets issued the same uniform when their first kid is born.",
-      "direction": "Explaining with mock seriousness, finding it funny despite the insult"
+      "character": "JAX",
+      "text": "Duke, I don't know! That's the problem! Is four-point-eight-seven good for a passenger? What's the curve? Am I failing at sitting in cars?",
+      "direction": "Spiraling into comic anxiety"
     },
     {
       "line": 47,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I must say, this conversation about domestic competence reminds me that Peggy used to handle all our cooking. I've been living on frozen dinners and restaurant takeout for five years now.",
-      "direction": "Thoughtful admission, slight sadness at mentioning Peggy"
+      "character": "LEO",
+      "text": "How do you fail at being a passenger?",
+      "direction": "Genuinely confused"
     },
     {
       "line": 48,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "My granddaughter keeps suggesting I try something called DoorDash, but I confess I don't understand how it works. Do I call them on the telephone?",
-      "direction": "Genuinely puzzled, asking for practical help"
+      "character": "JAX",
+      "text": "I don't know! Maybe I smell weird? Maybe I breathe too loud? Maybe I'm not making enough small talk? Or maybe I'm making too much small talk? There's no manual for this stuff!",
+      "direction": "Increasingly frantic"
     },
     {
       "line": 49,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Professor, it's an app on your phone. You just— wait, do you have a smartphone?",
-      "direction": "Starting to explain, then realizing the potential problem"
+      "character": "DUKE",
+      "text": "You're overthinking it. Just sit there and don't be weird.",
+      "direction": "Practical, trying to calm him down"
     },
     {
       "line": 50,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I have what my granddaughter calls a flip phone. She's been trying to convince me to upgrade but I can't see the point. This one makes calls perfectly well.",
-      "direction": "Matter-of-fact, not understanding why this is a problem"
+      "character": "JAX",
+      "text": "But what if weird is my default setting? What if I've been weird this whole time and nobody told me?",
+      "direction": "Existential crisis mode"
     },
     {
       "line": 51,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Professor, I respect that, but you're missing out on the entire modern world. It's like trying to drive a horse and buggy on the interstate.",
-      "direction": "Gentle but amused at the technology gap"
+      "text": "Jax, we've told you. Many times.",
+      "direction": "Deadpan, matter-of-fact"
     },
     {
       "line": 52,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Perhaps, but I've managed quite well for seventy-three years without a computer in my pocket. Though I admit I'm curious about this food delivery phenomenon.",
-      "direction": "Defensive but acknowledging curiosity"
+      "character": "JAX",
+      "text": "That's not helping!",
+      "direction": "Mock outrage"
     },
     {
       "line": 53,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Okay, but speaking of food delivery disasters, I have to tell you about my worst DoorDash experience ever. This was like three weeks ago.",
-      "direction": "Excited to share an embarrassing story"
+      "character": "LEO",
+      "text": "Can we circle back to the media consolidation story? Because I have thoughts about Versant buying up podcast companies.",
+      "direction": "Trying to steer back to news"
     },
     {
       "line": 54,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "I ordered Thai food at like eleven PM because I was drunk and hungry. The app said it would take forty-five minutes. Two hours later, no food, and I'm tracking the driver on the app.",
-      "direction": "Setting up the story, building anticipation"
+      "character": "DUKE",
+      "text": "You mean like how they're gonna turn every podcast into cable news?",
+      "direction": "Cynical but accurate"
     },
     {
       "line": 55,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "The little dot is just sitting in one spot for an hour. So I walk outside to see what's happening, and there's a DoorDash car parked across the street with the driver fully asleep behind the wheel.",
-      "direction": "Building to the absurd reveal"
+      "character": "LEO",
+      "text": "Exactly. These cable companies are panicking because nobody under forty watches cable. So they're buying up digital properties and trying to recreate the same advertising model that's already failing.",
+      "direction": "Professional analysis, slightly heated"
     },
     {
       "line": 56,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "With your food in the car?",
-      "direction": "Anticipating where this is going"
+      "character": "JAX",
+      "text": "Wait, so they're gonna put ads in the middle of podcasts? Like, actual TV commercial breaks?",
+      "direction": "Horrified realization"
     },
     {
       "line": 57,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "With my food in the car! So I knock on the window to wake him up, and he jumps up, sees me, and immediately floors it. Just drives off with my pad thai.",
-      "direction": "Incredulous at the absurdity, voice rising"
+      "character": "LEO",
+      "text": "They're already doing it. Have you listened to a Spotify podcast lately? It's three minutes of content, two minutes of ads, repeat until everyone's miserable.",
+      "direction": "Frustrated, speaking from experience"
     },
     {
       "line": 58,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "So what did you do?",
-      "direction": "Engaged despite himself, wanting to hear the resolution"
+      "character": "PRINGLE",
+      "text": "This reminds me of the newspaper consolidation of the nineteen eighties. Local ownership disappeared, editorial independence vanished, and eventually the whole industry collapsed under its own financial engineering.",
+      "direction": "Ominous historical parallel"
     },
     {
       "line": 59,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "I called DoorDash customer service, which is apparently run by robots, and tried to explain that my driver stole my food and drove away. The robot kept asking me to rate my delivery experience.",
-      "direction": "Frustrated at the bureaucratic absurdity"
+      "character": "DUKE",
+      "text": "So podcasts are gonna die too?",
+      "direction": "Blunt question"
     },
     {
       "line": 60,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Finally I just started yelling into the phone 'He kidnapped my pad thai!' until a human picked up. They refunded my money but I never got dinner. I ate cereal at midnight like a college freshman.",
-      "direction": "Building to the pathetic conclusion"
+      "character": "LEO",
+      "text": "Not die. Just become terrible. There's a difference.",
+      "direction": "Grim but precise"
     },
     {
       "line": 61,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "See, this is why I don't trust apps for important stuff. If I want Thai food, I call the restaurant and pick it up myself.",
-      "direction": "Using this as validation of his old-school approach"
+      "character": "JAX",
+      "text": "Great. So in five years, every podcast will be three dudes in suits reading marketing copy about mattresses.",
+      "direction": "Sarcastic, painting the dystopian picture"
     },
     {
       "line": 62,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "But that requires leaving the house and talking to humans. The whole point of apps is avoiding human interaction.",
-      "direction": "Explaining his antisocial convenience preference"
+      "character": "DUKE",
+      "text": "You say that like it's not already happening.",
+      "direction": "Dry observation"
     },
     {
       "line": 63,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "That's— that's actually kind of sad, Jax.",
-      "direction": "Realizing the deeper implications, slightly concerned"
+      "character": "JAX",
+      "text": "Which brings me to my next confession. I tried to start a dating podcast last month.",
+      "direction": "Reluctant admission, knowing it's embarrassing"
     },
     {
       "line": 64,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "I know! But it's so much easier. Although it's getting expensive. Especially if we're gonna have a fertilizer crisis and food prices go up even more.",
-      "direction": "Acknowledging the sadness but circling back to practical concerns"
+      "character": "LEO",
+      "text": "Oh no.",
+      "direction": "Preemptive cringe"
     },
     {
       "line": 65,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "You know what's scary about this whole fertilizer thing? My neighbor works for a defense contractor, right? Super smart guy, does like cybersecurity stuff for the Pentagon.",
-      "direction": "Transitioning to a more serious observation"
+      "character": "JAX",
+      "text": "I thought, you know, I'm single, I have opinions about dating apps, maybe I can monetize my romantic failures. Turns out that's not actually a business model.",
+      "direction": "Self-deprecating, building to disaster"
     },
     {
       "line": 66,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "But he can't figure out how to program his smart thermostat. Jenny had to go over there and set it up for him. This guy protects national security but can't adjust his air conditioning.",
-      "direction": "Finding the irony amusing but also concerning"
+      "text": "What happened?",
+      "direction": "Knowing this will be good"
     },
     {
       "line": 67,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "What's your point?",
-      "direction": "Not seeing the connection yet"
+      "character": "JAX",
+      "text": "I recorded three episodes. The first one was called 'Why Hinge is Hell.' The second one was 'Bumble: An Anthropological Study.' The third one was just me reading Tinder profiles out loud for forty-seven minutes.",
+      "direction": "Listing his failures methodically"
     },
     {
       "line": 68,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "My point is we're all specialized now. Nobody knows how to do everything anymore. If the food supply chain breaks down, how many of us actually know how to grow food?",
-      "direction": "Making the deeper point about societal vulnerability"
+      "character": "LEO",
+      "text": "Please tell me you didn't publish the Tinder one.",
+      "direction": "Hoping for the best"
     },
     {
       "line": 69,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I can barely keep a houseplant alive. If civilization collapses, I'm dead in like three days.",
-      "direction": "Self-deprecating but acknowledging the real concern"
+      "text": "I published all three. Got seventeen downloads total. Sixteen of them were from my mom, who left a one-star review saying I need therapy.",
+      "direction": "Mortified but owning it"
     },
     {
       "line": 70,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "This is precisely what worried economists in 1973. Modern societies become extraordinarily efficient but extraordinarily fragile. When one link breaks, the whole chain can collapse.",
-      "direction": "Professorial observation, connecting to historical precedent"
+      "character": "DUKE",
+      "text": "Your mom left a one-star review on your own podcast?",
+      "direction": "Incredulous"
     },
     {
       "line": 71,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "But that's also why we have strategic reserves, trade relationships, and backup systems. The question is whether we've built enough redundancy into critical systems.",
-      "direction": "Offering a more optimistic perspective, thinking like a journalist"
+      "character": "JAX",
+      "text": "She said, and I quote, 'My son clearly has unresolved issues with intimacy and should not be giving dating advice to anyone, especially strangers on the internet.' End quote.",
+      "direction": "Reading it like a formal statement"
     },
     {
       "line": 72,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "I hope so. But sometimes I think about my kids and wonder what kind of world they're gonna inherit. Like, are they gonna have to learn skills we forgot because we assumed technology would handle everything?",
-      "direction": "Parental concern, genuine worry about the future"
+      "character": "PRINGLE",
+      "text": "Your mother reviewed your podcast?",
+      "direction": "Baffled by modern family dynamics"
     },
     {
       "line": 73,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Well, your kids are lucky they have you. My dad's idea of preparing me for adulthood was teaching me how to change a tire and telling me to always carry cash.",
-      "direction": "Trying to lighten the mood while making a point"
+      "text": "She has a Google account and strong opinions, Professor. It's a dangerous combination.",
+      "direction": "Weary acceptance"
     },
     {
       "line": 74,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Your dad sounds smart. I still carry cash.",
-      "direction": "Approving of old-school wisdom"
+      "text": "Who was the seventeenth download?",
+      "direction": "Curious about the mystery listener"
     },
     {
       "line": 75,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Yeah, but he also told me that computers were a fad and I should learn a trade. I probably should've listened to that part.",
-      "direction": "Rueful admission about career choices"
+      "text": "A woman named Sarah who super-liked me on Tinder, then found my podcast, listened to the episode where I read her profile out loud, and unmatched me. She also left a review.",
+      "direction": "Cringing at the memory"
     },
     {
       "line": 76,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Alright, speaking of things that make no sense, let's do some weird news. First up, the CEO of Five Guys says he was inspired by Luigi Mangione to give his employees a one-point-five million dollar bonus.",
-      "direction": "Shifting to lighter content, incredulous tone"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "What did she say?",
+      "direction": "Dreading the answer"
     },
     {
       "line": 77,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "I'm sorry, what? The healthcare assassin inspired burger bonuses?",
-      "direction": "Confused and slightly disturbed by the connection"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Quote: 'This man violated my privacy and has the emotional intelligence of a houseplant. Also, he mispronounced my last name.' Unquote.",
+      "direction": "Reading formal indictment"
     },
     {
       "line": 78,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Apparently the CEO said Mangione made him realize how angry working people are at corporate executives, so he decided to share more profits with employees. Which is like, great outcome, weird inspiration.",
-      "direction": "Trying to make sense of the bizarre logic"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You mispronounced her name while reading her dating profile on a podcast?",
+      "direction": "Amazed at the layers of failure"
     },
     {
       "line": 79,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "I can't decide if that's progressive labor policy or a hostage negotiation.",
-      "direction": "Dry observation about the uncomfortable implications"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Look, Kowalczyk is not an easy name, okay? I did my best with limited information!",
+      "direction": "Defensive but knowing he's wrong"
     },
     {
       "line": 80,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Next, FBI Director Kash Patel's personal email got hacked by Iranian-linked groups. They released his Amazon purchase history, which is apparently just protein powder and Joe Rogan's book.",
-      "direction": "Amused by the mundane nature of the hack"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I'm trying to understand the logic of this enterprise. You attempted to attract romantic partners by publicly mocking other romantic prospects?",
+      "direction": "Academic analysis of illogical behavior"
     },
     {
       "line": 81,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "Wait, that's what I buy on Amazon. Am I basic?",
-      "direction": "Sudden self-awareness and concern"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "When you put it like that, it sounds bad.",
+      "direction": "Dawning realization"
     },
     {
       "line": 82,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Duke, you're the most basic person I know, but in like a good way. You're baseline American male.",
-      "direction": "Affectionate teasing, meant as a compliment"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "It sounds bad because it is bad, Jax.",
+      "direction": "Stating the obvious"
     },
     {
       "line": 83,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Oh, and Nepal's new Prime Minister delivered his inaugural address as a rap song. The whole thing. Like, rhyming couplets about economic policy and infrastructure investment.",
-      "direction": "Building excitement about the absurdity"
+      "text": "Fine! I deleted the podcast. Happy? But now I'm back to being single with no monetization strategy.",
+      "direction": "Petulant but accepting defeat"
     },
     {
       "line": 84,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "I confess I don't understand what that means. Is rap a form of poetry?",
-      "direction": "Genuinely curious, not judgmental"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Have you considered that being single might not require a monetization strategy?",
+      "direction": "Gentle but pointed"
     },
     {
       "line": 85,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "It's like poetry but with a beat, Professor. Imagine if Lincoln delivered the Gettysburg Address but it rhymed and you could dance to it.",
-      "direction": "Trying to explain in terms Pringle would understand"
+      "text": "Leo, everything requires a monetization strategy. That's capitalism.",
+      "direction": "Matter-of-fact, missing the point"
     },
     {
       "line": 86,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "That sounds rather undignified for a head of state.",
-      "direction": "Polite disapproval, old-school sensibilities showing"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "That's not capitalism. That's just you being weird about money.",
+      "direction": "Blunt assessment"
     },
     {
       "line": 87,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "I mean, yeah, but also kind of awesome? At least he's trying to connect with young people. Most politicians sound like they're reading tax code.",
-      "direction": "Defending the unconventional approach"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I find it fascinating that your generation treats personal relationships as economic opportunities. Peggy and I met at a library book sale. There was no monetization involved.",
+      "direction": "Genuinely puzzled by modern dating"
     },
     {
       "line": 88,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "And finally, Florida Man strikes again. Guy got arrested for battery while quote 'looksmaxxing' and shooting alligators from an airboat.",
-      "direction": "Delivering the peak Florida absurdity"
+      "text": "Professor, with respect, book sales don't scale. I need solutions that work for the digital economy.",
+      "direction": "Trying to sound businesslike"
     },
     {
       "line": 89,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "I'm afraid to ask, but what is looksmaxxing?",
-      "direction": "Reluctant curiosity about internet culture"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You need solutions that work for actual human beings, not the digital economy.",
+      "direction": "Exasperated wisdom"
     },
     {
       "line": 90,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "It's this internet thing where guys try to optimize their appearance to be more attractive. Like, they do facial exercises and weird skincare routines and take progress photos.",
-      "direction": "Explaining reluctantly, aware of how ridiculous it sounds"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "What is a 'thirst trap,' and why does my granddaughter keep asking if I've posted one?",
+      "direction": "Completely serious academic inquiry"
     },
     {
       "line": 91,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "So this guy was doing face exercises while hunting alligators?",
-      "direction": "Trying to piece together the absurd scenario"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Oh no. Oh no no no.",
+      "direction": "Realizing the danger"
     },
     {
       "line": 92,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Apparently he was livestreaming the whole thing for his followers. The battery charge was because he hit someone with a selfie stick while trying to get the perfect angle.",
-      "direction": "Adding more ridiculous details"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, you don't want to know.",
+      "direction": "Protective, trying to spare him"
     },
     {
       "line": 93,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "PRINGLE",
-      "text": "I understand perhaps half the words you just said, but it sounds like this young man needs better hobbies.",
-      "direction": "Bewildered but trying to offer sage advice"
+      "text": "I most certainly do want to know. She manages my social media accounts and yesterday she said something about my Twitter photo being 'surprisingly thirsty.' I have no idea what that means.",
+      "direction": "Determined to understand"
     },
     {
       "line": 94,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "The fact that this sentence exists in 2026 makes me feel very old.",
-      "direction": "Existential weariness at modern absurdity"
+      "text": "What's your Twitter photo?",
+      "direction": "Carefully neutral"
     },
     {
       "line": 95,
-      "segment": "hangout_sign_off",
-      "character": "DUKE",
-      "text": "Well, on that note, I think I'm gonna go home and hug my kids and not livestream it.",
-      "direction": "Wrapping up with grateful perspective"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "It's a photograph of me in my garden, holding a prize-winning tomato. I'm wearing my reading glasses and a Virginia Cavaliers hat. Very dignified, I thought.",
+      "direction": "Describing it with pride"
     },
     {
       "line": 96,
-      "segment": "hangout_sign_off",
+      "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Probably a good call. Though you could start a dad influencer account. 'Suburban Dad Reviews His Own Lawn.'",
-      "direction": "One last bit of friendly mockery"
+      "text": "And your granddaughter called that thirsty?",
+      "direction": "Trying to process this information"
     },
     {
       "line": 97,
-      "segment": "hangout_sign_off",
-      "character": "DUKE",
-      "text": "Don't give me ideas. Jenny would kill me.",
-      "direction": "Laughing but also genuinely concerned about his wife's reaction"
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "She said, and I'm quoting directly, 'Grandpa, you look like a silver fox professor daddy in this photo. The comments are unhinged.' I don't understand any of those words in that order.",
+      "direction": "Genuinely confused but concerned"
     },
     {
       "line": 98,
-      "segment": "hangout_sign_off",
-      "character": "LEO",
-      "text": "That's The Friction for Thursday, March 27th. I'm Leo Barros.",
-      "direction": "Professional closing, back to anchor mode"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Jesus Christ.",
+      "direction": "Horrified whisper"
     },
     {
       "line": 99,
-      "segment": "hangout_sign_off",
-      "character": "DUKE",
-      "text": "Duke Patel. Still carrying cash like my dad taught me.",
-      "direction": "Callback to earlier conversation, fond and proud"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Professor, I think your granddaughter is saying that middle-aged women find you attractive on the internet.",
+      "direction": "Delicately explaining"
     },
     {
       "line": 100,
-      "segment": "hangout_sign_off",
+      "segment": "hangout_confessional",
       "character": "PRINGLE",
-      "text": "Dr. Haywood Pringle. I shall be researching what a selfie stick is.",
-      "direction": "Genuine academic curiosity about modern technology"
+      "text": "Because of my tomato?",
+      "direction": "Innocent confusion"
     },
     {
       "line": 101,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Not because of the tomato, Professor.",
+      "direction": "Gently corrective"
+    },
+    {
+      "line": 102,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Then what? I'm seventy-three years old. I teach economic history. I own cardigans.",
+      "direction": "Listing reasons why this makes no sense"
+    },
+    {
+      "line": 103,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Professor, some people are into that. There's a whole thing about distinguished older men with, uh, intellectual authority.",
+      "direction": "Extremely uncomfortable explanation"
+    },
+    {
+      "line": 104,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Intellectual authority is attractive?",
+      "direction": "Genuinely surprised"
+    },
+    {
+      "line": 105,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You've been married. How is this news to you?",
+      "direction": "Reasonable question"
+    },
+    {
+      "line": 106,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Peggy married me despite my intellectual authority, not because of it. She said I was too serious and needed someone to make me laugh.",
+      "direction": "Fond memory, missing the point"
+    },
+    {
+      "line": 107,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Right, but now you're accidentally posting thirst traps on Twitter and your granddaughter has to manage your accidental sex appeal. That's hilarious.",
+      "direction": "Delighted by the absurdity"
+    },
+    {
+      "line": 108,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I am not posting— what did you call them? Thirst traps. I am posting photographs of my garden.",
+      "direction": "Indignant denial"
+    },
+    {
+      "line": 109,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, intent doesn't matter on the internet. If people think your tomato photo is hot, your tomato photo is hot.",
+      "direction": "Explaining internet reality"
+    },
+    {
+      "line": 110,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "That's the most ridiculous thing I've ever heard.",
+      "direction": "Academic dismissal"
+    },
+    {
+      "line": 111,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "And on that note, let's move to some lighter news.",
+      "direction": "Diplomatic transition"
+    },
+    {
+      "line": 112,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Okay, quick round of weird news. A Secret Service agent shot himself in the leg yesterday while protecting Jill Biden at an airport.",
+      "direction": "Bouncy, offbeat news energy"
+    },
+    {
+      "line": 113,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "How do you shoot yourself in the leg while on protection duty?",
+      "direction": "Professional concern"
+    },
+    {
+      "line": 114,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "The report says 'accidental discharge during routine security procedures.' Which sounds like government speak for 'nobody wants to explain this.'",
+      "direction": "Cynical interpretation"
+    },
+    {
+      "line": 115,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "Is he okay?",
+      "direction": "Basic human concern"
+    },
+    {
+      "line": 116,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "He's fine. Jill Biden reportedly asked if he needed a band-aid. In other Florida news, a man was arrested for lying on top of his car during a hailstorm instead of filing an insurance claim.",
+      "direction": "Moving quickly through absurd stories"
+    },
+    {
+      "line": 117,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "He used his body as hail protection?",
+      "direction": "Trying to understand the logic"
+    },
+    {
+      "line": 118,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "For three hours. Neighbors called police because they thought he was having a mental health crisis. Turns out he just really loves that car and doesn't trust insurance companies.",
+      "direction": "Explaining Florida logic"
+    },
+    {
+      "line": 119,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "I mean, I get it. Insurance companies are the worst.",
+      "direction": "Grudging understanding"
+    },
+    {
+      "line": 120,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Also, Nepal's new Prime Minister delivered his inaugural address as a rap song, and another Florida man was arrested for shooting alligators from an airboat while drunk.",
+      "direction": "Rapid-fire absurdity"
+    },
+    {
+      "line": 121,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "The Prime Minister of Nepal rapped his inauguration speech?",
+      "direction": "Focused on the most surprising element"
+    },
+    {
+      "line": 122,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Apparently it's going viral on TikTok. The chorus translates to something like 'I will serve the people with beats and policy.' It's actually pretty catchy.",
+      "direction": "Impressed despite himself"
+    },
+    {
+      "line": 123,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "Political rhetoric has certainly evolved since the Gettysburg Address.",
+      "direction": "Dry historical observation"
+    },
+    {
+      "line": 124,
+      "segment": "hangout_sign_off",
+      "character": "LEO",
+      "text": "That's The Friction for Thursday. I'm Leo Barros.",
+      "direction": "Professional wrap-up"
+    },
+    {
+      "line": 125,
+      "segment": "hangout_sign_off",
+      "character": "DUKE",
+      "text": "Duke Patel. Jenny says I'm not allowed to complain about grocery prices in front of the kids anymore.",
+      "direction": "Resigned acceptance"
+    },
+    {
+      "line": 126,
+      "segment": "hangout_sign_off",
+      "character": "PRINGLE",
+      "text": "Dr. Haywood Pringle. I shall be researching what constitutes a thirst trap and whether I should be concerned about my tomatoes.",
+      "direction": "Academic curiosity with slight worry"
+    },
+    {
+      "line": 127,
       "segment": "hangout_sign_off",
       "character": "JAX",
-      "text": "And I'm Jax Mooney, still on the TSA ankle pat-down list for suspicious protein powder. We'll see you tomorrow.",
-      "direction": "Closing with callback to cold open, self-deprecating and warm"
+      "text": "And I'm Jax Mooney, still accepting applications for a girlfriend who won't review my life choices on Google. See you tomorrow.",
+      "direction": "Self-deprecating callback to earlier confession"
     }
   ]
 }
