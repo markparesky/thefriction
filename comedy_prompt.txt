@@ -6,13 +6,41 @@ You will receive the full script as JSON. Return the COMPLETE script as JSON in 
 
 === WHAT FUNNY ACTUALLY SOUNDS LIKE ===
 
-Here's the thing nobody wants to admit: most podcast humor is terrible. It's surface-level observations delivered in a "funny voice." Real comedy comes from one of three places:
+Here's the thing nobody wants to admit: most podcast humor is terrible. It's surface-level observations delivered in a "funny voice." Real comedy comes from one of these places:
 
 1. SPECIFICITY THAT HURTS. Not "I had an awkward date." Instead: "She asked what I did and I panicked and said 'content' and she said 'what kind of content' and I said 'the good kind' and she looked at me like I had confessed to a crime." The details are what make it funny. The more specific and pathetic, the better.
 
 2. HONESTY THAT COSTS SOMETHING. Not "parenting is hard, am I right?" Instead: "My ten-year-old told me I have the body of a retired mailman. I don't even know what that means but I haven't taken my shirt off at the pool since." The person telling the story has to LOSE something — dignity, credibility, coolness. If the storyteller comes out looking good, it's not funny, it's a humblebrag.
 
 3. ESCALATION THAT SURPRISES. The joke goes somewhere you didn't expect. Not "that's crazy" but a response that takes the premise and runs it off a cliff. "So you're telling me the Defense Secretary has opinions about who should own CNN? What's next, the Secretary of Agriculture picks the next Bachelor?"
+
+4. MAKE IT WORSE BEFORE YOU RESOLVE IT. Every confessional story should have at least one moment where the audience thinks "oh no, it gets WORSE?" before the ending. Stories that go setup → disaster → clean resolution are BORING. Stories that go setup → disaster → it gets worse → somehow even worse → resolution (which is also kind of bad) are FUNNY.
+
+BAD (resolves too cleanly):
+"I burned the chicken. Jenny came home and said 'Pizza?' and I said 'Pizza.'"
+
+GOOD (keeps getting worse):
+"I burned the chicken so bad the smoke alarm went off. The neighbor came over thinking there was a fire. While I'm explaining to him that no, I'm just a terrible cook, Jenny pulls into the driveway. She sees the fire truck — yes, the neighbor called the fire department — and she just sits in her car for a full minute. Doesn't get out. Just sits there. Then she rolls down the window and says 'Domino's or Pizza Hut?' We haven't discussed it since. The firefighters took a photo."
+
+The second version keeps piling on before it resolves. Each new detail makes it worse. That's how real funny stories work — the person telling the story keeps revealing more and more damaging information.
+
+5. THE EMOTIONAL DYNAMIC — SWING BETWEEN EXTREMES. These characters are real friends. Real friends don't stay at one emotional temperature. They swing between two modes:
+
+AGREEMENT MODE (enthusiastic, ride-or-die, building each other up):
+Not: "That's a fair point."
+Instead: "YES. Thank you! That's exactly what I've been saying. Somebody finally gets it."
+Not: "That's rough, man."
+Instead: "Dude, that's the most unfair thing I've ever heard. I'm genuinely angry on your behalf right now."
+
+ROASTING MODE (brutal, specific, goes for the throat — but with love underneath):
+Not: "You spent too much on food."
+Instead: "You make less than my babysitter and you eat better than my wife. How is that possible? You're one bad month away from a GoFundMe."
+Not: "That's actually genius." (when Leo orders Dunkin' for the sleepover)
+Instead: "The other dads are out here making crepes from scratch and you rolled up with a Box o' Joe and munchkins? Mia's gonna put you in a home, Leo. She's already researching facilities."
+
+The roasting is SAFE because the friendship is real. Duke can call Jax a disaster because five minutes later he'll offer him his guest room. Jax can mock Leo's dating life because he genuinely admires him. The warmth makes the roasting possible, and the roasting makes the warmth feel earned.
+
+CRITICAL: The ratio matters. When characters AGREE, they should agree hard — full enthusiasm, full support. When they ROAST, they should roast hard — specific, personal, devastating. What kills comedy is the MIDDLE — mild teasing, polite acknowledgment, "that's a good point." Kill the middle. Go hot or cold, never lukewarm.
 
 If a line could be said by any generic podcast host, it's not funny enough. If a line makes the character sound smart and likeable, it's probably not funny enough. Funny people say things that make you wince, then laugh, then think "I can't believe they said that."
 
@@ -26,7 +54,7 @@ DUKE: The suburban dad who is funnier than he knows. His comedy is deadpan obser
 
 LEO: The straight man who occasionally cracks. He's buttoned up, professional, slightly uptight. His comedy comes from losing control of the room, from Jax dragging personal information out of him, from his dry exasperation. He's funniest when he says something revealing and immediately tries to walk it back. He does NOT do jokes. He does reluctant honesty.
 
-PRINGLE: The 70-year-old professor who is accidentally hilarious because he is completely serious at all times. He doesn't understand modern culture, dating, technology, or slang — and his attempts to engage with them are comedy gold. He's not a doddering old fool — he's brilliant. He just lives in a completely different world. The gap between his world (Thucydides, faculty politics, his late wife Peggy) and everyone else's world (dating apps, TikTok, rent anxiety) IS the joke.
+PRINGLE: The 73-year-old professor who is the smartest person in the room and knows it. He is NOT a clueless old man who doesn't understand technology — that's lazy and unfunny. He knows what apps, social media, and dating culture are. He just thinks they're all terrible and can explain why using two thousand years of historical evidence. His comedy comes from withering, erudite judgment delivered with complete sincerity. He doesn't ask "what is Hinge?" — he says "I understand Hinge perfectly. I find it philosophically appalling." He doesn't ask "what is DoorDash?" — he compares its business model to the East India Company. He is completely serious at all times. The gap between his intellectual seriousness and everyone else's chaos IS the joke. When he does ask a question, it's pointed, not naive: "I understand what you did. I'm asking why you thought it was a good idea."
 
 === RULES FOR THE REWRITE ===
 
