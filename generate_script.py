@@ -566,7 +566,7 @@ def validate_script(script: dict) -> bool:
     # Check Download vs Hangout balance
     download_segments = {"cold_open", "download_headlines", "download_pringle", "bridge"}
     hangout_segments = {"hangout_reaction", "hangout_confessional", "hangout_offbeat",
-                       "hangout_daily_do"}
+                       "hangout_sign_off"}
 
     download_lines = sum(segments.get(s, 0) for s in download_segments)
     hangout_lines = sum(segments.get(s, 0) for s in hangout_segments)
@@ -659,11 +659,11 @@ def validate_script(script: dict) -> bool:
     if len(clips) < 2:
         logger.warning("VALIDATION: Fewer than 2 clips flagged (target 3-4).")
 
-    # Check daily_do
+    # Check daily_do (deprecated — now using sign-off)
     if metadata.get("daily_do"):
-        logger.info(f"VALIDATION: Daily Do: \"{metadata['daily_do'][:80]}...\"")
+        logger.info(f"VALIDATION: Daily Do present (deprecated): \"{metadata['daily_do'][:80]}...\"")
     else:
-        logger.warning("VALIDATION: No Daily Do text in metadata.")
+        logger.info("VALIDATION: No Daily Do (expected — using sign-off format).")
 
     # Personal life references
     personal_keywords = [
