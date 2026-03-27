@@ -150,16 +150,15 @@ Duration: ~7-8 minutes (~1,200-1,500 words). Characters: LEO and PRINGLE only.
 Structure:
 1. COLD OPEN (1–2 lines): A single provocative line pulled from The Hangout — something that sounds outrageous without context. This is the hook that keeps listeners past The Download.
 
-2. HEADLINES (Leo, 12–18 lines): Leo delivers 3–4 stories with REAL DEPTH. This is NOT a list of bullet points read aloud. Leo is a journalist who understands narrative. For EACH story, he should include:
+2. HEADLINES (Leo, 15–22 lines): Leo delivers 4–5 stories with REAL DEPTH. This is NOT a list of bullet points read aloud. Leo is a journalist who understands narrative. The lead story gets 4–5 lines of real reporting. Secondary stories get 2–3 lines each. For EACH story, he should include:
 - What happened (the facts)
 - Why it matters (the stakes)
 - What's new about it (why today, not yesterday)
-- Who's affected (real human impact)
 - At least one specific number, quote, or detail that makes it concrete
 
 Leo speaks in clear, well-constructed paragraphs — not fragments, not banter, not quips. Think: the best newspaper lede you've ever read, spoken aloud by someone who genuinely understands the story. The audience should feel genuinely informed after this section — like they could explain these stories to someone else at dinner.
 
-3. THE PRINGLE PERSPECTIVE (Pringle + Leo, 15–22 lines): Pringle takes the biggest story and provides historical context. He tells a COMPLETE STORY — with characters, dates, stakes, and a lesson. This should be a FULL narrative, not a quick comparison. Leo asks 3–4 targeted follow-up questions that push Pringle deeper. The audience should feel like they just sat in on a university lecture they actually wanted to attend.
+3. THE PRINGLE PERSPECTIVE (Pringle + Leo, 15–22 lines): Pringle takes the biggest story and provides historical context. He tells a COMPLETE STORY — with characters, dates, stakes, and a lesson. This should be a FULL narrative, not a quick comparison. Leo asks 3–4 targeted follow-up questions that push Pringle deeper. The audience should feel like they just sat in on a university lecture they actually wanted to attend. Pringle may also drop a brief 1–2 line observation on a secondary story if it has a historical angle — this prevents him from feeling siloed to one topic.
 
 4. BRIDGE (Leo, 1–2 lines): Leo signals the transition. Something like: "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke — you've been listening."
 
@@ -208,7 +207,17 @@ The model tends to play it safe. Do NOT play it safe. These are adults talking t
 
 3. OFFBEAT NEWS (8–12 lines): Jax leads a quick round of weird/funny secondary stories. Light, fast, funny. No serious stories here.
 
-4. THE DAILY DO & SIGN-OFF (6–8 lines): Leo gives one actionable takeaway. Pringle gives a parting quote. Jax gives a sign-off that callbacks something from the episode.
+4. THE SIGN-OFF (4–6 lines): The conversation winds down naturally. NO actionable advice segment. NO "Daily Do." NO PSA. Just the way real friends end a conversation — a final callback, a last dig, and goodbyes. Each character says their name. Jax gets the last word, and it should callback something from the episode that makes the listener smile.
+
+GOOD SIGN-OFF:
+LEO: "That's The Friction for Tuesday. I'm Leo Barros."
+DUKE: "Duke Patel. Jenny says stop talking about her on the podcast."
+PRINGLE: "Dr. Haywood Pringle. I shall be researching what a thirst trap is."
+JAX: "And I'm Jax Mooney, still accepting applications for a girlfriend who doesn't control my housing costs. See you tomorrow."
+
+BAD SIGN-OFF:
+LEO: "Your Daily Do: call your representatives and tell them to end the shutdown."
+(This is a PSA. It's preachy. It kills the vibe. Don't do it.)
 
 THE HANGOUT RULES:
 - Comedy is NOT optional. If The Hangout goes 60 seconds without a laugh, it's too dry.
@@ -297,7 +306,7 @@ Output the script as valid JSON:
       "economy": "headline text",
       "domestic": "headline text"
     },
-    "daily_do": "the actionable takeaway text",
+    "daily_do": "",
     "pringle_mode": "direct_parallel|false_parallel|structural_lesson",
     "clips": [
       {
@@ -311,7 +320,7 @@ Output the script as valid JSON:
   "script": [
     {
       "line": 1,
-      "segment": "cold_open|download_headlines|download_pringle|bridge|hangout_reaction|hangout_confessional|hangout_offbeat|hangout_daily_do",
+      "segment": "cold_open|download_headlines|download_pringle|bridge|hangout_reaction|hangout_confessional|hangout_offbeat|hangout_sign_off",
       "character": "LEO|PRINGLE|DUKE|JAX",
       "text": "ONLY spoken words. NO stage directions, NO emotional descriptors.",
       "direction": "REQUIRED on every line. Specific delivery note for voice synthesis."
@@ -322,8 +331,8 @@ Output the script as valid JSON:
 
 SCRIPT LENGTH REQUIREMENTS:
 - Total: 170–220 lines, 3,000–4,000 words
-- The Download (cold_open + download_headlines + download_pringle + bridge): 35–45 lines, ~1,200–1,500 words
-- The Hangout (hangout_reaction + hangout_confessional + hangout_offbeat + hangout_daily_do): 130–175 lines, ~1,800–2,500 words
+- The Download (cold_open + download_headlines + download_pringle + bridge): 40–50 lines, ~1,400–1,800 words
+- The Hangout (hangout_reaction + hangout_confessional + hangout_offbeat + hangout_sign_off): 125–170 lines, ~1,600–2,200 words
 - Leo: ~40% of total lines
 - Pringle: ~25% of total lines
 - Jax: ~20% of total lines
@@ -332,7 +341,7 @@ SCRIPT LENGTH REQUIREMENTS:
 
 FINAL CHECKLIST:
 1. Does The Download sound authoritative and genuinely informative — could someone listen to JUST The Download and feel well-informed?
-2. Does Leo cover 3–4 stories with real depth — facts, stakes, specific details — not just headline summaries?
+2. Does Leo cover 4–5 stories with real depth — facts, stakes, specific details — not just headline summaries?
 3. Does Pringle tell a FULL historical story, not a quick comparison?
 4. Does The Hangout sound like four real people who know and love each other?
 5. Does EVERY Hangout story connect back to something from The Download? If a confessional story has no news trigger, add one.
@@ -343,6 +352,8 @@ FINAL CHECKLIST:
 10. Does Duke reference his military background NO MORE than once, and only with specific details? If he mentions "buddies who serve" generically, rewrite it.
 11. Do characters reference their personal lives at least 8–10 times in The Hangout?
 12. Are there at least 5 false starts and 6 interruptions in The Hangout?
-13. Is the script at least 170 lines? If not, The Download needs more depth and The Hangout needs more stories.
+13. Is there NO "Daily Do" or actionable advice segment? The show ends with a natural sign-off, not a PSA.
+14. Does the sign-off include a callback to something from the episode?
+15. Is the script at least 170 lines? If not, The Download needs more stories and The Hangout needs more riffing.
 
 Write the COMPLETE episode script now.
