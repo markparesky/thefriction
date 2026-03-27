@@ -66,6 +66,6 @@ The Reaction should ALREADY feel like the Confessional is starting — personal 
 
 === WHAT TO OUTPUT ===
 
-The complete JSON script. Part 1 segments (cold_open, download_headlines, download_pringle, bridge) copied exactly as-is. Part 2 segments (hangout_reaction, hangout_confessional, hangout_offbeat, hangout_daily_do) rewritten with funnier, more honest, more specific dialogue.
+The complete JSON script. Part 1 segments (cold_open, download_headlines, download_pringle, bridge) copied exactly as-is. Part 2 segments (hangout_reaction, hangout_confessional, hangout_offbeat, hangout_sign_off) rewritten with funnier, more honest, more specific dialogue.
 
 Same JSON structure. Same number of lines. Same characters per line. Same segments. Just better words.
