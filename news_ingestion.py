@@ -1,5 +1,5 @@
 # “””
-THE FRICTION — Automated News Ingestion (Phase 1)
+THE FRICTION – Automated News Ingestion (Phase 1)
 
 This script runs at 4:00 AM daily and produces a structured JSON file
 containing the day’s top stories, categorized and ready to feed into
@@ -7,14 +7,14 @@ the AI script generation engine.
 
 Sources:
 
-- AP News (RSS) — primary wire service
-- Reuters (RSS) — secondary wire service
-- CNN (RSS) — major US outlet
-- Fox News (RSS) — major US outlet (balance)
-- NYT (RSS) — major US outlet
-- WSJ (RSS) — economy/business focus
-- Reddit r/nottheonion (RSS) — offbeat stories for Jax
-- Reddit r/FloridaMan (RSS) — absurd local stories for Jax
+- AP News (RSS) – primary wire service
+- Reuters (RSS) – secondary wire service
+- CNN (RSS) – major US outlet
+- Fox News (RSS) – major US outlet (balance)
+- NYT (RSS) – major US outlet
+- WSJ (RSS) – economy/business focus
+- Reddit r/nottheonion (RSS) – offbeat stories for Jax
+- Reddit r/FloridaMan (RSS) – absurd local stories for Jax
 
 Requirements:
 pip install feedparser trafilatura anthropic requests python-dotenv
@@ -822,7 +822,7 @@ return output
 def run():
 “”“Execute the full news ingestion pipeline.”””
 logger.info(”=” * 60)
-logger.info(“THE FRICTION — News Ingestion Pipeline”)
+logger.info(“THE FRICTION – News Ingestion Pipeline”)
 logger.info(f”Run time: {datetime.now(timezone.utc).isoformat()}”)
 logger.info(”=” * 60)
 
