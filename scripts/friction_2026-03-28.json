@@ -1,0 +1,672 @@
+{
+  "metadata": {
+    "episode_date": "2026-03-28",
+    "episode_archetype": "crisis",
+    "headlines": {
+      "geopolitics": "NASA races to build moon base as US challenges China in new space race",
+      "domestic": "Soros-backed group among liberal orgs pumping eye-popping cash into Virginia gerrymandering effort",
+      "politics": "Castro Heirs Emerge Across Cuba's Political Scene Amid Energy Crisis and Trump Threats"
+    },
+    "daily_do": "",
+    "pringle_mode": "direct_parallel",
+    "clips": [
+      {
+        "start_line": 78,
+        "end_line": 85,
+        "caption": "Duke explains why his neighbor's space job doesn't make him NASA material",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 112,
+        "end_line": 119,
+        "caption": "Jax's dating app disaster gets even worse",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 145,
+        "end_line": 151,
+        "caption": "Pringle discovers what a thirst trap is",
+        "platform": "x"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "JAX",
+      "text": "I matched with this girl on Hinge and her bio said she was into astronomy, so I sent her a message about the moon base thing and she unmatched me. Apparently asking if she wants to practice docking procedures was not the opener she was looking for.",
+      "direction": "Sheepish, realizing how this sounds as he says it"
+    },
+    {
+      "line": 2,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Good morning. I'm Leo Barros, and this is The Friction for Friday, March twenty-eighth.",
+      "direction": "Authoritative, clear morning news anchor tone"
+    },
+    {
+      "line": 3,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "NASA is abandoning its lunar Gateway station and pivoting to a twenty billion dollar moon base as competition with China intensifies in what many are calling a new space race.",
+      "direction": "Measured, emphasizing the stakes"
+    },
+    {
+      "line": 4,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Administrator Jared Isaacman announced the strategy shift yesterday, saying quote, this time the goal is not flags and footprints, this time the goal is to stay.",
+      "direction": "Slightly slower on the quote, giving it weight"
+    },
+    {
+      "line": 5,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The move reflects growing concern about China's lunar ambitions. Beijing aims to land astronauts on the moon by twenty thirty and has already demonstrated sophisticated capabilities with robotic missions and sample returns from the far side of the moon.",
+      "direction": "Building tension, matter-of-fact about the threat"
+    },
+    {
+      "line": 6,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Space policy experts question whether the administration's seven-year timeline is feasible and whether twenty billion dollars is adequate for sustained lunar infrastructure.",
+      "direction": "Skeptical but not dismissive"
+    },
+    {
+      "line": 7,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "In Virginia, liberal organizations have poured thirty-eight million dollars into an April twenty-first redistricting referendum that could reshape the state's congressional delegation.",
+      "direction": "Crisp, transitioning to domestic politics"
+    },
+    {
+      "line": 8,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "George Soros-backed groups contributed five million to the effort, which would redraw maps to create ten Democratic-leaning districts and one Republican seat, compared to the current six-five Democratic split.",
+      "direction": "Neutral tone on politically charged information"
+    },
+    {
+      "line": 9,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Republican opposition groups have raised only three million dollars, though early voting turnout in GOP counties has been unexpectedly high.",
+      "direction": "Noting the contrast without editorializing"
+    },
+    {
+      "line": 10,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "And in Cuba, Castro family members are emerging across the political landscape as the island faces an energy crisis and potential pressure from the incoming Trump administration.",
+      "direction": "Intrigued, setting up an interesting geopolitical development"
+    },
+    {
+      "line": 11,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The development raises questions about political succession and regime stability during what observers call Cuba's worst economic period since the nineteen nineties.",
+      "direction": "Thoughtful, recognizing the broader implications"
+    },
+    {
+      "line": 12,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "Professor, this moon base announcement feels familiar. Are we really back in a space race?",
+      "direction": "Genuine curiosity, setting up Pringle's expertise"
+    },
+    {
+      "line": 13,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "We are indeed, and the parallels to nineteen sixty-one are striking. When Kennedy announced the Apollo program, it wasn't about science or exploration. It was about demonstrating American technological superiority after Sputnik terrified the nation.",
+      "direction": "Professorial but engaged, drawing the historical line"
+    },
+    {
+      "line": 14,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "The Soviets had shocked the world by putting a beeping metal ball in orbit, and suddenly Americans wondered if we were falling behind an authoritarian rival. Sound familiar?",
+      "direction": "Slight rhetorical emphasis on the parallel"
+    },
+    {
+      "line": 15,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "But there's a key difference here. In the sixties, we were starting from behind. Now we're trying to maintain a lead.",
+      "direction": "Pressing the analysis further"
+    },
+    {
+      "line": 16,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Precisely. And that changes everything. In nineteen sixty-one, Congress approved Kennedy's lunar program because national pride demanded it. The question is whether twenty twenty-six America has that same sense of urgency about Chinese space capabilities.",
+      "direction": "Thoughtful, recognizing the political challenge"
+    },
+    {
+      "line": 17,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Apollo cost twenty-eight billion dollars in nineteen seventies money. That's over one hundred sixty billion today. Twenty billion for a permanent moon base is either wildly optimistic or dangerously underfunded.",
+      "direction": "Slightly skeptical, bringing concrete numbers to bear"
+    },
+    {
+      "line": 18,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "What about the strategic logic? Is a moon base actually valuable, or is this just national prestige?",
+      "direction": "Challenging, wanting the real analysis"
+    },
+    {
+      "line": 19,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Both. The moon contains helium-three, rare earth minerals, and serves as a staging ground for deep space missions. But more importantly, whoever controls lunar infrastructure controls the next phase of human expansion beyond Earth.",
+      "direction": "Building to the larger point"
+    },
+    {
+      "line": 20,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "The British Empire wasn't built on tea and spices. It was built on controlling strategic ports and shipping routes. The moon could be the Gibraltar of space.",
+      "direction": "Confident in the historical analogy"
+    },
+    {
+      "line": 21,
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "That's your Download. Now let's talk about what all of this actually means for real people. Jax, Duke, you've been listening.",
+      "direction": "Transitioning, signaling the mood shift"
+    },
+    {
+      "line": 22,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Okay, so we're spending twenty billion dollars to beat China to the moon because of national pride. Cool. Meanwhile my student loans are still— wait, did you say the moon has rare earth minerals?",
+      "direction": "Starting sarcastic, then genuinely curious"
+    },
+    {
+      "line": 23,
+      "segment": "hangout_reaction",
+      "character": "PRINGLE",
+      "text": "Helium-three, specifically. It's incredibly rare on Earth but abundant on the lunar surface. Could revolutionize clean energy if we can figure out fusion.",
+      "direction": "Matter-of-fact, not condescending"
+    },
+    {
+      "line": 24,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "My neighbor works for a defense contractor that does satellite stuff. Guy can't program his own thermostat but he's got a security clearance for space projects.",
+      "direction": "Deadpan, amused by the contradiction"
+    },
+    {
+      "line": 25,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "Is he single? Because I clearly need to date someone with better career prospects.",
+      "direction": "Self-deprecating, playing off his earlier dating disaster"
+    },
+    {
+      "line": 26,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "He's married with two kids and drives a Prius. Also, he asked me last week if the moon landing was real.",
+      "direction": "Adding details that make it funnier"
+    },
+    {
+      "line": 27,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "The man has a security clearance for space projects and questions the moon landing.",
+      "direction": "Flat disbelief"
+    },
+    {
+      "line": 28,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "I told him we're about to build a hotel up there and he said that's different because this time it's on TV.",
+      "direction": "Shaking his head at the logic"
+    },
+    {
+      "line": 29,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Speaking of space disasters, I need to tell you guys about my dating app situation because it connects to this moon thing in the most humiliating way possible.",
+      "direction": "Reluctant but committed to the story"
+    },
+    {
+      "line": 30,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Oh no. What did you do?",
+      "direction": "Already cringing in anticipation"
+    },
+    {
+      "line": 31,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So I matched with this girl on Hinge, right? Her bio says she's into astronomy, she's got this picture of her at a planetarium, very cute, seems smart.",
+      "direction": "Setting up the story, still optimistic at this point"
+    },
+    {
+      "line": 32,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I'm thinking, perfect, I just heard about this NASA moon base thing, I'll send her something clever about space exploration. Show her I'm informed, you know?",
+      "direction": "Defensive, knowing this is going nowhere good"
+    },
+    {
+      "line": 33,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Please tell me you didn't lead with a pickup line about Uranus.",
+      "direction": "Weary, having heard Jax stories before"
+    },
+    {
+      "line": 34,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Worse. I sent her a message that said, and I quote, hey, I saw NASA's building a moon base, want to practice docking procedures?",
+      "direction": "Mortified, realizing how bad this sounds"
+    },
+    {
+      "line": 35,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Oh man.",
+      "direction": "Secondhand embarrassment"
+    },
+    {
+      "line": 36,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "She unmatched me in like thirty seconds. I didn't even realize how it sounded until I read it back. Docking procedures, Duke. I asked her about docking procedures.",
+      "direction": "Spiraling into the full horror of it"
+    },
+    {
+      "line": 37,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I don't understand. Docking is a perfectly legitimate aerospace term. Two spacecraft connecting in orbit requires precise technical coordination.",
+      "direction": "Genuinely confused, missing the innuendo entirely"
+    },
+    {
+      "line": 38,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Professor.",
+      "direction": "Warning tone, trying to save him from this"
+    },
+    {
+      "line": 39,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "What? The Apollo-Soyuz mission in nineteen seventy-five was entirely about successful docking procedures. It was a triumph of international cooperation.",
+      "direction": "Doubling down, still not getting it"
+    },
+    {
+      "line": 40,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Professor, I love you, but please stop helping.",
+      "direction": "Pained but affectionate"
+    },
+    {
+      "line": 41,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "The worst part is you probably could have recovered from it. Just been like, sorry, I'm an idiot, can we start over?",
+      "direction": "Practical advice delivered too late"
+    },
+    {
+      "line": 42,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "That's what I thought! So I created a fake account to try to match with her again and explain that I'm not a creep, just stupid.",
+      "direction": "Admitting to an even worse decision"
+    },
+    {
+      "line": 43,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Jax, no.",
+      "direction": "Quiet horror"
+    },
+    {
+      "line": 44,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "She matched with the fake account and then immediately reported both accounts for harassment. I'm banned from Hinge now.",
+      "direction": "Defeated, full consequences hitting"
+    },
+    {
+      "line": 45,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "You got banned from a dating app for space enthusiasm. That might be a first.",
+      "direction": "Trying not to laugh"
+    },
+    {
+      "line": 46,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "The email said I violated their policy on quote, persistent unwanted contact and inappropriate sexual advances. I wasn't making sexual advances, I was talking about NASA!",
+      "direction": "Indignant but knowing he has no leg to stand on"
+    },
+    {
+      "line": 47,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "This is why I don't understand your generation's approach to courtship. In my day, you met someone at a library or a lecture, you had a conversation about books, you discovered mutual interests.",
+      "direction": "Genuinely baffled by modern dating"
+    },
+    {
+      "line": 48,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, how did you actually meet Peggy?",
+      "direction": "Curious, steering toward a better story"
+    },
+    {
+      "line": 49,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Faculty mixer, nineteen seventy-eight. She was in pediatric residency, I was a junior professor. We argued about Dickens for two hours.",
+      "direction": "Fond, warm memory"
+    },
+    {
+      "line": 50,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "She said Hard Times was his most underrated novel. I disagreed. We were both wrong, it's Little Dorrit, but the argument was so engaging I asked her to dinner so we could continue it.",
+      "direction": "Slight smile in his voice"
+    },
+    {
+      "line": 51,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "That's actually really sweet. Also, way more game than I have.",
+      "direction": "Genuine appreciation"
+    },
+    {
+      "line": 52,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Jenny and I met at a kegger. I was doing a keg stand, she was the designated driver for her sorority sisters, and I threw up on her shoes.",
+      "direction": "Matterfactly, no romantic illusions"
+    },
+    {
+      "line": 53,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "And she still married you?",
+      "direction": "Incredulous"
+    },
+    {
+      "line": 54,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "I offered to buy her new shoes and she said only if I could do it sober. Took me three attempts. She kept the receipt from the first pair I bought drunk as like a sobriety test.",
+      "direction": "Admiring his wife's strategy"
+    },
+    {
+      "line": 55,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "We've been married fifteen years and she still brings up those shoes when I have more than two beers at dinner.",
+      "direction": "Rueful but fond"
+    },
+    {
+      "line": 56,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "That's actually a brilliant screening mechanism.",
+      "direction": "Impressed despite himself"
+    },
+    {
+      "line": 57,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So you guys have these great origin stories and I'm over here getting banned from apps for talking about space. This is why I'm gonna die alone.",
+      "direction": "Self-pitying but playing it for laughs"
+    },
+    {
+      "line": 58,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Look, you want some actual advice? Stop trying to be clever. Just be normal for like five minutes.",
+      "direction": "Brotherly but direct"
+    },
+    {
+      "line": 59,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I don't know how to be normal. Normal is boring. Normal doesn't get matches.",
+      "direction": "Frustrated, insecure"
+    },
+    {
+      "line": 60,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Normal also doesn't get you banned from dating apps for aerospace harassment.",
+      "direction": "Dry, making the point"
+    },
+    {
+      "line": 61,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "What's a thirst trap? My granddaughter mentioned something about posting one to my Twitter account by accident.",
+      "direction": "Completely changing subjects, genuinely confused"
+    },
+    {
+      "line": 62,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Oh no. Professor, what did she post?",
+      "direction": "Immediately alert to potential disaster"
+    },
+    {
+      "line": 63,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "A photograph of me in my garden wearing only shorts and gardening gloves, apparently. She said it got quote, thirty thousand likes and some very inappropriate comments.",
+      "direction": "Bewildered but not entirely displeased"
+    },
+    {
+      "line": 64,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Professor, you accidentally became a Twitter heartthrob.",
+      "direction": "Barely containing laughter"
+    },
+    {
+      "line": 65,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "I don't understand why anyone would find a seventy-three-year-old man gardening particularly stimulating, but my granddaughter says I have quote, distinguished silver fox energy.",
+      "direction": "Genuinely puzzled but repeating the phrase carefully"
+    },
+    {
+      "line": 66,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Professor gets more action on Twitter by accident than I get on purpose on dating apps. This is my life now.",
+      "direction": "Existential despair mixed with amusement"
+    },
+    {
+      "line": 67,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Can we talk about the Virginia redistricting thing? Because thirty-eight million dollars for a referendum feels like a story we should be paying attention to.",
+      "direction": "Trying to steer back to news, slightly exasperated"
+    },
+    {
+      "line": 68,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Yeah, that's insane money. For context, that's like seven times what most House candidates spend on an entire campaign.",
+      "direction": "Bringing practical perspective"
+    },
+    {
+      "line": 69,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "George Soros is spending five million dollars to redraw maps in Virginia while I can't afford to take a girl to dinner. The wealth gap in this country is wild.",
+      "direction": "Connecting personal and political frustration"
+    },
+    {
+      "line": 70,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "The interesting part is Republican turnout has been higher than expected despite being massively outspent. Sometimes money doesn't buy what you think it will.",
+      "direction": "Thoughtful, recognizing electoral complexity"
+    },
+    {
+      "line": 71,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Redistricting has always been about power, not principle. The difference now is the scale and transparency of the money involved.",
+      "direction": "Historical perspective, not morally outraged"
+    },
+    {
+      "line": 72,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "My dad always said the only thing worse than politicians drawing their own districts is letting rich people from out of state draw them instead.",
+      "direction": "Folksy wisdom, skeptical of all options"
+    },
+    {
+      "line": 73,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Your dad sounds like he should run for office.",
+      "direction": "Genuine appreciation for the insight"
+    },
+    {
+      "line": 74,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "He did. Lost by twelve votes for city council in nineteen ninety-two. Still bitter about it.",
+      "direction": "Fond exasperation"
+    },
+    {
+      "line": 75,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Alright, time for the weird news that makes us feel better about our own poor life choices.",
+      "direction": "Transitioning with energy"
+    },
+    {
+      "line": 76,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "The White House launched a new agricultural website called OnlyFarms dot gov, and apparently nobody in the communications office thought about how that name might be interpreted.",
+      "direction": "Trying not to laugh at the obvious joke"
+    },
+    {
+      "line": 77,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "OnlyFarms? Like OnlyFans but for agriculture?",
+      "direction": "Getting the joke immediately"
+    },
+    {
+      "line": 78,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "The internet is having a field day. Trending hashtags include CornHub and subscribe to my premium livestock content.",
+      "direction": "Deadpan delivery of increasingly ridiculous content"
+    },
+    {
+      "line": 79,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "I don't understand the reference, but I assume it's something inappropriate.",
+      "direction": "Resigned to being out of the loop"
+    },
+    {
+      "line": 80,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "It's probably better that you don't understand, Professor.",
+      "direction": "Protective, trying to preserve innocence"
+    },
+    {
+      "line": 81,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "In Florida news, a judge told attorneys to shut up and asked if a Black person had quote, chopped cotton. The judge is now facing disciplinary action and probably should have thought harder about that phrasing.",
+      "direction": "Serious topic delivered with appropriate gravity"
+    },
+    {
+      "line": 82,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "How does someone become a judge and not understand why that's problematic?",
+      "direction": "Genuinely baffled by the lack of awareness"
+    },
+    {
+      "line": 83,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "And in voyeurism news, a man arrested for peeping blamed quote, a crackhead for his actions. The crackhead was not available for comment but probably has better things to do than frame people for voyeurism.",
+      "direction": "Sarcastic, mocking the absurd excuse"
+    },
+    {
+      "line": 84,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "That's not how responsibility works.",
+      "direction": "Flat, stating the obvious"
+    },
+    {
+      "line": 85,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Florida Man is back in jail for exposing himself to an unwilling woman, proving that some people never learn and Florida Man is eternal.",
+      "direction": "Resigned to the inevitability of Florida Man stories"
+    },
+    {
+      "line": 86,
+      "segment": "hangout_sign_off",
+      "character": "DUKE",
+      "text": "At least Florida Man isn't running NASA's moon base program.",
+      "direction": "Finding the silver lining"
+    },
+    {
+      "line": 87,
+      "segment": "hangout_sign_off",
+      "character": "JAX",
+      "text": "Give it time. Florida Man in space is probably inevitable.",
+      "direction": "Ominous prediction"
+    },
+    {
+      "line": 88,
+      "segment": "hangout_sign_off",
+      "character": "LEO",
+      "text": "That's The Friction for Friday. I'm Leo Barros.",
+      "direction": "Professional sign-off"
+    },
+    {
+      "line": 89,
+      "segment": "hangout_sign_off",
+      "character": "PRINGLE",
+      "text": "Dr. Haywood Pringle. I shall be researching what a thirst trap is, apparently.",
+      "direction": "Resigned to learning about modern culture"
+    },
+    {
+      "line": 90,
+      "segment": "hangout_sign_off",
+      "character": "DUKE",
+      "text": "Duke Patel. Jenny says I can't tell any more stories about throwing up on her shoes.",
+      "direction": "Sheepish, following orders"
+    },
+    {
+      "line": 91,
+      "segment": "hangout_sign_off",
+      "character": "JAX",
+      "text": "And I'm Jax Mooney, officially banned from Hinge but still accepting applications for someone who appreciates space jokes. See you Monday.",
+      "direction": "Self-deprecating but hopeful, wrapping with callback to his dating disaster"
+    }
+  ]
+}
