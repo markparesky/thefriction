@@ -3,28 +3,28 @@
     "episode_date": "2026-03-29",
     "episode_archetype": "crisis",
     "headlines": {
-      "geopolitics": "Russian bakery faces 3,500% tax increase as war economy crumbles",
-      "economy": "10 million grill brushes recalled after bristles hospitalize customers",
-      "domestic": "No Kings protests sweep 3,000+ demonstrations nationwide"
+      "geopolitics": "Gas prices surge to $3.98 nationally as Iran conflict disrupts energy supplies",
+      "economy": "Seoul shantytown resident faces eviction from $2.6M Gangnam district for $3,300",
+      "domestic": "Two pilots killed in first deadly LaGuardia crash in 30 years during foggy conditions"
     },
     "daily_do": "",
     "pringle_mode": "direct_parallel",
     "clips": [
       {
-        "start_line": 85,
-        "end_line": 92,
-        "caption": "Jax's dating disaster during the grill brush recall",
+        "start_line": 89,
+        "end_line": 96,
+        "caption": "Duke explains why his wife controls the gas budget now",
         "platform": "tiktok"
       },
       {
-        "start_line": 115,
-        "end_line": 125,
-        "caption": "Duke's Little League coaching nightmare",
+        "start_line": 134,
+        "end_line": 142,
+        "caption": "Jax's dating app disaster gets worse",
         "platform": "youtube"
       },
       {
         "start_line": 165,
-        "end_line": 172,
+        "end_line": 171,
         "caption": "Pringle discovers what a thirst trap is",
         "platform": "x"
       }
@@ -35,939 +35,827 @@
       "line": 1,
       "segment": "cold_open",
       "character": "JAX",
-      "text": "I'm not saying I caused a Little League riot, but I definitely didn't prevent one.",
-      "direction": "sheepish, already regretting this story"
+      "text": "I accidentally super-liked my Uber driver on Hinge and now he knows where I live.",
+      "direction": "mortified confession, slightly breathless"
     },
     {
       "line": 2,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "This is The Friction. I'm Leo Barros. It's Sunday, March twenty-ninth.",
-      "direction": "authoritative anchor voice, clear and measured"
+      "text": "Gas prices have hit three dollars and ninety-eight cents per gallon nationally, up a full dollar in just one month as the Iran conflict continues to disrupt global energy supplies.",
+      "direction": "authoritative news delivery, measured pace"
     },
     {
       "line": 3,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "A Russian bakery owner near Moscow is facing a thirty-five hundred percent tax increase, and his story reveals the deeper crisis strangling Russia's war economy. The owner, who asked not to be named for obvious reasons, saw his monthly tax burden jump from eight hundred rubles to twenty-eight thousand rubles overnight.",
-      "direction": "serious, journalist delivering hard facts"
+      "text": "The surge is hitting hardest on the West Coast, where California drivers are now paying five dollars and eighty-seven cents per gallon, while diesel has climbed even faster to five forty-one nationwide.",
+      "direction": "building urgency, emphasis on specific numbers"
     },
     {
       "line": 4,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "This isn't an isolated case. Small businesses across Russia are being crushed by desperate revenue grabs as military spending devours nearly forty percent of the federal budget. The bakery employs twelve people and has operated for fifteen years. The owner told the Times he's considering closing permanently.",
-      "direction": "building the stakes, slightly slower on key numbers"
+      "text": "That diesel number matters because it drives freight costs, which means these price increases will ripple through supply chains and hit consumers across the broader economy.",
+      "direction": "connecting dots for audience, slightly slower on key phrase"
     },
     {
       "line": 5,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "What makes this significant is the timing. These tax increases come as Russia's central bank raised interest rates to twenty-one percent, inflation hit fifteen percent, and the ruble continues its slide. The civilian economy is being systematically sacrificed to fund a war that's now in its third year.",
-      "direction": "connecting dots, emphasis on 'systematically sacrificed'"
+      "text": "This marks the first time diesel has topped five dollars since December twenty twenty-two, and analysts warn we could see sustained higher prices as long as the Middle East situation remains unstable.",
+      "direction": "grave implications, pause after key statistic"
     },
     {
       "line": 6,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The human cost is becoming visible. The bakery owner said quote, 'We feed our neighbors. Now they're asking us to choose between feeding them and staying in business.' End quote.",
-      "direction": "slower on the quote, letting it land"
+      "text": "In Seoul, South Korea, eighty-five-year-old Lee Chang-wol is facing eviction from a shantytown in Gangnam, the city's wealthiest district, after rejecting a government buyout offer of thirty-three hundred dollars for her one-room hut.",
+      "direction": "human interest tone, emphasizing the contrast"
     },
     {
       "line": 7,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Domestically, federal regulators recalled ten million grill brushes after at least five people required medical attention to remove loose bristles from their digestive tract or throat. The recall involves wire-bristled cleaning brushes sold at major retailers including Home Depot and Lowe's.",
-      "direction": "shift to domestic news, matter-of-fact delivery"
+      "text": "She's lived in Guryong Village for nearly four decades without even a toilet, while typical three-bedroom apartments just blocks away cost two point six million dollars.",
+      "direction": "incredulous at the disparity, building to the number"
     },
     {
       "line": 8,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The Consumer Product Safety Commission says the bristles can break off during use and stick to grilling surfaces, then transfer to food. One victim required emergency surgery to remove bristles that had lodged in their esophagus. The agency is recommending consumers switch to bristle-free alternatives immediately.",
-      "direction": "clinical but concerned, emphasis on 'emergency surgery'"
+      "text": "The city has told her to vacate by mid-June or face forced eviction as part of a broader redevelopment plan for the area.",
+      "direction": "matter-of-fact delivery of harsh reality"
     },
     {
       "line": 9,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "And the No Kings coalition organized over three thousand demonstrations across the United States yesterday, protesting what organizers called 'authoritarian overreach' by President Trump. This marks the third coordinated national action by the movement since Trump took office.",
-      "direction": "neutral reporter voice, no editorial tone"
+      "text": "Here at home, LaGuardia Airport experienced its first deadly crash in more than three decades Sunday night when an Air Canada flight collided with a Port Authority fire truck during rainy, foggy conditions.",
+      "direction": "serious, breaking news tone"
     },
     {
       "line": 10,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The protests drew an estimated four hundred thousand participants nationwide, with the largest gatherings in Washington, New York, and Los Angeles. The coalition's statement referenced quote, 'America's founding rejection of monarchical power,' connecting current concerns to historical precedent.",
-      "direction": "factual delivery, slight pause before the quote"
+      "text": "Two Canadian pilots were killed and forty-one others injured, but remarkably, no passengers died despite what investigators are calling a high-speed collision of heavy machinery.",
+      "direction": "balancing tragedy with relief, emphasis on 'remarkably'"
     },
     {
       "line": 11,
-      "segment": "download_pringle",
+      "segment": "download_headlines",
       "character": "LEO",
-      "text": "Professor, that Russian bakery story. A thirty-five hundred percent tax increase sounds almost medieval.",
-      "direction": "turning to Pringle, inviting historical context"
+      "text": "A flight attendant was thrown more than three hundred feet from the wreckage but survived, and by this week, only five people remained hospitalized.",
+      "direction": "amazement at survival, specific on the distance"
     },
     {
       "line": 12,
-      "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "It is medieval, and that's precisely the point. What we're witnessing in Russia mirrors the economic strangulation that preceded the collapse of war economies throughout history. Consider Britain during World War Two.",
-      "direction": "professorial, warming to the topic"
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The fire truck lacked a tracking device that's standard at many airports, raising questions about emergency vehicle protocols during low-visibility conditions.",
+      "direction": "investigative follow-up, identifying key safety gap"
     },
     {
       "line": 13,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "By nineteen forty-two, Churchill's government was spending sixty percent of GDP on the war effort. Small businesses faced crushing taxation, rationing eliminated basic goods, and the civilian economy withered. A fish and chips shop in Liverpool that had operated since eighteen ninety saw its tax burden increase by four hundred percent in two years.",
-      "direction": "building the parallel with specific details"
+      "character": "LEO",
+      "text": "Professor, these gas prices are bringing back memories of the nineteen seventies. What should we understand about how energy crises reshape American behavior?",
+      "direction": "setting up historical context, deferential to Pringle"
     },
     {
       "line": 14,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "But Britain was fighting an existential war for survival. Russia is fighting a war of choice in Ukraine.",
-      "direction": "sharp follow-up question"
+      "character": "PRINGLE",
+      "text": "The nineteen seventy-three oil embargo, Leo, was the moment Americans discovered they were hostage to events they couldn't control in places they couldn't pronounce.",
+      "direction": "professorial authority, building to a point"
     },
     {
       "line": 15,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Exactly. Which makes Russia's situation far more precarious. Britain could rally civilian sacrifice around genuine survival. Russian bakers cannot. They're being asked to sacrifice their livelihoods for territorial expansion, not homeland defense.",
-      "direction": "emphatic, making the key distinction"
+      "text": "Before October sixth, nineteen seventy-three, gasoline was thirty-eight cents a gallon and Americans drove wherever they pleased without thinking twice about it.",
+      "direction": "nostalgic setup, emphasizing the innocence"
     },
     {
       "line": 16,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "History shows us that war economies sustained by choice rather than necessity collapse faster and more completely. Napoleon's Continental System strangled French commerce to fund endless campaigns. By eighteen twelve, Parisian shopkeepers were bankrupt and the emperor faced domestic revolt.",
-      "direction": "building to the lesson, slightly faster pace"
+      "text": "Then Egypt and Syria attacked Israel on Yom Kippur, the United States resupplied Israel, and suddenly Arab oil ministers were dictating American domestic policy from Riyadh.",
+      "direction": "building narrative tension, connecting distant events to home"
     },
     {
       "line": 17,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "Are you saying Putin faces the same dynamic?",
-      "direction": "direct question, journalist pushing for clarity"
+      "character": "PRINGLE",
+      "text": "Prices quadrupled overnight. Cars lined up for blocks at gas stations. The federal government imposed a fifty-five mile per hour speed limit and daylight saving time year-round.",
+      "direction": "staccato delivery of escalating consequences"
     },
     {
       "line": 18,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "Putin faces worse. Napoleon at least conquered most of Europe before his economy collapsed. Putin has gained marginal territory at enormous cost. When a government starts cannibalizing its civilian economy this aggressively, it signals desperation, not strength.",
-      "direction": "measured but firm conclusion"
+      "character": "LEO",
+      "text": "And that changed American car culture permanently, didn't it?",
+      "direction": "following the thread, encouraging Pringle to continue"
     },
     {
       "line": 19,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "That bakery owner's dilemma, choosing between serving his community and survival, is the same choice facing thousands of Russian entrepreneurs. History suggests they will choose survival, and when they do, the political consequences follow.",
-      "direction": "slower, letting the implications settle"
+      "text": "Completely. Detroit had been building land yachts that got eight miles per gallon. Suddenly Americans wanted Honda Civics and Toyota Corollas.",
+      "direction": "relishing the irony, emphasis on the foreign names"
     },
     {
       "line": 20,
-      "segment": "bridge",
-      "character": "LEO",
-      "text": "That's your Download. Now let's talk about what this means for people who aren't running bakeries in Moscow or dodging grill brush bristles. Jax, Duke, you've been listening.",
-      "direction": "transition tone, signaling the shift"
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "More importantly, it created the modern environmental movement and the Strategic Petroleum Reserve, both direct responses to that vulnerability.",
+      "direction": "connecting to lasting policy changes"
     },
     {
       "line": 21,
-      "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Okay, first of all, grill brush bristles in your throat sounds like the most suburban way to die ever invented.",
-      "direction": "incredulous, already amused"
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "Are we seeing that same psychological shift now with these Iran-related price spikes?",
+      "direction": "pressing for contemporary relevance"
     },
     {
       "line": 22,
-      "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "I threw mine away last summer. Jenny made me.",
-      "direction": "matter-of-fact admission"
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "The difference is we've been here before. Americans in twenty twenty-six know energy prices can spike. They adjust their behavior accordingly.",
+      "direction": "distinguishing this crisis from the first"
     },
     {
       "line": 23,
-      "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Wait, you actually had one of the recalled brushes?",
-      "direction": "excited, sensing a story"
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "In nineteen seventy-three, it was genuinely shocking. Today it's genuinely expensive, but not shocking. That's the lesson of experience.",
+      "direction": "measured conclusion, emphasizing the key distinction"
     },
     {
       "line": 24,
-      "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "No, Jenny just, she saw something on Facebook about bristles and decided all grill brushes were death traps. Now I clean the grill with, like, a ball of aluminum foil.",
-      "direction": "resigned to his wife's logic"
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "That's your Download. Now let's talk about what all of this actually means for real people.",
+      "direction": "transitional, warming up slightly"
     },
     {
       "line": 25,
-      "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "I'm sorry, people are ingesting cleaning implements?",
-      "direction": "baffled professor trying to understand"
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "Jax, Duke, you've been listening.",
+      "direction": "bringing in the other voices, casual invitation"
     },
     {
       "line": 26,
       "segment": "hangout_reaction",
       "character": "JAX",
-      "text": "Not on purpose! The bristles stick to the grill grates and then get on your burger.",
-      "direction": "explaining like Pringle is a confused grandfather"
+      "text": "Oh we've been listening alright. I just calculated how much it's gonna cost to drive to my parents' house next month and I think I'm gonna start walking.",
+      "direction": "mock despair, exaggerated for effect"
     },
     {
       "line": 27,
       "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "In my day, we cleaned grills with soap and water.",
-      "direction": "the beginning of a 'back in my day' moment"
+      "character": "DUKE",
+      "text": "Jenny took over our gas budget last week. She handed me a card and said I get forty dollars. I said forty dollars for what? She said per week, Deepak.",
+      "direction": "deadpan delivery, slight emphasis on his real name"
     },
     {
       "line": 28,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "Professor, you can't clean a hot grill with soap and water.",
-      "direction": "patient correction"
+      "character": "JAX",
+      "text": "Your wife gave you an allowance?",
+      "direction": "incredulous amusement"
     },
     {
       "line": 29,
       "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "Then perhaps the issue is grilling things that require such intensive cleaning.",
-      "direction": "missing the point entirely, but confident about it"
+      "character": "DUKE",
+      "text": "My wife gave me a reality check. Apparently I was spending two hundred a week on gas and didn't even notice.",
+      "direction": "sheepish admission"
     },
     {
       "line": 30,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Oh my god, he's gonna solve the grill brush crisis by eliminating grilling.",
-      "direction": "delighted by Pringle's logic"
+      "character": "PRINGLE",
+      "text": "Two hundred dollars a week? Good heavens, what were you driving, a Sherman tank?",
+      "direction": "genuine shock, historical reference comes naturally"
     },
     {
       "line": 31,
       "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "Can we talk about the Russian economy for thirty seconds?",
-      "direction": "trying to steer back, but amused"
+      "character": "DUKE",
+      "text": "A Ford F-one-fifty that I definitely do not need for my suburban lifestyle, but it makes me feel like I could haul something if I had to.",
+      "direction": "self-aware about his own choices"
     },
     {
       "line": 32,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "That bakery thing is insane. Like, thirty-five hundred percent? That's not taxation, that's liquidation.",
-      "direction": "serious shift, drawing on business knowledge"
+      "character": "LEO",
+      "text": "The LaGuardia crash, though. I covered aviation for years and that survival rate is remarkable given the conditions.",
+      "direction": "shifting to more serious topic, professional perspective"
     },
     {
       "line": 33,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "My dad would lose his mind. He still talks about when Massachusetts raised his property taxes by like eight percent in the nineties.",
-      "direction": "connecting to personal family reference"
+      "character": "DUKE",
+      "text": "Fog is terrifying for anything with moving parts. We lost more people to training accidents in fog than we did to actual combat in some rotations.",
+      "direction": "matter-of-fact, drawing from specific experience"
     },
     {
       "line": 34,
       "segment": "hangout_reaction",
-      "character": "LEO",
-      "text": "Eight percent versus thirty-five hundred percent.",
-      "direction": "highlighting the absurd contrast"
+      "character": "JAX",
+      "text": "Wait, the fire truck didn't have GPS? In twenty twenty-six? My DoorDash driver has better tracking than emergency vehicles?",
+      "direction": "building outrage over the absurdity"
     },
     {
       "line": 35,
       "segment": "hangout_reaction",
-      "character": "DUKE",
-      "text": "Right? Like, at what point do you just stop pretending it's a functioning economy and admit you're strip-mining your own country?",
-      "direction": "frustrated, getting worked up"
+      "character": "LEO",
+      "text": "That's exactly what investigators are asking. Standard technology, somehow not implemented.",
+      "direction": "confirming Jax's instinct is correct"
     },
     {
       "line": 36,
-      "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "Strip-mining is an apt metaphor. Putin is mining his civilian economy to fund military operations, and like all mining, it leaves behind a wasteland.",
-      "direction": "approving of Duke's metaphor, expanding on it"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Speaking of tracking, Jenny can see exactly where I am at all times through Find My Friends, and last Tuesday she texted me 'why are you at Target for two hours?'",
+      "direction": "setting up confession, slightly embarrassed"
     },
     {
       "line": 37,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Speaking of economic disasters, I had a date last week that perfectly captures the grill brush recall energy.",
-      "direction": "transitioning to personal story, already grinning"
+      "text": "Oh no. What were you actually doing?",
+      "direction": "leaning in, sensing a good story"
     },
     {
       "line": 38,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Oh no. What happened?",
-      "direction": "bracing himself, knowing this will be good"
+      "text": "I was sitting in my truck in the parking lot having a panic attack about gas prices and calling my mom to complain about Jenny controlling the budget.",
+      "direction": "mortified confession, getting it all out"
     },
     {
       "line": 39,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "So I matched with this woman on Hinge, very cute, says she loves cooking. Great! I suggest we cook dinner together at my place. Seemed romantic.",
-      "direction": "setting up the story, still optimistic in retrospect"
+      "character": "DUKE",
+      "text": "So I told her I was comparison shopping for toilet paper, which was somehow even more embarrassing than the truth.",
+      "direction": "realizing he made it worse"
     },
     {
       "line": 40,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "She comes over, we're making pasta, everything's going well. Then she opens my spice cabinet and just, like, freezes. Dead silence for ten seconds.",
-      "direction": "building suspense, imitating the frozen moment"
+      "character": "PRINGLE",
+      "text": "You called your mother to complain about your wife?",
+      "direction": "scandalized by the breach of protocol"
     },
     {
       "line": 41,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "What was in there?",
-      "direction": "curious despite himself"
+      "character": "DUKE",
+      "text": "My mother immediately took Jenny's side and said I'm lucky she doesn't control the whole checking account. Then she hung up on me.",
+      "direction": "defeated, realizing everyone was against him"
     },
     {
       "line": 42,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Apparently, expired spices from like two thousand twenty. She picks up my oregano, looks at the date, and goes, 'This is from the first year of Covid.' Then she starts checking everything.",
-      "direction": "embarrassed but committed to the story"
+      "text": "Your mom roasted you and hung up? That's brutal.",
+      "direction": "sympathetic but also finding it funny"
     },
     {
       "line": 43,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "My paprika was from twenty nineteen. My garlic powder was from twenty eighteen. She found bay leaves from twenty seventeen and held them up like evidence in a murder trial.",
-      "direction": "getting more animated, reliving the humiliation"
+      "character": "LEO",
+      "text": "I'm trying not to laugh but that's exactly what Mia would do if I called her to complain about her mother.",
+      "direction": "trying to be supportive but clearly amused"
     },
     {
       "line": 44,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Oh man.",
-      "direction": "sympathetic laughter"
+      "character": "JAX",
+      "text": "Speaking of technology disasters, I have to tell you guys about my dating app situation because it's gotten so much worse since we last talked.",
+      "direction": "transitioning to his own humiliation, building anticipation"
     },
     {
       "line": 45,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Then she says, and I quote, 'This is like the grill brush thing but for your entire kitchen. You're slowly poisoning yourself with expired seasoning.'",
-      "direction": "doing an impression of the date, higher pitch"
+      "character": "DUKE",
+      "text": "Oh no. What happened now?",
+      "direction": "bracing for impact, genuinely concerned for his friend"
     },
     {
       "line": 46,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I tried to make a joke about how maybe that's why my cooking tastes like sadness, and she just stared at me. Then she said she had an early morning and left.",
-      "direction": "deflated, the joke bombing in real time"
+      "text": "So you know how I've been using multiple apps, right? Hinge, Bumble, the works. Well last week I'm ordering an Uber to go meet this girl from Hinge.",
+      "direction": "setting up the story, building to the disaster"
     },
     {
       "line": 47,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Did you throw out the spices?",
-      "direction": "practical follow-up question"
+      "character": "JAX",
+      "text": "The driver shows up, he's this cute guy about my age, and I'm scrolling through Hinge while we're stuck in traffic, you know, multitasking.",
+      "direction": "casual delivery, not yet realizing the problem"
     },
     {
       "line": 48,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I went to Target the next day and spent eighty-seven dollars on new spices. Eighty-seven dollars! I don't even cook that much.",
-      "direction": "indignant about the expense"
+      "text": "I see this profile that looks interesting, swipe right, and immediately get the notification that it's a match. Great, right?",
+      "direction": "false enthusiasm, setting up the punchline"
     },
     {
       "line": 49,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "You know spices don't actually expire, right? They just lose potency.",
-      "direction": "helpful information delivered too late"
+      "character": "LEO",
+      "text": "Please tell me you didn't—",
+      "direction": "seeing where this is going, trying to interrupt"
     },
     {
       "line": 50,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I know that NOW. But I wasn't gonna text her to be like, 'Actually, my ancient oregano is just weak, not poisonous.'",
-      "direction": "frustrated at the missed opportunity"
+      "text": "I matched with my Uber driver. Who was currently driving me to a date with someone else. And he could see his phone lighting up with notifications in the front seat.",
+      "direction": "mortified, getting it all out in a rush"
     },
     {
       "line": 51,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I'm confused about the timeline. You've been cooking with the same spices for seven years?",
-      "direction": "genuinely puzzled, not judging"
+      "character": "DUKE",
+      "text": "Oh man. What did you do?",
+      "direction": "secondhand embarrassment, fascinated"
     },
     {
       "line": 52,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "I moved apartments three times and just kept bringing them with me. They were like, inherited from my college roommate or something.",
-      "direction": "realizing how pathetic this sounds"
+      "text": "I panicked and tried to unmatch him immediately, but you know how the app works, right? It sends a notification that says 'Jax super-liked you!'",
+      "direction": "horror building, realizing it got worse"
     },
     {
       "line": 53,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "That's actually impressive in a disturbing way.",
-      "direction": "dry observation, trying not to laugh"
+      "character": "JAX",
+      "text": "Except I didn't super-like him. I just regular liked him. But I was frantically trying to undo it and I guess I hit the wrong button.",
+      "direction": "explaining the technical disaster"
     },
     {
       "line": 54,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "This is why Jenny does the grocery shopping. Left to my own devices, I'd probably still be using ketchup from our wedding.",
-      "direction": "self-aware about his domestic incompetence"
+      "character": "PRINGLE",
+      "text": "I'm going to need someone to explain what a super-like is and why it's worse than a regular like.",
+      "direction": "genuinely confused, asking for clarification"
     },
     {
       "line": 55,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Wait, how long ago was your wedding?",
-      "direction": "suddenly interested in Duke's timeline"
+      "text": "A super-like is like, aggressively interested. It's saying 'I'm really into you specifically.' So now this guy thinks I'm hitting on him while he's driving me to another date.",
+      "direction": "explaining while reliving the horror"
     },
     {
       "line": 56,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Fifteen years. And yes, we probably still have condiments from the reception.",
-      "direction": "matter-of-fact admission"
+      "character": "LEO",
+      "text": "How did the rest of the ride go?",
+      "direction": "morbid curiosity"
     },
     {
       "line": 57,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Peggy threw out spices every two years like clockwork. She said expired seasonings were a sign of moral decay.",
-      "direction": "fond memory, slightly wistful"
+      "character": "JAX",
+      "text": "He turned around at the next red light and said 'Thanks for the super-like, but I'm seeing someone.' And I just said 'That was an accident' which somehow made it worse.",
+      "direction": "dying inside, recounting the awkwardness"
     },
     {
       "line": 58,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Your wife sounds like she would have gotten along great with my date.",
-      "direction": "rueful connection"
+      "character": "DUKE",
+      "text": "You told him it was an accident? That's like telling someone their baby is ugly by mistake.",
+      "direction": "pointing out how he made it worse"
     },
     {
       "line": 59,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Peggy would have cleaned your entire spice cabinet and then lectured you about food safety for an hour. You would have learned something.",
-      "direction": "defending his wife's methods, but warmly"
+      "character": "JAX",
+      "text": "And then I had to sit in silence for fifteen more minutes while he drove me to meet someone I wasn't even that excited about anymore because I was so mortified.",
+      "direction": "the continuing humiliation"
     },
     {
       "line": 60,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Speaking of learning things the hard way, I had my own disaster this week. Little League coaching.",
-      "direction": "transitioning to his own story, already dreading it"
+      "character": "LEO",
+      "text": "How was the actual date?",
+      "direction": "almost afraid to ask"
     },
     {
       "line": 61,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Oh this is gonna be good.",
-      "direction": "perking up, ready for Duke's parenting chaos"
+      "text": "Terrible. I was so flustered I kept checking my phone to see if the Uber driver had unmatched me yet. She asked if I was expecting an important call and I said 'Yeah, from my Uber driver.'",
+      "direction": "realizing how insane he sounded"
     },
     {
       "line": 62,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "So the twins are on this team, right? And I'm the assistant coach because apparently saying 'I played baseball in high school' makes you qualified to manage ten-year-olds.",
-      "direction": "setting up his mistake, already regretting volunteering"
+      "character": "PRINGLE",
+      "text": "This is why Peggy and I met at a library book sale. You argued about Dickens for two hours and then exchanged telephone numbers like civilized people.",
+      "direction": "nostalgic for simpler times, slightly condescending"
     },
     {
       "line": 63,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "We're playing the Cardinals, and their coach is this guy who takes it way too seriously. Like, he's got laminated lineup cards and a clipboard with actual plays drawn on it.",
-      "direction": "describing the opposition, building the stakes"
+      "character": "JAX",
+      "text": "The worst part is he still hasn't unmatched me. Every day I see his profile and remember that he knows where I live and thinks I'm desperately attracted to him.",
+      "direction": "ongoing torture, building to crescendo"
     },
     {
       "line": 64,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Bottom of the sixth, we're down by one, bases loaded. The head coach tells me to put in Tommy Chen as a pinch hitter. Great kid, but he's been striking out all season.",
-      "direction": "getting into the baseball details, tension building"
+      "text": "Have you considered just using a different ride service?",
+      "direction": "practical suggestion, missing the point"
     },
     {
       "line": 65,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "So I'm thinking, you know what? Tommy needs confidence. I walk over to him and I say, 'Tommy, just pretend their pitcher is a Russian tax collector and hit it into next week.'",
-      "direction": "proud of his motivational speech, not seeing the problem yet"
+      "character": "JAX",
+      "text": "I've been taking the bus for two weeks. The bus! In Nashville! Do you know how long it takes to get anywhere on the bus in Nashville?",
+      "direction": "outraged at his reduced circumstances"
     },
     {
       "line": 66,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "Oh no.",
-      "direction": "seeing where this is going"
+      "text": "You're avoiding Uber because you're embarrassed about one driver?",
+      "direction": "incredulous at the lengths Jax is going"
     },
     {
       "line": 67,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Tommy looks at me like I'm speaking Mandarin. Which, fair, he's ten. But then his mom, who's in the stands, yells out, 'What did you say to my son?'",
-      "direction": "realizing his mistake too late"
+      "character": "JAX",
+      "text": "What if I get him again? What if he tells other drivers? What if there's a group chat?",
+      "direction": "spiraling into paranoid scenarios"
     },
     {
       "line": 68,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Turns out Tommy's mom is from Ukraine. And she heard me tell her kid to imagine the pitcher as a Russian and attack him.",
-      "direction": "the awful realization hitting him"
+      "character": "PRINGLE",
+      "text": "Is there some sort of modern equivalent to changing your name and moving to another town? Because that seems to be what you're looking for.",
+      "direction": "dry observation, genuinely trying to help"
     },
     {
       "line": 69,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Good lord.",
-      "direction": "horrified academic reaction"
+      "character": "DUKE",
+      "text": "I have to ask — did you ever hear back from the girl you were supposed to meet that night?",
+      "direction": "following up on the original date"
     },
     {
       "line": 70,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "It gets worse. I try to explain that I was just making a joke about the news, and she goes, 'You're using my family's trauma as baseball motivation?'",
-      "direction": "digging himself deeper, voice getting higher"
+      "character": "JAX",
+      "text": "She texted me the next day and said I seemed 'distracted and possibly having a mental health crisis.' She wasn't wrong.",
+      "direction": "admitting defeat, self-aware"
     },
     {
       "line": 71,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Then other parents start getting involved. Someone yells, 'That's inappropriate!' Another dad shouts, 'It's just Little League!' Pretty soon it's like a town hall meeting in the dugout.",
-      "direction": "chaos escalating, speaking faster"
+      "character": "LEO",
+      "text": "At least she was honest.",
+      "direction": "trying to find a silver lining"
     },
     {
       "line": 72,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "Did Tommy get his at-bat?",
-      "direction": "asking the important question"
+      "text": "She also said she hoped I got the call I was waiting for. So that's where my dating life is right now.",
+      "direction": "rock bottom, but finding it a little funny"
     },
     {
       "line": 73,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Tommy struck out while the adults were arguing about geopolitics. The Cardinals won four to three. And now I have to do sensitivity training before I can coach again.",
-      "direction": "defeated, the anticlimactic ending"
+      "text": "You know what? At least Jenny only controls my gas budget. She doesn't control my entire transportation method.",
+      "direction": "putting his own problems in perspective"
     },
     {
       "line": 74,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Jenny won't stop laughing about it. She keeps calling me 'Coach Diplomacy' and asking if I want to motivate the toddler by comparing her potty training to the Marshall Plan.",
-      "direction": "his wife's ongoing mockery, grudging affection"
+      "character": "PRINGLE",
+      "text": "I have a question about this super-liking business. Is it considered more or less forward than asking someone to dance at a church social?",
+      "direction": "genuinely trying to understand modern dating"
     },
     {
       "line": 75,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "How do you explain that to the kids?",
-      "direction": "practical concern"
+      "character": "JAX",
+      "text": "Professor, asking someone to dance at a church social is like sending them a handwritten letter compared to super-liking. It's way more classy.",
+      "direction": "explaining the hierarchy, wistful"
     },
     {
       "line": 76,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "The twins asked why I made Tommy's mom cry. I said sometimes adults say stupid things when they're trying to be helpful. They said, 'Like when you bought that truck?'",
-      "direction": "his own children roasting him, resigned acceptance"
+      "character": "PRINGLE",
+      "text": "Then why don't you simply ask women to dance at church socials?",
+      "direction": "logical follow-up question"
     },
     {
       "line": 77,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Children have an extraordinary capacity for identifying hypocrisy.",
-      "direction": "academic observation with personal amusement"
+      "character": "JAX",
+      "text": "Because I don't go to church and I don't know where they have socials and I'm pretty sure they don't want me there anyway.",
+      "direction": "listing the obvious problems"
     },
     {
       "line": 78,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Yeah, well, my ten-year-olds are apparently foreign policy experts now. One of them asked me if Putin plays baseball.",
-      "direction": "exasperated but proud of their curiosity"
+      "character": "LEO",
+      "text": "Maybe start going to church?",
+      "direction": "helpful suggestion, not really serious"
     },
     {
       "line": 79,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "What did you tell them?",
-      "direction": "genuinely curious about Duke's parenting approach"
+      "text": "Leo, I can't even successfully use a dating app. You want me to try organized religion?",
+      "direction": "pointing out his obvious limitations"
     },
     {
       "line": 80,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "I said Putin probably cheats at everything, including baseball. Then Jenny made me explain why that was also inappropriate.",
-      "direction": "learning slowly, still getting it wrong"
+      "text": "Fair point. Let's get you comfortable with basic human interaction first.",
+      "direction": "mock supportive, teasing his friend"
     },
     {
       "line": 81,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "For what it's worth, comparing tax policy to baseball motivation is definitely a first.",
-      "direction": "trying to find the silver lining"
+      "character": "PRINGLE",
+      "text": "I'm still confused about the technology. If you can see his photograph and he can see yours, why do you need an algorithm to determine compatibility?",
+      "direction": "missing the point entirely, genuinely puzzled"
     },
     {
       "line": 82,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "It's actually not without historical precedent. During the Cold War, Americans frequently used sports metaphors to discuss Soviet policy.",
-      "direction": "finding the academic angle, being helpful"
+      "character": "JAX",
+      "text": "Because— you know what, I can't explain it because it doesn't make sense. You're right. It's insane that we've outsourced meeting people to our phones.",
+      "direction": "having a moment of clarity, frustrated with himself"
     },
     {
       "line": 83,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Can you write me a letter for the sensitivity training? 'Duke's Russian tax collector comment was historically appropriate.'",
-      "direction": "hopeful but knowing it won't work"
+      "character": "LEO",
+      "text": "On that surprisingly philosophical note—",
+      "direction": "trying to transition, amused by the turn"
     },
     {
       "line": 84,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I'm afraid historical accuracy doesn't excuse cultural insensitivity.",
-      "direction": "gentle but firm correction"
+      "character": "DUKE",
+      "text": "Wait, can we circle back to the Seoul story for a second? That woman getting thirty-three hundred dollars for a home she's lived in for forty years?",
+      "direction": "shifting topics, genuine concern"
     },
     {
       "line": 85,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Wait, I just realized something. Duke caused a Little League international incident, and I got dumped over expired oregano. We're both disasters, just at different scales.",
-      "direction": "connecting their failures, finding solidarity"
+      "character": "LEO",
+      "text": "It's brutal. The government is basically saying your entire life is worth what most people spend on a vacation.",
+      "direction": "grim assessment"
     },
     {
       "line": 86,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "At least your disaster was private. Mine made the local Facebook group.",
-      "direction": "commiserating, finding the worse outcome"
+      "character": "PRINGLE",
+      "text": "Urban renewal always sounds noble until you're the one being renewed out of existence.",
+      "direction": "bitter historical perspective"
     },
     {
       "line": 87,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Oh god, really?",
-      "direction": "horrified sympathy"
+      "character": "DUKE",
+      "text": "I keep thinking about my mom. She's been in the same house in Carmel for thirty years. If someone told her it was worth thirty-three hundred dollars she'd laugh and then probably hit them with her purse.",
+      "direction": "personal connection, protective of his mother"
     },
     {
       "line": 88,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Someone posted a video. The caption was 'Local Dad Brings Ukraine War to Little League.' It has forty-three comments.",
-      "direction": "mortified but resigned to his internet fame"
+      "character": "JAX",
+      "text": "Your mom carries a purse that could be used as a weapon?",
+      "direction": "curious about this detail"
     },
     {
       "line": 89,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Please tell me you didn't read the comments.",
-      "direction": "knowing Duke definitely read the comments"
+      "character": "DUKE",
+      "text": "My mom carries a purse that weighs fifteen pounds and contains everything she might possibly need for any conceivable emergency. It's basically a survival kit with a shoulder strap.",
+      "direction": "affectionate description, pride in her preparedness"
     },
     {
       "line": 90,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "I read every single one. Twice. Someone said I should run for city council because I 'understand global issues.' Another person said I should be banned from youth sports forever.",
-      "direction": "admitting his masochistic social media behavior"
+      "character": "LEO",
+      "text": "What's in there?",
+      "direction": "genuinely curious"
     },
     {
       "line": 91,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Social media commentary on local incidents is rarely nuanced.",
-      "direction": "diplomatic understatement"
+      "character": "DUKE",
+      "text": "Last time I looked? Band-aids, safety pins, a flashlight, three different kinds of pain relievers, a sewing kit, snacks, and a small hammer.",
+      "direction": "listing items, building to the absurd"
     },
     {
       "line": 92,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Duke, you realize this means you're more famous than me now, right? I've been trying to go viral for three years, and you did it by accident at a Little League game.",
-      "direction": "mock jealousy and genuine amusement"
+      "character": "PRINGLE",
+      "text": "A hammer? In her purse?",
+      "direction": "impressed despite himself"
     },
     {
       "line": 93,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "This is not the kind of famous I wanted to be.",
-      "direction": "rueful acceptance"
+      "text": "A small hammer. For emergencies. When I asked what kind of emergencies require a hammer, she said 'You never know, Deepak.'",
+      "direction": "quoting his mother's logic, finding it reasonable"
     },
     {
       "line": 94,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "At least you learned something about international sensitivity.",
-      "direction": "trying to find the educational value"
+      "character": "JAX",
+      "text": "Your mom sounds like she could survive the apocalypse with the contents of her purse.",
+      "direction": "admiringly"
     },
     {
       "line": 95,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "I learned that ten-year-olds have better geopolitical instincts than their coaches.",
-      "direction": "self-deprecating lesson learned"
+      "text": "She absolutely could. And she'd probably reorganize society while she was at it.",
+      "direction": "complete confidence in his mother's abilities"
     },
     {
       "line": 96,
-      "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Children often do. They haven't learned to overcomplicate simple moral questions yet.",
-      "direction": "wise observation about childhood clarity"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Alright, before we get too deep into Duke's mom's emergency preparedness, let me hit you with some news that'll make you feel better about your own life choices.",
+      "direction": "transitioning to lighter stories, building anticipation"
     },
     {
       "line": 97,
-      "segment": "hangout_confessional",
+      "segment": "hangout_offbeat",
       "character": "JAX",
-      "text": "Unlike us, who turn spice expiration dates into relationship dealbreakers.",
-      "direction": "bringing it back to his own disaster"
+      "text": "Millions of grill brushes have been recalled because they can cause serious internal injuries if the metal bristles get into your food.",
+      "direction": "delivering the absurd news seriously"
     },
     {
       "line": 98,
-      "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "Speaking of relationships, how's the dating going with your new spices?",
-      "direction": "teasing but genuinely curious"
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "Wait, what? How do you not notice metal bristles in your burger?",
+      "direction": "practical concern, as someone who grills"
     },
     {
       "line": 99,
-      "segment": "hangout_confessional",
+      "segment": "hangout_offbeat",
       "character": "JAX",
-      "text": "I've been too afraid to cook for anyone. What if they judge my knife skills? What if my olive oil is the wrong brand? Dating is terrifying when you realize how many ways you can fail at basic adulting.",
-      "direction": "spiraling anxiety about his domestic competence"
+      "text": "Apparently they're small enough that you don't notice until they're, you know, perforating your internal organs.",
+      "direction": "grim detail delivered cheerfully"
     },
     {
       "line": 100,
-      "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Just don't mention world events during dinner. Apparently that's not romantic.",
-      "direction": "sharing hard-won wisdom"
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "This is why I clean my grill with a ball of aluminum foil like my father taught me.",
+      "direction": "superiority of old methods"
     },
     {
       "line": 101,
-      "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "In my experience, shared intellectual curiosity was the foundation of romantic connection. Peggy and I spent our first date arguing about Dickens.",
-      "direction": "nostalgic, offering different perspective"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "In other completely normal news, scientists successfully used pig semen as eye drops to deliver cancer treatment to mice.",
+      "direction": "deadpan delivery of the most absurd headline"
     },
     {
       "line": 102,
-      "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Yeah, but you guys met at a bookstore. I meet people on apps where the bio is three emojis and a height requirement.",
-      "direction": "explaining the modern dating hellscape"
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "I'm sorry, what?",
+      "direction": "sure he misheard"
     },
     {
       "line": 103,
-      "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "I don't understand height requirements. Are people planning to reach high shelves together?",
-      "direction": "genuinely confused by modern dating criteria"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Pig semen eye drops. For cancer treatment. In mice. I don't understand the science but apparently it worked.",
+      "direction": "equally baffled but committed to reporting it"
     },
     {
       "line": 104,
-      "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "It's about physical attraction, Professor.",
-      "direction": "gentle explanation"
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "Who comes up with these experiments? Like, who was sitting around thinking 'You know what might cure cancer? Pig semen in the eyes.'",
+      "direction": "trying to understand the thought process"
     },
     {
       "line": 105,
-      "segment": "hangout_confessional",
+      "segment": "hangout_offbeat",
       "character": "PRINGLE",
-      "text": "Physical attraction I understand. Arbitrary measurements seem inefficient.",
-      "direction": "applying academic logic to romance"
+      "text": "Medical research has always involved unconventional approaches, but this does seem particularly creative.",
+      "direction": "trying to be diplomatic about the weirdness"
     },
     {
       "line": 106,
-      "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Jenny is five-foot-two. I'm five-ten. She married me for my personality, obviously.",
-      "direction": "deadpan self-deprecation"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "The Texas House is considering annexing counties from New Mexico, which feels like the kind of thing that should require more than just considering.",
+      "direction": "moving on to the next absurd story"
     },
     {
       "line": 107,
-      "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Your personality and your truck.",
-      "direction": "teasing his friend"
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "That's definitely a federal issue, not a state legislature issue.",
+      "direction": "journalist instincts kicking in"
     },
     {
       "line": 108,
-      "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "I bought the truck after we got married. She tolerates it because I use it to haul Little League equipment.",
-      "direction": "defensive about his truck purchase"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "And finally, someone stole nearly four hundred and fourteen thousand KitKat bars while they were being transported from Italy to Poland.",
+      "direction": "building to the punchline"
     },
     {
       "line": 109,
-      "segment": "hangout_confessional",
+      "segment": "hangout_offbeat",
       "character": "DUKE",
-      "text": "Well, I did until I got banned from coaching. Now it just sits in the driveway looking expensive and stupid.",
-      "direction": "connecting his failures, getting gloomier"
+      "text": "Four hundred thousand KitKats? That's not theft, that's a heist.",
+      "direction": "impressed by the scale"
     },
     {
       "line": 110,
       "segment": "hangout_offbeat",
       "character": "JAX",
-      "text": "Okay, enough about our personal disasters. Let's talk about other people's disasters. Florida Man news time.",
-      "direction": "shifting energy, excited for weird news"
+      "text": "Right? Someone planned this. You don't accidentally steal a truck full of that many chocolate bars.",
+      "direction": "appreciating the criminal ambition"
     },
     {
       "line": 111,
       "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "An intoxicated Florida man crashed through an airport gate and tried to board multiple planes. Security footage shows him walking up to a Southwest gate and asking if they had any flights to 'somewhere warmer.'",
-      "direction": "amused by the absurdity"
+      "character": "PRINGLE",
+      "text": "I have to admire the specificity. Four hundred and fourteen thousand. Someone counted.",
+      "direction": "finding the bureaucratic precision amusing"
     },
     {
       "line": 112,
       "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "He was already in Florida. Where was he trying to go, the sun?",
-      "direction": "logical confusion"
+      "character": "LEO",
+      "text": "Or the manufacturer knows exactly how many were on that truck.",
+      "direction": "practical explanation"
     },
     {
       "line": 113,
       "segment": "hangout_offbeat",
       "character": "JAX",
-      "text": "That's what the gate agent asked! He said, 'I don't know, maybe Hawaii? Or like, inside a volcano?'",
-      "direction": "reading from notes, cracking up"
+      "text": "Either way, somewhere in Europe there's someone with a garage full of KitKats trying to figure out how to fence stolen chocolate.",
+      "direction": "enjoying the mental image"
     },
     {
       "line": 114,
       "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "The man wanted to vacation inside a volcano?",
-      "direction": "taking this more seriously than necessary"
+      "character": "DUKE",
+      "text": "You know what? After hearing about pig semen eye drops, stolen KitKats feels totally normal.",
+      "direction": "putting it in perspective"
     },
     {
       "line": 115,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Also, another Florida man got pulled over for driving a truck loaded with what appeared to be missiles. Turns out they were fake rockets for a themed restaurant. His license plate said 'RKTMAN.'",
-      "direction": "building the absurd story"
+      "segment": "hangout_sign_off",
+      "character": "LEO",
+      "text": "That's The Friction for Saturday, March twenty-ninth. I'm Leo Barros.",
+      "direction": "wrapping up, professional sign-off"
     },
     {
       "line": 116,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "How do you explain that to the police?",
-      "direction": "practical journalist question"
-    },
-    {
-      "line": 117,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "He told them he was delivering props to a space-themed restaurant called 'Rocket Fuel.' The cops made him prove it by calling his manager, who confirmed that yes, they had ordered fake missiles for their new Elon Musk dining room.",
-      "direction": "enjoying the bureaucratic absurdity"
-    },
-    {
-      "line": 118,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "There's an Elon Musk dining room?",
-      "direction": "horrified fascination"
-    },
-    {
-      "line": 119,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Apparently it's rocket ship themed with servers in space suits. The Yelp reviews are incredible. One person wrote, 'The food was out of this world, but the service crashed and burned.'",
-      "direction": "reading review, appreciating the pun"
-    },
-    {
-      "line": 120,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "We've reached the point where restaurants theme themselves around individual billionaires?",
-      "direction": "cultural critic mode, genuinely disturbed"
-    },
-    {
-      "line": 121,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Oh, there's also a Jeff Bezos steakhouse in Miami. The waiters deliver your food via drone.",
-      "direction": "matter-of-fact about the absurd"
-    },
-    {
-      "line": 122,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "I'm going to pretend I didn't hear that.",
-      "direction": "shutting down, refusing to engage with modern nonsense"
-    },
-    {
-      "line": 123,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "At least it's not a Putin-themed restaurant.",
-      "direction": "connecting back to his Little League disaster"
-    },
-    {
-      "line": 124,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Don't give Florida any ideas.",
-      "direction": "warning against tempting fate"
-    },
-    {
-      "line": 125,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Oh, and a panhandler in Tampa complained to police that people were impersonating officers and hurting his donation business. He filed an official complaint.",
-      "direction": "final Florida story, enjoying the irony"
-    },
-    {
-      "line": 126,
-      "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "He called the cops on fake cops?",
-      "direction": "clarifying the situation"
-    },
-    {
-      "line": 127,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "He said the fake cops were standing too close to his corner and people assumed he was getting arrested, so they wouldn't give him money. He wanted them moved for interfering with his business model.",
-      "direction": "explaining the economic logic"
-    },
-    {
-      "line": 128,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "That's actually kind of smart. Protecting your territory from unfair competition.",
-      "direction": "grudging respect for the business acumen"
-    },
-    {
-      "line": 129,
-      "segment": "hangout_offbeat",
-      "character": "PRINGLE",
-      "text": "It's like medieval guild disputes, but with panhandling.",
-      "direction": "finding the historical parallel"
-    },
-    {
-      "line": 130,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Florida: where even the homeless have better business instincts than I do.",
-      "direction": "self-deprecating conclusion"
-    },
-    {
-      "line": 131,
-      "segment": "hangout_sign_off",
-      "character": "LEO",
-      "text": "Alright, that's The Friction for Sunday. I'm Leo Barros.",
-      "direction": "wrapping up, authoritative but warm"
-    },
-    {
-      "line": 132,
       "segment": "hangout_sign_off",
       "character": "PRINGLE",
-      "text": "Dr. Haywood Pringle. I'm going to research what a thirst trap is, since my granddaughter mentioned it again.",
+      "text": "Dr. Haywood Pringle. I shall be researching what a thirst trap is, apparently.",
       "direction": "resigned to learning about modern culture"
     },
     {
-      "line": 133,
+      "line": 117,
       "segment": "hangout_sign_off",
       "character": "DUKE",
-      "text": "Duke Patel. Still banned from Little League, but my spice cabinet is properly organized.",
-      "direction": "finding small victories"
+      "text": "Duke Patel. Jenny says I'm allowed to mention her on the podcast but she's not taking responsibility for any of my stories.",
+      "direction": "reporting his wife's position"
     },
     {
-      "line": 134,
+      "line": 118,
       "segment": "hangout_sign_off",
       "character": "JAX",
-      "text": "And I'm Jax Mooney. If anyone knows a woman who's into guys with fresh oregano and a history of international coaching incidents, slide into my DMs. See you Monday.",
-      "direction": "final callback to both their disasters, optimistic despite everything"
+      "text": "And I'm Jax Mooney, still taking the bus and still matched with my former Uber driver. If anyone has suggestions for how to handle this situation, please send help. See you Monday.",
+      "direction": "callback to his dating disaster, still seeking solutions"
     }
   ]
 }
