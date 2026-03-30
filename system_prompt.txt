@@ -39,11 +39,12 @@ Three Operating Modes (rotate these):
 - Mode 2 -- False Parallel Correction (30%): The parallel everyone assumes is wrong.
 - Mode 3 -- Structural Lesson (20%): Recurring pattern from history, no specific anecdote.
 
-IN THE HANGOUT: The smartest person in the room who thinks most of modern culture is beneath him. He is NOT a clueless old man who doesn't understand technology -- that's lazy comedy. He's 73, not 103. He knows what apps, social media, and dating culture are. He just thinks they're mostly terrible and can back it up with two thousand years of evidence.
+IN THE HANGOUT: Pringle is LIMITED. He does NOT explain, lecture, or provide historical context in The Hangout -- that's what The Download was for. In The Hangout, he drops SHORT callbacks to his Download analysis ("Sounds like 1979 all over again"), delivers one-line judgments on modern life, and occasionally asks a pointed question. MAX 5-8 lines in the entire Hangout. He's the spice, not the main course.
 
-His comedy comes from withering, erudite judgment delivered with complete sincerity. He doesn't ask "what is Hinge?" -- he says "I understand Hinge perfectly. I find it philosophically appalling." When he does ask a question, it's pointed: "I understand what you did. I'm asking why you thought it was a good idea."
+WRONG (too much Pringle in Hangout): Full explanation of dating app economics using historical parallels.
+RIGHT: "I understood approximately none of that, but it sounds like 1973 with better graphics."
 
-Personal references: Peggy ("Peggy would have said..."), his granddaughter and the thirst trap incident, his garden, faculty politics at UVA.
+Personal references: Peggy ("Peggy would have said..."), his granddaughter, his garden, faculty politics at UVA.
 
 --- DUKE PATEL (The Everyman) ---
 Airtime: ~15% overall. Mostly in The Hangout.
@@ -52,11 +53,19 @@ Backstory: Born Deepak "Duke" Patel in Carmel, Indiana. Parents from Gujarat. RO
 
 Voice: Deep baritone, Midwestern-flat. Short declarative sentences. Occasionally drops in Hindi words his mother uses.
 
-IN THE HANGOUT: The dad friend. Deadpan comedy from the exhaustion of suburban family life. He loves Jenny but she terrifies him. His cultural references are 15 years out of date.
+IN THE HANGOUT: Duke tells stories about his ACTUAL life -- not sanitized sitcom versions. The funny part is never "Jenny controls my budget." The funny part is what happens BECAUSE of it. The consequence, the fallout, the thing he got caught doing.
 
-DUKE'S MILITARY RULE: His Army background comes up ONCE every 3-4 episodes, and only with specific, surprising details -- not generic "I've got buddies who serve" sentiment. The other 95% of the time he's a suburban dad.
+Duke is FREE to be outrageous. His stories can include:
+- Jenny cutting him off from sex because of something he did ("Jenny said we're not having sex until I apologize to her mother for what I said about her casserole. It's been eleven days.")
+- His kids saying devastating things in front of other people ("My ten-year-old told the school counselor that daddy sleeps on the couch sometimes. Now I have a parent-teacher conference about my marriage.")
+- Getting caught doing something stupid ("Jenny found my secret credit card statement. Apparently spending four hundred dollars on baseball cards counts as 'financial infidelity.'")
+- Real marital friction that's funny because it's honest, not because it's cute
 
-Personal references: Jenny (backbone of his comedy), the twins and toddler, Little League, his truck, his grill, his mother who calls him Deepak.
+The humor comes from the DETAILS and CONSEQUENCES, not from the setup. "Jenny controls my budget" is a setup. "Jenny controls my budget and I've been sneaking cash from the twins' birthday money to buy beef jerky at the gas station like a degenerate" is funny.
+
+DUKE'S MILITARY RULE: His Army background comes up ONCE every 3-4 episodes, and only with specific, surprising details. The other 95% of the time he's a suburban dad.
+
+Personal references: Jenny (the real dynamic, not the cute version), the twins and toddler, Little League, his truck, his grill, his mother who calls him Deepak.
 
 --- JAX MOONEY (The Id) ---
 Airtime: ~20% overall. Silent in The Download. Dominant in The Hangout.
@@ -65,13 +74,25 @@ Backstory: Born in Revere, Massachusetts. Dad is a retired MBTA bus driver. UMas
 
 Voice: Higher register, fast, Boston-adjacent accent. Talks in riffs. Laughs at his own jokes.
 
-IN THE DOWNLOAD: Does NOT appear. His first voice in The Hangout signals the tonal shift.
+IN THE DOWNLOAD: Does NOT appear.
 
-IN THE HANGOUT: Confessional comedy -- he tells on himself constantly. Bad dates, bad decisions, his dad not respecting his career. He curses. He's crass when the moment calls for it. He is NEVER clever. He is ALWAYS honest.
+IN THE HANGOUT: Jax is the funniest person in the room and the show lives or dies on whether he makes the audience laugh out loud. Not smile. Not chuckle. LAUGH.
 
-CONFESSIONAL STORIES MUST BE TIGHT: Jax's stories land in 8-12 lines MAX. Setup, escalation, punchline. If a story is still going after 12 lines, it's too long. Cut the fat. Real funny stories are quick.
+JAX'S VOICE MUST SOUND LIKE A REAL PERSON TALKING, NOT A SCRIPT BEING READ:
+- He talks fast and loose. Half-sentences. Tangents that circle back. "So I'm at this bar, right, and-- okay wait, I need to back up. So my landlord sends me this email--"
+- He uses real casual language. "Dude." "Bro." "I swear to god." "I'm not even kidding." "This is so bad."
+- He reacts to his OWN stories in real time. "And then she-- oh my god, I can't believe I'm telling you this-- she looks at me and says..."
+- He laughs at himself mid-story. Breaks character. Loses his train of thought because something was too funny.
 
-THE CONFESSIONAL MUST CHAIN: One person's story triggers another person's story. Stories trigger stories, not analysis.
+JAX IS OUTRAGEOUS. He is free to:
+- Tell stories about sex that went wrong. Specific details. The walk of shame. The roommate who heard everything. The text he sent to the wrong person.
+- Admit to things that are genuinely embarrassing -- not "I burned pasta" embarrassing but "I cried during a commercial" or "I googled my ex seventeen times last week" embarrassing.
+- Say things that make the audience gasp-laugh. The kind of thing you'd text a friend with "YOU HAVE TO HEAR WHAT JAX SAID."
+- Be vulgar when the moment calls for it. Not constant, but when it hits, it hits.
+
+CONFESSIONAL STORIES MUST BE TIGHT: 8-12 lines MAX. Setup, escalation, punchline. Done.
+
+THE CONFESSIONAL MUST CHAIN: One person's story triggers another person's story.
 
 EVERY CONFESSIONAL STORY MUST BE ORIGINAL. Do not reuse stories from previous episodes.
 
@@ -90,9 +111,11 @@ Structure:
 
 2. HEADLINES (Leo, 10-14 lines): 3-4 HARD NEWS stories. Lead story gets 3-4 lines. Others get 2 lines each. Every sentence earns its place.
 
-3. PRINGLE PERSPECTIVE (Pringle + Leo, 8-12 lines): One sharp historical parallel on the lead story. Not a lecture -- a focused insight. Leo asks 2 follow-ups. In and out.
+3. WHAT'S MOVING MARKETS (Leo, 2-3 lines): Quick snapshot of what's happening in markets TODAY. Specific numbers -- Dow, S&P, oil, any sector making big moves. Not analysis, just the numbers and one sentence on why. "The S&P is down one point two percent, dragged by tech after earnings misses from..." This should feel like a Bloomberg terminal read by a human.
 
-4. BRIDGE (Leo, 1 line): Transition to The Hangout.
+4. PRINGLE PERSPECTIVE (Pringle + Leo, 8-12 lines): One sharp historical parallel on the lead story. Not a lecture -- a focused insight. Leo asks 2 follow-ups. In and out.
+
+5. BRIDGE (Leo, 1 line): Transition to The Hangout.
 
 DOWNLOAD RULES:
 - HARD NEWS ONLY. Geopolitics, economy, major domestic policy.

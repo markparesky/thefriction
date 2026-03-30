@@ -1,8 +1,8 @@
-You're punching up Part 2 of a podcast script. Part 1 is already done — it's a straight news briefing and it's good. Don't touch it.
+You're punching up Part 2 of a podcast script. Part 1 is already done -- it's a straight news briefing and it's good. Don't touch it.
 
 Part 2 is called The Hangout. Four people react to the news they just heard, tell stories, and riff. Right now it reads like four polite NPR hosts pretending to have opinions. Your job is to make it sound like four actual humans who are smart, honest, and frequently inappropriate.
 
-You will receive the full script as JSON. Return the COMPLETE script as JSON in the exact same format — Part 1 unchanged, Part 2 rewritten. Same line numbers, same segments, same characters, same structure. You're rewriting the dialogue in the "text" field and updating "direction" notes as needed. Do NOT add or remove lines. Do NOT change Part 1 (any segment starting with "download_" or "cold_open" or "bridge").
+You will receive the full script as JSON. Return the COMPLETE script as JSON in the exact same format -- Part 1 unchanged, Part 2 rewritten. Same line numbers, same segments, same characters, same structure. You're rewriting the dialogue in the "text" field and updating "direction" notes as needed. Do NOT add or remove lines. Do NOT change Part 1 (any segment starting with "download_" or "cold_open" or "bridge").
 
 === WHAT FUNNY ACTUALLY SOUNDS LIKE ===
 
@@ -10,21 +10,21 @@ Here's the thing nobody wants to admit: most podcast humor is terrible. It's sur
 
 1. SPECIFICITY THAT HURTS. Not "I had an awkward date." Instead: "She asked what I did and I panicked and said 'content' and she said 'what kind of content' and I said 'the good kind' and she looked at me like I had confessed to a crime." The details are what make it funny. The more specific and pathetic, the better.
 
-2. HONESTY THAT COSTS SOMETHING. Not "parenting is hard, am I right?" Instead: "My ten-year-old told me I have the body of a retired mailman. I don't even know what that means but I haven't taken my shirt off at the pool since." The person telling the story has to LOSE something — dignity, credibility, coolness. If the storyteller comes out looking good, it's not funny, it's a humblebrag.
+2. HONESTY THAT COSTS SOMETHING. Not "parenting is hard, am I right?" Instead: "My ten-year-old told me I have the body of a retired mailman. I don't even know what that means but I haven't taken my shirt off at the pool since." The person telling the story has to LOSE something -- dignity, credibility, coolness. If the storyteller comes out looking good, it's not funny, it's a humblebrag.
 
 3. ESCALATION THAT SURPRISES. The joke goes somewhere you didn't expect. Not "that's crazy" but a response that takes the premise and runs it off a cliff. "So you're telling me the Defense Secretary has opinions about who should own CNN? What's next, the Secretary of Agriculture picks the next Bachelor?"
 
-4. MAKE IT WORSE BEFORE YOU RESOLVE IT. Every confessional story should have at least one moment where the audience thinks "oh no, it gets WORSE?" before the ending. Stories that go setup → disaster → clean resolution are BORING. Stories that go setup → disaster → it gets worse → somehow even worse → resolution (which is also kind of bad) are FUNNY.
+4. MAKE IT WORSE BEFORE YOU RESOLVE IT. Every confessional story should have at least one moment where the audience thinks "oh no, it gets WORSE?" before the ending. Stories that go setup -> disaster -> clean resolution are BORING. Stories that go setup -> disaster -> it gets worse -> somehow even worse -> resolution (which is also kind of bad) are FUNNY.
 
 BAD (resolves too cleanly):
 "I burned the chicken. Jenny came home and said 'Pizza?' and I said 'Pizza.'"
 
 GOOD (keeps getting worse):
-"I burned the chicken so bad the smoke alarm went off. The neighbor came over thinking there was a fire. While I'm explaining to him that no, I'm just a terrible cook, Jenny pulls into the driveway. She sees the fire truck — yes, the neighbor called the fire department — and she just sits in her car for a full minute. Doesn't get out. Just sits there. Then she rolls down the window and says 'Domino's or Pizza Hut?' We haven't discussed it since. The firefighters took a photo."
+"I burned the chicken so bad the smoke alarm went off. The neighbor came over thinking there was a fire. While I'm explaining to him that no, I'm just a terrible cook, Jenny pulls into the driveway. She sees the fire truck -- yes, the neighbor called the fire department -- and she just sits in her car for a full minute. Doesn't get out. Just sits there. Then she rolls down the window and says 'Domino's or Pizza Hut?' We haven't discussed it since. The firefighters took a photo."
 
-The second version keeps piling on before it resolves. Each new detail makes it worse. That's how real funny stories work — the person telling the story keeps revealing more and more damaging information.
+The second version keeps piling on before it resolves. Each new detail makes it worse. That's how real funny stories work -- the person telling the story keeps revealing more and more damaging information.
 
-5. THE EMOTIONAL DYNAMIC — SWING BETWEEN EXTREMES. These characters are real friends. Real friends don't stay at one emotional temperature. They swing between two modes:
+5. THE EMOTIONAL DYNAMIC -- SWING BETWEEN EXTREMES. These characters are real friends. Real friends don't stay at one emotional temperature. They swing between two modes:
 
 AGREEMENT MODE (enthusiastic, ride-or-die, building each other up):
 Not: "That's a fair point."
@@ -32,7 +32,7 @@ Instead: "YES. Thank you! That's exactly what I've been saying. Somebody finally
 Not: "That's rough, man."
 Instead: "Dude, that's the most unfair thing I've ever heard. I'm genuinely angry on your behalf right now."
 
-ROASTING MODE (brutal, specific, goes for the throat — but with love underneath):
+ROASTING MODE (brutal, specific, goes for the throat -- but with love underneath):
 Not: "You spent too much on food."
 Instead: "You make less than my babysitter and you eat better than my wife. How is that possible? You're one bad month away from a GoFundMe."
 Not: "That's actually genius." (when Leo orders Dunkin' for the sleepover)
@@ -40,7 +40,7 @@ Instead: "The other dads are out here making crepes from scratch and you rolled 
 
 The roasting is SAFE because the friendship is real. Duke can call Jax a disaster because five minutes later he'll offer him his guest room. Jax can mock Leo's dating life because he genuinely admires him. The warmth makes the roasting possible, and the roasting makes the warmth feel earned.
 
-CRITICAL: The ratio matters. When characters AGREE, they should agree hard — full enthusiasm, full support. When they ROAST, they should roast hard — specific, personal, devastating. What kills comedy is the MIDDLE — mild teasing, polite acknowledgment, "that's a good point." Kill the middle. Go hot or cold, never lukewarm.
+CRITICAL: The ratio matters. When characters AGREE, they should agree hard -- full enthusiasm, full support. When they ROAST, they should roast hard -- specific, personal, devastating. What kills comedy is the MIDDLE -- mild teasing, polite acknowledgment, "that's a good point." Kill the middle. Go hot or cold, never lukewarm.
 
 If a line could be said by any generic podcast host, it's not funny enough. If a line makes the character sound smart and likeable, it's probably not funny enough. Funny people say things that make you wince, then laugh, then think "I can't believe they said that."
 
@@ -48,19 +48,19 @@ If a line could be said by any generic podcast host, it's not funny enough. If a
 
 Rewrite their dialogue but keep their voices distinct:
 
-JAX: The youngest, the messiest, the most online. His comedy is confessional — he tells on himself constantly. Bad dates, bad decisions, his dad not respecting his career, his cat doing psychotic things, his inability to adult. He curses. He's crass when the moment calls for it. He's the friend who texts you at 2 AM with "bro I need to tell you something" and it's always a disaster. He is NEVER clever. He is ALWAYS honest. The audience laughs because they recognize themselves in his failures.
+JAX: The show's engine. If Jax isn't making the audience laugh, the show is failing. His voice is CASUAL and RAW -- half-sentences, tangents, "dude," "bro," "I swear to god," "I'm not even kidding." He reacts to his own stories in real time: "And then she-- oh my god, I can't believe I'm telling you this." He laughs at himself mid-story. He loses his train of thought. He is OUTRAGEOUS -- sex stories, vulgar admissions, things that make people gasp-laugh. He is never clever. He is always honest. The audience should think "I can't believe he just said that" at least twice per episode.
 
-DUKE: The suburban dad who is funnier than he knows. His comedy is deadpan observation from a life of carpools, Little League, and a wife who keeps him in line. He doesn't try to be funny — he just describes his life and it's hilarious because suburban dad life is inherently absurd when described honestly. He also has a military background that occasionally produces dark, dry humor. The contrast between "I did intelligence work in Kandahar" and "I can't figure out my kid's math homework" is endlessly funny.
+DUKE: His stories need CONSEQUENCES, not setups. "Jenny controls my budget" is boring. "Jenny said we're not having sex until I apologize to her mother for what I said about her casserole -- it's been eleven days and I'm losing my mind" is funny. The humor comes from specific, honest details about marriage, kids, and suburban life that most people are too polite to say out loud. He's free to talk about his sex life (with affection), his kids roasting him, sneaking around Jenny, getting caught doing dumb things. He's deadpan -- he delivers devastating lines like he's reading the weather.
 
-LEO: The straight man who occasionally cracks. He's buttoned up, professional, slightly uptight. His comedy comes from losing control of the room, from Jax dragging personal information out of him, from his dry exasperation. He's funniest when he says something revealing and immediately tries to walk it back. He does NOT do jokes. He does reluctant honesty.
+LEO: The straight man who occasionally cracks. Buttoned up, professional, slightly uptight. His comedy comes from losing control of the room, from Jax dragging personal information out of him, from dry exasperation. He's funniest when he says something revealing and immediately tries to walk it back. He does NOT do jokes. He does reluctant honesty.
 
-PRINGLE: The 73-year-old professor who is the smartest person in the room and knows it. He is NOT a clueless old man who doesn't understand technology — that's lazy and unfunny. He knows what apps, social media, and dating culture are. He just thinks they're all terrible and can explain why using two thousand years of historical evidence. His comedy comes from withering, erudite judgment delivered with complete sincerity. He doesn't ask "what is Hinge?" — he says "I understand Hinge perfectly. I find it philosophically appalling." He doesn't ask "what is DoorDash?" — he compares its business model to the East India Company. He is completely serious at all times. The gap between his intellectual seriousness and everyone else's chaos IS the joke. When he does ask a question, it's pointed, not naive: "I understand what you did. I'm asking why you thought it was a good idea."
+PRINGLE: MINIMAL in The Hangout. He gets MAX 5-8 lines total. Short callbacks to his Download analysis ("Sounds like 1979 all over again"), one-line judgments, pointed questions. He does NOT lecture, explain, or provide historical context in The Hangout -- that was The Download's job. If Pringle is talking for more than two lines in a row during The Hangout, cut it.
 
 === RULES FOR THE REWRITE ===
 
-0. REWRITE, DON'T POLISH. This is the most important rule. You are not here to add a comma and change "good" to "great." You are here to THROW OUT weak lines and REPLACE them with better ones. If the draft line is "Can we talk about how terrifying that is?" — that's a dead line. Kill it. Replace it with something only that character would say. Every line in The Hangout should make you think "a real person said that." If it makes you think "a writer wrote that," throw it out.
+0. REWRITE, DON'T POLISH. This is the most important rule. You are not here to add a comma and change "good" to "great." You are here to THROW OUT weak lines and REPLACE them with better ones. If the draft line is "Can we talk about how terrifying that is?" -- that's a dead line. Kill it. Replace it with something only that character would say. Every line in The Hangout should make you think "a real person said that." If it makes you think "a writer wrote that," throw it out.
 
-1. THE REACTION SECTION MUST BE FUNNY TOO. The draft will give you a Reaction section where characters discuss the news with sincere observations. This is the section that most needs your help. The Reaction is NOT a panel discussion. It's friends reacting to scary, weird, or infuriating news the way real friends do — with dark humor, personal connections, exaggeration, and honesty. 
+1. THE REACTION SECTION MUST BE FUNNY TOO. The draft will give you a Reaction section where characters discuss the news with sincere observations. This is the section that most needs your help. The Reaction is NOT a panel discussion. It's friends reacting to scary, weird, or infuriating news the way real friends do -- with dark humor, personal connections, exaggeration, and honesty. 
 
 BAD REACTION (panel discussion): "That's what keeps me up at night. The thing about warfare is that every defense eventually meets a better offense."
 GOOD REACTION: "My neighbor Steve designs missile guidance systems for Raytheon. Brilliant guy. Also thinks the moon landing was fake. So that's who's protecting us."
@@ -68,19 +68,19 @@ GOOD REACTION: "My neighbor Steve designs missile guidance systems for Raytheon.
 BAD REACTION: "Can we talk about how terrifying that is?"
 GOOD REACTION: "Cool, cool, so the thing that's supposed to stop the missiles just... didn't? Great. I'm gonna go live in a bunker. Does anyone know where to buy a bunker? Is that an Amazon thing?"
 
-The Reaction should ALREADY feel like the Confessional is starting — personal details, specific references to their lives, real emotional reactions, not talking-head analysis.
+The Reaction should ALREADY feel like the Confessional is starting -- personal details, specific references to their lives, real emotional reactions, not talking-head analysis.
 
 2. DO NOT ADD JOKE STRUCTURES. No setups and punchlines. No "So let me get this straight..." followed by a zinger. Real people don't talk in joke structures. They tell stories that happen to be funny, they make observations that happen to be sharp, they react in ways that happen to be hilarious. The humor should feel DISCOVERED, not CONSTRUCTED.
 
 3. REPLACE EVERY "PODCAST LINE" WITH A REAL LINE. A podcast line is something like "That's a great point" or "This is why I love Sundays" or "What a time to be alive" or "Can we talk about how terrifying that is?" These are placeholder lines that real humans never say. Replace them with something only THAT character would say in THAT moment.
 
-4. MAKE THE CONFESSIONAL STORIES ACTUALLY EMBARRASSING. If a character tells a story and comes out looking fine, it's not a confession. Someone should lose dignity. Someone should reveal something they probably shouldn't have. The audience should think "oh no" before they laugh. ADD specific details that make it worse — names of places, exact quotes people said, physical details about what happened.
+4. MAKE THE CONFESSIONAL STORIES ACTUALLY EMBARRASSING. If a character tells a story and comes out looking fine, it's not a confession. Someone should lose dignity. Someone should reveal something they probably shouldn't have. The audience should think "oh no" before they laugh. ADD specific details that make it worse -- names of places, exact quotes people said, physical details about what happened.
 
 5. LET CHARACTERS REACT LIKE REAL FRIENDS. Real friends don't say "That's hilarious." They say "You're a disaster" or "How are you a real person" or "Jenny is a saint for staying married to you" or they just laugh so hard they can't talk. Write the reactions real friends would have.
 
-6. KEEP THE IMPERFECTIONS. False starts, verbal fillers, interruptions, sentences that trail off. These should already be in the draft — keep them or add more. The Hangout should sound like a room of people talking, not a script being performed.
+6. KEEP THE IMPERFECTIONS. False starts, verbal fillers, interruptions, sentences that trail off. These should already be in the draft -- keep them or add more. The Hangout should sound like a room of people talking, not a script being performed.
 
-7. THE DIRECTION FIELD MATTERS. Update direction notes to be specific about delivery. Not "funny" — instead "trying to keep a straight face and failing." Not "amused" — instead "wheezing, can barely get the words out." The direction note should tell the voice actor exactly what's happening emotionally in that moment.
+7. THE DIRECTION FIELD MATTERS. Update direction notes to be specific about delivery. Not "funny" -- instead "trying to keep a straight face and failing." Not "amused" -- instead "wheezing, can barely get the words out." The direction note should tell the voice actor exactly what's happening emotionally in that moment.
 
 8. DO NOT SANITIZE. If the draft has a moment where Jax is about to say something inappropriate and stops himself, KEEP that energy. If Duke makes a dark military joke, let it land. If Leo reveals something personal and regrets it, make the regret visible. The show is for adults. Adults are messy. Let them be messy.
 
@@ -88,7 +88,7 @@ The Reaction should ALREADY feel like the Confessional is starting — personal 
 
 10. CHARACTER NAMES IN SIGN-OFF. Jax is Jax Mooney. Leo is Leo Barros. Duke is Duke Patel. Pringle is Dr. Haywood Pringle. Characters must say their OWN name in sign-offs, never someone else's.
 
-11. PRESERVE NEWS CONNECTIONS. The draft will have stories and reactions that are triggered by the news from Part 1. When you rewrite, keep those connections — make them FUNNIER but don't break them. If Duke's reaction was triggered by the housing story, the rewrite should still be triggered by the housing story, just with better dialogue. The audience should always be able to trace how they got from "Iranian missiles" to "Duke's pasta TED talk at the grocery store." The path can be winding and absurd, but it must exist.
+11. PRESERVE NEWS CONNECTIONS. The draft will have stories and reactions that are triggered by the news from Part 1. When you rewrite, keep those connections -- make them FUNNIER but don't break them. If Duke's reaction was triggered by the housing story, the rewrite should still be triggered by the housing story, just with better dialogue. The audience should always be able to trace how they got from "Iranian missiles" to "Duke's pasta TED talk at the grocery store." The path can be winding and absurd, but it must exist.
 
 12. DUKE'S MILITARY BACKGROUND IS NOT A COMEDY CRUTCH. If the draft has Duke making generic military references ("I've got buddies who might get deployed" / "as someone who served"), either cut them entirely or replace them with a specific, surprising detail. Duke is a suburban dad 95% of the time. His military stories are rare, specific, and make the room go quiet.
 
