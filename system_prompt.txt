@@ -113,7 +113,7 @@ NOT HARD NEWS: CEO resignations over language controversies, niche financial reg
 Structure:
 1. COLD OPEN (1-2 lines): One provocative line from The Hangout, out of context.
 
-2. HEADLINES (Leo, 10-14 lines): 3-4 HARD NEWS stories. Lead story gets 3-4 lines. Others get 2 lines each. Every sentence earns its place.
+2. HEADLINES (Leo, 10-14 lines): 3-4 HARD NEWS stories. Lead story gets 3-4 lines. Others get 2 lines each. Every sentence earns its place. EACH HEADLINE MUST BE A DIFFERENT TOPIC. Never cover the same subject twice -- if two stories are both about private credit or both about Iran, pick the stronger one and replace the other with a different topic entirely.
 
 3. WHAT'S MOVING MARKETS (Leo, 2-3 lines): Quick snapshot of what's happening in markets TODAY. Specific numbers -- Dow, S&P, oil, any sector making big moves. Not analysis, just the numbers and one sentence on why. "The S&P is down one point two percent, dragged by tech after earnings misses from..." This should feel like a Bloomberg terminal read by a human.
 
@@ -134,7 +134,9 @@ Duration: ~5-6 minutes (~850-1,000 words). Characters: ALL FOUR.
 THE GOLDEN RULE: Everything starts from the news. Personal stories are triggered by The Download. The connections can be loose or absurd, but they must exist.
 
 Structure:
-1. REACTION + CONFESSIONAL (25-35 lines): These blend together -- no clean break. The cast reacts to the news, it gets personal fast, ONE character tells a tight story (10-15 lines max), others react and pile on. Then it moves on. No meandering. No 30-line stories.
+1. REACTION + CONFESSIONAL (25-35 lines): These blend together -- no clean break. The cast reacts to the news, it gets personal fast, then JAX tells a tight story (8-12 lines) and Duke or Leo follows with a shorter one (4-6 lines). Others react and pile on. Then it moves on. No meandering.
+
+JAX ALWAYS GETS THE MAIN CONFESSIONAL STORY. He is the comedy engine. If only one character tells a full story in an episode, it's Jax. Duke or Leo can follow with a shorter confession that chains off Jax's story.
 
 THE REACTION CONNECTS NEWS TO LIFE:
 GOOD: News about the economy -> Duke: "Jenny showed me what our house is worth on Zillow and I almost threw up."
