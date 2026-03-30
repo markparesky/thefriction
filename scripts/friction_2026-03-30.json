@@ -1,31 +1,31 @@
 {
   "metadata": {
     "episode_date": "2026-03-30",
-    "episode_archetype": "quiet",
+    "episode_archetype": "policy",
     "headlines": {
-      "geopolitics": "U.S. Allows Russian Oil Tanker to Reach Cuba",
-      "economy": "Air Canada CEO Steps Down Over Language Controversy",
-      "domestic": "Private-Credit Expansion Plans Raise Stability Concerns"
+      "geopolitics": "Israel debates death penalty law targeting Palestinians",
+      "economy": "Trump admin pushing risky private credit expansion",
+      "domestic": "Private credit investments showing strain ahead of deregulation"
     },
     "daily_do": "",
     "pringle_mode": "direct_parallel",
     "clips": [
       {
-        "start_line": 65,
-        "end_line": 72,
-        "caption": "Duke's wife finds his secret credit card statement 💀",
+        "start_line": 68,
+        "end_line": 75,
+        "caption": "Duke's wife finds his secret beef jerky stash",
         "platform": "tiktok"
       },
       {
-        "start_line": 78,
-        "end_line": 85,
-        "caption": "Jax's landlord situation gets worse",
+        "start_line": 45,
+        "end_line": 52,
+        "caption": "When your dating life becomes a news story",
         "platform": "youtube"
       },
       {
-        "start_line": 92,
-        "end_line": 98,
-        "caption": "Russian schools now teaching drone warfare to kids",
+        "start_line": 25,
+        "end_line": 32,
+        "caption": "Why discriminatory laws always fail the same way",
         "platform": "x"
       }
     ]
@@ -35,337 +35,372 @@
       "line": 1,
       "segment": "cold_open",
       "character": "JAX",
-      "text": "I googled 'how to fake your own death' and now my targeted ads think I'm either planning a murder or starting a new life in Belize.",
-      "direction": "Deadpan delivery, slight pause before 'Belize'"
+      "text": "She found my secret credit card statement and apparently spending four hundred dollars on beef jerky counts as financial infidelity.",
+      "direction": "Confessional, slightly defensive but amused"
     },
     {
       "line": 2,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Monday, March thirtieth. I'm Leo Barros. The U.S. has quietly allowed a Russian oil tanker to proceed to Cuba despite ongoing sanctions pressure. The shipment represents a rare crack in America's economic blockade of the island, with the crude oil expected to arrive by Monday as Cuba faces intensified energy shortages.",
-      "direction": "Authoritative anchor voice, emphasizing 'quietly' and 'rare crack'"
+      "text": "This is The Friction. I'm Leo Barros. Israel's Knesset is debating legislation that would allow capital punishment for Palestinians convicted of deadly terrorist attacks. Legal experts say the law could technically apply to Jewish Israeli extremists, but predict this would never happen in practice.",
+      "direction": "Measured, professional news delivery"
     },
     {
       "line": 3,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "Air Canada CEO Michael Rousseau announced his resignation following backlash over his predominantly English-language statement after a fatal runway collision. The airline committed to prioritizing French fluency in selecting his replacement.",
-      "direction": "Matter-of-fact reporting tone"
+      "text": "The incoming Trump administration is preparing to expand access to private credit investments, which are already showing signs of financial strain. These risky investment vehicles could become more widely available to middle-class investors and retirement funds.",
+      "direction": "Slightly more emphasis on 'risky' and 'strain'"
     },
     {
       "line": 4,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "The incoming Trump administration is preparing to expand access to private-credit investments despite growing concerns about instability in this risky asset class. Financial analysts warn the timing could prove problematic if market conditions deteriorate.",
-      "direction": "Slight emphasis on 'despite' and 'risky'"
+      "text": "Federal regulators are signaling they'll roll back restrictions on alternative investments despite growing concerns about their stability.",
+      "direction": "Matter-of-fact reporting tone"
     },
     {
       "line": 5,
       "segment": "download_headlines",
       "character": "LEO",
-      "text": "What's moving markets. The S&P is up point seven percent in early trading, lifted by energy stocks after crude oil jumped three percent overnight. The Dow gained a hundred and twelve points, while tech continues to lag on concerns about AI investment returns.",
-      "direction": "Bloomberg terminal cadence, crisp delivery of numbers"
+      "text": "What's moving markets: The S&P is down two point one percent, led by financial sector losses after private equity firm Blackstone reported disappointing quarterly results. Oil is trading up three percent on Middle East tensions.",
+      "direction": "Crisp financial news delivery, slight uptick on percentages"
     },
     {
       "line": 6,
       "segment": "download_pringle",
       "character": "LEO",
-      "text": "Pringle, this Russian oil shipment to Cuba. It feels like we're seeing cracks in our own sanctions policy.",
-      "direction": "Questioning tone, setting up historical perspective"
+      "text": "Pringle, this Israeli death penalty law - legal experts are calling it discriminatory because it would only realistically target one ethnic group. Where have we seen this before?",
+      "direction": "Setting up historical analysis, slightly leading question"
     },
     {
       "line": 7,
       "segment": "download_pringle",
       "character": "PRINGLE",
-      "text": "Indeed, Leo. This reminds me of October nineteen sixty-two, during the missile crisis. Kennedy publicly demanded Soviet missiles leave Cuba, but privately his administration was already negotiating the removal of American Jupiter missiles from Turkey.",
-      "direction": "Measured professorial tone, building historical parallel"
+      "text": "South Africa, nineteen sixty-two through nineteen ninety-one. The apartheid government maintained capital punishment laws that were theoretically race-neutral but applied almost exclusively to Black South Africans. Of the one hundred thirty-four people executed during that period, one hundred thirty-one were Black.",
+      "direction": "Professorial but focused, building to the damning statistic"
     },
     {
       "line": 8,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "The lesson was pragmatism often trumps ideology in crisis management. Sometimes you allow the oil tanker through because the alternative is worse than the compromise.",
-      "direction": "Thoughtful delivery, emphasizing 'pragmatism' and 'compromise'"
+      "character": "LEO",
+      "text": "And the international response?",
+      "direction": "Sharp follow-up question"
     },
     {
       "line": 9,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "But doesn't this undermine the broader sanctions strategy we've spent years building?",
-      "direction": "Press follow-up tone, slightly challenging"
+      "character": "PRINGLE",
+      "text": "Devastating. The international community recognized it as institutionalized discrimination masquerading as equal justice. It became a cornerstone of the sanctions regime that ultimately helped bring down apartheid.",
+      "direction": "Building intensity, emphasizing 'devastating' and 'masquerading'"
     },
     {
       "line": 10,
       "segment": "download_pringle",
-      "character": "PRINGLE",
-      "text": "Kennedy faced the same criticism. Hawks called the Turkey missile deal appeasement. But sometimes strategic flexibility prevents larger disasters. The question is whether this oil shipment prevents a humanitarian crisis or simply delays a reckoning.",
-      "direction": "Balanced analysis, ending with pointed question"
+      "character": "LEO",
+      "text": "The parallels seem pretty clear.",
+      "direction": "Understated but pointed conclusion"
     },
     {
       "line": 11,
       "segment": "download_pringle",
-      "character": "LEO",
-      "text": "Sixty-four years later, still navigating the same waters.",
-      "direction": "Wry observation, transitional tone"
+      "character": "PRINGLE",
+      "text": "Laws written to appear neutral but designed to target specific groups rarely survive historical scrutiny, Leo. They tend to reveal their true purpose rather quickly.",
+      "direction": "Measured but firm judgment"
     },
     {
       "line": 12,
       "segment": "bridge",
       "character": "LEO",
-      "text": "We'll be right back with Duke, Jax, and the rest of the gang.",
-      "direction": "Warm transition, slight smile in voice"
+      "text": "We'll be right back with Duke, Jax, and some very questionable financial decisions.",
+      "direction": "Slight smile in voice, transitional energy"
     },
     {
       "line": 13,
       "segment": "hangout_reaction",
       "character": "DUKE",
-      "text": "So we're just letting Russian oil through to Cuba now? Jenny's gonna love this. She already thinks I'm too soft when the neighbor's dog craps in our yard.",
-      "direction": "Exasperated tone, building to personal comparison"
+      "text": "Okay, so I'm hearing about these private credit things being risky, and all I can think about is Jenny showing me our investment statements last month. She was like, do you understand what any of this means?",
+      "direction": "Conversational, slightly self-deprecating"
     },
     {
       "line": 14,
       "segment": "hangout_reaction",
       "character": "JAX",
-      "text": "Dude, your wife has opinions about foreign policy?",
-      "direction": "Genuinely curious, slight laugh"
+      "text": "Please tell me you said yes.",
+      "direction": "Knowing this is going somewhere bad"
     },
     {
       "line": 15,
       "segment": "hangout_reaction",
       "character": "DUKE",
-      "text": "Jenny has opinions about everything. Last week she told me the dishwasher loading strategy I've used for eight years is quote, diplomatically unsustainable, unquote.",
-      "direction": "Mock-serious delivery of 'diplomatically unsustainable'"
+      "text": "I said absolutely, babe, I'm all over it. Then I spent the next three hours googling what a bond is.",
+      "direction": "Sheepish admission, getting a laugh at his own expense"
     },
     {
       "line": 16,
       "segment": "hangout_reaction",
       "character": "LEO",
-      "text": "I'm not touching that one.",
-      "direction": "Dry deflection, moving the conversation along"
+      "text": "This is why financial literacy matters. These private credit investments are basically loans to companies that can't get regular bank loans.",
+      "direction": "Trying to be helpful but knowing this will get derailed"
     },
     {
       "line": 17,
       "segment": "hangout_reaction",
-      "character": "PRINGLE",
-      "text": "Sounds like eighteen ninety-three all over again. Economic pragmatism versus ideological purity.",
-      "direction": "Brief historical callback, not lecturing"
+      "character": "JAX",
+      "text": "Wait, so they're giving loans to companies that banks won't touch, and now they want regular people to invest in that? That sounds like the setup to a very expensive joke.",
+      "direction": "Building incredulity, setting up the punchline"
     },
     {
       "line": 18,
       "segment": "hangout_reaction",
-      "character": "JAX",
-      "text": "Speaking of compromises, I had to make one with my landlord last week that I'm still processing.",
-      "direction": "Setting up story, slight hesitation on 'processing'"
+      "character": "PRINGLE",
+      "text": "Nineteen twenty-eight all over again. Different instruments, same greed.",
+      "direction": "Dry, matter-of-fact historical callback"
     },
     {
       "line": 19,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Oh no. What did you do?",
-      "direction": "Anticipating disaster, amused concern"
+      "text": "Speaking of expensive jokes, Jenny found out about my, uh, financial creativity last week.",
+      "direction": "Reluctant confession, knowing this is embarrassing"
     },
     {
       "line": 20,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "So my rent check bounced, right? Not my fault, my bank had some glitch thing. But my landlord shows up at my door Thursday morning, and I'm still in yesterday's clothes because I, um, had company the night before.",
-      "direction": "Defensive setup, embarrassed on 'had company'"
+      "text": "Oh no. What did you do?",
+      "direction": "Delighted anticipation of disaster"
     },
     {
       "line": 21,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "This is going somewhere terrible, isn't it?",
-      "direction": "Resigned anticipation, slight dread"
+      "character": "DUKE",
+      "text": "So she controls our budget, right? Which is smart because I have the financial discipline of a golden retriever. But I've been sneaking twenty bucks here and there from the twins' birthday money.",
+      "direction": "Setting up the crime, slightly defensive"
     },
     {
       "line": 22,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "So she's standing there, and I'm trying to explain the bank situation, and then-- oh god-- my date from the night before walks out of the bathroom. In my boxers. Eating cereal.",
-      "direction": "Building mortification, voice getting higher on 'eating cereal'"
+      "character": "LEO",
+      "text": "You've been stealing from your own children?",
+      "direction": "Mock horror but genuinely amused"
     },
     {
       "line": 23,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "No. No no no.",
-      "direction": "Horrified laughter, disbelief"
+      "text": "It's not stealing, it's borrowing. I was gonna pay it back. But I've been using it to buy beef jerky at the gas station like some kind of degenerate.",
+      "direction": "Increasingly defensive, aware of how pathetic this sounds"
     },
     {
       "line": 24,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "And she-- I swear to god-- she looks at my landlord and goes, Hey, are you the one who keeps banging on the ceiling? The walls are really thin here.",
-      "direction": "Dying inside, can barely get the words out"
+      "text": "Beef jerky? That's your vice? Not poker, not scratch-offs, but processed meat snacks?",
+      "direction": "Incredulous laughter, building to roast"
     },
     {
       "line": 25,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "By thunder.",
-      "direction": "Shocked judgment, old-fashioned dismay"
+      "character": "DUKE",
+      "text": "Listen, I'm under a lot of stress, okay? And Jenny's got me on this health kick where everything in our house is organic and costs seventeen dollars. Sometimes a man just needs a Jack Link's.",
+      "direction": "Defensive but starting to laugh at himself"
     },
     {
       "line": 26,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "So now I'm paying an extra fifty dollars a month in what my landlord calls a noise consideration fee. Which is basically hush money for my sex life.",
-      "direction": "Defeated acceptance, emphasizing 'noise consideration fee'"
+      "character": "DUKE",
+      "text": "So anyway, she found my secret credit card statement. Apparently spending four hundred dollars on beef jerky over three months counts as financial infidelity.",
+      "direction": "Delivering the punchline with resignation"
     },
     {
       "line": 27,
       "segment": "hangout_confessional",
-      "character": "LEO",
-      "text": "That's not even legal, is it?",
-      "direction": "Practical concern, slight lawyer voice"
+      "character": "PRINGLE",
+      "text": "Four hundred dollars?",
+      "direction": "Stunned disbelief"
     },
     {
       "line": 28,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Leo, I googled how to fake your own death after this happened. I'm not calling a lawyer.",
-      "direction": "Deadpan delivery, connecting to cold open"
+      "character": "DUKE",
+      "text": "Gas station beef jerky is expensive! And I was buying the good stuff. The teriyaki kind.",
+      "direction": "Trying to justify the expense, failing"
     },
     {
       "line": 29,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "That reminds me-- Jenny found my secret credit card statement last week.",
-      "direction": "Casual transition, but ominous undertone"
+      "character": "JAX",
+      "text": "Dude, you could have bought an actual cow for four hundred dollars.",
+      "direction": "Incredulous, building the roast"
     },
     {
       "line": 30,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "Your what now?",
-      "direction": "Sharp attention, journalist instincts kicking in"
+      "text": "What was Jenny's reaction?",
+      "direction": "Genuinely curious about the fallout"
     },
     {
       "line": 31,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Look, I opened it for emergencies. But then I started using it for, you know, small stuff. Beef jerky. Energy drinks. A really nice wrench set.",
-      "direction": "Defensive justification, getting quieter on each item"
+      "text": "She made me return all the unopened packages to the gas station. Do you know how humiliating it is to walk into a Speedway with a garbage bag full of beef jerky asking for store credit?",
+      "direction": "Reliving the humiliation, voice getting higher"
     },
     {
       "line": 32,
       "segment": "hangout_confessional",
       "character": "JAX",
-      "text": "How much are we talking here?",
-      "direction": "Investigative tone, sensing disaster"
+      "text": "Oh my god, stop. I can't breathe.",
+      "direction": "Losing it laughing"
     },
     {
       "line": 33,
       "segment": "hangout_confessional",
       "character": "DUKE",
-      "text": "Sixteen hundred dollars. Over four months. Jenny calculated it out-- that's like ten dollars a day I was spending without telling her.",
-      "direction": "Shame and mathematical precision, voice getting smaller"
+      "text": "The cashier knew me by name, Leo. By name. She was like, hey Duke, rough week?",
+      "direction": "Peak embarrassment, but starting to find it funny"
     },
     {
       "line": 34,
       "segment": "hangout_confessional",
-      "character": "PRINGLE",
-      "text": "Good lord, son.",
-      "direction": "Fatherly disappointment, genuine shock"
+      "character": "LEO",
+      "text": "This is why I don't talk about my personal life on this show.",
+      "direction": "Trying to deflect but clearly amused"
     },
     {
       "line": 35,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "The worst part? She made me return the wrench set. I had to walk into Home Depot with a receipt and explain to the teenager at customer service that my wife said I couldn't keep my tools.",
-      "direction": "Deep humiliation, voice breaking slightly on 'my tools'"
+      "character": "JAX",
+      "text": "Oh come on, Leo. You've got to have something. What's the most embarrassing thing you've done while dating recently?",
+      "direction": "Pouncing on the opening, pushing hard"
     },
     {
       "line": 36,
       "segment": "hangout_confessional",
-      "character": "JAX",
-      "text": "Bro, that's brutal.",
-      "direction": "Genuine sympathy, brotherhood in suffering"
+      "character": "LEO",
+      "text": "I'm not doing this.",
+      "direction": "Firm boundary, but wavering slightly"
     },
     {
       "line": 37,
       "segment": "hangout_confessional",
-      "character": "DUKE",
-      "text": "Jenny says I'm on a cash allowance now. Twenty dollars a week. I'm forty-two years old and I get an allowance like my ten-year-old.",
-      "direction": "Existential crisis, comparing himself to his children"
+      "character": "JAX",
+      "text": "Come on, we just heard about Duke's beef jerky addiction. Give us something.",
+      "direction": "Wheedling, not giving up"
     },
     {
       "line": 38,
       "segment": "hangout_confessional",
       "character": "LEO",
-      "text": "And on that note, maybe we should talk about something less depressing.",
-      "direction": "Diplomatic transition, slight amusement at the chaos"
+      "text": "Fine. I went on a date last week and accidentally called her by my ex-wife's name. Twice.",
+      "direction": "Quick, ripping the band-aid off"
     },
     {
       "line": 39,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Speaking of depressing, Russian schools are now teaching drone warfare alongside math and reading. Like, actual military drone operations to kids.",
-      "direction": "Shifting gears, incredulous delivery"
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Oh no.",
+      "direction": "Sympathetic wince"
     },
     {
       "line": 40,
-      "segment": "hangout_offbeat",
-      "character": "DUKE",
-      "text": "Great. My twins are struggling with long division and Russian kids are learning to pilot death machines.",
-      "direction": "Parental anxiety mixed with dark humor"
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Twice?! How do you do it twice?",
+      "direction": "Delighted by the disaster"
     },
     {
       "line": 41,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "Also, a German team found their quote stolen trophy in their own basement. Turns out they just forgot they had it.",
-      "direction": "Quick delivery, enjoying the absurdity"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "The first time I caught myself and tried to play it off. The second time she just got up and left. I'm pretty sure she paid for her own dinner on the way out.",
+      "direction": "Rueful, accepting his fate"
     },
     {
       "line": 42,
-      "segment": "hangout_offbeat",
+      "segment": "hangout_confessional",
       "character": "PRINGLE",
-      "text": "That's the most German thing I've heard all week.",
-      "direction": "Dry observation, slight smile in voice"
+      "text": "Peggy would have thrown her drink at you.",
+      "direction": "Matter-of-fact, fond memory"
     },
     {
       "line": 43,
-      "segment": "hangout_offbeat",
-      "character": "JAX",
-      "text": "And some Florida man threatened car wash workers with a large axe. Which raises the question-- what constitutes a small axe versus a large axe?",
-      "direction": "Deadpan philosophical inquiry, genuinely curious"
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "And on that note, let's move on.",
+      "direction": "Desperate to change subjects"
     },
     {
       "line": 44,
       "segment": "hangout_offbeat",
-      "character": "LEO",
-      "text": "I'm not googling that for you.",
-      "direction": "Firm boundary, anticipating where this is going"
+      "character": "JAX",
+      "text": "Okay, quick weird news roundup. Marjorie Taylor Greene is now calling Fox News fake news that's brainwashing boomers. I don't know what timeline we're in anymore.",
+      "direction": "Rapid-fire delivery, genuinely confused"
     },
     {
       "line": 45,
-      "segment": "hangout_sign_off",
-      "character": "LEO",
-      "text": "That's our show. I'm Leo Barros, still not discussing my dating life despite Jax's weekly attempts.",
-      "direction": "Professional but warm, acknowledging running gag"
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "When Marjorie Taylor Greene thinks you're too crazy, maybe it's time for some self-reflection.",
+      "direction": "Dry observation"
     },
     {
       "line": 46,
-      "segment": "hangout_sign_off",
-      "character": "PRINGLE",
-      "text": "Haywood Pringle, wondering if Peggy would have approved of noise consideration fees.",
-      "direction": "Thoughtful callback, missing his wife"
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Also, some January sixth rioters are suing the police for excessive force during the Capitol breach. The audacity is honestly impressive.",
+      "direction": "Incredulous admiration for the sheer nerve"
     },
     {
       "line": 47,
-      "segment": "hangout_sign_off",
-      "character": "DUKE",
-      "text": "Duke Patel, currently twenty dollars richer than I was this morning.",
-      "direction": "Self-deprecating humor about his allowance situation"
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "That takes real brass.",
+      "direction": "Grudging respect for the boldness"
     },
     {
       "line": 48,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "And finally, a town in Alabama just discovered their drinking water hasn't had fluoride for years despite official notices saying it did. Everyone's teeth are fine, which is probably going to start some conspiracy theories.",
+      "direction": "Building to the inevitable conspiracy angle"
+    },
+    {
+      "line": 49,
+      "segment": "hangout_offbeat",
+      "character": "LEO",
+      "text": "Great. More ammunition for the fluoride truthers.",
+      "direction": "Weary resignation"
+    },
+    {
+      "line": 50,
+      "segment": "hangout_sign_off",
+      "character": "LEO",
+      "text": "That's The Friction. I'm Leo Barros, still learning not to call people by my ex-wife's name.",
+      "direction": "Self-deprecating callback"
+    },
+    {
+      "line": 51,
+      "segment": "hangout_sign_off",
+      "character": "PRINGLE",
+      "text": "I'm Haywood Pringle, and history suggests this rarely ends well.",
+      "direction": "Ominous historical wisdom"
+    },
+    {
+      "line": 52,
+      "segment": "hangout_sign_off",
+      "character": "DUKE",
+      "text": "I'm Duke Patel, and I'm banned from buying gas station snacks unsupervised.",
+      "direction": "Sheepish admission"
+    },
+    {
+      "line": 53,
       "segment": "hangout_sign_off",
       "character": "JAX",
-      "text": "And Jax Mooney, still taking suggestions for new identities. Preferably somewhere without noise ordinances or nosy landlords.",
-      "direction": "Callback to fake death googling, resigned but amused"
+      "text": "And I'm Jax Mooney. If you need me, I'll be googling how much beef jerky four hundred dollars actually buys. Spoiler alert: it's a lot.",
+      "direction": "Amused wrap-up, getting the last word"
     }
   ]
 }
