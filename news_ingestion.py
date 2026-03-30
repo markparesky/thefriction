@@ -685,24 +685,34 @@ def ai_preprocess(selected: dict) -> dict:
     for story in selected["offbeat"]:
         offbeat_text += f"- {story.title} ({story.source})\n"
 
-    system_prompt = """You are a news editor preparing a briefing for a daily podcast called The Friction.
-Your job is to pre-process the day's stories into a structured briefing.
+    system_prompt = """You are a news editor for a daily podcast called The Friction. Your job is to ensure the show covers IMPORTANT stories that people are actually talking about.
+
+FIRST: Evaluate each story. Is it genuinely significant news that would lead a major broadcast or dominate social media? Rate each story as HIGH (must cover), MEDIUM (worth covering), or LOW (too soft for this show).
+
+If any story rates LOW, suggest what kind of story SHOULD replace it based on what's dominating the news cycle today. The show needs stories people discuss at work, not niche industry news or minor controversies.
+
+SECOND: Pre-process the approved stories into a structured briefing.
 
 Output ONLY valid JSON with this structure:
 {
   "episode_archetype": "crisis|policy|scandal|culture|quiet",
   "archetype_reasoning": "one sentence explaining why",
+  "story_ratings": {
+    "geopolitics": "HIGH|MEDIUM|LOW",
+    "economy": "HIGH|MEDIUM|LOW", 
+    "domestic": "HIGH|MEDIUM|LOW"
+  },
   "stories": {
     "geopolitics": {
       "summary": "2-3 sentence wire-service-style factual summary",
       "key_entities": ["list of people, countries, organizations, dollar amounts"],
-      "debate_angles": ["2-3 potential debate angles"],
+      "debate_angles": ["2-3 angles that would spark real discussion"],
       "pringle_suggestion": "a suggested historical parallel for Dr. Pringle"
     },
     "economy": { same structure },
     "domestic": { same structure }
   },
-  "offbeat_headlines": ["cleaned up versions of the 3-4 best offbeat headlines for Jax"]
+  "offbeat_headlines": ["cleaned up versions of the 3-4 best offbeat headlines"]
 }"""
 
     try:

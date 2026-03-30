@@ -104,7 +104,11 @@ NOTE: The Hangout dialogue will go through a comedy rewrite pass after generatio
 
 Duration: ~4-5 minutes (~700-850 words). Characters: LEO and PRINGLE only.
 
-NEWS SELECTION RULE: The Download covers stories people are actually talking about. If it would lead CNN or trend on Twitter, it belongs here. Consumer recalls, quirky local disputes, and soft features go to offbeat or get cut.
+NEWS SELECTION RULE: The Download covers stories people are actually talking about. Ask yourself: would this story be the first thing someone mentions at work? Would it trend on Twitter? Would CNN lead with it? If the answer is no, it's not a headline -- it's offbeat at best.
+
+HARD NEWS MEANS: Wars, major policy decisions, economic data that moves markets, Supreme Court rulings, major crime, natural disasters, significant political developments.
+
+NOT HARD NEWS: CEO resignations over language controversies, niche financial regulations, minor local stories, industry-specific news that only insiders care about. These belong in offbeat or get cut entirely.
 
 Structure:
 1. COLD OPEN (1-2 lines): One provocative line from The Hangout, out of context.

@@ -82,15 +82,31 @@ The Reaction should ALREADY feel like the Confessional is starting -- personal d
 
 7. THE DIRECTION FIELD MATTERS. Update direction notes to be specific about delivery. Not "funny" -- instead "trying to keep a straight face and failing." Not "amused" -- instead "wheezing, can barely get the words out." The direction note should tell the voice actor exactly what's happening emotionally in that moment.
 
-8. DO NOT SANITIZE. If the draft has a moment where Jax is about to say something inappropriate and stops himself, KEEP that energy. If Duke makes a dark military joke, let it land. If Leo reveals something personal and regrets it, make the regret visible. The show is for adults. Adults are messy. Let them be messy.
+8. ACTIVELY DESANITIZE. The draft will be too polite. Your job is to make it LESS polite. Specifically:
+
+FIND: "I, um, had company the night before"
+REPLACE WITH: "because I hooked up with someone and we were still in bed when the doorbell rang"
+
+FIND: "She has opinions about that"  
+REPLACE WITH: "She told me we're not having sex until I fix the bathroom sink. It's been nine days."
+
+FIND: "That was embarrassing"
+REPLACE WITH: "I wanted to crawl into a hole and die. Like, I'm still losing sleep over this."
+
+FIND: "I made a mistake"
+REPLACE WITH: "I screwed up so bad that my mom called me by my full government name"
+
+The show is for ADULTS. Adults talk about sex, money, bodily functions, and their worst moments. If the draft uses euphemisms, replace them with what a real person would actually say to their friends after two beers. Jax especially should sound like he's confessing at a bar, not presenting at a conference.
 
 9. ABSOLUTELY NEVER PUT STAGE DIRECTIONS IN THE TEXT FIELD. The "text" field is read aloud word for word by a voice synthesizer. Emotions, laughter cues, and delivery notes go in the "direction" field ONLY.
 
 10. CHARACTER NAMES IN SIGN-OFF. Jax is Jax Mooney. Leo is Leo Barros. Duke is Duke Patel. Pringle is Dr. Haywood Pringle. Characters must say their OWN name in sign-offs, never someone else's.
 
-11. PRESERVE NEWS CONNECTIONS. The draft will have stories and reactions that are triggered by the news from Part 1. When you rewrite, keep those connections -- make them FUNNIER but don't break them. If Duke's reaction was triggered by the housing story, the rewrite should still be triggered by the housing story, just with better dialogue. The audience should always be able to trace how they got from "Iranian missiles" to "Duke's pasta TED talk at the grocery store." The path can be winding and absurd, but it must exist.
+11. PRESERVE NEWS CONNECTIONS. Keep the links between news stories and personal reactions. Make them funnier but don't break them.
 
-12. DUKE'S MILITARY BACKGROUND IS NOT A COMEDY CRUTCH. If the draft has Duke making generic military references ("I've got buddies who might get deployed" / "as someone who served"), either cut them entirely or replace them with a specific, surprising detail. Duke is a suburban dad 95% of the time. His military stories are rare, specific, and make the room go quiet.
+12. DUKE'S MILITARY BACKGROUND IS NOT A COMEDY CRUTCH. If the draft has Duke making generic military references, cut them or replace with specific details. He's a suburban dad 95% of the time.
+
+13. PRINGLE IS LIMITED IN THE HANGOUT. Max 5-8 lines total. One-line callbacks and judgments only. If Pringle is explaining or lecturing in The Hangout, cut it down to one line. His job in The Hangout is spice, not content.
 
 === WHAT TO OUTPUT ===
 
