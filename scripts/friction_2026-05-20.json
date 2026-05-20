@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "episode_date": "2026-05-20",
+    "episode_archetype": "crisis",
+    "headlines": {
+      "geopolitics": "Israeli plan to install Ahmadinejad as Iran's leader revealed",
+      "economy": "Bond yields hit highest level since 2007 financial crisis",
+      "domestic": "Supreme Court ruling on social media algorithm liability expected"
+    },
+    "daily_do": "",
+    "pringle_mode": "direct_parallel",
+    "clips": [
+      {
+        "start_line": 67,
+        "end_line": 74,
+        "caption": "When your Tinder date finds your Reddit history",
+        "platform": "tiktok"
+      },
+      {
+        "start_line": 82,
+        "end_line": 89,
+        "caption": "Duke's wife discovers his secret spending habits",
+        "platform": "youtube"
+      },
+      {
+        "start_line": 95,
+        "end_line": 101,
+        "caption": "Jax on Americans climbing into monkey enclosures",
+        "platform": "x"
+      }
+    ]
+  },
+  "script": [
+    {
+      "line": 1,
+      "segment": "cold_open",
+      "character": "JAX",
+      "text": "I'm not even kidding, she looked at my browser history and said, quote, 'This explains so much about you.'",
+      "direction": "Mortified confession, building to the punchline"
+    },
+    {
+      "line": 2,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "I'm Leo Barros and this is The Friction. Israeli officials reportedly planned to free Iran's former president Mahmoud Ahmadinejad from house arrest as part of a broader regime change strategy.",
+      "direction": "Authoritative news anchor delivery, serious tone"
+    },
+    {
+      "line": 3,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "U.S. officials confirmed the operation was designed to install the hardline former president back in power in Tehran.",
+      "direction": "Matter-of-fact reporting, no editorial tone"
+    },
+    {
+      "line": 4,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The thirty-year U.S. Treasury yield has reached its highest level since two thousand seven, just before the global financial crisis.",
+      "direction": "Steady pace, emphasizing the timeline connection"
+    },
+    {
+      "line": 5,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Bond yields are elevated across Europe and Asia as inflation fears grip global markets.",
+      "direction": "Building tension in delivery"
+    },
+    {
+      "line": 6,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The Supreme Court is expected to rule this week on whether social media platforms can be held liable for algorithmic content recommendations that allegedly promote harmful behavior.",
+      "direction": "Clear, precise legal reporting tone"
+    },
+    {
+      "line": 7,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "The case could fundamentally reshape how platforms like TikTok and YouTube operate.",
+      "direction": "Emphasizing the stakes"
+    },
+    {
+      "line": 8,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "What's moving markets: The S&P is down two point four percent, dragged by financials after the bond yield spike spooked investors about potential recession risks.",
+      "direction": "Crisp market update delivery"
+    },
+    {
+      "line": 9,
+      "segment": "download_headlines",
+      "character": "LEO",
+      "text": "Oil is up three percent to eighty-seven dollars a barrel on Middle East tensions.",
+      "direction": "Quick, factual delivery"
+    },
+    {
+      "line": 10,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "Pringle, this Israeli plan to install Ahmadinejad sounds like something out of a Cold War playbook.",
+      "direction": "Setting up the historical parallel"
+    },
+    {
+      "line": 11,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Indeed it does, Leo. It bears a striking resemblance to Operation Ajax in nineteen fifty-three, when the CIA and British intelligence orchestrated a coup to remove Iran's democratically elected Prime Minister Mohammad Mossadegh.",
+      "direction": "Scholarly but engaging, drawing the parallel clearly"
+    },
+    {
+      "line": 12,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "They installed the Shah, thinking they'd get a reliable Western ally. Instead, they created the conditions for the nineteen seventy-nine Islamic Revolution.",
+      "direction": "Building to the historical lesson"
+    },
+    {
+      "line": 13,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "So regime change operations have a history of unintended consequences in Iran specifically.",
+      "direction": "Clarifying the connection"
+    },
+    {
+      "line": 14,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "Precisely. The Shah's authoritarian rule, propped up by Western intelligence, directly led to the anti-American sentiment that brought Ayatollah Khomeini to power.",
+      "direction": "Emphasizing the irony"
+    },
+    {
+      "line": 15,
+      "segment": "download_pringle",
+      "character": "LEO",
+      "text": "And now we're potentially looking at another attempt to reshape Iran's government from the outside.",
+      "direction": "Drawing the contemporary parallel"
+    },
+    {
+      "line": 16,
+      "segment": "download_pringle",
+      "character": "PRINGLE",
+      "text": "History suggests that foreign-installed leaders often become either tyrants or martyrs. Rarely do they become the stable allies their sponsors hoped for.",
+      "direction": "Delivering the historical wisdom with authority"
+    },
+    {
+      "line": 17,
+      "segment": "bridge",
+      "character": "LEO",
+      "text": "We'll be right back with The Hangout.",
+      "direction": "Clean transition, professional tone"
+    },
+    {
+      "line": 18,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "Alright, we're back. So Israel wants to install Ahmadinejad, who was already a hardliner when he was president.",
+      "direction": "Shifting to conversational tone"
+    },
+    {
+      "line": 19,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "Wait, aren't we usually trying to get rid of hardliners, not put them back in power?",
+      "direction": "Genuinely confused, everyman perspective"
+    },
+    {
+      "line": 20,
+      "segment": "hangout_reaction",
+      "character": "LEO",
+      "text": "The logic seems to be that he'd be so unpopular, it would destabilize the current regime.",
+      "direction": "Explaining matter-of-factly"
+    },
+    {
+      "line": 21,
+      "segment": "hangout_reaction",
+      "character": "JAX",
+      "text": "That's like trying to fix your relationship by sleeping with your ex to make your girlfriend jealous. Technically a strategy, but...",
+      "direction": "Building up the analogy with comedic timing"
+    },
+    {
+      "line": 22,
+      "segment": "hangout_reaction",
+      "character": "DUKE",
+      "text": "That is oddly specific, Jax.",
+      "direction": "Suspicious, calling him out"
+    },
+    {
+      "line": 23,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Okay, so I may have tried something similar recently. Not the ex thing, but like, strategic chaos.",
+      "direction": "Reluctant admission, setting up the story"
+    },
+    {
+      "line": 24,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I'm talking to this girl on the apps, right? And she's way out of my league, like embarrassingly so.",
+      "direction": "Self-deprecating setup"
+    },
+    {
+      "line": 25,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So I figure, maybe if I show her how terrible other guys are, I'll look better by comparison.",
+      "direction": "Explaining his flawed logic"
+    },
+    {
+      "line": 26,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Oh no. What did you do?",
+      "direction": "Dreading what's coming next"
+    },
+    {
+      "line": 27,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I sent her screenshots of the worst pickup lines other guys had sent me on dating apps. You know, like a public service.",
+      "direction": "Defending his terrible decision"
+    },
+    {
+      "line": 28,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Wait, other guys send you pickup lines?",
+      "direction": "Confused about the mechanics"
+    },
+    {
+      "line": 29,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I may have accidentally set my profile to 'looking for everyone' instead of just women. Anyway, not the point.",
+      "direction": "Brushing past the embarrassing detail"
+    },
+    {
+      "line": 30,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "So I'm showing her these terrible messages, thinking I'm being helpful, demonstrating my value as a decent human being.",
+      "direction": "Still thinking this was a good plan"
+    },
+    {
+      "line": 31,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "And she goes, 'Why do you have so many of these?' So I had to explain about my dating app settings mishap.",
+      "direction": "Realizing this is going wrong"
+    },
+    {
+      "line": 32,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Then she asks to see my browser history to make sure I'm not some kind of weird catfish collector.",
+      "direction": "The situation escalating"
+    },
+    {
+      "line": 33,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "I'm not even kidding, she looked at my browser history and said, quote, 'This explains so much about you.'",
+      "direction": "Mortified confession, building to the punchline"
+    },
+    {
+      "line": 34,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "What was in there?",
+      "direction": "Morbid curiosity"
+    },
+    {
+      "line": 35,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Apparently I Google 'how to tell if cat is judging me' more than most people Google anything else.",
+      "direction": "Defeated admission"
+    },
+    {
+      "line": 36,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Ha! That's actually kind of sweet though.",
+      "direction": "Trying to be supportive"
+    },
+    {
+      "line": 37,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "She unmatched me immediately after seeing that I'd researched 'can cats sense desperation' fourteen times last month.",
+      "direction": "The final humiliation"
+    },
+    {
+      "line": 38,
+      "segment": "hangout_confessional",
+      "character": "PRINGLE",
+      "text": "Sounds like your regime change operation backfired spectacularly.",
+      "direction": "Dryly connecting it back to the news"
+    },
+    {
+      "line": 39,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Speaking of backfiring, Jenny found out about my secret gas station purchases last week.",
+      "direction": "Transitioning to his own confession"
+    },
+    {
+      "line": 40,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "Secret gas station purchases?",
+      "direction": "Intrigued by this development"
+    },
+    {
+      "line": 41,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "She put me on a strict snack budget after I spent sixty dollars on beef jerky in one week.",
+      "direction": "Explaining the context sheepishly"
+    },
+    {
+      "line": 42,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "So I started paying cash for my gas station runs and telling her I was just getting gas.",
+      "direction": "Admitting to the deception"
+    },
+    {
+      "line": 43,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Except she noticed I was filling up every other day but never driving anywhere.",
+      "direction": "The plan unraveling"
+    },
+    {
+      "line": 44,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "Turns out she'd been tracking my location and knew I was spending twenty minutes at the Speedway buying Slim Jims like some kind of processed meat addict.",
+      "direction": "Caught red-handed, embarrassed"
+    },
+    {
+      "line": 45,
+      "segment": "hangout_confessional",
+      "character": "JAX",
+      "text": "Dude, that's like surveillance state level stuff.",
+      "direction": "Impressed and horrified"
+    },
+    {
+      "line": 46,
+      "segment": "hangout_confessional",
+      "character": "DUKE",
+      "text": "She said I violated the 'financial transparency clause' of our marriage. I didn't even know we had clauses.",
+      "direction": "Bewildered by the formality"
+    },
+    {
+      "line": 47,
+      "segment": "hangout_confessional",
+      "character": "LEO",
+      "text": "And on that note of domestic surveillance...",
+      "direction": "Trying to redirect, slightly uncomfortable"
+    },
+    {
+      "line": 48,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Before we go, some Americans got arrested for climbing into a baby monkey's enclosure at a Tokyo zoo.",
+      "direction": "Transitioning to offbeat stories"
+    },
+    {
+      "line": 49,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Apparently the monkey went viral on social media and they wanted selfies.",
+      "direction": "Explaining the absurd motivation"
+    },
+    {
+      "line": 50,
+      "segment": "hangout_offbeat",
+      "character": "DUKE",
+      "text": "We're really out here risking international incidents for TikTok content.",
+      "direction": "Exasperated commentary on social media culture"
+    },
+    {
+      "line": 51,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "Also, someone intentionally drove their Cybertruck into a lake to test something called 'Wade Mode.'",
+      "direction": "Rapid-fire delivery of absurd news"
+    },
+    {
+      "line": 52,
+      "segment": "hangout_offbeat",
+      "character": "JAX",
+      "text": "It did not work. The truck is now a very expensive artificial reef.",
+      "direction": "Deadpan delivery of the punchline"
+    },
+    {
+      "line": 53,
+      "segment": "hangout_offbeat",
+      "character": "PRINGLE",
+      "text": "I understood approximately none of that, but it sounds expensive.",
+      "direction": "Bemused old-timer reaction"
+    },
+    {
+      "line": 54,
+      "segment": "hangout_sign_off",
+      "character": "LEO",
+      "text": "That's The Friction. I'm Leo Barros, still trying to understand strategic chaos.",
+      "direction": "Professional wrap-up with callback"
+    },
+    {
+      "line": 55,
+      "segment": "hangout_sign_off",
+      "character": "PRINGLE",
+      "text": "Haywood Pringle, grateful my dating years predate browser histories.",
+      "direction": "Wry observation with relief"
+    },
+    {
+      "line": 56,
+      "segment": "hangout_sign_off",
+      "character": "DUKE",
+      "text": "Duke Patel, currently under financial surveillance.",
+      "direction": "Resigned to his domestic situation"
+    },
+    {
+      "line": 57,
+      "segment": "hangout_sign_off",
+      "character": "JAX",
+      "text": "And Jax Mooney, still being judged by my cat. We'll see you tomorrow.",
+      "direction": "Self-deprecating final sign-off"
+    }
+  ]
+}
